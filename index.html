@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glossa · Language courses for adults</title>
+    <meta
+      name="description"
+      content="Glossa is a language course for adults: direct grammar lessons, writing and pronunciation with detailed feedback, and every word explained. No gamification."
+    />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="favicon-32.png" type="image/png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --background: #f8f6f1;
+        --surface: #ffffff;
+        --border: #e2ddd3;
+        --text: #1d1c1a;
+        --muted: #5c584f;
+        --accent: #2c4a7c;
+        --accent-hover: #233d68;
+        --on-accent: #ffffff;
+        --serif: 'Iowan Old Style', 'Source Serif 4', Georgia, serif;
+        --sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background: #131312;
+          --surface: #1b1b19;
+          --border: #2e2d2a;
+          --text: #ece8e0;
+          --muted: #aaa59b;
+          --accent: #9db4dc;
+          --accent-hover: #b4c6e6;
+          --on-accent: #10192b;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family: var(--sans);
+        line-height: 1.55;
+      }
+      .page {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 16px;
+      }
+      header.top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        color: var(--text);
+        text-decoration: none;
+      }
+      .mark {
+        display: grid;
+        place-items: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        background: var(--text);
+        color: var(--background);
+        font-family: var(--serif);
+        font-size: 16px;
+      }
+      .sign-in {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .hero {
+        padding: 64px 0 56px;
+        max-width: 680px;
+      }
+      h1 {
+        font-family: var(--serif);
+        font-weight: 500;
+        font-size: clamp(2.2rem, 6vw, 3.4rem);
+        line-height: 1.1;
+        margin: 0 0 20px;
+      }
+      .lead {
+        font-family: var(--serif);
+        font-size: 1.25rem;
+        color: var(--muted);
+        margin: 0 0 32px;
+      }
+      .button {
+        display: inline-block;
+        padding: 14px 24px;
+        border-radius: 10px;
+        background: var(--accent);
+        color: var(--on-accent);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .button:hover {
+        background: var(--accent-hover);
+      }
+      .button:focus-visible,
+      a:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+      .courses {
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 16px;
+        padding: 0 0 64px;
+      }
+      .feature {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 20px;
+      }
+      .feature h2 {
+        font-size: 1.05rem;
+        margin: 0 0 6px;
+      }
+      .feature p {
+        margin: 0;
+        color: var(--muted);
+      }
+      .principles {
+        border-top: 1px solid var(--border);
+        padding: 48px 0;
+        max-width: 680px;
+      }
+      .principles h2 {
+        font-family: var(--serif);
+        font-weight: 500;
+        font-size: 1.6rem;
+        margin: 0 0 12px;
+      }
+      .principles p {
+        margin: 0 0 12px;
+        color: var(--muted);
+      }
+      footer {
+        border-top: 1px solid var(--border);
+        padding: 24px 0 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 20px;
+        font-size: 0.875rem;
+        color: var(--muted);
+      }
+      footer a {
+        color: var(--muted);
+      }
+      footer .company {
+        flex-basis: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="top">
+        <a class="brand" href="/"><span class="mark" aria-hidden="true">Gl</span>Glossa</a>
+        <a class="sign-in" href="https://app.glossa.study/login">Sign in</a>
+      </header>
+
+      <main>
+        <section class="hero">
+          <h1>Thorough language courses for adults.</h1>
+          <p class="lead">
+            Grammar explained directly, writing and pronunciation with detailed feedback, and every word you meet one tap away from its full
+            explanation.
+          </p>
+          <a class="button" href="https://app.glossa.study">Start learning</a>
+          <p class="courses">Russian, Spanish and Swedish for English speakers, from beginner to advanced (A1–C1). Free, with no ads.</p>
+        </section>
+
+        <section class="features" aria-label="What Glossa offers">
+          <article class="feature">
+            <h2>Grammar, taught directly</h2>
+            <p>Every module starts with a written lesson, and a searchable grammar reference links back to the lessons.</p>
+          </article>
+          <article class="feature">
+            <h2>Every word explained</h2>
+            <p>Tap any word for its stress, meanings, full table of forms, examples and audio, and add it to your practice deck.</p>
+          </article>
+          <article class="feature">
+            <h2>Writing with real feedback</h2>
+            <p>Essays are assessed against a rubric, with corrections explained and linked to the grammar behind them.</p>
+          </article>
+          <article class="feature">
+            <h2>Pronunciation, word by word</h2>
+            <p>Record yourself and see a score for each word and sound, with concrete advice and your recording next to the reference.</p>
+          </article>
+          <article class="feature">
+            <h2>Words you keep</h2>
+            <p>Spaced repetition brings each word back just before you would forget it, in both directions.</p>
+          </article>
+          <article class="feature">
+            <h2>A tutor to ask</h2>
+            <p>Ask AI knows your course and level, and can explain any sentence or mistake from your exercises.</p>
+          </article>
+        </section>
+
+        <section class="principles">
+          <h2>No gamification</h2>
+          <p>No streaks, points, leagues or mascots. Feedback says what was right, what was wrong and why, and your progress is shown as how much of the course you have completed.</p>
+          <p>Glossa runs in the browser on your phone or computer and can be installed like an app.</p>
+        </section>
+      </main>
+
+      <footer>
+        <a href="https://app.glossa.study/privacy">Privacy policy</a>
+        <a href="https://app.glossa.study/terms">Terms of service</a>
+        <a href="https://app.glossa.study/support">Support</a>
+        <a href="mailto:support@glossa.study">support@glossa.study</a>
+        <span class="company">© 2026 Glossa oy, Finland</span>
+      </footer>
+    </div>
+  </body>
+</html>
