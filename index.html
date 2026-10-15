@@ -3,165 +3,1606 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Glossa · Language courses for adults</title>
+    <title>Glossa · Thorough language courses for adults, A1 to C1</title>
     <meta
       name="description"
-      content="Glossa is a language course for adults: direct grammar lessons, writing and pronunciation with detailed feedback, and every word explained. No gamification."
+      content="Swedish, Russian, Spanish and French for English speakers, from A1 to C1. Grammar taught directly, over 5,000 exercises per course with feedback that explains, every word inspectable, and professional specializations. No gamification. Free."
     />
+    <meta name="theme-color" content="#f8f6f1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131312" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="favicon.ico" sizes="any" />
     <link rel="icon" href="favicon-32.png" type="image/png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap"
+    />
     <style>
       :root {
         color-scheme: light dark;
         --background: #f8f6f1;
         --surface: #ffffff;
+        --surface-sunken: #f0ede6;
         --border: #e2ddd3;
+        --border-strong: #c9c2b5;
         --text: #1d1c1a;
         --muted: #5c584f;
+        --subtle: #6f6a60;
         --accent: #2c4a7c;
         --accent-hover: #233d68;
+        --accent-soft: #e6ebf3;
         --on-accent: #ffffff;
-        --serif: 'Iowan Old Style', 'Source Serif 4', Georgia, serif;
-        --sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        --correct: #2d6a3e;
+        --correct-soft: #e5f0e7;
+        --wrong: #a2392a;
+        --wrong-soft: #f6e6e2;
+        --fair: #8a6100;
+        --highlight: #fbf0cf;
+        --band: #1d1c1a;
+        --on-band: #f8f6f1;
+        --on-band-muted: #c9c2b5;
+        --shadow: 0 1px 2px rgb(29 28 26 / 6%), 0 8px 28px rgb(29 28 26 / 8%);
+        --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+        --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        --gutter: max(16px, 4vw);
       }
       @media (prefers-color-scheme: dark) {
         :root {
           --background: #131312;
           --surface: #1b1b19;
+          --surface-sunken: #0f0f0e;
           --border: #2e2d2a;
+          --border-strong: #45433f;
           --text: #ece8e0;
           --muted: #aaa59b;
+          --subtle: #96918a;
           --accent: #9db4dc;
           --accent-hover: #b4c6e6;
+          --accent-soft: #1f2a3c;
           --on-accent: #10192b;
+          --correct: #8cc79b;
+          --correct-soft: #1b2b1f;
+          --wrong: #ec9a8b;
+          --wrong-soft: #34201c;
+          --fair: #e2c06b;
+          --highlight: #3a3220;
+          --band: #1f2a3c;
+          --on-band: #ece8e0;
+          --on-band-muted: #aab4c4;
+          --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 28px rgb(0 0 0 / 35%);
         }
       }
-      * {
+      *,
+      *::before,
+      *::after {
         box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        *,
+        *::before,
+        *::after {
+          transition: none !important;
+          animation: none !important;
+        }
       }
       body {
         margin: 0;
         background: var(--background);
         color: var(--text);
         font-family: var(--sans);
+        font-size: 1rem;
         line-height: 1.55;
+        overflow-wrap: break-word;
       }
-      .page {
-        max-width: 960px;
+      a {
+        color: var(--accent);
+      }
+      a:focus-visible,
+      button:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+        border-radius: 4px;
+      }
+      .visually-hidden {
+        position: absolute !important;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .skip {
+        position: absolute;
+        left: 16px;
+        top: -60px;
+        background: var(--surface);
+        padding: 8px 12px;
+        border-radius: 8px;
+        z-index: 10;
+      }
+      .skip:focus {
+        top: 12px;
+      }
+      .wrap {
+        max-width: 1160px;
         margin: 0 auto;
-        padding: 0 16px;
+        padding-inline: var(--gutter);
       }
-      header.top {
+      .serif {
+        font-family: var(--serif);
+      }
+      span:lang(ru) {
+        font-family: var(--serif);
+      }
+
+      /* Header */
+      .top {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding: 20px 0;
+        gap: 24px;
+        padding-block: 18px;
       }
       .brand {
         display: flex;
         align-items: center;
         gap: 10px;
         font-weight: 600;
+        font-size: 1.05rem;
         color: var(--text);
         text-decoration: none;
+        margin-right: auto;
       }
-      .mark {
-        display: grid;
-        place-items: center;
+      .brand img {
         width: 32px;
         height: 32px;
         border-radius: 8px;
-        background: var(--text);
-        color: var(--background);
-        font-family: var(--serif);
-        font-size: 16px;
+      }
+      .nav {
+        display: flex;
+        gap: 22px;
+        font-size: 0.9375rem;
+      }
+      .nav a {
+        color: var(--muted);
+        text-decoration: none;
+      }
+      .nav a:hover {
+        color: var(--text);
       }
       .sign-in {
-        color: var(--accent);
+        font-weight: 600;
+        font-size: 0.9375rem;
         text-decoration: none;
-        font-weight: 500;
+        white-space: nowrap;
       }
-      .hero {
-        padding: 64px 0 56px;
-        max-width: 680px;
+      @media (max-width: 760px) {
+        .nav {
+          display: none;
+        }
       }
-      h1 {
-        font-family: var(--serif);
-        font-weight: 500;
-        font-size: clamp(2.2rem, 6vw, 3.4rem);
-        line-height: 1.1;
-        margin: 0 0 20px;
-      }
-      .lead {
-        font-family: var(--serif);
-        font-size: 1.25rem;
-        color: var(--muted);
-        margin: 0 0 32px;
-      }
+
+      /* Buttons */
       .button {
-        display: inline-block;
-        padding: 14px 24px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 22px;
         border-radius: 10px;
         background: var(--accent);
         color: var(--on-accent);
         font-weight: 600;
         text-decoration: none;
+        transition: background 150ms;
       }
       .button:hover {
         background: var(--accent-hover);
       }
-      .button:focus-visible,
-      a:focus-visible {
-        outline: 2px solid var(--accent);
-        outline-offset: 3px;
+      .button svg {
+        width: 18px;
+        height: 18px;
       }
-      .courses {
+      .link-arrow {
+        font-weight: 600;
+        text-decoration: none;
+        padding: 14px 4px;
+      }
+      .link-arrow:hover {
+        text-decoration: underline;
+      }
+
+      /* Hero */
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+        gap: 56px;
+        align-items: center;
+        padding-block: 48px 72px;
+      }
+      .eyebrow {
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin: 0 0 14px;
+      }
+      h1 {
+        font-family: var(--serif);
+        font-weight: 500;
+        font-size: clamp(2.4rem, 5.4vw, 4rem);
+        line-height: 1.04;
+        letter-spacing: -0.015em;
+        margin: 0 0 22px;
+      }
+      h1 em {
+        font-style: italic;
+        color: var(--accent);
+      }
+      .lead {
+        font-family: var(--serif);
+        font-size: clamp(1.125rem, 1.6vw, 1.3rem);
+        line-height: 1.5;
+        color: var(--muted);
+        margin: 0 0 30px;
+        max-width: 34em;
+      }
+      .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 20px;
+      }
+      .fineprint {
         margin: 16px 0 0;
         color: var(--muted);
-        font-size: 0.95rem;
+        font-size: 0.875rem;
       }
+      .hero-flags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 28px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+      .hero-flags li {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 12px 6px 8px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--surface);
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
+      .flag {
+        display: inline-block;
+        flex: none;
+        line-height: 0;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 0 1px rgb(0 0 0 / 12%);
+      }
+      .flag svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .flag-sm {
+        width: 21px;
+        height: 14px;
+      }
+
+      /* Word sheet demo */
+      .demo {
+        position: relative;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+        padding: 22px;
+      }
+      .demo-label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 0 0 10px;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        color: var(--subtle);
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .demo-sentence {
+        font-family: var(--serif);
+        font-size: clamp(1.6rem, 3vw, 2rem);
+        margin: 0;
+        line-height: 1.3;
+      }
+      .word-button {
+        font: inherit;
+        color: inherit;
+        background: none;
+        border: 0;
+        padding: 0 2px;
+        margin: 0 -2px;
+        border-bottom: 2px dotted var(--border-strong);
+        border-radius: 4px 4px 0 0;
+        cursor: pointer;
+        transition: background 150ms;
+      }
+      .word-button:hover {
+        background: var(--accent-soft);
+      }
+      .word-button[aria-pressed='true'] {
+        background: var(--highlight);
+        border-bottom-color: var(--accent);
+      }
+      .demo-translation {
+        margin: 6px 0 18px;
+        color: var(--muted);
+        font-family: var(--serif);
+        font-style: italic;
+      }
+      .sheet {
+        border-top: 1px solid var(--border);
+        padding-top: 16px;
+      }
+      .sheet-head {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .lemma {
+        font-family: var(--serif);
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1.2;
+      }
+      .play {
+        display: inline-grid;
+        place-items: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: var(--accent-soft);
+        color: var(--accent);
+        flex: none;
+      }
+      .play svg {
+        width: 16px;
+        height: 16px;
+      }
+      .pos {
+        font-size: 0.8125rem;
+        color: var(--muted);
+        margin: 2px 0 0;
+        flex-basis: 100%;
+      }
+      .gloss {
+        font-family: var(--serif);
+        font-size: 1.1rem;
+        margin: 10px 0 12px;
+      }
+      .note {
+        font-size: 0.875rem;
+        color: var(--muted);
+        margin: -6px 0 12px;
+      }
+      .forms {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9375rem;
+        margin: 0 0 12px;
+      }
+      .forms th,
+      .forms td {
+        text-align: left;
+        padding: 5px 8px;
+        border-bottom: 1px solid var(--border);
+      }
+      .forms thead th {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--subtle);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+      .forms tbody th {
+        font-weight: 500;
+        color: var(--muted);
+        width: 34%;
+      }
+      .forms td {
+        font-family: var(--serif);
+        font-size: 1.05rem;
+      }
+      .forms .hit {
+        background: var(--highlight);
+        font-weight: 600;
+      }
+      .example {
+        font-family: var(--serif);
+        margin: 0 0 14px;
+        padding-left: 12px;
+        border-left: 3px solid var(--border);
+      }
+      .example span {
+        display: block;
+        color: var(--muted);
+        font-size: 0.9375rem;
+        font-style: italic;
+      }
+      .sheet-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 5px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        font-size: 0.8125rem;
+        color: var(--muted);
+        background: var(--surface);
+      }
+      .chip-accent {
+        border-color: transparent;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-weight: 600;
+      }
+
+      /* Facts strip */
+      .facts {
+        border-block: 1px solid var(--border);
+        background: var(--surface);
+      }
+      .facts ul {
+        list-style: none;
+        margin: 0 auto;
+        padding-block: 26px;
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 20px;
+      }
+      .facts li {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      .facts strong {
+        font-family: var(--serif);
+        font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+        font-weight: 500;
+        line-height: 1.1;
+      }
+      .facts span {
+        color: var(--muted);
+        font-size: 0.875rem;
+      }
+      @media (max-width: 900px) {
+        .facts ul {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .facts li:last-child {
+          grid-column: 1 / -1;
+        }
+      }
+
+      /* Sections */
+      section {
+        scroll-margin-top: 16px;
+      }
+      .section {
+        padding-block: 88px;
+      }
+      .section-head {
+        max-width: 760px;
+        margin-bottom: 40px;
+      }
+      h2 {
+        font-family: var(--serif);
+        font-weight: 500;
+        font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+        line-height: 1.1;
+        letter-spacing: -0.01em;
+        margin: 0 0 16px;
+      }
+      .section-head p:not(.eyebrow) {
+        font-family: var(--serif);
+        font-size: 1.15rem;
+        color: var(--muted);
+        margin: 0;
+      }
+
+      /* Courses */
+      .courses {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 16px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .course {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 22px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .course .flag {
+        width: 54px;
+        height: 36px;
+        border-radius: 5px;
+        margin-bottom: 14px;
+      }
+      .course h3 {
+        font-family: var(--serif);
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin: 0;
+        line-height: 1.2;
+      }
+      .course .native {
+        font-family: var(--serif);
+        font-style: italic;
+        color: var(--muted);
+        margin: 0 0 12px;
+      }
+      .course .size {
+        font-weight: 600;
+        font-size: 0.9375rem;
+        margin: 0;
+      }
+      .course .detail {
+        color: var(--muted);
+        font-size: 0.875rem;
+        margin: 6px 0 0;
+      }
+      @media (max-width: 1100px) {
+        .courses {
+          grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+        }
+      }
+      .course-soon {
+        background: transparent;
+        border-style: dashed;
+      }
+      .course-soon .flag {
+        opacity: 0.6;
+      }
+      .tag {
+        align-self: flex-start;
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 3px 9px;
+        border-radius: 999px;
+        background: var(--surface-sunken);
+        color: var(--muted);
+        margin-top: 8px;
+      }
+
+      /* Path */
+      .path-bg {
+        background: var(--surface-sunken);
+        border-block: 1px solid var(--border);
+      }
+      .anatomy {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 22px;
+        margin-bottom: 48px;
+      }
+      .anatomy-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 4px 16px;
+        margin-bottom: 16px;
+      }
+      .anatomy-head h3 {
+        margin: 0;
+        font-size: 1.05rem;
+      }
+      .anatomy-head p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.875rem;
+      }
+      .steps {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        gap: 8px;
+      }
+      .steps li {
+        position: relative;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 10px 10px 12px;
+        font-size: 0.8125rem;
+        color: var(--muted);
+        background: var(--background);
+      }
+      .steps strong {
+        display: block;
+        color: var(--text);
+        font-size: 0.875rem;
+        margin-bottom: 2px;
+      }
+      .steps .kind {
+        display: block;
+        font-size: 0.6875rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 6px;
+      }
+      .steps .exam {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+      }
+      @media (max-width: 1000px) {
+        .steps {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+      }
+      @media (max-width: 520px) {
+        .steps {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      .tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 24px;
+      }
+      .tab {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font: inherit;
+        font-size: 0.9375rem;
+        font-weight: 500;
+        color: var(--text);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 8px 14px 8px 10px;
+        cursor: pointer;
+      }
+      .tab[aria-selected='true'] {
+        background: var(--text);
+        color: var(--background);
+        border-color: var(--text);
+      }
+      .ladder {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+      .rung:not(:last-child)::before {
+        content: '';
+        position: absolute;
+        left: 31px;
+        top: 48px;
+        bottom: 0;
+        width: 2px;
+        background: var(--border-strong);
+      }
+      .rung:nth-last-child(-n + 3):not(:last-child)::before {
+        background: var(--accent);
+      }
+      .rung {
+        position: relative;
+        display: grid;
+        grid-template-columns: 64px minmax(0, 1fr);
+        gap: 18px;
+        padding-bottom: 14px;
+      }
+      .rung-level {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        place-items: center;
+        width: 64px;
+        height: 48px;
+        border-radius: 12px;
+        background: var(--surface);
+        border: 1px solid var(--border-strong);
+        font-weight: 700;
+        font-size: 0.875rem;
+        letter-spacing: 0.01em;
+      }
+      .rung:nth-last-child(-n + 2) .rung-level {
+        background: var(--accent);
+        color: var(--on-accent);
+        border-color: var(--accent);
+      }
+      .rung-body {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 14px 16px 16px;
+      }
+      .rung-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 4px 10px;
+        margin: 0 0 10px;
+      }
+      .rung-tier {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--subtle);
+      }
+      .rung-head strong {
+        font-family: var(--serif);
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+      .rung-count {
+        margin-left: auto;
+        font-size: 0.8125rem;
+        color: var(--muted);
+      }
+      .modules {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .modules li {
+        font-size: 0.8125rem;
+        padding: 4px 10px;
+        border-radius: 8px;
+        background: var(--surface-sunken);
+        color: var(--text);
+      }
+      .stage-opens {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 12px 0 0;
+        padding-top: 10px;
+        border-top: 1px dashed var(--border-strong);
+        font-size: 0.875rem;
+        color: var(--accent);
+      }
+      .stage-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid var(--accent);
+        flex: none;
+      }
+      .no-specializations {
+        margin: 6px 0 0 82px;
+        color: var(--muted);
+        font-size: 0.875rem;
+      }
+      @media (max-width: 560px) {
+        .rung:not(:last-child)::before {
+          left: 23px;
+          top: 40px;
+        }
+        .rung {
+          grid-template-columns: 48px minmax(0, 1fr);
+          gap: 10px;
+        }
+        .rung-level {
+          width: 48px;
+          height: 40px;
+          font-size: 0.75rem;
+        }
+        .rung-count {
+          margin-left: 0;
+        }
+        .no-specializations {
+          margin-left: 58px;
+        }
+      }
+
+      /* Specializations band */
+      .band {
+        background: var(--band);
+        color: var(--on-band);
+        border-radius: 20px;
+        padding: clamp(24px, 4vw, 48px);
+        margin-top: 40px;
+      }
+      .band .eyebrow {
+        color: var(--on-band-muted);
+      }
+      .band h3 {
+        font-family: var(--serif);
+        font-weight: 500;
+        font-size: clamp(1.7rem, 3vw, 2.4rem);
+        line-height: 1.12;
+        margin: 0 0 14px;
+      }
+      .band-lead {
+        font-family: var(--serif);
+        font-size: 1.1rem;
+        color: var(--on-band-muted);
+        max-width: 46em;
+        margin: 0 0 28px;
+      }
+      .stages {
+        list-style: none;
+        margin: 0 0 28px;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+      .stages li {
+        border: 1px solid rgb(255 255 255 / 18%);
+        border-radius: 12px;
+        padding: 14px 16px;
+      }
+      .stages .stage-number {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--on-band-muted);
+      }
+      .stages strong {
+        display: block;
+        font-family: var(--serif);
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 2px 0 4px;
+      }
+      .stages span:last-child {
+        font-size: 0.875rem;
+        color: var(--on-band-muted);
+      }
+      .stages li:last-child {
+        background: rgb(255 255 255 / 8%);
+        border-color: rgb(255 255 255 / 30%);
+      }
+      @media (max-width: 700px) {
+        .stages {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+      .fields {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
+        gap: 1px;
+        background: rgb(255 255 255 / 14%);
+        border: 1px solid rgb(255 255 255 / 14%);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      .fields li {
+        background: var(--band);
+        padding: 14px 16px;
+      }
+      .fields strong {
+        display: block;
+        font-weight: 600;
+        font-size: 0.9375rem;
+      }
+      .fields span {
+        display: block;
+        margin-top: 2px;
+        line-height: 1.4;
+        font-size: 0.8125rem;
+        color: var(--on-band-muted);
+      }
+      .field-example {
+        margin: 24px 0 0;
+        font-size: 0.875rem;
+        color: var(--on-band-muted);
+      }
+      .field-example strong {
+        color: var(--on-band);
+      }
+      .band .note-line {
+        margin: 18px 0 0;
+        font-size: 0.875rem;
+        color: var(--on-band-muted);
+      }
+
+      /* Exercise types */
+      .ex-group {
+        margin-top: 44px;
+      }
+      .ex-group:first-of-type {
+        margin-top: 0;
+      }
+      .ex-group h3 {
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--subtle);
+        margin: 0 0 14px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .ex-group h3::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: var(--border);
+      }
+      .ex-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 16px;
+      }
+      .ex-grid.three {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .ex-grid.two {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      @media (max-width: 1060px) {
+        .ex-grid,
+        .ex-grid.three {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (max-width: 640px) {
+        .ex-grid,
+        .ex-grid.three,
+        .ex-grid.two {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+      .ex {
+        display: flex;
+        flex-direction: column;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        overflow: hidden;
+      }
+      .mock {
+        position: relative;
+        background: var(--surface-sunken);
+        border-bottom: 1px solid var(--border);
+        padding: 36px 16px 16px;
+        min-height: 178px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        font-size: 0.875rem;
+      }
+      .mock-lang {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.6875rem;
+        font-weight: 600;
+        color: var(--subtle);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .mock-lang .flag {
+        width: 15px;
+        height: 10px;
+        border-radius: 2px;
+      }
+      .mock-prompt {
+        font-size: 0.75rem;
+        color: var(--muted);
+        margin: 0;
+      }
+      .ex-text {
+        padding: 16px 18px 20px;
+      }
+      .ex-text h4 {
+        margin: 0 0 4px;
+        font-size: 1.05rem;
+      }
+      .ex-text p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.9375rem;
+      }
+      .t {
+        font-family: var(--serif);
+        font-size: 1.05rem;
+      }
+      .pill {
+        display: inline-block;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 4px 10px;
+        font-family: var(--serif);
+        font-size: 1rem;
+        line-height: 1.35;
+        white-space: nowrap;
+      }
+      .pill.sans {
+        font-family: var(--sans);
+        font-size: 0.8125rem;
+      }
+      .pill.on {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+      }
+      .pill.ok {
+        border-color: var(--correct);
+        background: var(--correct-soft);
+      }
+      .pill.used {
+        opacity: 0.35;
+      }
+      .pairs {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 6px 8px;
+        align-items: center;
+      }
+      .pairs .line {
+        height: 2px;
+        background: var(--border-strong);
+        border-radius: 2px;
+      }
+      .pairs .line.ok {
+        background: var(--correct);
+      }
+      .options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .options-stack {
+        display: grid;
+        gap: 6px;
+      }
+      .options-stack .pill {
+        white-space: normal;
+      }
+      .fb {
+        font-size: 0.8125rem;
+        margin: 0;
+        padding: 6px 10px;
+        border-radius: 8px;
+        background: var(--correct-soft);
+        color: var(--correct);
+      }
+      .fb.bad {
+        background: var(--wrong-soft);
+        color: var(--wrong);
+      }
+      .fb b {
+        font-weight: 600;
+      }
+      .fb .why {
+        color: var(--text);
+      }
+      .gap {
+        display: inline-block;
+        min-width: 3.2em;
+        border-bottom: 2px solid var(--accent);
+        color: var(--accent);
+        font-weight: 600;
+        padding: 0 2px;
+        text-align: center;
+      }
+      .hint {
+        font-family: var(--sans);
+        font-size: 0.6875rem;
+        color: var(--subtle);
+        vertical-align: super;
+      }
+      .mini-table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 0.875rem;
+      }
+      .mini-table th,
+      .mini-table td {
+        padding: 3px 6px;
+        border-bottom: 1px solid var(--border);
+        text-align: left;
+      }
+      .mini-table th {
+        font-weight: 500;
+        color: var(--muted);
+      }
+      .mini-table td {
+        font-family: var(--serif);
+        font-size: 1rem;
+      }
+      .forms th:lang(ru),
+      .mini-table th:lang(ru) {
+        font-family: var(--serif);
+        font-size: 1rem;
+      }
+      .cell {
+        display: block;
+        border: 1px solid var(--border-strong);
+        background: var(--surface);
+        border-radius: 6px;
+        padding: 1px 6px;
+      }
+      .cell.given {
+        border-color: transparent;
+        background: transparent;
+        color: var(--muted);
+      }
+      .cell.ok {
+        border-color: var(--correct);
+        background: var(--correct-soft);
+      }
+      .answer-line {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid var(--border-strong);
+        min-height: 38px;
+      }
+      .source {
+        font-family: var(--serif);
+        font-size: 1rem;
+        margin: 0;
+      }
+      .typed {
+        background: var(--surface);
+        border: 1px solid var(--border-strong);
+        border-radius: 8px;
+        padding: 8px 10px;
+        font-family: var(--serif);
+        font-size: 1rem;
+      }
+      .reading-text {
+        font-family: var(--serif);
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        background: var(--surface);
+        border-radius: 8px;
+        padding: 10px 12px;
+        border: 1px solid var(--border);
+      }
+      .reading-text .tapped {
+        background: var(--highlight);
+        border-bottom: 2px solid var(--accent);
+      }
+      .q {
+        font-size: 0.8125rem;
+        margin: 0;
+      }
+      .audio {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 6px 12px 6px 6px;
+      }
+      .audio .play {
+        width: 30px;
+        height: 30px;
+        background: var(--accent);
+        color: var(--on-accent);
+      }
+      .wave {
+        flex: 1;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+      }
+      .wave i {
+        display: block;
+        width: 3px;
+        border-radius: 2px;
+        background: var(--border-strong);
+      }
+      .wave i.played {
+        background: var(--accent);
+      }
+      .hidden-text {
+        display: grid;
+        gap: 6px;
+      }
+      .hidden-text i {
+        display: block;
+        height: 8px;
+        border-radius: 4px;
+        background: var(--border);
+      }
+      .hidden-text small {
+        font-size: 0.75rem;
+        color: var(--subtle);
+      }
+      .diff .miss {
+        color: var(--wrong);
+        text-decoration: line-through;
+      }
+      .diff .fix {
+        color: var(--correct);
+        font-weight: 600;
+      }
+      .lesson-title {
+        font-family: var(--serif);
+        font-weight: 600;
+        font-size: 1.05rem;
+        margin: 0;
+      }
+      .lesson-body {
+        margin: 0;
+        font-size: 0.8125rem;
+        color: var(--muted);
+      }
+
+      /* Featured exercise cards */
+      .ex-wide {
+        display: grid;
+        grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      }
+      .ex-wide .mock {
+        border-bottom: 0;
+        border-right: 1px solid var(--border);
+        min-height: 0;
+        padding: 40px 24px 24px;
+      }
+      .ex-wide .ex-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 28px 32px;
+      }
+      .ex-wide .ex-text h4 {
+        font-family: var(--serif);
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      .ex-wide .ex-text p {
+        font-size: 1rem;
+      }
+      @media (max-width: 1060px) {
+        .ex-wide .ex-text {
+          padding: 18px 18px 22px;
+        }
+        .ex-wide {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .ex-wide .mock {
+          border-right: 0;
+          border-bottom: 1px solid var(--border);
+          min-height: 0;
+        }
+      }
+      .scored {
+        font-family: var(--serif);
+        font-size: 1.35rem;
+        margin: 0;
+        line-height: 1.5;
+      }
+      .scored span {
+        border-bottom: 3px solid var(--correct);
+        padding-bottom: 1px;
+      }
+      .scored .fair {
+        border-color: var(--fair);
+      }
+      .meters {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+      }
+      .meter {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 6px 8px;
+        font-size: 0.6875rem;
+        color: var(--muted);
+      }
+      .meter b {
+        display: block;
+        font-size: 1.1rem;
+        color: var(--text);
+        font-weight: 600;
+      }
+      .bar {
+        display: block;
+        height: 4px;
+        border-radius: 2px;
+        background: var(--border);
+        margin-top: 4px;
+        overflow: hidden;
+      }
+      .bar::after {
+        content: '';
+        display: block;
+        height: 100%;
+        width: var(--value);
+        background: var(--accent);
+      }
+      .feedback-box {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 10px 12px;
+        font-size: 0.8125rem;
+      }
+      .feedback-box p {
+        margin: 0;
+      }
+      .feedback-box p + p {
+        margin-top: 4px;
+      }
+      .compare {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .essay-text {
+        font-family: var(--serif);
+        font-size: 1.05rem;
+        line-height: 1.6;
+        margin: 0;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 10px 12px;
+      }
+      .essay-text del {
+        color: var(--wrong);
+        text-decoration-thickness: 2px;
+      }
+      .essay-text ins {
+        color: var(--correct);
+        text-decoration: none;
+        font-weight: 600;
+        background: var(--correct-soft);
+        border-radius: 4px;
+        padding: 0 3px;
+      }
+      .rubric {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 8px;
+      }
+      @media (max-width: 420px) {
+        .rubric {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      /* Features */
       .features {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 16px;
-        padding: 0 0 64px;
+      }
+      @media (max-width: 960px) {
+        .features {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (max-width: 600px) {
+        .features {
+          grid-template-columns: minmax(0, 1fr);
+        }
       }
       .feature {
         background: var(--surface);
         border: 1px solid var(--border);
-        border-radius: 12px;
-        padding: 20px;
+        border-radius: 16px;
+        padding: 22px;
       }
-      .feature h2 {
-        font-size: 1.05rem;
+      .feature-icon {
+        display: grid;
+        place-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        margin-bottom: 14px;
+      }
+      .feature-icon svg {
+        width: 20px;
+        height: 20px;
+      }
+      .feature h3 {
         margin: 0 0 6px;
+        font-size: 1.1rem;
       }
       .feature p {
         margin: 0;
         color: var(--muted);
       }
-      .principles {
-        border-top: 1px solid var(--border);
-        padding: 48px 0;
-        max-width: 680px;
+      .feature-wide {
+        grid-column: span 2;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 24px;
+        align-items: center;
       }
-      .principles h2 {
+      @media (max-width: 600px) {
+        .feature-wide {
+          grid-column: auto;
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+      .level {
+        background: var(--surface-sunken);
+        border-radius: 12px;
+        padding: 16px;
+      }
+      .level-number {
         font-family: var(--serif);
-        font-weight: 500;
         font-size: 1.6rem;
-        margin: 0 0 12px;
+        margin: 0;
+        line-height: 1.2;
       }
-      .principles p {
-        margin: 0 0 12px;
+      .level-number span {
+        display: block;
+        font-family: var(--sans);
+        font-size: 0.875rem;
         color: var(--muted);
       }
+      .level-text {
+        margin: 2px 0 14px;
+        font-size: 0.8125rem;
+        color: var(--muted);
+      }
+      .scale {
+        position: relative;
+        height: 8px;
+        border-radius: 4px;
+        background: var(--border);
+      }
+      .scale-fill {
+        position: absolute;
+        inset: 0 auto 0 0;
+        width: 47%;
+        border-radius: 4px;
+        background: var(--accent);
+      }
+      .scale-ticks {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        margin-top: 6px;
+        font-size: 0.6875rem;
+        color: var(--muted);
+        text-align: right;
+      }
+      .scale-ticks span:first-child {
+        text-align: left;
+      }
+      .scale-ticks small {
+        display: block;
+        color: var(--subtle);
+      }
+
+      /* Principles */
+      .principles {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 48px;
+        align-items: start;
+      }
+      @media (max-width: 860px) {
+        .principles {
+          grid-template-columns: minmax(0, 1fr);
+          gap: 28px;
+        }
+      }
+      .principles p:not(.eyebrow) {
+        font-family: var(--serif);
+        font-size: 1.1rem;
+        color: var(--muted);
+        margin: 0 0 14px;
+      }
+      .not-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 1px;
+        background: var(--border);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        overflow: hidden;
+      }
+      .not-list li {
+        background: var(--surface);
+        padding: 14px 18px;
+        display: grid;
+        grid-template-columns: 22px minmax(0, 1fr);
+        gap: 12px;
+        align-items: start;
+      }
+      .not-list svg {
+        width: 20px;
+        height: 20px;
+        color: var(--accent);
+        margin-top: 2px;
+      }
+      .not-list strong {
+        display: block;
+      }
+      .not-list span {
+        color: var(--muted);
+        font-size: 0.9375rem;
+      }
+
+      /* Closing CTA */
+      .closing {
+        text-align: center;
+        padding-block: 96px;
+      }
+      .closing h2 {
+        max-width: 18em;
+        margin-inline: auto;
+      }
+      .closing p:not(.eyebrow) {
+        font-family: var(--serif);
+        font-size: 1.15rem;
+        color: var(--muted);
+        margin: 0 auto 28px;
+        max-width: 36em;
+      }
+      .closing .cta-row {
+        justify-content: center;
+      }
+
       footer {
         border-top: 1px solid var(--border);
-        padding: 24px 0 40px;
+        padding-block: 28px 44px;
         display: flex;
         flex-wrap: wrap;
-        gap: 8px 20px;
+        gap: 10px 22px;
         font-size: 0.875rem;
         color: var(--muted);
       }
@@ -171,67 +1612,923 @@
       footer .company {
         flex-basis: 100%;
       }
+
+      @media (max-width: 900px) {
+        .hero {
+          grid-template-columns: minmax(0, 1fr);
+          gap: 40px;
+          padding-block: 24px 56px;
+        }
+        .section {
+          padding-block: 64px;
+        }
+      }
     </style>
   </head>
   <body>
-    <div class="page">
+    <a class="skip" href="#main">Skip to content</a>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
+      <defs>
+        <symbol id="flag-sv" viewBox="0 0 16 10"><rect width="16" height="10" fill="#006aa7" /><rect x="5" width="2" height="10" fill="#fecc02" /><rect y="4" width="16" height="2" fill="#fecc02" /></symbol>
+        <symbol id="flag-ru" viewBox="0 0 9 6"><rect width="9" height="6" fill="#fff" /><rect y="2" width="9" height="2" fill="#0039a6" /><rect y="4" width="9" height="2" fill="#d52b1e" /></symbol>
+        <symbol id="flag-es" viewBox="0 0 12 8"><rect width="12" height="8" fill="#aa151b" /><rect y="2" width="12" height="4" fill="#f1bf00" /></symbol>
+        <symbol id="flag-fr" viewBox="0 0 9 6"><rect width="3" height="6" fill="#002654" /><rect x="3" width="3" height="6" fill="#fff" /><rect x="6" width="3" height="6" fill="#ce1126" /></symbol>
+        <symbol id="flag-de" viewBox="0 0 5 3"><rect width="5" height="1" fill="#000" /><rect y="1" width="5" height="1" fill="#dd0000" /><rect y="2" width="5" height="1" fill="#ffce00" /></symbol>
+        <symbol id="icon-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z" /></symbol>
+        <symbol id="icon-speaker" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M11 5 6 9H3v6h3l5 4V5Zm4.5 3.5a5 5 0 0 1 0 7M18.4 5.6a9 9 0 0 1 0 12.8" /></symbol>
+        <symbol id="icon-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6" /></symbol>
+        <symbol id="icon-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5" /></symbol>
+      </defs>
+    </svg>
+
+    <div class="wrap">
       <header class="top">
-        <a class="brand" href="/"><span class="mark" aria-hidden="true">Gl</span>Glossa</a>
+        <a class="brand" href="/"><img src="apple-touch-icon.png" alt="" width="32" height="32" />Glossa</a>
+        <nav class="nav" aria-label="Sections">
+          <a href="#courses">Courses</a>
+          <a href="#path">The path to C1</a>
+          <a href="#exercises">Exercises</a>
+          <a href="#feedback">Feedback</a>
+        </nav>
         <a class="sign-in" href="https://app.glossa.study/login">Sign in</a>
       </header>
+    </div>
 
-      <main>
-        <section class="hero">
-          <h1>Thorough language courses for adults.</h1>
-          <p class="lead">
-            Grammar explained directly, writing and pronunciation with detailed feedback, and every word you meet one tap away from its full
-            explanation.
-          </p>
-          <a class="button" href="https://app.glossa.study">Start learning</a>
-          <p class="courses">Russian, Spanish and Swedish for English speakers, from beginner to advanced (A1–C1). Free, with no ads.</p>
+    <main id="main">
+      <div class="wrap">
+        <section class="hero" aria-labelledby="hero-title">
+          <div>
+            <p class="eyebrow">Language courses for adults · A1 to C1</p>
+            <h1 id="hero-title">Learn the language <em>properly</em>, all the way to C1.</h1>
+            <p class="lead">
+              Glossa is a complete course for adults who want real proficiency. Grammar is explained directly, every course has over 5,000 exercises with feedback
+              that says why, and every word you meet is one tap away from its meaning, forms and audio.
+            </p>
+            <div class="cta-row">
+              <a class="button" href="https://app.glossa.study">Start learning free<svg aria-hidden="true"><use href="#icon-arrow" /></svg></a>
+              <a class="link-arrow" href="#path">See the path to C1</a>
+            </div>
+            <p class="fineprint">Free, with no ads and no tracking. Sign in with Google or Apple. No gamification.</p>
+            <ul class="hero-flags" aria-label="Available courses">
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Sweden"><use href="#flag-sv" /></svg></span>Swedish</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Russia"><use href="#flag-ru" /></svg></span>Russian</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Spain"><use href="#flag-es" /></svg></span>Spanish</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of France"><use href="#flag-fr" /></svg></span>French</li>
+            </ul>
+          </div>
+
+          <div class="demo" role="group" aria-labelledby="demo-label">
+            <p class="demo-label" id="demo-label">
+              <svg width="14" height="14" aria-hidden="true"><use href="#icon-arrow" /></svg>Tap any word
+            </p>
+            <p class="demo-sentence" lang="ru">
+              <button class="word-button" type="button" aria-pressed="false" aria-controls="sheet-ya" data-sheet="sheet-ya">Я</button>
+              <button class="word-button" type="button" aria-pressed="false" aria-controls="sheet-chitat" data-sheet="sheet-chitat">чита́ю</button>
+              <button class="word-button" type="button" aria-pressed="true" aria-controls="sheet-kniga" data-sheet="sheet-kniga">кни́гу</button>.
+            </p>
+            <p class="demo-translation">I am reading a book.</p>
+
+            <div class="sheet" id="sheet-kniga" aria-live="polite">
+              <div class="sheet-head">
+                <p class="lemma" lang="ru">кни́га</p>
+                <span class="play" aria-hidden="true"><svg><use href="#icon-speaker" /></svg></span>
+                <p class="pos">noun · feminine · inanimate</p>
+              </div>
+              <p class="gloss">book</p>
+              <table class="forms" lang="ru">
+                <thead>
+                  <tr><th scope="col" lang="en">Case</th><th scope="col" lang="en">Singular</th><th scope="col" lang="en">Plural</th></tr>
+                </thead>
+                <tbody>
+                  <tr><th scope="row" lang="en">Nominative</th><td>кни́га</td><td>кни́ги</td></tr>
+                  <tr><th scope="row" lang="en">Genitive</th><td>кни́ги</td><td>книг</td></tr>
+                  <tr><th scope="row" lang="en">Dative</th><td>кни́ге</td><td>кни́гам</td></tr>
+                  <tr><th scope="row" lang="en">Accusative</th><td class="hit">кни́гу</td><td>кни́ги</td></tr>
+                  <tr><th scope="row" lang="en">Instrumental</th><td>кни́гой</td><td>кни́гами</td></tr>
+                  <tr><th scope="row" lang="en">Prepositional</th><td>кни́ге</td><td>кни́гах</td></tr>
+                </tbody>
+              </table>
+              <div class="sheet-actions">
+                <span class="chip">Grammar: The accusative case</span>
+                <span class="chip chip-accent">+ Add to Practice words</span>
+              </div>
+            </div>
+
+            <div class="sheet" id="sheet-chitat" hidden>
+              <div class="sheet-head">
+                <p class="lemma" lang="ru">чита́ть</p>
+                <span class="play" aria-hidden="true"><svg><use href="#icon-speaker" /></svg></span>
+                <p class="pos">verb · imperfective · aspect partner <span lang="ru">прочита́ть</span></p>
+              </div>
+              <p class="gloss">to read</p>
+              <table class="forms" lang="ru">
+                <thead>
+                  <tr><th scope="col" lang="en">Person</th><th scope="col" lang="en">Present</th><th scope="col" lang="en">Past</th></tr>
+                </thead>
+                <tbody>
+                  <tr><th scope="row">я</th><td class="hit">чита́ю</td><td>чита́л <span lang="en">(m)</span></td></tr>
+                  <tr><th scope="row">ты</th><td>чита́ешь</td><td>чита́ла <span lang="en">(f)</span></td></tr>
+                  <tr><th scope="row">он/она́</th><td>чита́ет</td><td>чита́ло <span lang="en">(n)</span></td></tr>
+                  <tr><th scope="row">мы</th><td>чита́ем</td><td>чита́ли <span lang="en">(pl)</span></td></tr>
+                  <tr><th scope="row">вы</th><td>чита́ете</td><td></td></tr>
+                  <tr><th scope="row">они́</th><td>чита́ют</td><td></td></tr>
+                </tbody>
+              </table>
+              <div class="sheet-actions">
+                <span class="chip">Grammar: Present tense, first conjugation</span>
+                <span class="chip chip-accent">+ Add to Practice words</span>
+              </div>
+            </div>
+
+            <div class="sheet" id="sheet-ya" hidden>
+              <div class="sheet-head">
+                <p class="lemma" lang="ru">я</p>
+                <span class="play" aria-hidden="true"><svg><use href="#icon-speaker" /></svg></span>
+                <p class="pos">pronoun · first person singular</p>
+              </div>
+              <p class="gloss">I</p>
+              <p class="note">Written with a small letter unless it begins a sentence.</p>
+              <table class="forms" lang="ru">
+                <thead>
+                  <tr><th scope="col" lang="en">Case</th><th scope="col" lang="en">Form</th></tr>
+                </thead>
+                <tbody>
+                  <tr><th scope="row" lang="en">Nominative</th><td class="hit">я</td></tr>
+                  <tr><th scope="row" lang="en">Genitive</th><td>меня́</td></tr>
+                  <tr><th scope="row" lang="en">Dative</th><td>мне</td></tr>
+                  <tr><th scope="row" lang="en">Accusative</th><td>меня́</td></tr>
+                  <tr><th scope="row" lang="en">Instrumental</th><td>мной</td></tr>
+                  <tr><th scope="row" lang="en">Prepositional</th><td>мне</td></tr>
+                </tbody>
+              </table>
+              <div class="sheet-actions">
+                <span class="chip">Grammar: Personal pronouns</span>
+                <span class="chip chip-accent">+ Add to Practice words</span>
+              </div>
+            </div>
+          </div>
         </section>
+      </div>
 
-        <section class="features" aria-label="What Glossa offers">
-          <article class="feature">
-            <h2>Grammar, taught directly</h2>
-            <p>Every module starts with a written lesson, and a searchable grammar reference links back to the lessons.</p>
-          </article>
-          <article class="feature">
-            <h2>Every word explained</h2>
-            <p>Tap any word for its stress, meanings, full table of forms, examples and audio, and add it to your practice deck.</p>
-          </article>
-          <article class="feature">
-            <h2>Writing with real feedback</h2>
-            <p>Essays are assessed against a rubric, with corrections explained and linked to the grammar behind them.</p>
-          </article>
-          <article class="feature">
-            <h2>Pronunciation, word by word</h2>
-            <p>Record yourself and see a score for each word and sound, with concrete advice and your recording next to the reference.</p>
-          </article>
-          <article class="feature">
-            <h2>Words you keep</h2>
-            <p>Spaced repetition brings each word back just before you would forget it, in both directions.</p>
-          </article>
-          <article class="feature">
-            <h2>A tutor to ask</h2>
-            <p>Ask AI knows your course and level, and can explain any sentence or mistake from your exercises.</p>
-          </article>
+      <section class="facts" aria-label="Glossa in numbers">
+        <ul class="wrap">
+          <li><strong>4 courses</strong><span>Swedish, Russian, Spanish and French</span></li>
+          <li><strong>A1 → C1</strong><span>8 tiers in every course</span></li>
+          <li><strong>75–78</strong><span>modules per course</span></li>
+          <li><strong>5,000+</strong><span>exercises per course</span></li>
+          <li><strong>12 fields</strong><span>of professional vocabulary in Swedish and Russian, about 500 terms each</span></li>
+        </ul>
+      </section>
+
+      <div class="wrap">
+        <section class="section" id="courses" aria-labelledby="courses-title">
+          <div class="section-head">
+            <p class="eyebrow">Courses</p>
+            <h2 id="courses-title">Four complete courses, each from first words to C1.</h2>
+            <p>Every course is written for English speakers and teaches one standard variety, so the vocabulary, spelling and pronunciation you learn fit together.</p>
+          </div>
+          <ul class="courses">
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Sweden"><use href="#flag-sv" /></svg></span>
+              <h3>Swedish</h3>
+              <p class="native" lang="sv">svenska · Sweden</p>
+              <p class="size">A1–C1 · 8 tiers · 75 modules</p>
+              <p class="detail">Plus 12 professional specializations with 108 more modules.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Russia"><use href="#flag-ru" /></svg></span>
+              <h3>Russian</h3>
+              <p class="native" lang="ru">ру́сский язы́к</p>
+              <p class="size">A1–C1 · 8 tiers · 78 modules</p>
+              <p class="detail">Starts with the Cyrillic alphabet, with stress marks shown throughout. Plus 12 professional specializations with 108 more modules.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Spain"><use href="#flag-es" /></svg></span>
+              <h3>Spanish</h3>
+              <p class="native" lang="es">español · Spain</p>
+              <p class="size">A1–C1 · 8 tiers · 78 modules</p>
+              <p class="detail">Castilian Spanish, with notes on Latin American usage and a module on the varieties of Spanish.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of France"><use href="#flag-fr" /></svg></span>
+              <h3>French</h3>
+              <p class="native" lang="fr">français · France</p>
+              <p class="size">A1–C1 · 8 tiers · 76 modules</p>
+              <p class="detail">The French of France, with a module on French around the world.</p>
+            </li>
+            <li class="course course-soon">
+              <span class="flag"><svg role="img" aria-label="Flag of Germany"><use href="#flag-de" /></svg></span>
+              <h3>German</h3>
+              <p class="native" lang="de">Deutsch</p>
+              <p class="size">In preparation</p>
+              <span class="tag">Coming soon</span>
+            </li>
+          </ul>
         </section>
+      </div>
 
-        <section class="principles">
-          <h2>No gamification</h2>
-          <p>No streaks, points, leagues or mascots. Feedback says what was right, what was wrong and why, and your progress is shown as how much of the course you have completed.</p>
-          <p>Glossa runs in the browser on your phone or computer and can be installed like an app.</p>
+      <section class="section path-bg" id="path" aria-labelledby="path-title">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="eyebrow">The path to C1</p>
+            <h2 id="path-title">Eight tiers, one clear route from first words to advanced.</h2>
+            <p>
+              Each tier is a set of modules on one level. Take the modules in any order; the next tier opens when you have passed every module exam in the one before.
+              Nothing is skipped, so what you learn later rests on what you already know.
+            </p>
+          </div>
+
+          <div class="anatomy">
+            <div class="anatomy-head">
+              <h3>Inside a module: <span lang="sv">Nouns, en and ett</span> <span style="font-weight: 400; color: var(--muted)">(Swedish, Tier 1)</span></h3>
+              <p>Pronunciation and writing are optional, so you can finish the course without a microphone.</p>
+            </div>
+            <ol class="steps">
+              <li><span class="kind">Lesson</span><strong>Introduction</strong>The rule, explained directly</li>
+              <li><span class="kind">Practice × 3</span><strong><span lang="sv">En or ett?</span></strong>Clues to the gender · Things at home</li>
+              <li><span class="kind">Reading</span><strong>Anna's flat</strong>A text with questions</li>
+              <li><span class="kind">Listening</span><strong>Listening</strong>Hear, choose, transcribe</li>
+              <li><span class="kind">Speaking · optional</span><strong>Pronunciation</strong>Scored word by word</li>
+              <li><span class="kind">Writing · optional</span><strong>A room</strong>Evaluated against a rubric</li>
+              <li class="exam"><span class="kind">Exam</span><strong>Module exam</strong>Pass mark 80%</li>
+            </ol>
+          </div>
+
+          <div class="tabs" role="tablist" aria-label="Choose a course">
+            <button class="tab" role="tab" type="button" id="tab-sv-en" aria-controls="path-sv-en" aria-selected="true"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-sv" /></svg></span>Swedish</button>
+            <button class="tab" role="tab" type="button" id="tab-ru-en" aria-controls="path-ru-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-ru" /></svg></span>Russian</button>
+            <button class="tab" role="tab" type="button" id="tab-es-en" aria-controls="path-es-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-es" /></svg></span>Spanish</button>
+            <button class="tab" role="tab" type="button" id="tab-fr-en" aria-controls="path-fr-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-fr" /></svg></span>French</button>
+          </div>
+
+<div class="ladder-panel" role="tabpanel" id="path-sv-en" aria-labelledby="tab-sv-en" data-course="sv-en">
+  <h3 class="visually-hidden">Swedish: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Sounds and first words</strong> <span class="rung-count">5 modules</span></p>
+        <ul class="modules"><li>Pronunciation</li><li>Greetings</li><li>Nouns, en and ett</li><li>Pronouns and the present tense</li><li>Numbers 0–100</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>Everyday basics</strong> <span class="rung-count">7 modules</span></p>
+        <ul class="modules"><li>The definite form</li><li>Plurals</li><li>Adjectives</li><li>Word order and the verb-second rule</li><li>Questions and negation</li><li>Family and possessives</li><li>Time and days</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1–A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1–A2)</span><strong>Daily life</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>Verb groups</li><li>Modal verbs</li><li>Prepositions of place</li><li>Food and drink</li><li>The city and directions</li><li>Shopping and clothes</li><li>Likes and wishes</li><li>Object pronouns</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>The past</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>The preterite</li><li>The perfect tense</li><li>Irregular verbs</li><li>Talking about the future</li><li>Reflexive verbs and sin</li><li>Travel</li><li>Health and the body</li><li>The home</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span>Opens the <strong>Foundations</strong> stage of all 12 specializations (A2 texts)</p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(B1)</span><strong>Building fluency</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>Subordinate clauses</li><li>Particle verbs</li><li>Comparison</li><li>Definite adjectives</li><li>The pluperfect</li><li>The s-passive</li><li>Time expressions</li><li>Work</li><li>Education</li><li>Weather and nature</li><li>Free time</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1–B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1–B2)</span><strong>Intermediate</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Relative clauses</li><li>The conditional</li><li>Reported speech</li><li>Indefinite pronouns</li><li>Participles</li><li>Sentence adverbs</li><li>Emotions and character</li><li>Technology</li><li>Media and news</li><li>The environment</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span>Opens the <strong>Working vocabulary</strong> stage of all 12 specializations (B1–B2 texts)</p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>The conditional perfect</li><li>The passive with bli and vara</li><li>Nominalisation</li><li>Connectors</li><li>Word formation</li><li>Fixed prepositions</li><li>Clefts and emphasis</li><li>Politics and society</li><li>The economy and business</li><li>Science and health</li><li>Arts and culture</li><li>Official Swedish</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">14 modules</span></p>
+        <ul class="modules"><li>Advanced word order</li><li>Subjunctive remnants</li><li>Register and style</li><li>Idioms and proverbs</li><li>Spoken Swedish</li><li>Varieties of Swedish</li><li>Spelling and punctuation</li><li>Swedish and Nordic history</li><li>Literature</li><li>Law and justice</li><li>The housing market and society</li><li>Nordic neighbours</li><li>Academic Swedish</li><li>Humour and culture</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span>Opens the <strong>Professional</strong> stage of all 12 specializations (C1 texts)</p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-ru-en" aria-labelledby="tab-ru-en" data-course="ru-en" hidden>
+  <h3 class="visually-hidden">Russian: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A0</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A0)</span><strong>Alphabet and sounds</strong> <span class="rung-count">1 module</span></p>
+        <ul class="modules"><li>The Cyrillic alphabet</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>First words and sentences</strong> <span class="rung-count">6 modules</span></p>
+        <ul class="modules"><li>Greetings and introductions</li><li>Nouns and gender</li><li>Personal pronouns</li><li>The present tense</li><li>Adjectives</li><li>Numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1)</span><strong>Cases and the past</strong> <span class="rung-count">5 modules</span></p>
+        <ul class="modules"><li>Plurals 1</li><li>The prepositional case</li><li>The accusative case</li><li>Possession</li><li>The past tense</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>Everyday life</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Genitive case 1</li><li>Dative case 1</li><li>Instrumental case 1</li><li>Family and people</li><li>Food and drink</li><li>Time and dates</li><li>The future tense</li><li>Verbs of motion 1</li><li>City and transport</li><li>Plurals 2</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span>Opens the <strong>Foundations</strong> stage of all 12 specializations (A2 texts)</p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(A2)</span><strong>Building fluency</strong> <span class="rung-count">15 modules</span></p>
+        <ul class="modules"><li>Genitive case 2</li><li>Dative and instrumental 2</li><li>Verbal aspect 1</li><li>The imperative</li><li>Reflexive verbs</li><li>Adjectives in all cases</li><li>Pronouns 2</li><li>Comparatives and superlatives</li><li>Can, must and may</li><li>Home and household</li><li>Health and the body</li><li>Shopping and money</li><li>Weather and seasons</li><li>Animals</li><li>Sports and hobbies</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1)</span><strong>Intermediate</strong> <span class="rung-count">14 modules</span></p>
+        <ul class="modules"><li>Verbs of motion 2</li><li>Verbs of motion 3: prefixes</li><li>Verbal aspect 2</li><li>The conditional</li><li>Complex sentences</li><li>Numerals in all cases</li><li>Time expressions with cases</li><li>Indefinite and negative pronouns</li><li>Work and careers</li><li>School and university</li><li>Travel and tourism</li><li>Nature and the environment</li><li>Emotions and character</li><li>Technology and the internet</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span>Opens the <strong>Working vocabulary</strong> stage of all 12 specializations (B1–B2 texts)</p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">14 modules</span></p>
+        <ul class="modules"><li>Participles 1: active</li><li>Participles 2: passive</li><li>Verbal adverbs</li><li>Reported speech</li><li>Verb government</li><li>Word formation 1: verbs</li><li>Word formation 2: nouns and adjectives</li><li>Impersonal sentences</li><li>Law, courts and justice</li><li>Politics and society</li><li>Media and news</li><li>Business and the economy</li><li>Science and research</li><li>Arts and culture</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">13 modules</span></p>
+        <ul class="modules"><li>Verbal aspect 3</li><li>Verbs of motion 4: figurative uses</li><li>Numerals advanced</li><li>Word order and emphasis</li><li>Particles</li><li>Irregular and tricky forms</li><li>Spelling and punctuation</li><li>Registers and style</li><li>Idioms and proverbs</li><li>Colloquial Russian</li><li>Medicine and healthcare</li><li>Russian history</li><li>Literature and poetry</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span>Opens the <strong>Professional</strong> stage of all 12 specializations (C1 texts)</p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-es-en" aria-labelledby="tab-es-en" data-course="es-en" hidden>
+  <h3 class="visually-hidden">Spanish: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Sounds and first words</strong> <span class="rung-count">5 modules</span></p>
+        <ul class="modules"><li>Pronunciation and spelling</li><li>Greetings and introductions</li><li>Nouns and articles</li><li>Ser and subject pronouns</li><li>Numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>Everyday basics</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>The present tense of regular verbs</li><li>Adjectives</li><li>Estar and hay</li><li>Ser and estar 1</li><li>Family and possessives</li><li>Tener and irregular verbs</li><li>Questions</li><li>Time and days</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1–A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1–A2)</span><strong>Daily life</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>Stem-changing verbs</li><li>Reflexive verbs</li><li>Gustar and similar verbs</li><li>Food and drink</li><li>The city and directions</li><li>Plans with ir a</li><li>This, that and that over there</li><li>Shopping and clothes</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>The past</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>The present perfect</li><li>The preterite: regular verbs</li><li>The preterite: irregular verbs</li><li>The imperfect</li><li>The preterite and the imperfect</li><li>Direct object pronouns</li><li>Indirect and double object pronouns</li><li>Travel</li><li>Health and the body</li><li>The home</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(B1)</span><strong>Building fluency</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Por and para</li><li>The simple future</li><li>The conditional</li><li>The affirmative imperative</li><li>The negative imperative</li><li>The present subjunctive 1</li><li>The present subjunctive 2</li><li>Comparatives and superlatives</li><li>Work</li><li>Education</li><li>Weather and nature</li><li>Free time</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1–B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1–B2)</span><strong>Intermediate</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Relative clauses</li><li>Subjunctive in time clauses</li><li>The pluperfect</li><li>The future perfect and the conditional perfect</li><li>Reported speech 1</li><li>Se constructions</li><li>Indefinite and negative words</li><li>Verbal periphrases</li><li>Emotions and character</li><li>Technology</li><li>Media and news</li><li>The environment</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>The imperfect subjunctive</li><li>Conditional sentences</li><li>Subjunctive in relative clauses</li><li>The pluperfect subjunctive</li><li>Reported speech 2</li><li>Ser and estar 2</li><li>Connectors</li><li>Word formation</li><li>Politics and society</li><li>The economy and business</li><li>Science and health</li><li>Arts and culture</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>Fine points of the subjunctive</li><li>Prepositions and verb government</li><li>Passive and impersonal constructions</li><li>Registers and style</li><li>Idioms and proverbs</li><li>Colloquial Spanish</li><li>Varieties of Spanish</li><li>Spelling and punctuation</li><li>History</li><li>Literature</li><li>Law and justice</li></ul>
+      </div>
+    </li>
+  </ol>
+  <p class="no-specializations">Professional specializations are available in Swedish and Russian so far.</p>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-fr-en" aria-labelledby="tab-fr-en" data-course="fr-en" hidden>
+  <h3 class="visually-hidden">French: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Sounds and first words</strong> <span class="rung-count">5 modules</span></p>
+        <ul class="modules"><li>Pronunciation and spelling</li><li>Greetings and introductions</li><li>Nouns and articles</li><li>Être and subject pronouns</li><li>Numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>Everyday basics</strong> <span class="rung-count">7 modules</span></p>
+        <ul class="modules"><li>The present tense of -er verbs</li><li>Avoir and il y a</li><li>Adjectives</li><li>Negation</li><li>Asking questions</li><li>Family and possessives</li><li>Time and days</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1–A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1–A2)</span><strong>Daily life</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>-ir, -re and irregular verbs</li><li>Modal verbs</li><li>Pronominal verbs</li><li>Some bread, a kilo of apples</li><li>Food and drink</li><li>In town</li><li>The near future and the recent past</li><li>Demonstratives</li><li>Shopping and clothes</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>The past</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>The passé composé with avoir</li><li>The passé composé with être</li><li>The imperfect</li><li>The passé composé and the imparfait</li><li>Direct object pronouns</li><li>Indirect object pronouns</li><li>Travel</li><li>Health and the body</li><li>The home</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(B1)</span><strong>Building fluency</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Y and en</li><li>Two pronouns together</li><li>The simple future</li><li>The conditional</li><li>The imperative</li><li>The subjunctive 1</li><li>Comparatives and superlatives</li><li>Relative pronouns 1</li><li>Work</li><li>Education</li><li>Weather and nature</li><li>Free time</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1–B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1–B2)</span><strong>Intermediate</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The subjunctive 2</li><li>The pluperfect</li><li>The future perfect and the past conditional</li><li>Reported speech</li><li>Relative pronouns 2</li><li>Indefinite words</li><li>The gerund and the present participle</li><li>Emotions and character</li><li>Technology</li><li>Media and news</li><li>The environment</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The passive voice</li><li>The subjunctive 3: conjunctions and the past</li><li>Connectors</li><li>Verbs with à and de</li><li>Nominalisation</li><li>Word formation</li><li>Politics and society</li><li>The economy and business</li><li>Science and health</li><li>The arts and culture</li><li>Official French</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Literary tenses</li><li>Emphasis and word order</li><li>Fine points of the subjunctive</li><li>Register and style</li><li>Idioms and proverbs</li><li>Spoken French</li><li>French around the world</li><li>Spelling and punctuation</li><li>History</li><li>Literature</li><li>Law and justice</li><li>Humour and culture</li></ul>
+      </div>
+    </li>
+  </ol>
+  <p class="no-specializations">Professional specializations are available in Swedish and Russian so far.</p>
+</div>
+
+
+          <div class="band" id="specializations">
+            <p class="eyebrow">Specializations · Swedish and Russian</p>
+            <h3>From B2 to C1 in your own field.</h3>
+            <p class="band-lead">
+              General courses stop at general language. Glossa's twelve specializations continue into the vocabulary of your profession: about 500 terms per field, taught with
+              their collocations and grammar, in readings that look like real contracts, reports, news and papers. Each field has nine modules in three stages that open alongside
+              the main course.
+            </p>
+            <ol class="stages">
+              <li><span class="stage-number">Stage 1 · opens with Tier 4</span><strong>Foundations</strong><span>Core terms in short A2 texts.</span></li>
+              <li><span class="stage-number">Stage 2 · opens with Tier 6</span><strong>Working vocabulary</strong><span>Neutral and professional style at B1–B2.</span></li>
+              <li><span class="stage-number">Stage 3 · opens with Tier 8</span><strong>Professional</strong><span>C1 texts that read like real documents.</span></li>
+            </ol>
+            <ul class="fields" aria-label="The twelve fields">
+              <li><strong>Law and legal practice</strong><span>Lawyers, legal translators, compliance</span></li>
+              <li><strong>Business and management</strong><span>Managers, entrepreneurs, consultants</span></li>
+              <li><strong>Finance, banking and economics</strong><span>Bankers, analysts, accountants, economists</span></li>
+              <li><strong>Software and IT</strong><span>Developers, product managers, IT consultants</span></li>
+              <li><strong>Medicine and healthcare</strong><span>Doctors, nurses, medical interpreters</span></li>
+              <li><strong>Science and academia</strong><span>Researchers, doctoral students, academics</span></li>
+              <li><strong>Engineering, industry and energy</strong><span>Engineers and project managers</span></li>
+              <li><strong>Diplomacy and international relations</strong><span>Diplomats, analysts, interpreters</span></li>
+              <li><strong>Politics and government</strong><span>Analysts, journalists, civil servants</span></li>
+              <li><strong>Journalism and media</strong><span>Journalists, media monitors, PR</span></li>
+              <li><strong>Environment and sustainability</strong><span>Scientists, NGO staff, ESG and energy analysts</span></li>
+              <li><strong>Tourism and hospitality</strong><span>Hotel staff, tour guides, travel agents</span></li>
+            </ul>
+            <p class="field-example">
+              <strong>Example, Law in Swedish:</strong> Law in everyday terms · Police and crime · Documents and agreements → Courts and procedure · Contracts · Criminal law → Legal
+              drafting · Corporate and commercial law · Constitutional and EU law.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="wrap">
+        <section class="section" id="exercises" aria-labelledby="exercises-title">
+          <div class="section-head">
+            <p class="eyebrow">Exercises</p>
+            <h2 id="exercises-title">Fourteen kinds of exercise, each with feedback that explains.</h2>
+            <p>
+              Recognising a word is not the same as producing it, and reading is not the same as listening. Each module mixes exercise types so you practise every skill, and every
+              answer gets factual feedback: what was right, what was wrong and why.
+            </p>
+          </div>
+
+          <div class="ex-group">
+            <h3>Words and forms</h3>
+            <div class="ex-grid">
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-ru" /></svg></span>Russian</span>
+                  <p class="mock-prompt">Match each letter to its sound.</p>
+                  <div class="pairs" lang="ru">
+                    <span class="pill on">Е</span><span class="line ok"></span><span class="pill sans ok">ye, as in “yes”</span>
+                    <span class="pill">У</span><span></span><span class="pill sans">v</span>
+                    <span class="pill">Р</span><span></span><span class="pill sans">oo, as in “food”</span>
+                    <span class="pill">В</span><span></span><span class="pill sans">r</span>
+                  </div>
+                </div>
+                <div class="ex-text">
+                  <h4>Letter match</h4>
+                  <p>Letters to sounds, including the ones that look English but are not. How the Russian course teaches Cyrillic.</p>
+                </div>
+              </article>
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-sv" /></svg></span>Swedish</span>
+                  <p class="mock-prompt">Match each singular to its plural.</p>
+                  <div class="pairs" lang="sv">
+                    <span class="pill ok">en bok</span><span class="line ok"></span><span class="pill ok">böcker</span>
+                    <span class="pill ok">ett land</span><span class="line ok"></span><span class="pill ok">länder</span>
+                    <span class="pill on">en mus</span><span></span><span class="pill">döttrar</span>
+                    <span class="pill">en dotter</span><span></span><span class="pill">möss</span>
+                  </div>
+                </div>
+                <div class="ex-text">
+                  <h4>Match pairs</h4>
+                  <p>Words to translations, singulars to plurals, beginnings to endings.</p>
+                </div>
+              </article>
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-es" /></svg></span>Spanish</span>
+                  <p class="mock-prompt">Choose the correct preposition.</p>
+                  <p class="t" lang="es">Salgo ___ casa a las siete y media.</p>
+                  <div class="options" lang="es"><span class="pill">en</span><span class="pill ok">de</span><span class="pill">a</span></div>
+                  <p class="fb"><b>Correct.</b> <span class="why"><span lang="es">Salir de</span> + place means to leave a place.</span></p>
+                </div>
+                <div class="ex-text">
+                  <h4>Multiple choice</h4>
+                  <p>A meaning, a form or a word in context, with the reason shown after you answer.</p>
+                </div>
+              </article>
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-ru" /></svg></span>Russian</span>
+                  <p class="mock-prompt">Write the future tense of <span lang="ru">купи́ть</span>. Watch the я form.</p>
+                  <table class="mini-table" lang="ru">
+                    <tr><th>я</th><td><span class="cell ok">куплю́</span></td></tr>
+                    <tr><th>ты</th><td><span class="cell given">ку́пишь</span></td></tr>
+                    <tr><th>он/она́</th><td><span class="cell ok">ку́пит</span></td></tr>
+                    <tr><th>мы</th><td><span class="cell">ку́пи|</span></td></tr>
+                  </table>
+                </div>
+                <div class="ex-text">
+                  <h4>Form table</h4>
+                  <p>Fill in a whole conjugation or declension, checked cell by cell.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="ex-group">
+            <h3>Grammar and sentences</h3>
+            <div class="ex-grid">
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-sv" /></svg></span>Swedish</span>
+                  <p class="lesson-title">One long sound per stressed syllable</p>
+                  <p class="lesson-body">A stressed syllable has either a long vowel and a short consonant, or a short vowel and a long consonant.</p>
+                  <table class="mini-table" lang="sv">
+                    <tr><th lang="en">Long vowel</th><th lang="en">Short vowel</th></tr>
+                    <tr><td>tak <small lang="en">roof</small></td><td>tack <small lang="en">thanks</small></td></tr>
+                    <tr><td>glas <small lang="en">glass</small></td><td>glass <small lang="en">ice cream</small></td></tr>
+                  </table>
+                </div>
+                <div class="ex-text">
+                  <h4>Grammar notes</h4>
+                  <p>Short explanations inside an exercise set, right where a rule starts to matter.</p>
+                </div>
+              </article>
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-ru" /></svg></span>Russian</span>
+                  <p class="source">We are going to Grandmother's.</p>
+                  <div class="answer-line" lang="ru"><span class="pill">Мы</span><span class="pill">е́дем</span><span class="pill">к</span><span class="pill">ба́бушке</span></div>
+                  <div class="options" lang="ru"><span class="pill used">Мы</span><span class="pill used">е́дем</span><span class="pill used">к</span><span class="pill used">ба́бушке</span><span class="pill">ба́бушку</span><span class="pill">в</span><span class="pill">на</span></div>
+                </div>
+                <div class="ex-text">
+                  <h4>Word bank</h4>
+                  <p>Build the sentence from tiles. The extra tiles are wrong cases and prepositions, not random words.</p>
+                </div>
+              </article>
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-sv" /></svg></span>Swedish</span>
+                  <p class="mock-prompt">Write the present tense.</p>
+                  <p class="t" lang="sv">Hon <span class="gap">skriver</span><span class="hint">skriva</span> ett brev och han <span class="gap">läser</span><span class="hint">läsa</span> en tidning.</p>
+                  <p class="lesson-body">She is writing a letter and he is reading a newspaper.</p>
+                </div>
+                <div class="ex-text">
+                  <h4>Cloze</h4>
+                  <p>Fill each gap with the right form of the word given.</p>
+                </div>
+              </article>
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-fr" /></svg></span>French</span>
+                  <p class="mock-prompt">Translate into French. Use <span lang="fr">en</span>.</p>
+                  <p class="source">Do you have any carrots? — Yes, I would like a kilo.</p>
+                  <p class="typed" lang="fr">Tu as des carottes ? — Oui, j'en voudrais un kilo.</p>
+                  <p class="fb"><b>Correct.</b></p>
+                </div>
+                <div class="ex-text">
+                  <h4>Translate</h4>
+                  <p>Type a translation in either direction. Several wordings are accepted, and AI checks an answer the course did not list.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="ex-group">
+            <h3>Reading and listening</h3>
+            <div class="ex-grid">
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-sv" /></svg></span>Swedish</span>
+                  <p class="lesson-title" lang="sv">Ett gult hus vid sjön</p>
+                  <p class="reading-text" lang="sv">Det här är ett gult hus på en <span class="tapped">ö</span>. Huset har ett svart tak och en röd dörr.</p>
+                  <p class="q">Where is the house?</p>
+                  <div class="options"><span class="pill sans">In a city</span><span class="pill sans ok">On an island</span></div>
+                </div>
+                <div class="ex-text">
+                  <h4>Reading</h4>
+                  <p>Texts at your level with questions. Every word can be tapped, and a parallel translation is there if you need it.</p>
+                </div>
+              </article>
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-es" /></svg></span>Spanish</span>
+                  <p class="lesson-title" lang="es">En el bar</p>
+                  <div class="audio">
+                    <span class="play"><svg><use href="#icon-play" /></svg></span>
+                    <span class="wave"><i class="played" style="height: 40%"></i><i class="played" style="height: 80%"></i><i class="played" style="height: 55%"></i><i class="played" style="height: 95%"></i><i class="played" style="height: 60%"></i><i style="height: 75%"></i><i style="height: 35%"></i><i style="height: 85%"></i><i style="height: 50%"></i><i style="height: 70%"></i><i style="height: 30%"></i><i style="height: 60%"></i></span>
+                  </div>
+                  <div class="hidden-text"><i style="width: 90%"></i><i style="width: 70%"></i><small>The text appears after you answer.</small></div>
+                  <p class="q">The customer orders a beer. <span class="pill sans ok">True</span></p>
+                </div>
+                <div class="ex-text">
+                  <h4>Listening text</h4>
+                  <p>A dialogue or text read aloud, with the text hidden until you have answered.</p>
+                </div>
+              </article>
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-ru" /></svg></span>Russian</span>
+                  <p class="mock-prompt">Where is the stress? Choose what you heard.</p>
+                  <div class="audio"><span class="play"><svg><use href="#icon-play" /></svg></span><span class="wave"><i class="played" style="height: 50%"></i><i class="played" style="height: 80%"></i><i class="played" style="height: 60%"></i><i style="height: 90%"></i><i style="height: 45%"></i><i style="height: 70%"></i></span></div>
+                  <div class="options" lang="ru"><span class="pill ok">молоко́</span><span class="pill">моло́ко</span><span class="pill">мо́локо</span></div>
+                </div>
+                <div class="ex-text">
+                  <h4>Listen and choose</h4>
+                  <p>Hear a word or sentence and pick what was said, down to where the stress falls.</p>
+                </div>
+              </article>
+              <article class="ex">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-es" /></svg></span>Spanish</span>
+                  <p class="mock-prompt">Type what you hear.</p>
+                  <div class="audio"><span class="play"><svg><use href="#icon-play" /></svg></span><span class="wave"><i class="played" style="height: 60%"></i><i class="played" style="height: 40%"></i><i class="played" style="height: 85%"></i><i class="played" style="height: 55%"></i><i class="played" style="height: 70%"></i><i class="played" style="height: 45%"></i></span></div>
+                  <p class="typed diff" lang="es">un ordenador y <span class="miss">los</span> <span class="fix">unos</span> libros</p>
+                  <p class="fb bad"><b>Incorrect.</b> <span class="why">Expected: <span lang="es">un ordenador y unos libros</span></span></p>
+                </div>
+                <div class="ex-text">
+                  <h4>Dictation</h4>
+                  <p>Type what you hear, then see your answer compared with the original word by word.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="ex-group">
+            <h3>Speaking and writing</h3>
+            <div class="ex-grid two">
+              <article class="ex ex-wide">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-fr" /></svg></span>French</span>
+                  <p class="mock-prompt">Read aloud.</p>
+                  <p class="scored" lang="fr"><span>J'arrive</span> <span>tout</span> <span class="fair">de</span> <span>suite.</span></p>
+                  <div class="meters">
+                    <span class="meter">Accuracy<b>84</b><span class="bar" style="--value: 84%"></span></span>
+                    <span class="meter">Fluency<b>91</b><span class="bar" style="--value: 91%"></span></span>
+                    <span class="meter">Completeness<b>100</b><span class="bar" style="--value: 100%"></span></span>
+                  </div>
+                  <div class="feedback-box">
+                    <p><b>Good:</b> a clear French <i>r</i> in <span lang="fr">arrive</span>.</p>
+                    <p><b>To work on:</b> you pronounced the <i>e</i> of <span lang="fr">de</span>. In <span lang="fr">tout de suite</span> it is usually dropped.</p>
+                  </div>
+                  <div class="compare"><span class="chip"><svg width="12" height="12"><use href="#icon-play" /></svg>Your recording</span><span class="chip"><svg width="12" height="12"><use href="#icon-play" /></svg>Reference</span></div>
+                </div>
+                <div class="ex-text">
+                  <h4>Pronunciation</h4>
+                  <p>
+                    Read a word or sentence aloud. A speech-assessment engine scores accuracy, fluency and completeness and marks each word; AI turns the scores into concrete
+                    advice on the sounds to fix. Replay your recording next to the reference.
+                  </p>
+                </div>
+              </article>
+              <article class="ex ex-wide">
+                <div class="mock" aria-hidden="true">
+                  <span class="mock-lang"><span class="flag"><svg><use href="#flag-ru" /></svg></span>Russian</span>
+                  <p class="mock-prompt">Write a short dialogue: two people meet, greet each other and give their names.</p>
+                  <p class="essay-text" lang="ru">— Приве́т! Меня́ зову́т А́нна. Как <del>тебе</del> <ins>тебя́</ins> зову́т?<br />— О́чень прия́тно. Меня́ зову́т Макси́м.</p>
+                  <div class="feedback-box">
+                    <p><span lang="ru">Как … зову́т?</span> takes the person in the accusative: <span lang="ru">тебя́</span>, not the dative <span lang="ru">тебе́</span>. See Personal pronouns.</p>
+                  </div>
+                  <div class="rubric">
+                    <span class="meter">Task<b>5/5</b></span>
+                    <span class="meter">Grammar<b>4/5</b></span>
+                    <span class="meter">Vocabulary<b>4/5</b></span>
+                    <span class="meter">Coherence<b>5/5</b></span>
+                  </div>
+                </div>
+                <div class="ex-text">
+                  <h4>Writing</h4>
+                  <p>
+                    Write to a prompt that names the structures and vocabulary to use. AI evaluates it against a rubric with inline corrections, each explained and linked to the
+                    grammar behind it. Revise and resubmit; every version is kept.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
         </section>
-      </main>
+      </div>
 
+      <section class="section path-bg" id="feedback" aria-labelledby="feedback-title">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="eyebrow">Around the lessons</p>
+            <h2 id="feedback-title">Everything you need to understand, not just to answer.</h2>
+            <p>Glossa explains the language instead of drilling you blindly. When something is unclear, the explanation is one tap away.</p>
+          </div>
+          <div class="features">
+            <article class="feature">
+              <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2Zm0 0A2 2 0 0 0 6 21.5h13M8 7h7M8 11h5" /></svg></span>
+              <h3>Every word explained</h3>
+              <p>Tap any word in a lesson, exercise, text or AI answer for its meanings, full table of forms, examples, audio and the grammar it belongs to.</p>
+            </article>
+            <article class="feature">
+              <span class="feature-icon" aria-hidden="true"><svg><use href="#icon-speaker" /></svg></span>
+              <h3>Audio everywhere</h3>
+              <p>Words, example sentences, listening texts and pronunciation exercises all come with audio in natural-sounding neural voices.</p>
+            </article>
+            <article class="feature">
+              <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm10 2-4.35-4.35" /></svg></span>
+              <h3>A grammar reference</h3>
+              <p>One rule per topic, with real examples and translations, searchable and linked both ways with the lessons that teach it.</p>
+            </article>
+            <article class="feature">
+              <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 12a8 8 0 0 1-11.8 7L4 20.5l1.5-4.6A8 8 0 1 1 21 12Z" /></svg></span>
+              <h3>Ask AI</h3>
+              <p>A tutor that knows your course and level. Ask it to explain a sentence from a text or a mistake from your exercises, and its answers stay tappable word by word.</p>
+            </article>
+            <article class="feature feature-wide">
+              <div>
+                <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 4h16v6H4zM4 14h10v6H4zM18 14v6" /></svg></span>
+                <h3>Practice words, with your real vocabulary level</h3>
+                <p>
+                  Words from your lessons are collected for spaced repetition, first from the language into English and then, once you know them, the other way. The practice page
+                  counts the words you recognise reliably and places them against research-based vocabulary sizes for each CEFR level.
+                </p>
+              </div>
+              <div class="level" role="img" aria-label="Example vocabulary level: 1,840 words known reliably, A2 level, 160 words to B1.">
+                <p class="level-text" style="margin: 0 0 6px">Example</p>
+                <p class="level-number">1,840 <span>Swedish words you know reliably</span></p>
+                <p class="level-text">Your vocabulary is at A2 level. 160 more words to B1.</p>
+                <div class="scale"><span class="scale-fill"></span></div>
+                <div class="scale-ticks" aria-hidden="true">
+                  <span>0</span><span>A1<small>500</small></span><span>A2<small>1,000</small></span><span>B1<small>2,000</small></span><span>B2<small>4,000</small></span><span>C1+<small>8,000</small></span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="wrap">
+        <section class="section principles" aria-labelledby="principles-title">
+          <div>
+            <p class="eyebrow">How Glossa is built</p>
+            <h2 id="principles-title">Serious about learning. No gamification.</h2>
+            <p>
+              Glossa is for adults who want to understand a language, not to keep a counter going. There are two progress figures: how much of the course you have completed, and
+              how many words you know against the research estimates for each level. Both are stated as facts.
+            </p>
+            <p>Grading, feedback and explanations from AI and the speech engine can be wrong. Every exercise, word and answer has a Report a problem link, and reports are reviewed.</p>
+          </div>
+          <ul class="not-list">
+            <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>No streaks, points, leagues, badges or mascots</strong><span>Feedback says what was right, what was wrong and why.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Free, with no ads</strong><span>No analytics, advertising or tracking tools, and your data is not sold.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Your data stays yours</strong><span>Export your data or delete your account from your profile.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>On your phone or computer</strong><span>Runs in the browser and can be installed like an app. Sign in with Google or Apple.</span></div></li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="closing path-bg" aria-labelledby="closing-title">
+        <div class="wrap">
+          <h2 id="closing-title">Start at Tier 1 today. Reach C1 with a method that holds up.</h2>
+          <p>Choose Swedish, Russian, Spanish or French. Sign in with Google or Apple and begin with the first module. Every word in it is explained.</p>
+          <div class="cta-row">
+            <a class="button" href="https://app.glossa.study">Start learning free<svg aria-hidden="true"><use href="#icon-arrow" /></svg></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="wrap">
       <footer>
         <a href="https://app.glossa.study/privacy">Privacy policy</a>
         <a href="https://app.glossa.study/terms">Terms of service</a>
         <a href="https://app.glossa.study/support">Support</a>
+        <a href="https://app.glossa.study/account-deletion">Account deletion</a>
         <a href="mailto:support@glossa.study">support@glossa.study</a>
         <span class="company">© 2026 Glossa oy, Finland</span>
       </footer>
     </div>
+
+    <script>
+      ;(() => {
+        const wordButtons = document.querySelectorAll('.word-button')
+        wordButtons.forEach((button) => {
+          button.addEventListener('click', () => {
+            wordButtons.forEach((other) => {
+              const selected = other === button
+              other.setAttribute('aria-pressed', String(selected))
+              document.getElementById(other.dataset.sheet).hidden = !selected
+            })
+          })
+        })
+
+        const tabs = Array.from(document.querySelectorAll('[role="tab"]'))
+        const select = (tab) => {
+          tabs.forEach((other) => {
+            const selected = other === tab
+            other.setAttribute('aria-selected', String(selected))
+            other.tabIndex = selected ? 0 : -1
+            document.getElementById(other.getAttribute('aria-controls')).hidden = !selected
+          })
+        }
+        tabs.forEach((tab, index) => {
+          tab.addEventListener('click', () => select(tab))
+          tab.addEventListener('keydown', (event) => {
+            const step = { ArrowRight: 1, ArrowLeft: -1 }[event.key]
+            if (step) {
+              const next = tabs[(index + step + tabs.length) % tabs.length]
+              select(next)
+              next.focus()
+            }
+          })
+        })
+      })()
+    </script>
   </body>
 </html>
