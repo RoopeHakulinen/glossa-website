@@ -1560,6 +1560,66 @@
         font-size: 0.9375rem;
       }
 
+      /* Pricing */
+      .plans {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        align-items: start;
+      }
+      @media (max-width: 760px) {
+        .plans {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+      .plan {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 22px;
+      }
+      .plan-premium {
+        border-color: var(--accent);
+      }
+      .plan h3 {
+        font-family: var(--serif);
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin: 0;
+      }
+      .plan-price {
+        color: var(--muted);
+        margin: 4px 0 18px;
+      }
+      .plan-list {
+        list-style: none;
+        margin: 0;
+        padding: 18px 0 0;
+        border-top: 1px solid var(--border);
+        display: grid;
+        gap: 12px;
+      }
+      .plan-list li {
+        display: grid;
+        grid-template-columns: 20px minmax(0, 1fr);
+        gap: 10px;
+        align-items: start;
+      }
+      .plan-list svg {
+        width: 18px;
+        height: 18px;
+        color: var(--accent);
+        margin-top: 3px;
+      }
+      .plan-list strong {
+        display: block;
+      }
+      .plan-list span {
+        color: var(--muted);
+        font-size: 0.9375rem;
+      }
+
       /* Closing CTA */
       .closing {
         text-align: center;
@@ -1632,6 +1692,7 @@
           <a href="#path">The path to C1</a>
           <a href="#exercises">Exercises</a>
           <a href="#feedback">Feedback</a>
+          <a href="#pricing">Pricing</a>
         </nav>
         <a class="sign-in" href="https://app.glossa.study/login">Sign in</a>
       </header>
@@ -2192,6 +2253,7 @@
               <strong>Example, Law in Swedish:</strong> Law in everyday terms · Police and crime · Documents and agreements → Courts and procedure · Contracts · Criminal law → Legal
               drafting · Corporate and commercial law · Constitutional and EU law.
             </p>
+            <p class="note-line">Specializations are part of Premium.</p>
           </div>
         </div>
       </section>
@@ -2512,10 +2574,44 @@
           </div>
           <ul class="not-list">
             <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>No streaks, points, leagues, badges or mascots</strong><span>Feedback says what was right, what was wrong and why.</span></div></li>
-            <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Free, with no ads</strong><span>No analytics, advertising or tracking tools, and your data is not sold.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>No ads on either plan</strong><span>No analytics, advertising or tracking tools, and your data is not sold.</span></div></li>
             <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Your data stays yours</strong><span>Export your data or delete your account from your profile.</span></div></li>
             <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>On your phone or computer</strong><span>Runs in the browser and can be installed like an app. Sign in with Google.</span></div></li>
           </ul>
+        </section>
+      </div>
+
+      <div class="wrap">
+        <section class="section" id="pricing" aria-labelledby="pricing-title">
+          <div class="section-head">
+            <p class="eyebrow">Pricing</p>
+            <h2 id="pricing-title">Two plans. The whole course is free.</h2>
+            <p>Premium adds professional specializations and offline study. It has no price yet: as a launch offer, every Glossa account gets Premium.</p>
+          </div>
+          <div class="plans">
+            <article class="plan" aria-labelledby="plan-free-title">
+              <h3 id="plan-free-title">Free</h3>
+              <p class="plan-price">No charge.</p>
+              <ul class="plan-list">
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>The full course in every language</strong><span>All eight tiers from A1 to C1, with lessons, exercises and module exams.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Practice words</strong><span>Spaced repetition of your vocabulary, with your level against each CEFR level.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Every word explained</strong><span>Meanings, forms, examples and audio for every word you meet.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>The grammar reference</strong><span>One rule per topic, linked with the lessons that teach it.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Listening and pronunciation</strong><span>Listening exercises, and pronunciation scored word by word.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Writing evaluated by AI</strong><span>Corrections against a rubric, each explained.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Ask AI</strong><span>The tutor that knows your course, 25 questions a day.</span></div></li>
+              </ul>
+            </article>
+            <article class="plan plan-premium" aria-labelledby="plan-premium-title">
+              <h3 id="plan-premium-title">Premium</h3>
+              <p class="plan-price">No price set yet. Included in every account as a launch offer.</p>
+              <ul class="plan-list">
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Everything in Free</strong></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Professional specializations</strong><span>Twelve fields in Swedish and Russian, such as Law and legal practice or Medicine and healthcare. <a href="#specializations">See the fields</a></span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Offline mode</strong><span>Download modules and do their lessons and exercises without a connection. Your progress syncs when you are back online. Exams, essays and pronunciation still need a connection.</span></div></li>
+              </ul>
+            </article>
+          </div>
         </section>
       </div>
 
