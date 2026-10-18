@@ -1393,6 +1393,50 @@
       }
 
       /* Features */
+      .screens {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 28px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .screen {
+        margin: 0;
+      }
+      .screen img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 390 / 844;
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+      }
+      .screen h3 {
+        font-size: 1.05rem;
+        margin: 20px 0 6px;
+      }
+      .screen p {
+        color: var(--muted);
+        margin: 0;
+      }
+      @media (max-width: 960px) {
+        /* Four phones side by side get too small to read, so narrow screens swipe through them instead. */
+        .screens {
+          display: flex;
+          overflow-x: auto;
+          scroll-snap-type: x mandatory;
+          margin-inline: calc(-1 * var(--gutter));
+          padding: 4px var(--gutter) 16px;
+          scroll-padding-inline: var(--gutter);
+        }
+        .screen {
+          flex: 0 0 min(260px, 72vw);
+          scroll-snap-align: start;
+        }
+      }
       .features {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1816,6 +1860,38 @@
           <li><strong>13 fields</strong><span>of professional vocabulary in every course, about 500 terms each</span></li>
         </ul>
       </section>
+
+      <div class="wrap">
+        <section class="section" id="screens" aria-labelledby="screens-title">
+          <div class="section-head">
+            <p class="eyebrow">In the app</p>
+            <h2 id="screens-title">See what sets Glossa apart.</h2>
+            <p>Screens from the Russian and Swedish courses, as they look on a phone.</p>
+          </div>
+          <ul class="screens">
+            <li class="screen">
+              <img src="screenshots/reading.webp" width="780" height="1688" loading="lazy" alt="A Russian reading text, A new flat, with stress marks on every word and a Listen button." />
+              <h3>Real texts from the start</h3>
+              <p>Modules include reading and listening texts written for their level, with audio, and in Russian with stress marks.</p>
+            </li>
+            <li class="screen">
+              <img src="screenshots/word.webp" width="780" height="1688" loading="lazy" alt="The word sheet for квартира: the form in the text is dative or prepositional singular, its meaning, an example sentence and the full declension table with the matching forms highlighted." />
+              <h3>Tap any word</h3>
+              <p>See which form it is, what it means, an example, the full table of forms and the grammar it belongs to.</p>
+            </li>
+            <li class="screen">
+              <img src="screenshots/feedback.webp" width="780" height="1688" loading="lazy" alt="A Swedish exercise asking for the four forms of flicka and bil. One answer is marked wrong with the correct form, bilar, shown below it. Partly correct, 83%." />
+              <h3>Feedback that shows the fix</h3>
+              <p>Each answer is marked on its own, with the correct form where you went wrong and an AI explanation one tap away.</p>
+            </li>
+            <li class="screen">
+              <img src="screenshots/grammar.webp" width="780" height="1688" loading="lazy" alt="The grammar reference page The definite plural, with an explanation, example sentences with translations and a table of endings." />
+              <h3>A grammar reference</h3>
+              <p>One page per rule, with examples and tables, linked to the lessons that teach it.</p>
+            </li>
+          </ul>
+        </section>
+      </div>
 
       <div class="wrap">
         <section class="section" id="courses" aria-labelledby="courses-title">
