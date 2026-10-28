@@ -1909,7 +1909,7 @@
             <li class="screen">
               <img src="screenshots/feedback.webp" width="780" height="1688" loading="lazy" alt="A Swedish exercise asking for the four forms of flicka and bil. One answer is marked wrong with the correct form, bilar, shown below it. The answer is marked partly correct." />
               <h3>Feedback that shows the fix</h3>
-              <p>Each answer is marked on its own, with the correct form where you went wrong and an AI explanation one tap away.</p>
+              <p>Each answer gets its own feedback, with the correct form where you went wrong and an AI explanation one tap away.</p>
             </li>
             <li class="screen">
               <img src="screenshots/grammar.webp" width="780" height="1688" loading="lazy" alt="The grammar reference page The definite plural, with an explanation, example sentences with translations and a table of endings." />
@@ -1999,8 +1999,8 @@
               <li><span class="kind">Practice × 3</span><strong><span lang="sv">En or ett?</span></strong>Clues to the gender · Things at home</li>
               <li><span class="kind">Reading</span><strong>Anna's flat</strong>A text with questions</li>
               <li><span class="kind">Listening</span><strong>Listening</strong>Hear, choose, transcribe</li>
-              <li><span class="kind">Speaking · optional</span><strong>Pronunciation</strong>Scored word by word</li>
-              <li><span class="kind">Writing · optional</span><strong>A room</strong>Evaluated against a rubric</li>
+              <li><span class="kind">Speaking · optional</span><strong>Pronunciation</strong>Feedback on each word</li>
+              <li><span class="kind">Writing · optional</span><strong>A room</strong>Corrections with explanations</li>
               <li class="exam"><span class="kind">Exam</span><strong>Module exam</strong>Pass mark 80%</li>
             </ol>
           </div>
@@ -2568,7 +2568,7 @@
                 </div>
                 <div class="ex-text">
                   <h4>Translate</h4>
-                  <p>Type a translation in either direction. Several wordings are accepted, and AI checks an answer the course did not list.</p>
+                  <p>Type a translation in either direction. Several wordings are accepted, and when yours is not among them, AI explains whether it works too.</p>
                 </div>
               </article>
             </div>
@@ -2656,7 +2656,7 @@
                 <div class="ex-text">
                   <h4>Pronunciation</h4>
                   <p>
-                    Read a word or sentence aloud. A speech-assessment engine scores accuracy, fluency and completeness and marks each word; AI turns the scores into concrete
+                    Read a word or sentence aloud. A speech engine measures accuracy, fluency and completeness and highlights each word; AI turns that into concrete
                     advice on the sounds to fix. Replay your recording next to the reference.
                   </p>
                 </div>
@@ -2669,18 +2669,12 @@
                   <div class="feedback-box">
                     <p><span lang="ru">Как … зову́т?</span> takes the person in the accusative: <span lang="ru">тебя́</span>, not the dative <span lang="ru">тебе́</span>. See Personal pronouns.</p>
                   </div>
-                  <div class="rubric">
-                    <span class="meter">Task<b>5/5</b></span>
-                    <span class="meter">Grammar<b>4/5</b></span>
-                    <span class="meter">Vocabulary<b>4/5</b></span>
-                    <span class="meter">Coherence<b>5/5</b></span>
-                  </div>
                 </div>
                 <div class="ex-text">
                   <h4>Writing</h4>
                   <p>
-                    Write to a prompt that names the structures and vocabulary to use. AI evaluates it against a rubric with inline corrections, each explained and linked to the
-                    grammar behind it. Revise and resubmit; every version is kept.
+                    Write to a prompt that names the structures and vocabulary to use. AI gives feedback on the task, grammar, vocabulary and coherence, with inline corrections, each
+                    explained and linked to the grammar behind it. Revise and resubmit; every version is kept.
                   </p>
                 </div>
               </article>
@@ -2759,7 +2753,7 @@
               Glossa is for serious learners who want to understand a language, not to keep a counter going. There are two progress figures: how much of the course you have completed, and
               how many words you know against the research estimates for each level. Both are stated as facts.
             </p>
-            <p>Grading, feedback and explanations from AI and the speech engine can be wrong. Every exercise, word and answer has a Report a problem link, and reports are reviewed.</p>
+            <p>Feedback and explanations from AI and the speech engine are for your own practice. They are not a certificate or an official assessment of your level, and they can be wrong. Every exercise, word and answer has a Report a problem link, and reports are reviewed.</p>
           </div>
           <ul class="not-list">
             <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>No streaks, points, leagues, badges or mascots</strong><span>Feedback says what was right, what was wrong and why.</span></div></li>
@@ -2786,8 +2780,8 @@
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Practice words</strong><span>Spaced repetition of your vocabulary, with your level against each CEFR level.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Every word explained</strong><span>Meanings, forms, examples and audio for every word you meet.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>The grammar reference</strong><span>One rule per topic, linked with the lessons that teach it.</span></div></li>
-                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Listening and pronunciation</strong><span>Listening exercises, and pronunciation scored word by word.</span></div></li>
-                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Writing evaluated by AI</strong><span>Corrections against a rubric, each explained.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Listening and pronunciation</strong><span>Listening exercises, and pronunciation feedback on each word.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>AI feedback on your writing</strong><span>Corrections, each explained.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Ask AI</strong><span>The tutor that knows your course, 25 questions a day.</span></div></li>
               </ul>
             </article>
@@ -2797,13 +2791,13 @@
               <ul class="plan-list">
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Everything in Free</strong></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Professional specializations</strong><span>Thirteen fields in every course, such as Law and legal practice, Medicine and healthcare or Sports and fitness. <a href="#specializations">See the fields</a></span></div></li>
-                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Exam preparation</strong><span>Timed practice papers in the formats of recognised exams, such as DELE, DELF and DALF, Goethe, telc, TestDaF, TORFL, Tisus, IELTS, Cambridge English and TOEFL, with original content. Two papers for each exam.</span></div></li>
-                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Stories</strong><span>Longer texts at every level, from A1 to C1, to read or listen to, with every word explained. Retell a story in your own words and an AI checks what you understood against its main points.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Exam preparation</strong><span>Timed practice papers in the formats of recognised exams, such as DELE, DELF and DALF, Goethe, telc, TestDaF, TORFL, Tisus, IELTS, Cambridge English and TOEFL, with original content. Two papers for each exam. They are practice only and give no official result.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Stories</strong><span>Longer texts at every level, from A1 to C1, to read or listen to, with every word explained. Retell a story in your own words and AI shows which of its main points your retelling covers.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Conversation practice</strong><span>Role-play everyday and professional situations in writing with an AI character, with goals to reach. Afterwards you see which goals you reached, corrections of what you wrote and more natural ways to say it.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>How the country works</strong><span>Texts in the language on the state, taxes, healthcare, schools, work, housing and everyday matters, checked against official sources and dated. The English course covers both the United States and the United Kingdom.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Lessons on your own topic</strong><span>Name a situation, a subject or a grammar point and get a lesson written for it at your level, then more on the same topic, easier or harder.</span></div></li>
-                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Pronunciation practice on any sentence</strong><span>Type what you want to say. It is corrected first, then you hear it, record yourself and get a score for each word with notes on what to change.</span></div></li>
-                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Offline mode</strong><span>Download modules and stories and use them without a connection: lessons, exercises, reading, listening and word details. Your progress syncs when you are back online. Module exams, essays, pronunciation and story checks need a connection, and so does everything else outside downloaded modules and stories.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Pronunciation practice on any sentence</strong><span>Type what you want to say. It is corrected first, then you hear it, record yourself and get feedback on each word with notes on what to change.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Offline mode</strong><span>Download modules and stories and use them without a connection: lessons, exercises, reading, listening and word details. Your progress syncs when you are back online. Module exams, essays, pronunciation and story retellings need a connection, and so does everything else outside downloaded modules and stories.</span></div></li>
               </ul>
             </article>
           </div>
