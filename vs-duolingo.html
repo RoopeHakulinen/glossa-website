@@ -10,8 +10,8 @@
     />
     <!-- An ad landing page: kept out of search results so it does not compete with the main page. -->
     <meta name="robots" content="noindex" />
-    <meta name="theme-color" content="#f8f6f1" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#131312" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f7f5fc" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b0716" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="favicon.ico" sizes="any" />
     <link rel="icon" href="favicon-32.png" type="image/png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -24,48 +24,60 @@
     <style>
       :root {
         color-scheme: light dark;
-        --background: #f8f6f1;
+        --background: #f7f5fc;
         --surface: #ffffff;
-        --surface-sunken: #f0ede6;
-        --border: #e2ddd3;
-        --border-strong: #c9c2b5;
-        --text: #1d1c1a;
-        --muted: #5c584f;
-        --subtle: #6f6a60;
-        --accent: #2c4a7c;
-        --accent-hover: #233d68;
-        --accent-soft: #e6ebf3;
+        --surface-sunken: #efebf8;
+        --border: #e6e0f3;
+        --border-strong: #d6cceb;
+        --text: #1a1030;
+        --muted: #5a4e7a;
+        --subtle: #685d88;
+        --accent: #08737f;
+        --accent-hover: #065e68;
+        --accent-soft: #e9fbfc;
         --on-accent: #ffffff;
         --correct: #2d6a3e;
-        --correct-soft: #e5f0e7;
+        --correct-soft: #e4f2e8;
         --wrong: #a2392a;
-        --wrong-soft: #f6e6e2;
-        --highlight: #fbf0cf;
-        --shadow: 0 1px 2px rgb(29 28 26 / 6%), 0 8px 28px rgb(29 28 26 / 8%);
+        --wrong-soft: #f8e7e6;
+        --highlight: #d4f6f9;
+        --shadow: 0 1px 2px rgb(26 16 48 / 6%), 0 8px 28px rgb(26 16 48 / 8%);
         --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
         --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
         --gutter: max(16px, 4vw);
+        --primary: #1a1030;
+        --primary-hover: #2c1f4d;
+        --on-primary: #ffffff;
+        --shadow-primary: 4px 4px 0 #8aeaf2;
+        --wordmark-shadow: #8aeaf2;
+        --wordmark-glow: none;
       }
       @media (prefers-color-scheme: dark) {
         :root {
-          --background: #131312;
-          --surface: #1b1b19;
-          --surface-sunken: #0f0f0e;
-          --border: #2e2d2a;
-          --border-strong: #45433f;
-          --text: #ece8e0;
-          --muted: #aaa59b;
-          --subtle: #96918a;
-          --accent: #9db4dc;
-          --accent-hover: #b4c6e6;
-          --accent-soft: #1f2a3c;
-          --on-accent: #10192b;
+          --background: #0b0716;
+          --surface: #1d1236;
+          --surface-sunken: #07040f;
+          --border: #2c2050;
+          --border-strong: #3a2a66;
+          --text: #f1edff;
+          --muted: #b8ade0;
+          --subtle: #a196c8;
+          --accent: #8aeaf2;
+          --accent-hover: #b3f2f7;
+          --accent-soft: #2a2c4d;
+          --on-accent: #0b0716;
           --correct: #8cc79b;
-          --correct-soft: #1b2b1f;
+          --correct-soft: #172a26;
           --wrong: #ec9a8b;
-          --wrong-soft: #34201c;
-          --highlight: #3a3220;
+          --wrong-soft: #34182a;
+          --highlight: #1f3d52;
           --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 28px rgb(0 0 0 / 35%);
+          --primary: #8aeaf2;
+          --primary-hover: #b3f2f7;
+          --on-primary: #0b0716;
+          --shadow-primary: none;
+          --wordmark-shadow: transparent;
+          --wordmark-glow: drop-shadow(0 0 4px rgb(138 234 242 / 55%));
         }
       }
       *,
@@ -98,7 +110,7 @@
       a:focus-visible {
         outline: 2px solid var(--accent);
         outline-offset: 3px;
-        border-radius: 4px;
+        border-radius: 3px;
       }
       .visually-hidden {
         position: absolute !important;
@@ -117,7 +129,7 @@
         top: -60px;
         background: var(--surface);
         padding: 8px 12px;
-        border-radius: 8px;
+        border-radius: 4px;
         z-index: 10;
       }
       .skip:focus {
@@ -149,10 +161,15 @@
         text-decoration: none;
         margin-right: auto;
       }
-      .brand img {
-        width: 32px;
-        height: 32px;
-        border-radius: 8px;
+      .brand svg {
+        display: block;
+        overflow: visible;
+        shape-rendering: crispEdges;
+        filter: var(--wordmark-glow);
+        fill: var(--text);
+      }
+      .brand .wordmark-shadow {
+        fill: var(--wordmark-shadow);
       }
       .sign-in {
         font-weight: 600;
@@ -167,15 +184,23 @@
         align-items: center;
         gap: 10px;
         padding: 14px 22px;
-        border-radius: 10px;
-        background: var(--accent);
-        color: var(--on-accent);
+        border-radius: 4px;
+        background: var(--primary);
+        color: var(--on-primary);
+        box-shadow: var(--shadow-primary);
         font-weight: 600;
         text-decoration: none;
-        transition: background 150ms;
+        transition:
+          background 150ms,
+          box-shadow 150ms,
+          translate 150ms;
       }
       .button:hover {
-        background: var(--accent-hover);
+        background: var(--primary-hover);
+      }
+      .button:active {
+        translate: 2px 2px;
+        box-shadow: none;
       }
       .button svg {
         width: 18px;
@@ -234,7 +259,7 @@
       .demo {
         background: var(--surface);
         border: 1px solid var(--border);
-        border-radius: 18px;
+        border-radius: 6px;
         box-shadow: var(--shadow);
         padding: 22px;
       }
@@ -259,7 +284,7 @@
         font-size: 1.35rem;
         padding: 12px 16px;
         border: 1px solid var(--border-strong);
-        border-radius: 10px;
+        border-radius: 4px;
         margin: 0 0 16px;
       }
       .answer mark {
@@ -267,11 +292,11 @@
         color: var(--wrong);
         text-decoration: line-through;
         text-decoration-thickness: 1.5px;
-        border-radius: 4px;
+        border-radius: 3px;
         padding: 0 3px;
       }
       .verdict {
-        border-radius: 12px;
+        border-radius: 4px;
         padding: 16px 18px;
         background: var(--wrong-soft);
       }
@@ -344,7 +369,7 @@
         border-spacing: 0;
         background: var(--surface);
         border: 1px solid var(--border);
-        border-radius: 16px;
+        border-radius: 6px;
         overflow: hidden;
       }
       .compare th,
@@ -449,7 +474,7 @@
       .reasons li {
         background: var(--surface);
         border: 1px solid var(--border);
-        border-radius: 16px;
+        border-radius: 6px;
         padding: 24px;
       }
       .reasons .number {
@@ -496,7 +521,7 @@
         gap: 1px;
         background: var(--border);
         border: 1px solid var(--border);
-        border-radius: 14px;
+        border-radius: 6px;
         overflow: hidden;
       }
       .check-list li {
@@ -578,7 +603,7 @@
 
     <div class="wrap">
       <header class="top">
-        <a class="brand" href="/"><img src="apple-touch-icon.png" alt="" width="32" height="32" />Glossa</a>
+        <a class="brand" href="/"><svg class="wordmark" viewBox="0 0 35 7" width="100" height="20" role="img" aria-label="Glossa"><path class="wordmark-shadow" transform="translate(.34 .34)" d="M1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM0 1h1v1h-1zM4 1h1v1h-1zM0 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM0 4h1v1h-1zM4 4h1v1h-1zM0 5h1v1h-1zM4 5h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM6 0h1v1h-1zM6 1h1v1h-1zM6 2h1v1h-1zM6 3h1v1h-1zM6 4h1v1h-1zM6 5h1v1h-1zM6 6h1v1h-1zM7 6h1v1h-1zM8 6h1v1h-1zM9 6h1v1h-1zM10 6h1v1h-1zM13 0h1v1h-1zM14 0h1v1h-1zM15 0h1v1h-1zM12 1h1v1h-1zM16 1h1v1h-1zM12 2h1v1h-1zM16 2h1v1h-1zM12 3h1v1h-1zM16 3h1v1h-1zM12 4h1v1h-1zM16 4h1v1h-1zM12 5h1v1h-1zM16 5h1v1h-1zM13 6h1v1h-1zM14 6h1v1h-1zM15 6h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM21 0h1v1h-1zM22 0h1v1h-1zM18 1h1v1h-1zM18 2h1v1h-1zM19 3h1v1h-1zM20 3h1v1h-1zM21 3h1v1h-1zM22 4h1v1h-1zM22 5h1v1h-1zM18 6h1v1h-1zM19 6h1v1h-1zM20 6h1v1h-1zM21 6h1v1h-1zM25 0h1v1h-1zM26 0h1v1h-1zM27 0h1v1h-1zM28 0h1v1h-1zM24 1h1v1h-1zM24 2h1v1h-1zM25 3h1v1h-1zM26 3h1v1h-1zM27 3h1v1h-1zM28 4h1v1h-1zM28 5h1v1h-1zM24 6h1v1h-1zM25 6h1v1h-1zM26 6h1v1h-1zM27 6h1v1h-1zM31 0h1v1h-1zM32 0h1v1h-1zM33 0h1v1h-1zM30 1h1v1h-1zM34 1h1v1h-1zM30 2h1v1h-1zM34 2h1v1h-1zM30 3h1v1h-1zM31 3h1v1h-1zM32 3h1v1h-1zM33 3h1v1h-1zM34 3h1v1h-1zM30 4h1v1h-1zM34 4h1v1h-1zM30 5h1v1h-1zM34 5h1v1h-1zM30 6h1v1h-1zM34 6h1v1h-1z" /><path d="M1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM0 1h1v1h-1zM4 1h1v1h-1zM0 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM0 4h1v1h-1zM4 4h1v1h-1zM0 5h1v1h-1zM4 5h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM6 0h1v1h-1zM6 1h1v1h-1zM6 2h1v1h-1zM6 3h1v1h-1zM6 4h1v1h-1zM6 5h1v1h-1zM6 6h1v1h-1zM7 6h1v1h-1zM8 6h1v1h-1zM9 6h1v1h-1zM10 6h1v1h-1zM13 0h1v1h-1zM14 0h1v1h-1zM15 0h1v1h-1zM12 1h1v1h-1zM16 1h1v1h-1zM12 2h1v1h-1zM16 2h1v1h-1zM12 3h1v1h-1zM16 3h1v1h-1zM12 4h1v1h-1zM16 4h1v1h-1zM12 5h1v1h-1zM16 5h1v1h-1zM13 6h1v1h-1zM14 6h1v1h-1zM15 6h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM21 0h1v1h-1zM22 0h1v1h-1zM18 1h1v1h-1zM18 2h1v1h-1zM19 3h1v1h-1zM20 3h1v1h-1zM21 3h1v1h-1zM22 4h1v1h-1zM22 5h1v1h-1zM18 6h1v1h-1zM19 6h1v1h-1zM20 6h1v1h-1zM21 6h1v1h-1zM25 0h1v1h-1zM26 0h1v1h-1zM27 0h1v1h-1zM28 0h1v1h-1zM24 1h1v1h-1zM24 2h1v1h-1zM25 3h1v1h-1zM26 3h1v1h-1zM27 3h1v1h-1zM28 4h1v1h-1zM28 5h1v1h-1zM24 6h1v1h-1zM25 6h1v1h-1zM26 6h1v1h-1zM27 6h1v1h-1zM31 0h1v1h-1zM32 0h1v1h-1zM33 0h1v1h-1zM30 1h1v1h-1zM34 1h1v1h-1zM30 2h1v1h-1zM34 2h1v1h-1zM30 3h1v1h-1zM31 3h1v1h-1zM32 3h1v1h-1zM33 3h1v1h-1zM34 3h1v1h-1zM30 4h1v1h-1zM34 4h1v1h-1zM30 5h1v1h-1zM34 5h1v1h-1zM30 6h1v1h-1zM34 6h1v1h-1z" /></svg></a>
         <a class="sign-in" href="https://app.glossa.study/login">Sign in</a>
       </header>
     </div>
