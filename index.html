@@ -6,7 +6,7 @@
     <title>Glossa · Thorough language courses for serious learners, A1 to C1</title>
     <meta
       name="description"
-      content="Swedish, Russian, Spanish, French and German for English speakers, and English taught in English, from A1 to C1. Grammar taught directly, over 5,000 exercises per course with feedback that explains, every word inspectable, professional specializations and exam preparation. No gamification. Free."
+      content="Swedish, Russian, Spanish, French, German, Italian, Brazilian Portuguese, Finnish, Japanese, Ukrainian, Dutch and Polish for English speakers, English taught in English, and English and Finnish for Russian speakers, from A1 to C1. Grammar taught directly, over 5,000 exercises per course with feedback that explains, every word inspectable, professional specializations and exam preparation. No gamification. Free."
     />
     <meta name="theme-color" content="#f7f5fc" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0b0716" media="(prefers-color-scheme: dark)" />
@@ -583,7 +583,18 @@
         border-radius: 3px;
         margin-bottom: 14px;
       }
-      .course h3 {
+      .course-group {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--subtle);
+        margin: 32px 0 12px;
+      }
+      .course-group:first-of-type {
+        margin-top: 0;
+      }
+      .course h4 {
         font-family: var(--serif);
         font-weight: 600;
         font-size: 1.5rem;
@@ -687,11 +698,27 @@
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
       }
+      .tab-groups {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px 32px;
+        margin-bottom: 24px;
+      }
+      .tab-group:first-child {
+        flex-basis: 100%;
+      }
+      .tab-group-label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--subtle);
+        margin: 0 0 8px;
+      }
       .tabs {
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
-        margin-bottom: 24px;
       }
       .tab {
         display: inline-flex;
@@ -1739,6 +1766,13 @@
         <symbol id="flag-fr" viewBox="0 0 9 6"><rect width="3" height="6" fill="#002654" /><rect x="3" width="3" height="6" fill="#fff" /><rect x="6" width="3" height="6" fill="#ce1126" /></symbol>
         <symbol id="flag-de" viewBox="0 0 5 3"><rect width="5" height="1" fill="#000" /><rect y="1" width="5" height="1" fill="#dd0000" /><rect y="2" width="5" height="1" fill="#ffce00" /></symbol>
         <symbol id="flag-us" viewBox="0 0 30 20"><g transform="scale(1 1.5385)"><rect width="30" height="13" fill="#b22234" /><rect y="1" width="30" height="1" fill="#fff" /><rect y="3" width="30" height="1" fill="#fff" /><rect y="5" width="30" height="1" fill="#fff" /><rect y="7" width="30" height="1" fill="#fff" /><rect y="9" width="30" height="1" fill="#fff" /><rect y="11" width="30" height="1" fill="#fff" /><rect width="12" height="7" fill="#3c3b6e" /></g></symbol>
+        <symbol id="flag-it" viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246" /><rect x="1" width="1" height="2" fill="#fff" /><rect x="2" width="1" height="2" fill="#ce2b37" /></symbol>
+        <symbol id="flag-br" viewBox="0 0 20 14"><rect width="20" height="14" fill="#009c3b" /><path d="M10 1.7 18.3 7 10 12.3 1.7 7Z" fill="#ffdf00" /><circle cx="10" cy="7" r="3.5" fill="#002776" /><path d="M6.6 6.3Q10 5.4 13.4 7.6" fill="none" stroke="#fff" stroke-width="0.5" /></symbol>
+        <symbol id="flag-fi" viewBox="0 0 18 11"><rect width="18" height="11" fill="#fff" /><rect x="5" width="3" height="11" fill="#002f6c" /><rect y="4" width="18" height="3" fill="#002f6c" /></symbol>
+        <symbol id="flag-jp" viewBox="0 0 30 20"><rect width="30" height="20" fill="#fff" /><circle cx="15" cy="10" r="6" fill="#bc002d" /></symbol>
+        <symbol id="flag-ua" viewBox="0 0 3 2"><rect width="3" height="1" fill="#0057b7" /><rect y="1" width="3" height="1" fill="#ffd700" /></symbol>
+        <symbol id="flag-nl" viewBox="0 0 9 6"><rect width="9" height="2" fill="#ae1c28" /><rect y="2" width="9" height="2" fill="#fff" /><rect y="4" width="9" height="2" fill="#21468b" /></symbol>
+        <symbol id="flag-pl" viewBox="0 0 8 5"><rect width="8" height="5" fill="#fff" /><rect y="2.5" width="8" height="2.5" fill="#dc143c" /></symbol>
         <symbol id="icon-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z" /></symbol>
         <symbol id="icon-speaker" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M11 5 6 9H3v6h3l5 4V5Zm4.5 3.5a5 5 0 0 1 0 7M18.4 5.6a9 9 0 0 1 0 12.8" /></symbol>
         <symbol id="icon-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6" /></symbol>
@@ -1775,12 +1809,19 @@
               <a class="link-arrow" href="#path">See the path to C1</a>
             </div>
             <p class="fineprint">Free, with no tracking. Sign in with Google. No gamification.</p>
-            <ul class="hero-flags" aria-label="Available courses">
+            <ul class="hero-flags" aria-label="Languages">
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Sweden"><use href="#flag-sv" /></svg></span>Swedish</li>
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Russia"><use href="#flag-ru" /></svg></span>Russian</li>
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Spain"><use href="#flag-es" /></svg></span>Spanish</li>
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of France"><use href="#flag-fr" /></svg></span>French</li>
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Germany"><use href="#flag-de" /></svg></span>German</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Italy"><use href="#flag-it" /></svg></span>Italian</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Brazil"><use href="#flag-br" /></svg></span>Portuguese</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Finland"><use href="#flag-fi" /></svg></span>Finnish</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Japan"><use href="#flag-jp" /></svg></span>Japanese</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Ukraine"><use href="#flag-ua" /></svg></span>Ukrainian</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of the Netherlands"><use href="#flag-nl" /></svg></span>Dutch</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Poland"><use href="#flag-pl" /></svg></span>Polish</li>
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of the United States"><use href="#flag-us" /></svg></span>English</li>
             </ul>
           </div>
@@ -1880,9 +1921,9 @@
 
       <section class="facts" aria-label="Glossa in numbers">
         <ul class="wrap">
-          <li><strong>6 courses</strong><span>Swedish, Russian, Spanish, French, German and English</span></li>
+          <li><strong>15 courses</strong><span>13 languages for English speakers, English taught in English, and English and Finnish for Russian speakers</span></li>
           <li><strong>A1 → C1</strong><span>8 tiers in every course</span></li>
-          <li><strong>75–78</strong><span>modules per course</span></li>
+          <li><strong>75–80</strong><span>modules per course</span></li>
           <li><strong>5,000+</strong><span>exercises per course</span></li>
           <li><strong>13 fields</strong><span>of professional vocabulary in every course, about 500 terms each</span></li>
         </ul>
@@ -1924,54 +1965,124 @@
         <section class="section" id="courses" aria-labelledby="courses-title">
           <div class="section-head">
             <p class="eyebrow">Courses</p>
-            <h2 id="courses-title">Six complete courses, each from first words to C1.</h2>
+            <h2 id="courses-title">Fifteen complete courses, each from first words to C1.</h2>
             <p>
-              Five courses are written for English speakers. The English course is taught in English itself, so it works whatever your first language. Each course teaches one
-              standard variety, so the vocabulary, spelling and pronunciation you learn fit together.
+              Twelve courses are written for English speakers and two for Russian speakers. One English course is taught in English itself, so it works whatever your first
+              language. Each course teaches one standard variety, so the vocabulary, spelling and pronunciation you learn fit together.
             </p>
           </div>
-          <ul class="courses">
+          <h3 class="course-group" id="courses-en">For English speakers</h3>
+          <ul class="courses" aria-labelledby="courses-en">
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Sweden"><use href="#flag-sv" /></svg></span>
-              <h3>Swedish</h3>
+              <h4>Swedish</h4>
               <p class="native" lang="sv">svenska · Sweden</p>
               <p class="size">A1–C1 · 8 tiers · 75 modules</p>
               <p class="detail">Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Russia"><use href="#flag-ru" /></svg></span>
-              <h3>Russian</h3>
+              <h4>Russian</h4>
               <p class="native" lang="ru">ру́сский язы́к</p>
               <p class="size">A1–C1 · 8 tiers · 78 modules</p>
               <p class="detail">Starts with the Cyrillic alphabet, with stress marks shown throughout. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Spain"><use href="#flag-es" /></svg></span>
-              <h3>Spanish</h3>
+              <h4>Spanish</h4>
               <p class="native" lang="es">español · Spain</p>
               <p class="size">A1–C1 · 8 tiers · 78 modules</p>
               <p class="detail">Castilian Spanish, with notes on Latin American usage and a module on the varieties of Spanish. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of France"><use href="#flag-fr" /></svg></span>
-              <h3>French</h3>
+              <h4>French</h4>
               <p class="native" lang="fr">français · France</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">The French of France, with a module on French around the world. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Germany"><use href="#flag-de" /></svg></span>
-              <h3>German</h3>
+              <h4>German</h4>
               <p class="native" lang="de">Deutsch · Germany</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">The standard German of Germany, with a module on German in Austria and Switzerland. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Italy"><use href="#flag-it" /></svg></span>
+              <h4>Italian</h4>
+              <p class="native" lang="it">italiano · Italy</p>
+              <p class="size">A1–C1 · 8 tiers · 76 modules</p>
+              <p class="detail">The standard Italian of Italy, with a module on Italian across Italy and beyond. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Brazil"><use href="#flag-br" /></svg></span>
+              <h4>Brazilian Portuguese</h4>
+              <p class="native" lang="pt-BR">português · Brazil</p>
+              <p class="size">A1–C1 · 8 tiers · 76 modules</p>
+              <p class="detail">The Portuguese of Brazil, with a module on Portuguese across Brazil and the world. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Finland"><use href="#flag-fi" /></svg></span>
+              <h4>Finnish</h4>
+              <p class="native" lang="fi">suomi · Finland</p>
+              <p class="size">A1–C1 · 8 tiers · 76 modules</p>
+              <p class="detail">Standard Finnish with spoken Finnish taught alongside it, and modules on dialects and on Swedish in Finland. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Japan"><use href="#flag-jp" /></svg></span>
+              <h4>Japanese</h4>
+              <p class="native" lang="ja">日本語 · Japan</p>
+              <p class="size">A1–C1 · 8 tiers · 80 modules</p>
+              <p class="detail">Starts with hiragana and katakana, then teaches about 1,000 kanji step by step, with furigana you can hide. The tiers follow JLPT N5 to N1. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Ukraine"><use href="#flag-ua" /></svg></span>
+              <h4>Ukrainian</h4>
+              <p class="native" lang="uk">украї́нська мо́ва</p>
+              <p class="size">A1–C1 · 8 tiers · 76 modules</p>
+              <p class="detail">Standard Ukrainian in the 2019 spelling, with stress marks shown throughout. There is no pronunciation practice, as speech assessment does not cover Ukrainian. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of the Netherlands"><use href="#flag-nl" /></svg></span>
+              <h4>Dutch</h4>
+              <p class="native" lang="nl">Nederlands · the Netherlands</p>
+              <p class="size">A1–C1 · 8 tiers · 76 modules</p>
+              <p class="detail">The standard Dutch of the Netherlands, with a module on the varieties of Dutch. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Poland"><use href="#flag-pl" /></svg></span>
+              <h4>Polish</h4>
+              <p class="native" lang="pl">polski · Poland</p>
+              <p class="size">A1–C1 · 8 tiers · 76 modules</p>
+              <p class="detail">The standard Polish of Poland, with all seven cases, verbal aspect and the virile plural taught step by step. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
+          </ul>
+          <h3 class="course-group" id="courses-mono">Taught in English</h3>
+          <ul class="courses" aria-labelledby="courses-mono">
+            <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of the United States"><use href="#flag-us" /></svg></span>
-              <h3>English</h3>
+              <h4>English</h4>
               <p class="native">English · United States</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">US English, explained in plain English at your level with no translations, and a module on US and UK English. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
+          </ul>
+          <h3 class="course-group" id="courses-ru">For Russian speakers</h3>
+          <ul class="courses" aria-labelledby="courses-ru">
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of the United States"><use href="#flag-us" /></svg></span>
+              <h4>English</h4>
+              <p class="native">English · United States</p>
+              <p class="size">A1–C1 · 8 tiers · 76 modules</p>
+              <p class="detail">US English taught in Russian, with grammar compared with Russian and translation exercises both ways. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of Finland"><use href="#flag-fi" /></svg></span>
+              <h4>Finnish</h4>
+              <p class="native" lang="fi">suomi · Finland</p>
+              <p class="size">A1–C1 · 8 tiers · 76 modules</p>
+              <p class="detail">Standard Finnish taught in Russian, with grammar compared with Russian and spoken Finnish alongside the written language. Plus 13 professional specializations with 117 more modules.</p>
             </li>
           </ul>
         </section>
@@ -2005,13 +2116,37 @@
             </ol>
           </div>
 
-          <div class="tabs" role="tablist" aria-label="Choose a course">
-            <button class="tab" role="tab" type="button" id="tab-sv-en" aria-controls="path-sv-en" aria-selected="true"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-sv" /></svg></span>Swedish</button>
-            <button class="tab" role="tab" type="button" id="tab-ru-en" aria-controls="path-ru-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-ru" /></svg></span>Russian</button>
-            <button class="tab" role="tab" type="button" id="tab-es-en" aria-controls="path-es-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-es" /></svg></span>Spanish</button>
-            <button class="tab" role="tab" type="button" id="tab-fr-en" aria-controls="path-fr-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-fr" /></svg></span>French</button>
-            <button class="tab" role="tab" type="button" id="tab-de-en" aria-controls="path-de-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-de" /></svg></span>German</button>
-            <button class="tab" role="tab" type="button" id="tab-en-en" aria-controls="path-en-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-us" /></svg></span>English</button>
+          <div class="tab-groups">
+            <div class="tab-group">
+              <p class="tab-group-label" id="tabs-en">For English speakers</p>
+              <div class="tabs" role="tablist" aria-labelledby="tabs-en">
+                <button class="tab" role="tab" type="button" id="tab-sv-en" aria-controls="path-sv-en" aria-selected="true"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-sv" /></svg></span>Swedish</button>
+                <button class="tab" role="tab" type="button" id="tab-ru-en" aria-controls="path-ru-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-ru" /></svg></span>Russian</button>
+                <button class="tab" role="tab" type="button" id="tab-es-en" aria-controls="path-es-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-es" /></svg></span>Spanish</button>
+                <button class="tab" role="tab" type="button" id="tab-fr-en" aria-controls="path-fr-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-fr" /></svg></span>French</button>
+                <button class="tab" role="tab" type="button" id="tab-de-en" aria-controls="path-de-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-de" /></svg></span>German</button>
+                <button class="tab" role="tab" type="button" id="tab-it-en" aria-controls="path-it-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-it" /></svg></span>Italian</button>
+                <button class="tab" role="tab" type="button" id="tab-pt-en" aria-controls="path-pt-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-br" /></svg></span>Portuguese</button>
+                <button class="tab" role="tab" type="button" id="tab-fi-en" aria-controls="path-fi-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-fi" /></svg></span>Finnish</button>
+                <button class="tab" role="tab" type="button" id="tab-ja-en" aria-controls="path-ja-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-jp" /></svg></span>Japanese</button>
+                <button class="tab" role="tab" type="button" id="tab-uk-en" aria-controls="path-uk-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-ua" /></svg></span>Ukrainian</button>
+                <button class="tab" role="tab" type="button" id="tab-nl-en" aria-controls="path-nl-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-nl" /></svg></span>Dutch</button>
+                <button class="tab" role="tab" type="button" id="tab-pl-en" aria-controls="path-pl-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-pl" /></svg></span>Polish</button>
+              </div>
+            </div>
+            <div class="tab-group">
+              <p class="tab-group-label" id="tabs-mono">Taught in English</p>
+              <div class="tabs" role="tablist" aria-labelledby="tabs-mono">
+                <button class="tab" role="tab" type="button" id="tab-en-en" aria-controls="path-en-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-us" /></svg></span>English</button>
+              </div>
+            </div>
+            <div class="tab-group">
+              <p class="tab-group-label" id="tabs-ru">For Russian speakers</p>
+              <div class="tabs" role="tablist" aria-labelledby="tabs-ru">
+                <button class="tab" role="tab" type="button" id="tab-en-ru" aria-controls="path-en-ru" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-us" /></svg></span>English</button>
+                <button class="tab" role="tab" type="button" id="tab-fi-ru" aria-controls="path-fi-ru" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-fi" /></svg></span>Finnish</button>
+              </div>
+            </div>
           </div>
 
 <div class="ladder-panel" role="tabpanel" id="path-sv-en" aria-labelledby="tab-sv-en" data-course="sv-en">
@@ -2334,7 +2469,454 @@
     </li>
   </ol>
 </div>
-
+<div class="ladder-panel" role="tabpanel" id="path-it-en" aria-labelledby="tab-it-en" data-course="it-en" hidden>
+  <h3 class="visually-hidden">Italian: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Sounds and first words</strong> <span class="rung-count">5 modules</span></p>
+        <ul class="modules"><li>Pronunciation and spelling</li><li>Greetings and introductions</li><li>Nouns and articles</li><li>Essere and subject pronouns</li><li>Numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>Everyday basics</strong> <span class="rung-count">7 modules</span></p>
+        <ul class="modules"><li>The present tense of -are verbs</li><li>Avere and common expressions</li><li>Adjectives</li><li>Negation and questions</li><li>-ere and -ire verbs</li><li>Family and possessives</li><li>Time and days</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1–A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1–A2)</span><strong>Daily life</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>Irregular verbs in the present</li><li>Modal verbs</li><li>Reflexive verbs</li><li>Prepositions and the article</li><li>Food and drink</li><li>In town</li><li>Some bread, a kilo of apples</li><li>This and that</li><li>Shopping and clothes</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>The past</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>The passato prossimo with avere</li><li>The passato prossimo with essere</li><li>The imperfect</li><li>The passato prossimo and the imperfetto</li><li>Direct object pronouns</li><li>Indirect object pronouns and piacere</li><li>Travel</li><li>Health and the body</li><li>The home</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2–B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(A2–B1)</span><strong>Building fluency</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Ci and ne</li><li>Combined pronouns</li><li>The future</li><li>The conditional</li><li>The imperative</li><li>Stare and the gerund</li><li>Comparatives and superlatives</li><li>Relative pronouns 1</li><li>Work</li><li>Education</li><li>Weather and nature</li><li>Free time</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1)</span><strong>Intermediate</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The present subjunctive 1</li><li>The present subjunctive 2</li><li>The trapassato and the future perfect</li><li>The past conditional</li><li>Reported speech</li><li>Relative pronouns 2</li><li>Indefinite words</li><li>Emotions and character</li><li>Technology</li><li>Media and news</li><li>The environment</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The imperfect subjunctive</li><li>Hypothetical sentences</li><li>The passive and impersonal si</li><li>Connectors</li><li>Verbs with a and di</li><li>Word formation</li><li>Politics and society</li><li>The economy and business</li><li>Science and health</li><li>The arts and culture</li><li>Official Italian</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>The passato remoto</li><li>Implicit clauses</li><li>Fine points of the subjunctive</li><li>Register and style</li><li>Idioms and proverbs</li><li>Spoken Italian</li><li>Italian across Italy and beyond</li><li>Spelling and punctuation</li><li>History</li><li>Literature</li><li>Law and justice</li><li>Humour and culture</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-pt-en" aria-labelledby="tab-pt-en" data-course="pt-en" hidden>
+  <h3 class="visually-hidden">Brazilian Portuguese: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Sounds and first words</strong> <span class="rung-count">5 modules</span></p>
+        <ul class="modules"><li>Pronunciation and spelling</li><li>Greetings and introductions</li><li>Nouns and articles</li><li>Ser and subject pronouns</li><li>Numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>Everyday basics</strong> <span class="rung-count">7 modules</span></p>
+        <ul class="modules"><li>The present tense of -ar verbs</li><li>Ter, gostar and common expressions</li><li>Adjectives</li><li>Negation and questions</li><li>-er and -ir verbs</li><li>Family and possessives</li><li>Time and days</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1–A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1–A2)</span><strong>Daily life</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>Irregular verbs in the present</li><li>Ser, estar and ficar</li><li>Prepositions and contractions</li><li>Reflexive verbs</li><li>Food and drink</li><li>In town</li><li>Modal verbs and going to</li><li>This and that</li><li>Shopping and clothes</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>The past</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>The preterite: regular verbs</li><li>The preterite: irregular verbs</li><li>The imperfect</li><li>The preterite and the imperfect</li><li>Direct object pronouns</li><li>Indirect object pronouns and stressed pronouns</li><li>Travel</li><li>Health and the body</li><li>The home</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2–B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(A2–B1)</span><strong>Building fluency</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Estar and the gerund</li><li>Where the pronoun goes</li><li>The future</li><li>The conditional</li><li>The imperative</li><li>The present perfect</li><li>Comparatives and superlatives</li><li>Relative pronouns 1</li><li>Work</li><li>Education</li><li>Weather and nature</li><li>Free time</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1)</span><strong>Intermediate</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The present subjunctive 1</li><li>The present subjunctive 2</li><li>The pluperfect and the future perfect</li><li>The past conditional</li><li>Reported speech</li><li>Relative pronouns 2</li><li>Indefinite words</li><li>Emotions and character</li><li>Technology</li><li>Media and news</li><li>The environment</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The imperfect subjunctive</li><li>The future subjunctive</li><li>If-clauses</li><li>The personal infinitive</li><li>The passive and se</li><li>Connectors</li><li>Word formation</li><li>Politics and society</li><li>The economy and business</li><li>Science and health</li><li>The arts and culture</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>The compound subjunctive</li><li>Fine points of the subjunctive</li><li>Official Portuguese</li><li>Register and style</li><li>Idioms and proverbs</li><li>Spoken Brazilian Portuguese</li><li>Portuguese across Brazil and the world</li><li>Spelling and punctuation</li><li>History</li><li>Literature</li><li>Law and justice</li><li>Humour and culture</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-fi-en" aria-labelledby="tab-fi-en" data-course="fi-en" hidden>
+  <h3 class="visually-hidden">Finnish: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Sounds and first words</strong> <span class="rung-count">6 modules</span></p>
+        <ul class="modules"><li>Pronunciation and spelling</li><li>Greetings and introductions</li><li>Olla and personal pronouns</li><li>Vowel harmony</li><li>Numbers</li><li>Questions and short answers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>Everyday basics</strong> <span class="rung-count">6 modules</span></p>
+        <ul class="modules"><li>Verb type 1</li><li>Negation: en, et, ei</li><li>Where are you?</li><li>Having</li><li>Family and people</li><li>Time and days</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1–A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1–A2)</span><strong>Daily life</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>Verb types 2 to 6</li><li>Consonant gradation 1</li><li>The partitive singular</li><li>Local cases 1</li><li>Local cases 2: -lla, -lta, -lle</li><li>Food and drink</li><li>The city and directions</li><li>The nominative plural</li><li>Shopping and clothes</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>The past</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>The past tense</li><li>The negative past: en puhunut</li><li>Object cases</li><li>The genitive and possessive suffixes</li><li>The imperative</li><li>Necessity and wishes</li><li>Travel</li><li>Health and the body</li><li>Home</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(B1)</span><strong>Building fluency</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Consonant gradation 2</li><li>The plural cases</li><li>The perfect and pluperfect: olen asunut, olin asunut</li><li>The conditional</li><li>Comparison</li><li>Essive and translative</li><li>Verbs and their cases</li><li>Work</li><li>Education</li><li>Weather and nature</li><li>Free time</li><li>Spoken Finnish 1</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1–B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1–B2)</span><strong>Intermediate</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The passive: puhutaan, puhuttiin</li><li>Relative clauses</li><li>Että, koska, kun: subordinate clauses</li><li>The third infinitive</li><li>Pronouns in depth</li><li>Postpositions</li><li>Emotions and character</li><li>Technology</li><li>Media and news</li><li>The environment</li><li>Spoken Finnish 2</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Participles: lukeva, luettava, lukenut, luettu</li><li>Hän sanoi tulevansa: participial constructions</li><li>The second infinitive: lukiessa, lukien</li><li>The passive 2: on rakennettu, rakennettaisiin</li><li>Word formation</li><li>Politics and society</li><li>Economy and business</li><li>Science and health</li><li>Arts and culture</li><li>Official Finnish</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">13 modules</span></p>
+        <ul class="modules"><li>Nominal style</li><li>The rare cases</li><li>Potential and modality: lienee, taitaa, saattaa</li><li>Clitics and particles</li><li>Register and style</li><li>Idioms and proverbs</li><li>Dialects and Helsinki slang</li><li>Swedish in Finland</li><li>Spelling and punctuation</li><li>History</li><li>Literature</li><li>Law and justice</li><li>Humour and culture</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-ja-en" aria-labelledby="tab-ja-en" data-course="ja-en" hidden>
+  <h3 class="visually-hidden">Japanese: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(JLPT N5, A1)</span><strong>Scripts and sounds</strong> <span class="rung-count">6 modules</span></p>
+        <ul class="modules"><li>Hiragana</li><li>Voiced and small kana</li><li>Katakana</li><li>Sounds and pitch accent</li><li>Greetings and introductions</li><li>Sentences with です</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(JLPT N5, A1)</span><strong>First kanji and everyday basics</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>Kanji and numbers</li><li>This and that</li><li>Verbs in the polite style</li><li>Existence and location</li><li>い-adjectives</li><li>な-adjectives</li><li>Time and dates</li><li>Family and people</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(JLPT N5, A1)</span><strong>Daily life</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>Going places</li><li>The te-form</li><li>Wants and reasons</li><li>Counters</li><li>Comparison and change</li><li>Food and drink</li><li>Shopping and clothes</li><li>Daily life and free time</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(JLPT N4, A2)</span><strong>Plain forms</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>〜ています</li><li>は and が</li><li>Plain forms and casual speech</li><li>〜てみる, 〜ておく, 〜てしまう, 〜ていく, 〜てくる</li><li>Giving and receiving</li><li>Words built on the stem</li><li>In town</li><li>Travel</li><li>Health and the body</li><li>Home and housing</li><li>School and education</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(JLPT N4, A2)</span><strong>Building fluency</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Describing nouns with clauses</li><li>〜と思う, 〜と言う, でしょう, かもしれない</li><li>の and こと, 〜んです, 〜ので</li><li>〜たことがある, 〜たり, 〜ながら, 〜し, 〜ないで</li><li>Obligation, advice and commands</li><li>The potential form</li><li>The volitional form and plans</li><li>Conditionals 1: 〜と and 〜たら</li><li>〜そうだ, 〜ようだ, 〜らしい, 〜がる</li><li>The passive: 呼ばれる, 降られる</li><li>Keigo 1: respectful and humble language</li><li>Work</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2–B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(JLPT N4–N3, A2–B1)</span><strong>Intermediate</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>The causative</li><li>Conditionals 2: 〜ば, 〜なら and choosing</li><li>Transitive and intransitive verbs</li><li>Purpose and cause</li><li>Contrast and concession</li><li>Judgement and expectation</li><li>〜ところ, 〜うちに, 〜まま, 〜たびに</li><li>だ and である, the written style</li><li>Compound particles 1</li><li>Emotions and relationships</li><li>Technology</li><li>Nature, climate and disasters</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1–B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(JLPT N2, B1–B2)</span><strong>Upper intermediate</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Keigo 2: business Japanese</li><li>Compound particles 2</li><li>Scope and addition</li><li>Necessity and result</li><li>Change and correlation</li><li>Kanji compounds and word formation</li><li>Onomatopoeia and mimetic words</li><li>Media and news</li><li>Politics and society</li><li>The economy and business</li><li>Science and health</li><li>Official Japanese</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2–C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(JLPT N1, B2–C1)</span><strong>Advanced</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>Classical forms in modern Japanese</li><li>Formal expressions 1: cause, condition and concession</li><li>Formal expressions 2</li><li>Register and writing</li><li>Idioms and proverbs</li><li>Spoken Japanese</li><li>Japanese across Japan</li><li>History</li><li>Literature</li><li>Law and justice</li><li>Culture and humour</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-uk-en" aria-labelledby="tab-uk-en" data-course="uk-en" hidden>
+  <h3 class="visually-hidden">Ukrainian: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Sounds and first words</strong> <span class="rung-count">6 modules</span></p>
+        <ul class="modules"><li>The alphabet and sounds</li><li>Greetings and introductions</li><li>Nouns and gender</li><li>Pronouns and "to be"</li><li>The present tense</li><li>Numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>First sentences</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>Adjectives</li><li>Plurals</li><li>The locative case</li><li>The accusative case</li><li>Possession</li><li>The past tense</li><li>Family and people</li><li>The day and the time</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A2)</span><strong>The cases and the future</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The genitive case 1</li><li>The dative case 1</li><li>The instrumental case 1</li><li>The vocative case</li><li>The future tenses</li><li>Verbs of motion 1</li><li>Modal words</li><li>Food and drink</li><li>City and transport</li><li>Shopping and money</li><li>Dates and ordinal numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>Building fluency</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>Aspect 1: process and result</li><li>The imperative</li><li>Reflexive verbs</li><li>The genitive case 2: the plural and numbers</li><li>The plural in every case</li><li>Adjectives in every case</li><li>Pronouns 2</li><li>Comparatives and superlatives</li><li>Home and household</li><li>Health and the body</li><li>Weather and seasons</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2–B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(A2–B1)</span><strong>Everyday fluency</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Verbs of motion 2: run, fly, swim, carry</li><li>Verbs of motion 3: prefixes</li><li>Time expressions</li><li>The conditional</li><li>Complex sentences</li><li>Numerals in all cases</li><li>Someone, anyone, nobody</li><li>Animals</li><li>Sports and hobbies</li><li>Work and careers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1)</span><strong>Intermediate</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Aspect 2</li><li>Participles</li><li>The -но/-то form and the passive</li><li>Adverbial participles</li><li>Reported speech</li><li>Word formation 1: verbal prefixes</li><li>School and university</li><li>Travel and tourism</li><li>Nature and the environment</li><li>Technology</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Verb government</li><li>Word formation 2: suffixes and compounds</li><li>Impersonal sentences</li><li>Euphony: у or в, і or й</li><li>Emotions and character</li><li>Politics and society</li><li>Law and justice</li><li>Media and news</li><li>Business and the economy</li><li>Science and research</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Aspect 3</li><li>Particles and word order</li><li>Spelling and punctuation</li><li>Registers and style</li><li>Idioms and proverbs</li><li>Spoken Ukrainian</li><li>Arts and culture</li><li>History</li><li>Literature and poetry</li><li>Medicine</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-nl-en" aria-labelledby="tab-nl-en" data-course="nl-en" hidden>
+  <h3 class="visually-hidden">Dutch: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Sounds and first words</strong> <span class="rung-count">5 modules</span></p>
+        <ul class="modules"><li>Pronunciation and spelling</li><li>Greetings and introductions</li><li>Nouns and articles</li><li>Zijn and subject pronouns</li><li>Numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>Everyday basics</strong> <span class="rung-count">7 modules</span></p>
+        <ul class="modules"><li>The present tense</li><li>Hebben and er is</li><li>Plurals</li><li>Word order and questions</li><li>Negation: niet and geen</li><li>Family and possessives</li><li>Time and days</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1–A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1–A2)</span><strong>Daily life</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>Object pronouns and demonstratives</li><li>Modal verbs</li><li>Separable verbs</li><li>Gaan and aan het: plans and what is happening now</li><li>Food and drink</li><li>City and directions</li><li>Adjective endings</li><li>Prepositions</li><li>Shopping and clothes</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>The past</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules"><li>The perfect with hebben</li><li>The perfect with zijn</li><li>The simple past: weak verbs, was and had</li><li>The simple past: strong and irregular verbs</li><li>The imperative</li><li>Reflexive verbs</li><li>Travel</li><li>Health and the body</li><li>The home</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(B1)</span><strong>Building fluency</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Subordinate clauses: dat, omdat, als, of</li><li>The word er</li><li>Comparatives and superlatives</li><li>The future: zullen</li><li>Te + infinitive: proberen te, om te</li><li>Verbs with prepositions</li><li>Diminutives</li><li>Time clauses</li><li>Work</li><li>Education</li><li>Weather and nature</li><li>Free time</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1–B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1–B2)</span><strong>Intermediate</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>Zou: would and should</li><li>Conditional sentences</li><li>Relative clauses</li><li>Verb clusters</li><li>The pluperfect</li><li>The passive with worden</li><li>Indefinite pronouns</li><li>Emotions and character</li><li>Technology</li><li>Media and news</li><li>The environment</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The passive 2</li><li>The past conditional</li><li>Reported speech</li><li>Connectors</li><li>Laten and causatives</li><li>Word formation</li><li>Politics and society</li><li>Economy and business</li><li>Science and health</li><li>Arts and culture</li><li>Official Dutch</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules"><li>Nominal style</li><li>Participles as adjectives</li><li>Modal particles</li><li>Register and style</li><li>Idioms and proverbs</li><li>Spoken Dutch</li><li>Varieties of Dutch</li><li>Spelling and punctuation</li><li>Dutch history</li><li>Literature</li><li>Law and justice</li><li>Humour and culture</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-pl-en" aria-labelledby="tab-pl-en" data-course="pl-en" hidden>
+  <h3 class="visually-hidden">Polish: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Sounds and first words</strong> <span class="rung-count">6 modules</span></p>
+        <ul class="modules"><li>The alphabet and sounds</li><li>Greetings and introductions</li><li>Nouns and gender</li><li>Pronouns and być</li><li>The present tense</li><li>Numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>First sentences</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>Adjectives</li><li>The accusative case</li><li>Plurals</li><li>The locative case</li><li>Possessives</li><li>The past tense</li><li>Family and people</li><li>Daily routine and time</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A2)</span><strong>The cases and aspect</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>The genitive case 1</li><li>The instrumental case</li><li>The dative case</li><li>The vocative case</li><li>Aspect and the future</li><li>Verbs of motion: iść, chodzić, jechać, jeździć</li><li>Modal verbs</li><li>Food and drink</li><li>City and transport</li><li>Shopping and money</li><li>Dates and ordinal numbers</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>Building fluency</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>The imperative</li><li>Reflexive verbs and się</li><li>The genitive case 2: the plural and numbers</li><li>The plural in every case</li><li>Adjectives in every case</li><li>Pronouns 2: every case</li><li>Comparatives and superlatives</li><li>Home and household</li><li>Health and the body</li><li>Weather and seasons</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2–B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(A2–B1)</span><strong>Everyday fluency</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>Prefixed verbs of motion</li><li>Time expressions</li><li>The conditional</li><li>Complex sentences</li><li>Numerals in the cases</li><li>Someone, anyone, nobody</li><li>Aspect in use</li><li>Animals</li><li>Sports and hobbies</li><li>Work and careers</li><li>School and university</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1)</span><strong>Intermediate</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Participles</li><li>The impersonal and the passive</li><li>Adverbial participles</li><li>Reported speech</li><li>Verbal prefixes</li><li>Verbal nouns</li><li>Travel and tourism</li><li>Nature and the environment</li><li>Technology</li><li>Media and news</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Verb government</li><li>Word formation</li><li>Impersonal sentences</li><li>Formal address</li><li>Emotions and character</li><li>Politics and society</li><li>Law and justice</li><li>Business and the economy</li><li>Science and research</li><li>Official Polish</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Aspect nuances</li><li>Particles and word order</li><li>Spelling and punctuation</li><li>Registers and style</li><li>Idioms and proverbs</li><li>Spoken Polish</li><li>Arts and culture</li><li>History</li><li>Literature and poetry</li><li>Holidays and traditions</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
 <div class="ladder-panel" role="tabpanel" id="path-en-en" aria-labelledby="tab-en-en" data-course="en-en" hidden>
   <h3 class="visually-hidden">English: tiers and modules</h3>
   <ol class="ladder">
@@ -2394,6 +2976,134 @@
       <div class="rung-body">
         <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">12 modules</span></p>
         <ul class="modules"><li>Mixed conditionals</li><li>Inversion</li><li>Cleft sentences and emphasis</li><li>Participle clauses</li><li>Phrasal verbs 3</li><li>Word formation</li><li>Register and style</li><li>Idioms and expressions</li><li>US and UK English</li><li>Varieties of English</li><li>Academic English</li><li>Business English</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-en-ru" aria-labelledby="tab-en-ru" data-course="en-ru" hidden>
+  <h3 class="visually-hidden">English for Russian speakers: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong lang="ru">Звуки и первые слова</strong> <span class="rung-count">5 modules</span></p>
+        <ul class="modules" lang="ru"><li>Алфавит и звуки</li><li>Приветствия</li><li>Глагол be и личные местоимения</li><li>Артикли a, an и the</li><li>Числа</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong lang="ru">Основы повседневной речи</strong> <span class="rung-count">7 modules</span></p>
+        <ul class="modules" lang="ru"><li>Present Simple</li><li>Вопросительные слова</li><li>There is и there are</li><li>Множественное число, this и that</li><li>Семья и притяжательные формы</li><li>Время и даты</li><li>Прилагательные и наречия</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1–A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1–A2)</span><strong lang="ru">Повседневная жизнь</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules" lang="ru"><li>Can и could</li><li>Present Continuous</li><li>Оборот going to</li><li>Was и were: прошедшее время be</li><li>Объектные и притяжательные местоимения</li><li>Исчисляемые и неисчисляемые существительные</li><li>Еда и напитки</li><li>Город и как пройти</li><li>Покупки и одежда</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong lang="ru">Прошедшее и будущее</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules" lang="ru"><li>Past Simple: правильные глаголы</li><li>Past Simple: неправильные глаголы</li><li>Present Perfect, часть 1</li><li>Will и другие способы говорить о будущем</li><li>Сравнительная и превосходная степени</li><li>Свободное время и хобби</li><li>Путешествия</li><li>Здоровье и тело</li><li>Погода и праздники</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(B1)</span><strong lang="ru">Беглость речи</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules" lang="ru"><li>Past Continuous</li><li>Present Perfect 2</li><li>Past Perfect</li><li>Условные предложения первого типа</li><li>Долженствование и необходимость</li><li>Глагольные модели 1</li><li>Used to</li><li>Придаточные определительные 1</li><li>Американские гласные и flap t</li><li>Работа</li><li>Дом и аренда жилья</li><li>Образование</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1–B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1–B2)</span><strong lang="ru">Средний уровень</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules" lang="ru"><li>Условные предложения второго типа</li><li>Страдательный залог 1: настоящее и прошедшее время</li><li>Косвенная речь 1</li><li>May, might, could и must: предположения</li><li>Present Perfect Continuous</li><li>Артикли и определители</li><li>Фразовые глаголы 1</li><li>Эмоции и характер</li><li>Технологии</li><li>СМИ и новости</li><li>Окружающая среда</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong lang="ru">Выше среднего</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules" lang="ru"><li>Условные предложения третьего типа</li><li>Модальные глаголы о прошлом</li><li>Страдательный залог 2</li><li>Косвенная речь 2</li><li>Определительные придаточные 2</li><li>Модели глаголов 2</li><li>Фразовые глаголы 2</li><li>Слова-связки</li><li>Государство и общество в США</li><li>Деньги и экономика</li><li>Ударение и интонация</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong lang="ru">Продвинутый уровень</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules" lang="ru"><li>Смешанные условные предложения</li><li>Инверсия</li><li>Расщеплённые предложения и выделение</li><li>Причастные обороты</li><li>Фразовые глаголы 3</li><li>Словообразование</li><li>Регистр и стиль</li><li>Идиомы и устойчивые выражения</li><li>Американский и британский английский</li><li>Варианты английского языка</li><li>Академический английский</li><li>Деловой английский</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
+<div class="ladder-panel" role="tabpanel" id="path-fi-ru" aria-labelledby="tab-fi-ru" data-course="fi-ru" hidden>
+  <h3 class="visually-hidden">Finnish for Russian speakers: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong lang="ru">Звуки и первые слова</strong> <span class="rung-count">6 modules</span></p>
+        <ul class="modules" lang="ru"><li>Произношение и правописание</li><li>Приветствия и знакомство</li><li>Olla и личные местоимения</li><li>Гармония гласных</li><li>Числа</li><li>Вопросы и краткие ответы</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong lang="ru">Основы повседневной речи</strong> <span class="rung-count">6 modules</span></p>
+        <ul class="modules" lang="ru"><li>Глаголы первого типа</li><li>Отрицание: en, et, ei</li><li>Где вы?</li><li>У меня есть</li><li>Семья и люди</li><li>Время и дни</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1–A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A1–A2)</span><strong lang="ru">Повседневная жизнь</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules" lang="ru"><li>Типы глаголов со 2-го по 6-й</li><li>Чередование согласных 1</li><li>Партитив единственного числа</li><li>Местные падежи 1</li><li>Местные падежи 2: -lla, -lta, -lle</li><li>Еда и напитки</li><li>Город и дорога</li><li>Именительный падеж множественного числа</li><li>Покупки и одежда</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong lang="ru">Прошедшее время</strong> <span class="rung-count">9 modules</span></p>
+        <ul class="modules" lang="ru"><li>Прошедшее время</li><li>Отрицание в прошедшем времени: en puhunut</li><li>Падежи объекта</li><li>Генитив и притяжательные суффиксы</li><li>Повелительное наклонение</li><li>Необходимость и желание</li><li>Путешествия</li><li>Здоровье и тело</li><li>Дом</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(B1)</span><strong lang="ru">Беглость речи</strong> <span class="rung-count">12 modules</span></p>
+        <ul class="modules" lang="ru"><li>Чередование согласных 2</li><li>Падежи множественного числа</li><li>Перфект и плюсквамперфект: olen asunut, olin asunut</li><li>Условное наклонение</li><li>Сравнение</li><li>Эссив и транслатив</li><li>Глаголы и их падежи</li><li>Работа</li><li>Образование</li><li>Погода и природа</li><li>Свободное время</li><li>Разговорный финский 1</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1–B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1–B2)</span><strong lang="ru">Средний уровень</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules" lang="ru"><li>Пассив: puhutaan, puhuttiin</li><li>Относительные придаточные</li><li>Että, koska, kun: придаточные предложения</li><li>Третий инфинитив</li><li>Местоимения подробнее</li><li>Послелоги</li><li>Чувства и характер</li><li>Технологии</li><li>СМИ и новости</li><li>Окружающая среда</li><li>Разговорный финский 2</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong lang="ru">Выше среднего</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules" lang="ru"><li>Причастия: lukeva, luettava, lukenut, luettu</li><li>Hän sanoi tulevansa: причастные конструкции</li><li>Второй инфинитив: lukiessa, lukien</li><li>Пассив 2: on rakennettu, rakennettaisiin</li><li>Словообразование</li><li>Политика и общество</li><li>Экономика и бизнес</li><li>Наука и здоровье</li><li>Искусство и культура</li><li>Официальный финский</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong lang="ru">Продвинутый уровень</strong> <span class="rung-count">13 modules</span></p>
+        <ul class="modules" lang="ru"><li>Именной стиль</li><li>Редкие падежи</li><li>Потенциал и модальность: lienee, taitaa, saattaa</li><li>Клитики и частицы</li><li>Регистр и стиль</li><li>Идиомы и пословицы</li><li>Диалекты и хельсинкский сленг</li><li>Шведский язык в Финляндии</li><li>Орфография и пунктуация</li><li>История</li><li>Литература</li><li>Право и правосудие</li><li>Юмор и культура</li></ul>
         <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
       </div>
     </li>
@@ -2794,7 +3504,7 @@
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Exam preparation</strong><span>Timed practice papers in the formats of recognised exams, such as DELE, DELF and DALF, Goethe, telc, TestDaF, TORFL, Tisus, IELTS, Cambridge English and TOEFL, with original content. Two papers for each exam. They are practice only and give no official result.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Stories</strong><span>Longer texts at every level, from A1 to C1, to read or listen to, with every word explained. Retell a story in your own words and see which of its main points your retelling covers.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Conversation practice</strong><span>Role-play everyday and professional situations in writing with an AI character, with goals to reach. Afterwards you see which goals you reached, corrections of what you wrote and more natural ways to say it.</span></div></li>
-                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>How the country works</strong><span>Texts in the language on the state, taxes, healthcare, schools, work, housing and everyday matters, checked against official sources and dated. The English course covers both the United States and the United Kingdom.</span></div></li>
+                <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>How the country works</strong><span>Texts in the language on the state, taxes, healthcare, schools, work, housing and everyday matters, checked against official sources and dated. The English courses cover both the United States and the United Kingdom.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Lessons on your own topic</strong><span>Name a situation, a subject or a grammar point and get a lesson written for it at your level, then more on the same topic, easier or harder.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Pronunciation practice on any sentence</strong><span>Type what you want to say. It is corrected first, then you hear it, record yourself and get feedback on each word with notes on what to change.</span></div></li>
                 <li><svg aria-hidden="true"><use href="#icon-check" /></svg><div><strong>Offline mode</strong><span>Download modules and stories and use them without a connection: lessons, exercises, reading, listening and word details. Your progress syncs when you are back online. Module exams, essays, pronunciation and story retellings need a connection, and so does everything else outside downloaded modules and stories.</span></div></li>
@@ -2807,7 +3517,7 @@
       <section class="closing path-bg" aria-labelledby="closing-title">
         <div class="wrap">
           <h2 id="closing-title">Start at Tier 1 today. Reach C1 with a method that holds up.</h2>
-          <p>Choose Swedish, Russian, Spanish, French, German or English. Sign in with Google and begin with the first module, or take the placement test to start further on. Every word you meet is explained.</p>
+          <p>Choose from 15 courses in 13 languages. Sign in with Google and begin with the first module, or take the placement test to start further on. Every word you meet is explained.</p>
           <div class="cta-row">
             <a class="button" href="https://app.glossa.study">Start learning free<svg aria-hidden="true"><use href="#icon-arrow" /></svg></a>
           </div>
