@@ -6,7 +6,7 @@
     <title>Glossa · Thorough language courses for serious learners, A1 to C1</title>
     <meta
       name="description"
-      content="Swedish, Russian, Spanish, French, German, Italian, Brazilian Portuguese, Finnish, Japanese, Ukrainian, Dutch and Polish for English speakers, English taught in English, and English and Finnish for Russian speakers, from A1 to C1. Grammar taught directly, over 5,000 exercises per course with feedback that explains, every word inspectable, professional specializations and exam preparation. No gamification. Free."
+      content="Swedish, Russian, Spanish, French, German, Italian, Brazilian Portuguese, Finnish, Japanese, Ukrainian, Dutch, Polish and Arabic for English speakers, English taught in English, and English and Finnish for Russian speakers, from A1 to C1. Grammar taught directly, over 5,000 exercises per course with feedback that explains, every word inspectable, professional specializations and exam preparation. No gamification. Free."
     />
     <meta name="theme-color" content="#f7f5fc" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0b0716" media="(prefers-color-scheme: dark)" />
@@ -157,6 +157,10 @@
       }
       span:lang(ru) {
         font-family: var(--serif);
+      }
+      /* Slanted Arabic is hard to read, so Arabic never takes the italics around it. */
+      :lang(ar) {
+        font-style: normal;
       }
 
       /* Header */
@@ -1773,6 +1777,7 @@
         <symbol id="flag-ua" viewBox="0 0 3 2"><rect width="3" height="1" fill="#0057b7" /><rect y="1" width="3" height="1" fill="#ffd700" /></symbol>
         <symbol id="flag-nl" viewBox="0 0 9 6"><rect width="9" height="2" fill="#ae1c28" /><rect y="2" width="9" height="2" fill="#fff" /><rect y="4" width="9" height="2" fill="#21468b" /></symbol>
         <symbol id="flag-pl" viewBox="0 0 8 5"><rect width="8" height="5" fill="#fff" /><rect y="2.5" width="8" height="2.5" fill="#dc143c" /></symbol>
+        <symbol id="flag-arab-league" viewBox="0 0 30 20"><rect width="30" height="20" fill="#006c35" /><circle cx="15" cy="10" r="6" fill="#fff" /><circle cx="15" cy="10" r="5" fill="#006c35" /><polygon points="18.80,10.00 18.73,10.74 18.51,11.45 18.16,12.11 17.69,12.69 17.11,13.16 16.45,13.51 15.74,13.73 15.00,13.80 14.26,13.73 13.55,13.51 12.89,13.16 12.31,12.69 11.84,12.11 11.49,11.45 11.27,10.74 11.20,10.00 11.80,8.80 11.86,9.42 12.04,10.02 12.34,10.58 12.74,11.06 13.22,11.46 13.78,11.76 14.38,11.94 15.00,12.00 15.62,11.94 16.22,11.76 16.78,11.46 17.26,11.06 17.66,10.58 17.96,10.02 18.14,9.42 18.20,8.80" fill="#fff" /></symbol>
         <symbol id="icon-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z" /></symbol>
         <symbol id="icon-speaker" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M11 5 6 9H3v6h3l5 4V5Zm4.5 3.5a5 5 0 0 1 0 7M18.4 5.6a9 9 0 0 1 0 12.8" /></symbol>
         <symbol id="icon-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6" /></symbol>
@@ -1822,6 +1827,7 @@
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Ukraine"><use href="#flag-ua" /></svg></span>Ukrainian</li>
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of the Netherlands"><use href="#flag-nl" /></svg></span>Dutch</li>
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of Poland"><use href="#flag-pl" /></svg></span>Polish</li>
+              <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of the Arab League"><use href="#flag-arab-league" /></svg></span>Arabic</li>
               <li><span class="flag flag-sm"><svg role="img" aria-label="Flag of the United States"><use href="#flag-us" /></svg></span>English</li>
             </ul>
           </div>
@@ -1921,7 +1927,7 @@
 
       <section class="facts" aria-label="Glossa in numbers">
         <ul class="wrap">
-          <li><strong>15 courses</strong><span>13 languages for English speakers, English taught in English, and English and Finnish for Russian speakers</span></li>
+          <li><strong>16 courses</strong><span>13 languages for English speakers, English taught in English, and English and Finnish for Russian speakers</span></li>
           <li><strong>A1 → C1</strong><span>8 tiers in every course</span></li>
           <li><strong>75–80</strong><span>modules per course</span></li>
           <li><strong>5,000+</strong><span>exercises per course</span></li>
@@ -1965,9 +1971,9 @@
         <section class="section" id="courses" aria-labelledby="courses-title">
           <div class="section-head">
             <p class="eyebrow">Courses</p>
-            <h2 id="courses-title">Fifteen complete courses, each from first words to C1.</h2>
+            <h2 id="courses-title">Sixteen complete courses, each from first words to C1.</h2>
             <p>
-              Twelve courses are written for English speakers and two for Russian speakers. One English course is taught in English itself, so it works whatever your first
+              Thirteen courses are written for English speakers and two for Russian speakers. One English course is taught in English itself, so it works whatever your first
               language. Each course teaches one standard variety, so the vocabulary, spelling and pronunciation you learn fit together.
             </p>
           </div>
@@ -2057,6 +2063,13 @@
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">The standard Polish of Poland, with all seven cases, verbal aspect and the virile plural taught step by step. Plus 13 professional specializations with 117 more modules.</p>
             </li>
+            <li class="course">
+              <span class="flag"><svg role="img" aria-label="Flag of the Arab League"><use href="#flag-arab-league" /></svg></span>
+              <h4>Arabic</h4>
+              <p class="native"><bdi lang="ar">العربية</bdi> · the Arab world</p>
+              <p class="size">A1–C1 · 8 tiers · 77 modules</p>
+              <p class="detail">Modern Standard Arabic, written right to left. Starts with the script; vowel marks are shown at first and left out step by step, as in real texts, and you can hide them. Plus 13 professional specializations with 117 more modules.</p>
+            </li>
           </ul>
           <h3 class="course-group" id="courses-mono">Taught in English</h3>
           <ul class="courses" aria-labelledby="courses-mono">
@@ -2132,6 +2145,7 @@
                 <button class="tab" role="tab" type="button" id="tab-uk-en" aria-controls="path-uk-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-ua" /></svg></span>Ukrainian</button>
                 <button class="tab" role="tab" type="button" id="tab-nl-en" aria-controls="path-nl-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-nl" /></svg></span>Dutch</button>
                 <button class="tab" role="tab" type="button" id="tab-pl-en" aria-controls="path-pl-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-pl" /></svg></span>Polish</button>
+                <button class="tab" role="tab" type="button" id="tab-ar-en" aria-controls="path-ar-en" aria-selected="false" tabindex="-1"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-arab-league" /></svg></span>Arabic</button>
               </div>
             </div>
             <div class="tab-group">
@@ -2917,6 +2931,70 @@
     </li>
   </ol>
 </div>
+<div class="ladder-panel" role="tabpanel" id="path-ar-en" aria-labelledby="tab-ar-en" data-course="ar-en" hidden>
+  <h3 class="visually-hidden">Arabic: tiers and modules</h3>
+  <ol class="ladder">
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 1</span> <span class="visually-hidden">(A1)</span><strong>Script and sounds</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>Letters and joining</li><li>Consonant sounds</li><li>Vowels and signs</li><li>Hamza and tāʾ marbūṭa</li><li>The article</li><li>Greetings</li><li>Nominal sentences</li><li>Numbers 1</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 2</span> <span class="visually-hidden">(A1)</span><strong>First sentences</strong> <span class="rung-count">8 modules</span></p>
+        <ul class="modules"><li>Gender and adjectives</li><li>The iḍāfa</li><li>Attached pronouns</li><li>Prepositions and place</li><li>The perfect tense</li><li>The imperfect tense</li><li>Family and people</li><li>Countries and languages</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 3</span> <span class="visually-hidden">(A2)</span><strong>The root and the cases</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Roots and patterns</li><li>Plurals 1</li><li>The dual</li><li>Case endings</li><li>Weak verbs 1</li><li>Time, days and dates</li><li>The daily routine</li><li>Food and drink</li><li>City and transport</li><li>Shopping and money</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 4</span> <span class="visually-hidden">(A2)</span><strong>Building fluency</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Derived forms 1: Forms II, III and IV</li><li>The subjunctive</li><li>The jussive and the imperative</li><li>Broken plural patterns</li><li>Comparatives and superlatives</li><li><bdi lang="ar">كان</bdi> and <bdi lang="ar">ليس</bdi></li><li>Home and housing</li><li>Health and the body</li><li>Weather and seasons</li><li>Work and professions</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Foundations</strong> stage of the specializations is written for (A2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">A2–B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 5</span> <span class="visually-hidden">(A2–B1)</span><strong>Everyday fluency</strong> <span class="rung-count">11 modules</span></p>
+        <ul class="modules"><li>Derived forms 2: Forms V and VI</li><li>Relative clauses</li><li>Inna and its sisters</li><li>Diptotes</li><li>Weak verbs 2: defective and doubled verbs</li><li>The maṣdar</li><li>Conjunctions and time clauses</li><li>Travel and tourism</li><li>School and university</li><li>Sports and hobbies</li><li>Technology</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 6</span> <span class="visually-hidden">(B1)</span><strong>Intermediate</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Derived forms 3: Forms VII–X</li><li>Participles and nouns of place and instrument</li><li>The passive</li><li>Conditional sentences</li><li>The sisters of kāna</li><li>Uses of the accusative</li><li>Reported speech</li><li>Nature and the environment</li><li>Media and news</li><li>Arts and culture</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Working vocabulary</strong> stage of the specializations is written for (B1–B2 texts)</span></p>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">B2</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 7</span> <span class="visually-hidden">(B2)</span><strong>Upper intermediate</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Numbers and counted nouns</li><li>Quadriliterals and word formation</li><li>Exception and emphasis</li><li>Formal address</li><li>Emotions and character</li><li>Politics and society</li><li>Law and justice</li><li>Business and economy</li><li>Science and research</li><li>Official Arabic</li></ul>
+      </div>
+    </li>
+    <li class="rung">
+      <div class="rung-level" aria-hidden="true">C1</div>
+      <div class="rung-body">
+        <p class="rung-head"><span class="rung-tier">Tier 8</span> <span class="visually-hidden">(C1)</span><strong>Advanced</strong> <span class="rung-count">10 modules</span></p>
+        <ul class="modules"><li>Media Arabic</li><li>Word order and particles</li><li>Spelling and punctuation</li><li>Registers and style</li><li>Classical and religious Arabic</li><li>The dialects</li><li>Idioms and proverbs</li><li>History</li><li>Literature and poetry</li><li>Holidays and traditions</li></ul>
+        <p class="stage-opens"><span class="stage-dot" aria-hidden="true"></span><span>The level the <strong>Professional</strong> stage of the specializations is written for (C1 texts)</span></p>
+      </div>
+    </li>
+  </ol>
+</div>
 <div class="ladder-panel" role="tabpanel" id="path-en-en" aria-labelledby="tab-en-en" data-course="en-en" hidden>
   <h3 class="visually-hidden">English: tiers and modules</h3>
   <ol class="ladder">
@@ -3517,7 +3595,7 @@
       <section class="closing path-bg" aria-labelledby="closing-title">
         <div class="wrap">
           <h2 id="closing-title">Start at Tier 1 today. Reach C1 with a method that holds up.</h2>
-          <p>Choose from 15 courses in 13 languages. Sign in with Google and begin with the first module, or take the placement test to start further on. Every word you meet is explained.</p>
+          <p>Choose from 16 courses in 14 languages. Sign in with Google and begin with the first module, or take the placement test to start further on. Every word you meet is explained.</p>
           <div class="cta-row">
             <a class="button" href="https://app.glossa.study">Start learning free<svg aria-hidden="true"><use href="#icon-arrow" /></svg></a>
           </div>
