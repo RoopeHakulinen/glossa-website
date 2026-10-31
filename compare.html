@@ -638,5 +638,38 @@
         </span>
       </footer>
     </div>
+    <script>
+      // A link shared with ?ref=… names where it was posted. The visit is counted by the app's server
+      // (one per name and day, no cookies), and the name is passed on in links to the app, so a new
+      // account there records it too. Kept for the tab so it survives moving between these pages.
+      ;(() => {
+        const key = 'glossa.ref'
+        const fromLink = (new URLSearchParams(location.search).get('ref') ?? '').trim().toLowerCase()
+        const valid = /^[a-z0-9][a-z0-9._-]{0,63}$/.test(fromLink)
+        let source = valid ? fromLink : null
+        try {
+          if (source) {
+            sessionStorage.setItem(key, source)
+          } else {
+            source = sessionStorage.getItem(key)
+          }
+        } catch {}
+        if (!source) {
+          return
+        }
+        if (valid) {
+          fetch(`https://app.glossa.study/api/referrals/visits?source=${encodeURIComponent(source)}`, { method: 'POST', mode: 'no-cors', credentials: 'omit', keepalive: true }).catch(() => {})
+          // A reload would count again, and a copied address would carry someone else's source.
+          const address = new URL(location.href)
+          address.searchParams.delete('ref')
+          history.replaceState(history.state, '', address.pathname + address.search + address.hash)
+        }
+        document.querySelectorAll('a[href^="https://app.glossa.study"]').forEach((link) => {
+          const url = new URL(link.href)
+          url.searchParams.set('ref', source)
+          link.href = url.href
+        })
+      })()
+    </script>
   </body>
 </html>
