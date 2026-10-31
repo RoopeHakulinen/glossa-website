@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glossa · Comparativa de apps para aprender idiomas</title>
+    <meta
+      name="description"
+      content="Glossa, Duolingo, Babbel, Busuu, Rosetta Stone, Memrise y Pimsleur, comparadas: método, gramática, niveles, expresión oral, gamificación, precio e idiomas."
+    />
+    <!-- An ad landing page: kept out of search results so it does not compete with the main page. -->
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#f7f5fc" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b0716" media="(prefers-color-scheme: dark)" />
+    <link rel="alternate" hreflang="en" href="https://glossa.study/compare.html" />
+    <link rel="alternate" hreflang="ru" href="https://glossa.study/ru/compare.html" />
+    <link rel="alternate" hreflang="es" href="https://glossa.study/es/compare.html" />
+    <link rel="alternate" hreflang="x-default" href="https://glossa.study/compare.html" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap"
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --background: #f7f5fc;
+        --surface: #ffffff;
+        --surface-sunken: #efebf8;
+        --border: #e6e0f3;
+        --border-strong: #d6cceb;
+        --text: #1a1030;
+        --muted: #5a4e7a;
+        --subtle: #685d88;
+        --accent: #08737f;
+        --accent-hover: #065e68;
+        --accent-soft: #e9fbfc;
+        --on-accent: #ffffff;
+        --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+        --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        --gutter: max(16px, 4vw);
+        --primary: #1a1030;
+        --primary-hover: #2c1f4d;
+        --on-primary: #ffffff;
+        --shadow-primary: 4px 4px 0 #8aeaf2;
+        --wordmark-shadow: #8aeaf2;
+        --wordmark-glow: none;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background: #0b0716;
+          --surface: #1d1236;
+          --surface-sunken: #07040f;
+          --border: #2c2050;
+          --border-strong: #3a2a66;
+          --text: #f1edff;
+          --muted: #b8ade0;
+          --subtle: #a196c8;
+          --accent: #8aeaf2;
+          --accent-hover: #b3f2f7;
+          --accent-soft: #2a2c4d;
+          --on-accent: #0b0716;
+          --primary: #8aeaf2;
+          --primary-hover: #b3f2f7;
+          --on-primary: #0b0716;
+          --shadow-primary: none;
+          --wordmark-shadow: transparent;
+          --wordmark-glow: drop-shadow(0 0 4px rgb(138 234 242 / 55%));
+        }
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          transition: none !important;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family: var(--sans);
+        font-size: 1rem;
+        line-height: 1.55;
+        overflow-wrap: break-word;
+      }
+      a {
+        color: var(--accent);
+      }
+      a:focus-visible,
+      .table-scroll:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+        border-radius: 3px;
+      }
+      .visually-hidden {
+        position: absolute !important;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .skip {
+        position: absolute;
+        left: 16px;
+        top: -60px;
+        background: var(--surface);
+        padding: 8px 12px;
+        border-radius: 4px;
+        z-index: 10;
+      }
+      .skip:focus {
+        top: 12px;
+      }
+      .wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding-inline: var(--gutter);
+      }
+
+      /* Header */
+      .top {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding-block: 18px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        font-size: 1.05rem;
+        color: var(--text);
+        text-decoration: none;
+        margin-right: auto;
+      }
+      .brand svg {
+        display: block;
+        overflow: visible;
+        shape-rendering: crispEdges;
+        filter: var(--wordmark-glow);
+        fill: var(--text);
+      }
+      .brand .wordmark-shadow {
+        fill: var(--wordmark-shadow);
+      }
+      .languages {
+        position: relative;
+        font-size: 0.875rem;
+      }
+      .languages summary {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        color: var(--muted);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        list-style: none;
+      }
+      .languages summary::-webkit-details-marker {
+        display: none;
+      }
+      .languages summary::after {
+        content: '';
+        width: 6px;
+        height: 6px;
+        margin: -3px 2px 0;
+        border-right: 1.5px solid currentColor;
+        border-bottom: 1.5px solid currentColor;
+        transform: rotate(45deg);
+      }
+      .languages summary:hover,
+      .languages[open] summary {
+        color: var(--text);
+      }
+      .languages ul {
+        position: absolute;
+        top: calc(100% + 6px);
+        right: 0;
+        z-index: 10;
+        min-width: 160px;
+        margin: 0;
+        padding: 6px;
+        list-style: none;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        box-shadow: var(--shadow, 0 8px 28px rgb(0 0 0 / 15%));
+      }
+      .languages ul a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 10px;
+        border-radius: 4px;
+        color: var(--text);
+        text-decoration: none;
+      }
+      .languages ul a:hover {
+        background: var(--border);
+      }
+      .languages ul a[aria-current='page'] {
+        font-weight: 600;
+      }
+      .flag {
+        display: inline-block;
+        flex: none;
+        line-height: 0;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 0 1px rgb(0 0 0 / 12%);
+      }
+      .flag svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .flag-sm {
+        width: 21px;
+        height: 14px;
+      }
+      .sign-in {
+        font-weight: 600;
+        font-size: 0.9375rem;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+
+      /* Buttons */
+      .button {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 22px;
+        border-radius: 4px;
+        background: var(--primary);
+        color: var(--on-primary);
+        box-shadow: var(--shadow-primary);
+        font-weight: 600;
+        text-decoration: none;
+        transition:
+          background 150ms,
+          box-shadow 150ms,
+          translate 150ms;
+      }
+      .button:hover {
+        background: var(--primary-hover);
+      }
+      .button:active {
+        translate: 2px 2px;
+        box-shadow: none;
+      }
+      .button svg {
+        width: 18px;
+        height: 18px;
+      }
+      .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 20px;
+      }
+
+      /* Intro */
+      .intro {
+        max-width: 820px;
+        padding-block: 40px 40px;
+      }
+      .eyebrow {
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin: 0 0 14px;
+      }
+      h1 {
+        font-family: var(--serif);
+        font-weight: 500;
+        font-size: clamp(2.2rem, 4.6vw, 3.4rem);
+        line-height: 1.06;
+        letter-spacing: -0.015em;
+        margin: 0 0 20px;
+      }
+      .lead {
+        font-family: var(--serif);
+        font-size: clamp(1.125rem, 1.6vw, 1.25rem);
+        line-height: 1.5;
+        color: var(--muted);
+        margin: 0;
+      }
+
+      /* Comparison table */
+      .table-scroll {
+        overflow-x: auto;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+      }
+      .compare {
+        width: 100%;
+        min-width: 1040px;
+        border-collapse: separate;
+        border-spacing: 0;
+        font-size: 0.9375rem;
+      }
+      .compare th,
+      .compare td {
+        text-align: left;
+        vertical-align: top;
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--border);
+        border-right: 1px solid var(--border);
+      }
+      .compare th:last-child,
+      .compare td:last-child {
+        border-right: 0;
+      }
+      .compare tbody tr:last-child th,
+      .compare tbody tr:last-child td {
+        border-bottom: 0;
+      }
+      .compare thead th {
+        font-family: var(--serif);
+        font-size: 1.1rem;
+        font-weight: 600;
+        background: var(--surface-sunken);
+        white-space: nowrap;
+      }
+      .compare td {
+        color: var(--muted);
+      }
+      .compare tbody th {
+        font-weight: 600;
+        width: 150px;
+      }
+      /* The row labels stay in view while the app columns scroll sideways on narrow screens. */
+      .compare tr > :first-child {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        background: var(--surface);
+        min-width: 130px;
+      }
+      .compare thead tr > :first-child {
+        background: var(--surface-sunken);
+      }
+      .compare .glossa-col {
+        background: var(--accent-soft);
+        color: var(--text);
+      }
+      .compare thead .glossa-col {
+        color: var(--accent);
+        background: var(--accent-soft);
+      }
+      @media (max-width: 640px) {
+        .compare {
+          min-width: 0;
+          font-size: 0.875rem;
+        }
+        .compare th,
+        .compare td {
+          padding: 12px;
+        }
+        .compare td,
+        .compare thead th:not(:first-child) {
+          min-width: 168px;
+        }
+        .compare tr > :first-child {
+          min-width: 96px;
+          width: 96px;
+          font-size: 0.8125rem;
+        }
+      }
+      .scroll-hint {
+        display: none;
+        margin: 0 0 10px;
+        font-size: 0.8125rem;
+        color: var(--subtle);
+      }
+      @media (max-width: 1100px) {
+        .scroll-hint {
+          display: block;
+        }
+      }
+      .table-note {
+        margin: 14px 0 0;
+        font-size: 0.8125rem;
+        color: var(--subtle);
+        max-width: 60em;
+      }
+
+      /* Sections */
+      .section {
+        padding-block: 80px;
+      }
+      h2 {
+        font-family: var(--serif);
+        font-weight: 500;
+        font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+        line-height: 1.1;
+        letter-spacing: -0.01em;
+        margin: 0 0 16px;
+      }
+      .two-lists {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 48px;
+        align-items: start;
+      }
+      @media (max-width: 860px) {
+        .two-lists {
+          grid-template-columns: minmax(0, 1fr);
+          gap: 40px;
+        }
+      }
+      .two-lists p:not(.eyebrow) {
+        font-family: var(--serif);
+        font-size: 1.1rem;
+        color: var(--muted);
+        margin: 0 0 18px;
+      }
+      .plain-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 1px;
+        background: var(--border);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      .plain-list li {
+        background: var(--surface);
+        padding: 14px 18px;
+      }
+      .plain-list strong {
+        display: block;
+      }
+      .plain-list span {
+        color: var(--muted);
+        font-size: 0.9375rem;
+      }
+
+      /* Closing CTA */
+      .closing {
+        text-align: center;
+        padding-block: 88px;
+        background: var(--surface-sunken);
+        border-block: 1px solid var(--border);
+      }
+      .closing h2 {
+        max-width: 18em;
+        margin-inline: auto;
+      }
+      .closing p {
+        font-family: var(--serif);
+        font-size: 1.15rem;
+        color: var(--muted);
+        margin: 0 auto 28px;
+        max-width: 36em;
+      }
+      .closing .cta-row {
+        justify-content: center;
+      }
+
+      footer {
+        border-top: 1px solid var(--border);
+        padding-block: 28px 44px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 22px;
+        font-size: 0.875rem;
+        color: var(--muted);
+      }
+      footer a {
+        color: var(--muted);
+      }
+      footer .company,
+      footer .trademark {
+        flex-basis: 100%;
+      }
+      footer .trademark {
+        font-size: 0.8125rem;
+        color: var(--subtle);
+      }
+
+      @media (max-width: 900px) {
+        .section,
+        .closing {
+          padding-block: 60px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">Saltar al contenido</a>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
+      <defs>
+        <symbol id="icon-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6" /></symbol>
+        <symbol id="flag-us" viewBox="0 0 30 20"><g transform="scale(1 1.5385)"><rect width="30" height="13" fill="#b22234" /><rect y="1" width="30" height="1" fill="#fff" /><rect y="3" width="30" height="1" fill="#fff" /><rect y="5" width="30" height="1" fill="#fff" /><rect y="7" width="30" height="1" fill="#fff" /><rect y="9" width="30" height="1" fill="#fff" /><rect y="11" width="30" height="1" fill="#fff" /><rect width="12" height="7" fill="#3c3b6e" /></g></symbol>
+        <symbol id="flag-ru" viewBox="0 0 9 6"><rect width="9" height="6" fill="#fff" /><rect y="2" width="9" height="2" fill="#0039a6" /><rect y="4" width="9" height="2" fill="#d52b1e" /></symbol>
+        <symbol id="flag-es" viewBox="0 0 12 8"><rect width="12" height="8" fill="#aa151b" /><rect y="2" width="12" height="4" fill="#f1bf00" /></symbol>
+      </defs>
+    </svg>
+
+    <div class="wrap">
+      <header class="top">
+        <a class="brand" href="/es/"><svg class="wordmark" viewBox="0 0 35 7" width="100" height="20" role="img" aria-label="Glossa"><path class="wordmark-shadow" transform="translate(.34 .34)" d="M1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM0 1h1v1h-1zM4 1h1v1h-1zM0 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM0 4h1v1h-1zM4 4h1v1h-1zM0 5h1v1h-1zM4 5h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM6 0h1v1h-1zM6 1h1v1h-1zM6 2h1v1h-1zM6 3h1v1h-1zM6 4h1v1h-1zM6 5h1v1h-1zM6 6h1v1h-1zM7 6h1v1h-1zM8 6h1v1h-1zM9 6h1v1h-1zM10 6h1v1h-1zM13 0h1v1h-1zM14 0h1v1h-1zM15 0h1v1h-1zM12 1h1v1h-1zM16 1h1v1h-1zM12 2h1v1h-1zM16 2h1v1h-1zM12 3h1v1h-1zM16 3h1v1h-1zM12 4h1v1h-1zM16 4h1v1h-1zM12 5h1v1h-1zM16 5h1v1h-1zM13 6h1v1h-1zM14 6h1v1h-1zM15 6h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM21 0h1v1h-1zM22 0h1v1h-1zM18 1h1v1h-1zM18 2h1v1h-1zM19 3h1v1h-1zM20 3h1v1h-1zM21 3h1v1h-1zM22 4h1v1h-1zM22 5h1v1h-1zM18 6h1v1h-1zM19 6h1v1h-1zM20 6h1v1h-1zM21 6h1v1h-1zM25 0h1v1h-1zM26 0h1v1h-1zM27 0h1v1h-1zM28 0h1v1h-1zM24 1h1v1h-1zM24 2h1v1h-1zM25 3h1v1h-1zM26 3h1v1h-1zM27 3h1v1h-1zM28 4h1v1h-1zM28 5h1v1h-1zM24 6h1v1h-1zM25 6h1v1h-1zM26 6h1v1h-1zM27 6h1v1h-1zM31 0h1v1h-1zM32 0h1v1h-1zM33 0h1v1h-1zM30 1h1v1h-1zM34 1h1v1h-1zM30 2h1v1h-1zM34 2h1v1h-1zM30 3h1v1h-1zM31 3h1v1h-1zM32 3h1v1h-1zM33 3h1v1h-1zM34 3h1v1h-1zM30 4h1v1h-1zM34 4h1v1h-1zM30 5h1v1h-1zM34 5h1v1h-1zM30 6h1v1h-1zM34 6h1v1h-1z" /><path d="M1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM0 1h1v1h-1zM4 1h1v1h-1zM0 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM0 4h1v1h-1zM4 4h1v1h-1zM0 5h1v1h-1zM4 5h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM6 0h1v1h-1zM6 1h1v1h-1zM6 2h1v1h-1zM6 3h1v1h-1zM6 4h1v1h-1zM6 5h1v1h-1zM6 6h1v1h-1zM7 6h1v1h-1zM8 6h1v1h-1zM9 6h1v1h-1zM10 6h1v1h-1zM13 0h1v1h-1zM14 0h1v1h-1zM15 0h1v1h-1zM12 1h1v1h-1zM16 1h1v1h-1zM12 2h1v1h-1zM16 2h1v1h-1zM12 3h1v1h-1zM16 3h1v1h-1zM12 4h1v1h-1zM16 4h1v1h-1zM12 5h1v1h-1zM16 5h1v1h-1zM13 6h1v1h-1zM14 6h1v1h-1zM15 6h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM21 0h1v1h-1zM22 0h1v1h-1zM18 1h1v1h-1zM18 2h1v1h-1zM19 3h1v1h-1zM20 3h1v1h-1zM21 3h1v1h-1zM22 4h1v1h-1zM22 5h1v1h-1zM18 6h1v1h-1zM19 6h1v1h-1zM20 6h1v1h-1zM21 6h1v1h-1zM25 0h1v1h-1zM26 0h1v1h-1zM27 0h1v1h-1zM28 0h1v1h-1zM24 1h1v1h-1zM24 2h1v1h-1zM25 3h1v1h-1zM26 3h1v1h-1zM27 3h1v1h-1zM28 4h1v1h-1zM28 5h1v1h-1zM24 6h1v1h-1zM25 6h1v1h-1zM26 6h1v1h-1zM27 6h1v1h-1zM31 0h1v1h-1zM32 0h1v1h-1zM33 0h1v1h-1zM30 1h1v1h-1zM34 1h1v1h-1zM30 2h1v1h-1zM34 2h1v1h-1zM30 3h1v1h-1zM31 3h1v1h-1zM32 3h1v1h-1zM33 3h1v1h-1zM34 3h1v1h-1zM30 4h1v1h-1zM34 4h1v1h-1zM30 5h1v1h-1zM34 5h1v1h-1zM30 6h1v1h-1zM34 6h1v1h-1z" /></svg></a>
+        <details class="languages">
+          <summary aria-label="Idioma: Español"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-es" /></svg></span>ES</summary>
+          <ul>
+            <li><a href="/compare.html" hreflang="en" lang="en"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-us" /></svg></span>English</a></li>
+            <li><a href="/ru/compare.html" hreflang="ru" lang="ru"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-ru" /></svg></span>Русский</a></li>
+            <li><a href="/es/compare.html" hreflang="es" lang="es" aria-current="page"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-es" /></svg></span>Español</a></li>
+          </ul>
+        </details>
+        <a class="sign-in" href="https://app.glossa.study/login">Iniciar sesión</a>
+      </header>
+    </div>
+
+    <main id="main">
+      <div class="wrap">
+        <section class="intro" aria-labelledby="intro-title">
+          <p class="eyebrow">Comparativa de apps para aprender idiomas</p>
+          <h1 id="intro-title">Siete apps de idiomas, frente a frente.</h1>
+          <p class="lead">
+            Cada app parte de una idea distinta de cómo se aprende un idioma. Así se diferencian en método, gramática, nivel, expresión oral, motivación y precio,
+            para que elijas la que se ajusta a tu forma de aprender.
+          </p>
+        </section>
+
+        <section aria-labelledby="table-title">
+          <h2 id="table-title" class="visually-hidden">Tabla comparativa</h2>
+          <p class="scroll-hint" aria-hidden="true">Desplaza la tabla hacia los lados para ver todas las apps.</p>
+          <div class="table-scroll" tabindex="0" role="region" aria-labelledby="table-title">
+            <table class="compare">
+              <thead>
+                <tr>
+                  <th scope="col"><span class="visually-hidden">Característica</span></th>
+                  <th scope="col" class="glossa-col">Glossa</th>
+                  <th scope="col">Duolingo</th>
+                  <th scope="col">Babbel</th>
+                  <th scope="col">Busuu</th>
+                  <th scope="col">Rosetta Stone</th>
+                  <th scope="col">Memrise</th>
+                  <th scope="col">Pimsleur</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Método</th>
+                  <td class="glossa-col">Un curso completo: la gramática se explica de forma directa y luego se practica en catorce tipos de ejercicio</td>
+                  <td>Lecciones cortas con formato de juego</td>
+                  <td>Lecciones cortas y estructuradas en torno a conversaciones cotidianas</td>
+                  <td>Lecciones organizadas por nivel del MCER, con redacciones corregidas por hablantes nativos de su comunidad</td>
+                  <td>Inmersión con imágenes y audio, sin traducciones</td>
+                  <td>Vocabulario, videos de hablantes nativos y conversación con IA</td>
+                  <td>Lecciones de audio de unos 30 minutos, basadas en escuchar y repetir</td>
+                </tr>
+                <tr>
+                  <th scope="row">Gramática</th>
+                  <td class="glossa-col">Se enseña en cada módulo, con una referencia gramatical con buscador vinculada a las lecciones</td>
+                  <td>Se aprende sobre todo a partir de patrones, con consejos breves</td>
+                  <td>Se explica en consejos breves dentro de las lecciones</td>
+                  <td>Lecciones de gramática, más completas en el plan de pago</td>
+                  <td>No se explica; la deduces del contexto</td>
+                  <td>Limitada; ejercicios de gramática en el plan de pago</td>
+                  <td>El narrador la presenta sobre la marcha, con poca explicación escrita</td>
+                </tr>
+                <tr>
+                  <th scope="row">Nivel máximo</th>
+                  <td class="glossa-col">C1 en todos los cursos; HSK 7–9 en chino</td>
+                  <td>B2 en sus cursos más amplios</td>
+                  <td>Depende del idioma, hasta B2 o C1</td>
+                  <td>B2</td>
+                  <td>Sin correspondencia con los niveles del MCER</td>
+                  <td>Sobre todo de principiante a intermedio</td>
+                  <td>Cinco niveles, de principiante a intermedio</td>
+                </tr>
+                <tr>
+                  <th scope="row">Expresión oral</th>
+                  <td class="glossa-col">Ejercicios orales con comentarios sobre la pronunciación; práctica de conversación con IA en Premium</td>
+                  <td>Ejercicios orales</td>
+                  <td>Ejercicios con reconocimiento de voz</td>
+                  <td>Ejercicios orales; con poco énfasis</td>
+                  <td>Reconocimiento de voz en todo el curso</td>
+                  <td>Práctica de conversación con IA en el plan de pago</td>
+                  <td>El núcleo del método</td>
+                </tr>
+                <tr>
+                  <th scope="row">Corrección de errores</th>
+                  <td class="glossa-col">La respuesta correcta y por qué la tuya era incorrecta, con un enlace a la regla</td>
+                  <td>La respuesta correcta</td>
+                  <td>La respuesta correcta</td>
+                  <td>La respuesta correcta; redacciones corregidas por hablantes nativos de su comunidad</td>
+                  <td>Correcto o incorrecto, sin explicación</td>
+                  <td>La respuesta correcta</td>
+                  <td>El narrador da la respuesta correcta para que compares</td>
+                </tr>
+                <tr>
+                  <th scope="row">Palabras</th>
+                  <td class="glossa-col">Toca cualquier palabra para ver sus significados, la tabla completa de formas, ejemplos y audio</td>
+                  <td>Pistas de traducción en los ejercicios</td>
+                  <td>Traducciones y repaso de vocabulario</td>
+                  <td>Repaso de vocabulario</td>
+                  <td>Asociación con imágenes, sin traducciones</td>
+                  <td>Repetición espaciada del vocabulario</td>
+                  <td>Unas 300 palabras nuevas por nivel, de oído</td>
+                </tr>
+                <tr>
+                  <th scope="row">Gamificación</th>
+                  <td class="glossa-col">Ninguna. El progreso se expresa con dos datos: cuánto del curso completaste y cuántas palabras conoces</td>
+                  <td>Central: rachas, XP, ligas, gemas, energía y una mascota</td>
+                  <td>Ligera</td>
+                  <td>Ligera</td>
+                  <td>Ligera</td>
+                  <td>Rachas y puntos</td>
+                  <td>Ligera</td>
+                </tr>
+                <tr>
+                  <th scope="row">Precio</th>
+                  <td class="glossa-col">Curso gratuito; Premium 8,99 € al mes o 69,99 € al año</td>
+                  <td>Gratis con anuncios y energía diaria; planes de pago</td>
+                  <td>Suscripción tras una prueba gratuita</td>
+                  <td>Plan gratuito limitado; suscripción</td>
+                  <td>Suscripción</td>
+                  <td>Plan gratuito con anuncios; suscripción</td>
+                  <td>Suscripción tras una prueba gratuita de 7 días</td>
+                </tr>
+                <tr>
+                  <th scope="row">Idiomas</th>
+                  <td class="glossa-col">16: sueco, ruso, español, francés, alemán, italiano, portugués de Brasil, finés, japonés, ucraniano, neerlandés, polaco, árabe, chino, georgiano e inglés. El inglés y el finés también se enseñan para rusohablantes, y el inglés para hispanohablantes.</td>
+                  <td>Más de 40</td>
+                  <td>Unos 14</td>
+                  <td>Unos 14</td>
+                  <td>Unos 25</td>
+                  <td>Más de 20</td>
+                  <td>Más de 50</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ideal para</th>
+                  <td class="glossa-col">Entender la gramática y llegar a C1</td>
+                  <td>Crear un hábito diario</td>
+                  <td>Conversación práctica del día a día</td>
+                  <td>Un curso estructurado según el MCER, con correcciones de personas</td>
+                  <td>Aprender por inmersión</td>
+                  <td>Vocabulario y frases de la vida real</td>
+                  <td>Hablar y escuchar en movimiento</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-note">
+            Elaborado a partir de la información pública de cada app y de reseñas independientes en octubre de 2026. Las funciones, los planes y los precios cambian y varían según el curso y la región. Si
+            algo aquí está desactualizado, escribe a <a href="mailto:support@glossa.study">support@glossa.study</a> y lo corregiremos.
+          </p>
+        </section>
+      </div>
+
+      <div class="wrap">
+        <section class="section two-lists" aria-labelledby="fit-title">
+          <div>
+            <p class="eyebrow">Cómo elegir</p>
+            <h2 id="fit-title">Para quién es Glossa y para quién no.</h2>
+            <p>
+              Glossa es para estudiantes serios que quieren entender cómo funciona un idioma y seguir avanzando más allá del estancamiento del nivel intermedio. Requiere estudio concentrado, no unos
+              minutos tocando la pantalla.
+            </p>
+            <ul class="plain-list">
+              <li><strong>Elige Glossa</strong><span>si quieres que te expliquen la gramática y los errores, y un curso que llegue hasta C1.</span></li>
+              <li><strong>Elige Glossa</strong><span>si las rachas, las ligas y los anuncios te estorban para aprender.</span></li>
+            </ul>
+          </div>
+          <div>
+            <p class="eyebrow">Con franqueza</p>
+            <h2>Cuándo otra app es mejor opción.</h2>
+            <ul class="plain-list">
+              <li><strong>Quieres un idioma que Glossa no enseña</strong><span>Glossa tiene 19 cursos en 16 idiomas: quince para angloparlantes, inglés enseñado en inglés, inglés y finés para rusohablantes, e inglés para hispanohablantes.</span></li>
+              <li><strong>Aprendes mejor de oído, lejos de la pantalla</strong><span>Las lecciones de audio de Pimsleur van bien para los trayectos y las caminatas.</span></li>
+              <li><strong>Quieres correcciones de personas</strong><span>La comunidad de Busuu corrige lo que escribes; en Glossa, las correcciones vienen del curso y de la IA.</span></li>
+              <li><strong>Quieres unos minutos de juego al día</strong><span>Duolingo está hecho justo para eso.</span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="wrap">
+          <h2 id="closing-title">Prueba gratis el curso que explica.</h2>
+          <p>Elige entre 19 cursos en 16 idiomas, inicia sesión con Google y abre el primer módulo. Cada palabra del módulo está explicada.</p>
+          <div class="cta-row">
+            <a class="button" href="https://app.glossa.study">Empieza gratis<svg aria-hidden="true"><use href="#icon-arrow" /></svg></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="wrap">
+      <footer>
+        <a href="/es/">glossa.study</a>
+        <a href="https://app.glossa.study/privacy">Política de privacidad</a>
+        <a href="https://app.glossa.study/terms">Términos del servicio</a>
+        <a href="https://app.glossa.study/refunds">Política de reembolsos</a>
+        <a href="https://app.glossa.study/support">Soporte</a>
+        <a href="mailto:support@glossa.study">support@glossa.study</a>
+        <span class="company">© 2026 Glossa, Finlandia</span>
+        <span class="trademark">
+          Duolingo, Babbel, Busuu, Rosetta Stone, Memrise y Pimsleur son marcas comerciales de sus respectivos propietarios. Glossa no está afiliada a ninguna de ellas ni cuenta con su respaldo.
+        </span>
+      </footer>
+    </div>
+    <script>
+      // A link shared with ?ref=… names where it was posted. The visit is counted by the app's server
+      // (one per name and day, no cookies), and the name is passed on in links to the app, so a new
+      // account there records it too. Kept for the tab so it survives moving between these pages.
+      ;(() => {
+        const key = 'glossa.ref'
+        const fromLink = (new URLSearchParams(location.search).get('ref') ?? '').trim().toLowerCase()
+        const valid = /^[a-z0-9][a-z0-9._-]{0,63}$/.test(fromLink)
+        let source = valid ? fromLink : null
+        try {
+          if (source) {
+            sessionStorage.setItem(key, source)
+          } else {
+            source = sessionStorage.getItem(key)
+          }
+        } catch {}
+        if (!source) {
+          return
+        }
+        if (valid) {
+          fetch(`https://app.glossa.study/api/referrals/visits?source=${encodeURIComponent(source)}`, { method: 'POST', mode: 'no-cors', credentials: 'omit', keepalive: true }).catch(() => {})
+          // A reload would count again, and a copied address would carry someone else's source.
+          const address = new URL(location.href)
+          address.searchParams.delete('ref')
+          history.replaceState(history.state, '', address.pathname + address.search + address.hash)
+        }
+        document.querySelectorAll('a[href^="https://app.glossa.study"]').forEach((link) => {
+          const url = new URL(link.href)
+          url.searchParams.set('ref', source)
+          link.href = url.href
+        })
+      })()
+    </script>
+    <script>
+      // An open <details> stays open until its summary is clicked again; close the language menu on a
+      // click elsewhere or Escape, as menus usually do.
+      ;(() => {
+        const menu = document.querySelector('.languages')
+        document.addEventListener('click', (event) => {
+          if (!menu.contains(event.target)) {
+            menu.open = false
+          }
+        })
+        menu.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' && menu.open) {
+            menu.open = false
+            menu.querySelector('summary').focus()
+          }
+        })
+      })()
+    </script>
+  </body>
+</html>

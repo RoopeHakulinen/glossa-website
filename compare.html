@@ -12,6 +12,10 @@
     <meta name="robots" content="noindex" />
     <meta name="theme-color" content="#f7f5fc" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0b0716" media="(prefers-color-scheme: dark)" />
+    <link rel="alternate" hreflang="en" href="https://glossa.study/compare.html" />
+    <link rel="alternate" hreflang="ru" href="https://glossa.study/ru/compare.html" />
+    <link rel="alternate" hreflang="es" href="https://glossa.study/es/compare.html" />
+    <link rel="alternate" hreflang="x-default" href="https://glossa.study/compare.html" />
     <link rel="icon" href="favicon.ico" sizes="any" />
     <link rel="icon" href="favicon-32.png" type="image/png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -156,6 +160,84 @@
       }
       .brand .wordmark-shadow {
         fill: var(--wordmark-shadow);
+      }
+      .languages {
+        position: relative;
+        font-size: 0.875rem;
+      }
+      .languages summary {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        color: var(--muted);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        list-style: none;
+      }
+      .languages summary::-webkit-details-marker {
+        display: none;
+      }
+      .languages summary::after {
+        content: '';
+        width: 6px;
+        height: 6px;
+        margin: -3px 2px 0;
+        border-right: 1.5px solid currentColor;
+        border-bottom: 1.5px solid currentColor;
+        transform: rotate(45deg);
+      }
+      .languages summary:hover,
+      .languages[open] summary {
+        color: var(--text);
+      }
+      .languages ul {
+        position: absolute;
+        top: calc(100% + 6px);
+        right: 0;
+        z-index: 10;
+        min-width: 160px;
+        margin: 0;
+        padding: 6px;
+        list-style: none;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        box-shadow: var(--shadow, 0 8px 28px rgb(0 0 0 / 15%));
+      }
+      .languages ul a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 10px;
+        border-radius: 4px;
+        color: var(--text);
+        text-decoration: none;
+      }
+      .languages ul a:hover {
+        background: var(--border);
+      }
+      .languages ul a[aria-current='page'] {
+        font-weight: 600;
+      }
+      .flag {
+        display: inline-block;
+        flex: none;
+        line-height: 0;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 0 1px rgb(0 0 0 / 12%);
+      }
+      .flag svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .flag-sm {
+        width: 21px;
+        height: 14px;
       }
       .sign-in {
         font-weight: 600;
@@ -437,12 +519,23 @@
     <svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
       <defs>
         <symbol id="icon-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6" /></symbol>
+        <symbol id="flag-us" viewBox="0 0 30 20"><g transform="scale(1 1.5385)"><rect width="30" height="13" fill="#b22234" /><rect y="1" width="30" height="1" fill="#fff" /><rect y="3" width="30" height="1" fill="#fff" /><rect y="5" width="30" height="1" fill="#fff" /><rect y="7" width="30" height="1" fill="#fff" /><rect y="9" width="30" height="1" fill="#fff" /><rect y="11" width="30" height="1" fill="#fff" /><rect width="12" height="7" fill="#3c3b6e" /></g></symbol>
+        <symbol id="flag-ru" viewBox="0 0 9 6"><rect width="9" height="6" fill="#fff" /><rect y="2" width="9" height="2" fill="#0039a6" /><rect y="4" width="9" height="2" fill="#d52b1e" /></symbol>
+        <symbol id="flag-es" viewBox="0 0 12 8"><rect width="12" height="8" fill="#aa151b" /><rect y="2" width="12" height="4" fill="#f1bf00" /></symbol>
       </defs>
     </svg>
 
     <div class="wrap">
       <header class="top">
         <a class="brand" href="/"><svg class="wordmark" viewBox="0 0 35 7" width="100" height="20" role="img" aria-label="Glossa"><path class="wordmark-shadow" transform="translate(.34 .34)" d="M1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM0 1h1v1h-1zM4 1h1v1h-1zM0 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM0 4h1v1h-1zM4 4h1v1h-1zM0 5h1v1h-1zM4 5h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM6 0h1v1h-1zM6 1h1v1h-1zM6 2h1v1h-1zM6 3h1v1h-1zM6 4h1v1h-1zM6 5h1v1h-1zM6 6h1v1h-1zM7 6h1v1h-1zM8 6h1v1h-1zM9 6h1v1h-1zM10 6h1v1h-1zM13 0h1v1h-1zM14 0h1v1h-1zM15 0h1v1h-1zM12 1h1v1h-1zM16 1h1v1h-1zM12 2h1v1h-1zM16 2h1v1h-1zM12 3h1v1h-1zM16 3h1v1h-1zM12 4h1v1h-1zM16 4h1v1h-1zM12 5h1v1h-1zM16 5h1v1h-1zM13 6h1v1h-1zM14 6h1v1h-1zM15 6h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM21 0h1v1h-1zM22 0h1v1h-1zM18 1h1v1h-1zM18 2h1v1h-1zM19 3h1v1h-1zM20 3h1v1h-1zM21 3h1v1h-1zM22 4h1v1h-1zM22 5h1v1h-1zM18 6h1v1h-1zM19 6h1v1h-1zM20 6h1v1h-1zM21 6h1v1h-1zM25 0h1v1h-1zM26 0h1v1h-1zM27 0h1v1h-1zM28 0h1v1h-1zM24 1h1v1h-1zM24 2h1v1h-1zM25 3h1v1h-1zM26 3h1v1h-1zM27 3h1v1h-1zM28 4h1v1h-1zM28 5h1v1h-1zM24 6h1v1h-1zM25 6h1v1h-1zM26 6h1v1h-1zM27 6h1v1h-1zM31 0h1v1h-1zM32 0h1v1h-1zM33 0h1v1h-1zM30 1h1v1h-1zM34 1h1v1h-1zM30 2h1v1h-1zM34 2h1v1h-1zM30 3h1v1h-1zM31 3h1v1h-1zM32 3h1v1h-1zM33 3h1v1h-1zM34 3h1v1h-1zM30 4h1v1h-1zM34 4h1v1h-1zM30 5h1v1h-1zM34 5h1v1h-1zM30 6h1v1h-1zM34 6h1v1h-1z" /><path d="M1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM0 1h1v1h-1zM4 1h1v1h-1zM0 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM0 4h1v1h-1zM4 4h1v1h-1zM0 5h1v1h-1zM4 5h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM6 0h1v1h-1zM6 1h1v1h-1zM6 2h1v1h-1zM6 3h1v1h-1zM6 4h1v1h-1zM6 5h1v1h-1zM6 6h1v1h-1zM7 6h1v1h-1zM8 6h1v1h-1zM9 6h1v1h-1zM10 6h1v1h-1zM13 0h1v1h-1zM14 0h1v1h-1zM15 0h1v1h-1zM12 1h1v1h-1zM16 1h1v1h-1zM12 2h1v1h-1zM16 2h1v1h-1zM12 3h1v1h-1zM16 3h1v1h-1zM12 4h1v1h-1zM16 4h1v1h-1zM12 5h1v1h-1zM16 5h1v1h-1zM13 6h1v1h-1zM14 6h1v1h-1zM15 6h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM21 0h1v1h-1zM22 0h1v1h-1zM18 1h1v1h-1zM18 2h1v1h-1zM19 3h1v1h-1zM20 3h1v1h-1zM21 3h1v1h-1zM22 4h1v1h-1zM22 5h1v1h-1zM18 6h1v1h-1zM19 6h1v1h-1zM20 6h1v1h-1zM21 6h1v1h-1zM25 0h1v1h-1zM26 0h1v1h-1zM27 0h1v1h-1zM28 0h1v1h-1zM24 1h1v1h-1zM24 2h1v1h-1zM25 3h1v1h-1zM26 3h1v1h-1zM27 3h1v1h-1zM28 4h1v1h-1zM28 5h1v1h-1zM24 6h1v1h-1zM25 6h1v1h-1zM26 6h1v1h-1zM27 6h1v1h-1zM31 0h1v1h-1zM32 0h1v1h-1zM33 0h1v1h-1zM30 1h1v1h-1zM34 1h1v1h-1zM30 2h1v1h-1zM34 2h1v1h-1zM30 3h1v1h-1zM31 3h1v1h-1zM32 3h1v1h-1zM33 3h1v1h-1zM34 3h1v1h-1zM30 4h1v1h-1zM34 4h1v1h-1zM30 5h1v1h-1zM34 5h1v1h-1zM30 6h1v1h-1zM34 6h1v1h-1z" /></svg></a>
+        <details class="languages">
+          <summary aria-label="Language: English"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-us" /></svg></span>EN</summary>
+          <ul>
+            <li><a href="/compare.html" hreflang="en" lang="en" aria-current="page"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-us" /></svg></span>English</a></li>
+            <li><a href="/ru/compare.html" hreflang="ru" lang="ru"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-ru" /></svg></span>Русский</a></li>
+            <li><a href="/es/compare.html" hreflang="es" lang="es"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-es" /></svg></span>Español</a></li>
+          </ul>
+        </details>
         <a class="sign-in" href="https://app.glossa.study/login">Sign in</a>
       </header>
     </div>
@@ -668,6 +761,24 @@
           const url = new URL(link.href)
           url.searchParams.set('ref', source)
           link.href = url.href
+        })
+      })()
+    </script>
+    <script>
+      // An open <details> stays open until its summary is clicked again; close the language menu on a
+      // click elsewhere or Escape, as menus usually do.
+      ;(() => {
+        const menu = document.querySelector('.languages')
+        document.addEventListener('click', (event) => {
+          if (!menu.contains(event.target)) {
+            menu.open = false
+          }
+        })
+        menu.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' && menu.open) {
+            menu.open = false
+            menu.querySelector('summary').focus()
+          }
         })
       })()
     </script>

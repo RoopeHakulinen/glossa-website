@@ -10,6 +10,10 @@
     />
     <meta name="theme-color" content="#f7f5fc" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0b0716" media="(prefers-color-scheme: dark)" />
+    <link rel="alternate" hreflang="en" href="https://glossa.study/" />
+    <link rel="alternate" hreflang="ru" href="https://glossa.study/ru/" />
+    <link rel="alternate" hreflang="es" href="https://glossa.study/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://glossa.study/" />
     <link rel="icon" href="favicon.ico" sizes="any" />
     <link rel="icon" href="favicon-32.png" type="image/png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -209,6 +213,67 @@
       }
       .nav a:hover {
         color: var(--text);
+      }
+      .languages {
+        position: relative;
+        font-size: 0.875rem;
+      }
+      .languages summary {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        color: var(--muted);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        list-style: none;
+      }
+      .languages summary::-webkit-details-marker {
+        display: none;
+      }
+      .languages summary::after {
+        content: '';
+        width: 6px;
+        height: 6px;
+        margin: -3px 2px 0;
+        border-right: 1.5px solid currentColor;
+        border-bottom: 1.5px solid currentColor;
+        transform: rotate(45deg);
+      }
+      .languages summary:hover,
+      .languages[open] summary {
+        color: var(--text);
+      }
+      .languages ul {
+        position: absolute;
+        top: calc(100% + 6px);
+        right: 0;
+        z-index: 10;
+        min-width: 160px;
+        margin: 0;
+        padding: 6px;
+        list-style: none;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        box-shadow: var(--shadow, 0 8px 28px rgb(0 0 0 / 15%));
+      }
+      .languages ul a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 10px;
+        border-radius: 4px;
+        color: var(--text);
+        text-decoration: none;
+      }
+      .languages ul a:hover {
+        background: var(--border);
+      }
+      .languages ul a[aria-current='page'] {
+        font-weight: 600;
       }
       .sign-in {
         font-weight: 600;
@@ -1805,6 +1870,14 @@
           <a href="#feedback">Feedback</a>
           <a href="#pricing">Pricing</a>
         </nav>
+        <details class="languages">
+          <summary aria-label="Language: English"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-us" /></svg></span>EN</summary>
+          <ul>
+            <li><a href="/" hreflang="en" lang="en" aria-current="page"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-us" /></svg></span>English</a></li>
+            <li><a href="/ru/" hreflang="ru" lang="ru"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-ru" /></svg></span>Русский</a></li>
+            <li><a href="/es/" hreflang="es" lang="es"><span class="flag flag-sm"><svg aria-hidden="true"><use href="#flag-es" /></svg></span>Español</a></li>
+          </ul>
+        </details>
         <a class="sign-in" href="https://app.glossa.study/login">Sign in</a>
       </header>
     </div>
@@ -1994,7 +2067,7 @@
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Sweden"><use href="#flag-sv" /></svg></span>
               <h4>Swedish</h4>
-              <p class="native" lang="sv">svenska · Sweden</p>
+              <p class="native"><span lang="sv">svenska</span> · Sweden</p>
               <p class="size">A1–C1 · 8 tiers · 75 modules</p>
               <p class="detail">Plus 13 professional specializations with 117 more modules.</p>
             </li>
@@ -2008,49 +2081,49 @@
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Spain"><use href="#flag-es" /></svg></span>
               <h4>Spanish</h4>
-              <p class="native" lang="es">español · Spain</p>
+              <p class="native"><span lang="es">español</span> · Spain</p>
               <p class="size">A1–C1 · 8 tiers · 78 modules</p>
               <p class="detail">Castilian Spanish, with notes on Latin American usage and a module on the varieties of Spanish. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of France"><use href="#flag-fr" /></svg></span>
               <h4>French</h4>
-              <p class="native" lang="fr">français · France</p>
+              <p class="native"><span lang="fr">français</span> · France</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">The French of France, with a module on French around the world. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Germany"><use href="#flag-de" /></svg></span>
               <h4>German</h4>
-              <p class="native" lang="de">Deutsch · Germany</p>
+              <p class="native"><span lang="de">Deutsch</span> · Germany</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">The standard German of Germany, with a module on German in Austria and Switzerland. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Italy"><use href="#flag-it" /></svg></span>
               <h4>Italian</h4>
-              <p class="native" lang="it">italiano · Italy</p>
+              <p class="native"><span lang="it">italiano</span> · Italy</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">The standard Italian of Italy, with a module on Italian across Italy and beyond. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Brazil"><use href="#flag-br" /></svg></span>
               <h4>Brazilian Portuguese</h4>
-              <p class="native" lang="pt-BR">português · Brazil</p>
+              <p class="native"><span lang="pt-BR">português</span> · Brazil</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">The Portuguese of Brazil, with a module on Portuguese across Brazil and the world. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Finland"><use href="#flag-fi" /></svg></span>
               <h4>Finnish</h4>
-              <p class="native" lang="fi">suomi · Finland</p>
+              <p class="native"><span lang="fi">suomi</span> · Finland</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">Standard Finnish with spoken Finnish taught alongside it, and modules on dialects and on Swedish in Finland. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Japan"><use href="#flag-jp" /></svg></span>
               <h4>Japanese</h4>
-              <p class="native" lang="ja">日本語 · Japan</p>
+              <p class="native"><span lang="ja">日本語</span> · Japan</p>
               <p class="size">A1–C1 · 8 tiers · 80 modules</p>
               <p class="detail">Starts with hiragana and katakana, then teaches about 1,000 kanji step by step, with furigana you can hide. The tiers follow JLPT N5 to N1. Plus 13 professional specializations with 117 more modules.</p>
             </li>
@@ -2064,14 +2137,14 @@
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of the Netherlands"><use href="#flag-nl" /></svg></span>
               <h4>Dutch</h4>
-              <p class="native" lang="nl">Nederlands · the Netherlands</p>
+              <p class="native"><span lang="nl">Nederlands</span> · the Netherlands</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">The standard Dutch of the Netherlands, with a module on the varieties of Dutch. Plus 13 professional specializations with 117 more modules.</p>
             </li>
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Poland"><use href="#flag-pl" /></svg></span>
               <h4>Polish</h4>
-              <p class="native" lang="pl">polski · Poland</p>
+              <p class="native"><span lang="pl">polski</span> · Poland</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">The standard Polish of Poland, with all seven cases, verbal aspect and the virile plural taught step by step. Plus 13 professional specializations with 117 more modules.</p>
             </li>
@@ -2119,7 +2192,7 @@
             <li class="course">
               <span class="flag"><svg role="img" aria-label="Flag of Finland"><use href="#flag-fi" /></svg></span>
               <h4>Finnish</h4>
-              <p class="native" lang="fi">suomi · Finland</p>
+              <p class="native"><span lang="fi">suomi</span> · Finland</p>
               <p class="size">A1–C1 · 8 tiers · 76 modules</p>
               <p class="detail">Standard Finnish taught in Russian, with grammar compared with Russian and spoken Finnish alongside the written language. Plus 13 professional specializations with 117 more modules.</p>
             </li>
@@ -3914,6 +3987,24 @@
           const url = new URL(link.href)
           url.searchParams.set('ref', source)
           link.href = url.href
+        })
+      })()
+    </script>
+    <script>
+      // An open <details> stays open until its summary is clicked again; close the language menu on a
+      // click elsewhere or Escape, as menus usually do.
+      ;(() => {
+        const menu = document.querySelector('.languages')
+        document.addEventListener('click', (event) => {
+          if (!menu.contains(event.target)) {
+            menu.open = false
+          }
+        })
+        menu.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' && menu.open) {
+            menu.open = false
+            menu.querySelector('summary').focus()
+          }
         })
       })()
     </script>
