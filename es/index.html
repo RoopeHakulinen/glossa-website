@@ -660,16 +660,20 @@
         border-radius: 3px;
         margin-bottom: 14px;
       }
-      .course-group {
-        font-size: 0.75rem;
-        font-weight: 600;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: var(--subtle);
-        margin: 32px 0 12px;
+      .course-tabs {
+        margin-bottom: 24px;
       }
-      .course-group:first-of-type {
-        margin-top: 0;
+      .tab.tab-text {
+        padding: 8px 14px;
+      }
+      .tab-count {
+        font-size: 0.8125rem;
+        font-weight: 600;
+        color: var(--subtle);
+      }
+      .tab[aria-selected='true'] .tab-count {
+        color: inherit;
+        opacity: 0.7;
       }
       .course h4 {
         font-family: var(--serif);
@@ -696,7 +700,7 @@
       }
       @media (max-width: 1100px) {
         .courses {
-          grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
         }
       }
 
@@ -2062,161 +2066,169 @@
               materna. Cada curso enseña una sola variedad estándar, para que el vocabulario, la ortografía y la pronunciación que aprendes sean coherentes entre sí.
             </p>
           </div>
-          <h3 class="course-group" id="courses-en">Para angloparlantes</h3>
-          <ul class="courses" aria-labelledby="courses-en">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Suecia"><use href="#flag-sv" /></svg></span>
-              <h4>Sueco</h4>
-              <p class="native"><span lang="sv">svenska</span> · Suecia</p>
-              <p class="size">A1–C1 · 8 fases · 75 módulos</p>
-              <p class="detail">Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Rusia"><use href="#flag-ru" /></svg></span>
-              <h4>Ruso</h4>
-              <p class="native" lang="ru">ру́сский язы́к</p>
-              <p class="size">A1–C1 · 8 fases · 78 módulos</p>
-              <p class="detail">Empieza con el alfabeto cirílico y muestra las marcas de acento en todo momento. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de España"><use href="#flag-es" /></svg></span>
-              <h4>Español</h4>
-              <p class="native"><span lang="es">español</span> · España</p>
-              <p class="size">A1–C1 · 8 fases · 78 módulos</p>
-              <p class="detail">Español peninsular, con notas sobre el uso en Latinoamérica y un módulo sobre las variedades del español. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Francia"><use href="#flag-fr" /></svg></span>
-              <h4>Francés</h4>
-              <p class="native"><span lang="fr">français</span> · Francia</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">El francés de Francia, con un módulo sobre el francés en el mundo. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Alemania"><use href="#flag-de" /></svg></span>
-              <h4>Alemán</h4>
-              <p class="native"><span lang="de">Deutsch</span> · Alemania</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">El alemán estándar de Alemania, con un módulo sobre el alemán en Austria y Suiza. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Italia"><use href="#flag-it" /></svg></span>
-              <h4>Italiano</h4>
-              <p class="native"><span lang="it">italiano</span> · Italia</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">El italiano estándar de Italia, con un módulo sobre el italiano en toda Italia y fuera de ella. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Brasil"><use href="#flag-br" /></svg></span>
-              <h4>Portugués de Brasil</h4>
-              <p class="native"><span lang="pt-BR">português</span> · Brasil</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">El portugués de Brasil, con un módulo sobre el portugués en Brasil y en el mundo. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Finlandia"><use href="#flag-fi" /></svg></span>
-              <h4>Finés</h4>
-              <p class="native"><span lang="fi">suomi</span> · Finlandia</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">Finés estándar con el finés hablado enseñado a la par, y módulos sobre los dialectos y sobre el sueco en Finlandia. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Japón"><use href="#flag-jp" /></svg></span>
-              <h4>Japonés</h4>
-              <p class="native"><span lang="ja">日本語</span> · Japón</p>
-              <p class="size">A1–C1 · 8 fases · 80 módulos</p>
-              <p class="detail">Empieza con hiragana y katakana, y luego enseña unos 1000 kanji paso a paso, con furigana que puedes ocultar. Las fases siguen los niveles N5 a N1 del JLPT. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Ucrania"><use href="#flag-ua" /></svg></span>
-              <h4>Ucraniano</h4>
-              <p class="native" lang="uk">украї́нська мо́ва</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">Ucraniano estándar con la ortografía de 2019 y marcas de acento en todo momento. No hay práctica de pronunciación, porque la evaluación del habla no cubre el ucraniano. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de los Países Bajos"><use href="#flag-nl" /></svg></span>
-              <h4>Neerlandés</h4>
-              <p class="native"><span lang="nl">Nederlands</span> · Países Bajos</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">El neerlandés estándar de los Países Bajos, con un módulo sobre las variedades del neerlandés. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Polonia"><use href="#flag-pl" /></svg></span>
-              <h4>Polaco</h4>
-              <p class="native"><span lang="pl">polski</span> · Polonia</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">El polaco estándar de Polonia, con los siete casos, el aspecto verbal y el plural masculino personal enseñados paso a paso. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de la Liga Árabe"><use href="#flag-arab-league" /></svg></span>
-              <h4>Árabe</h4>
-              <p class="native"><bdi lang="ar">العربية</bdi> · el mundo árabe</p>
-              <p class="size">A1–C1 · 8 fases · 77 módulos</p>
-              <p class="detail">Árabe estándar moderno, escrito de derecha a izquierda. Empieza con la escritura; los signos vocálicos se muestran al principio y se van quitando paso a paso, como en los textos reales, y puedes ocultarlas. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de China"><use href="#flag-cn" /></svg></span>
-              <h4>Chino</h4>
-              <p class="native"><span lang="zh-Hans">中文</span> · China continental</p>
-              <p class="size">De HSK 1 a HSK 7–9 · 8 fases · 80 módulos</p>
-              <p class="detail">Mandarín tal como se escribe en China continental, en caracteres simplificados. Empieza con el pinyin y los tonos; en las primeras fases el pinyin aparece sobre cada palabra, y puedes ocultarlo. Toca una palabra para ver su clasificador y su forma tradicional. Las fases siguen los niveles HSK 1 a HSK 7–9. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Georgia"><use href="#flag-ge" /></svg></span>
-              <h4>Georgiano</h4>
-              <p class="native"><span lang="ka">ქართული</span> · Georgia</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">El georgiano literario estándar de Georgia. Empieza con el alfabeto mjedruli, que no tiene mayúsculas, y escribes con un teclado georgiano fonético. Los sujetos en ergativo y en dativo, las series verbales (screeves), los preverbios y la marcación del objeto se enseñan paso a paso. Las especializaciones profesionales, las historias, los textos sobre el país, las trampas comunes y la preparación de exámenes llegarán más adelante. No hay práctica de pronunciación, porque la evaluación del habla no cubre el georgiano.</p>
-            </li>
-          </ul>
-          <h3 class="course-group" id="courses-mono">En inglés</h3>
-          <ul class="courses" aria-labelledby="courses-mono">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Estados Unidos"><use href="#flag-us" /></svg></span>
-              <h4>Inglés</h4>
-              <p class="native"><span lang="en">English</span> · Estados Unidos</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">Inglés de Estados Unidos, explicado en inglés sencillo adaptado a tu nivel y sin traducciones, con un módulo sobre el inglés de Estados Unidos y el del Reino Unido. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-          </ul>
-          <h3 class="course-group" id="courses-ru">Para rusohablantes</h3>
-          <ul class="courses" aria-labelledby="courses-ru">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Estados Unidos"><use href="#flag-us" /></svg></span>
-              <h4>Inglés</h4>
-              <p class="native"><span lang="en">English</span> · Estados Unidos</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">Inglés de Estados Unidos enseñado en ruso, con la gramática comparada con el ruso y ejercicios de traducción en ambos sentidos. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Finlandia"><use href="#flag-fi" /></svg></span>
-              <h4>Finés</h4>
-              <p class="native"><span lang="fi">suomi</span> · Finlandia</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail">Finés estándar enseñado en ruso, con la gramática comparada con el ruso y el finés hablado junto a la lengua escrita. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-          </ul>
-          <h3 class="course-group" id="courses-es">Para hispanohablantes</h3>
-          <ul class="courses" aria-labelledby="courses-es">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Estados Unidos"><use href="#flag-us" /></svg></span>
-              <h4>Inglés</h4>
-              <p class="native"><span lang="en">English</span> · Estados Unidos</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail"><span lang="es">Inglés para hispanohablantes.</span> Inglés de Estados Unidos con explicaciones en español latinoamericano neutro, la gramática comparada con el español, falsos amigos y preparación para los exámenes IELTS, TOEFL y Cambridge. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-          </ul>
-          <h3 class="course-group" id="courses-fi">Para hablantes de finés</h3>
-          <ul class="courses" aria-labelledby="courses-fi">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Bandera de Estados Unidos"><use href="#flag-us" /></svg></span>
-              <h4>Inglés</h4>
-              <p class="native"><span lang="en">English</span> · Estados Unidos</p>
-              <p class="size">A1–C1 · 8 fases · 76 módulos</p>
-              <p class="detail"><span lang="fi">Englanti suomenkielisille.</span> Inglés de Estados Unidos con explicaciones en finés, la gramática comparada con el finés, falsos amigos y preparación para los exámenes IELTS, TOEFL y Cambridge. Además, 13 especializaciones profesionales con 117 módulos más.</p>
-            </li>
-          </ul>
+          <p class="tab-group-label" id="courses-tabs-label">Explicaciones en</p>
+          <div class="tabs course-tabs" role="tablist" aria-labelledby="courses-tabs-label">
+            <button class="tab tab-text" role="tab" type="button" id="tab-courses-en" aria-controls="courses-en" aria-selected="false" tabindex="-1" data-base="en"><span lang="en">English</span><span class="tab-count">16</span></button>
+            <button class="tab tab-text" role="tab" type="button" id="tab-courses-ru" aria-controls="courses-ru" aria-selected="false" tabindex="-1" data-base="ru"><span lang="ru">Русский</span><span class="tab-count">2</span></button>
+            <button class="tab tab-text" role="tab" type="button" id="tab-courses-es" aria-controls="courses-es" aria-selected="true" data-base="es"><span>Español</span><span class="tab-count">1</span></button>
+            <button class="tab tab-text" role="tab" type="button" id="tab-courses-fi" aria-controls="courses-fi" aria-selected="false" tabindex="-1" data-base="fi"><span lang="fi">Suomi</span><span class="tab-count">1</span></button>
+          </div>
+          <div role="tabpanel" id="courses-en" aria-labelledby="tab-courses-en" hidden>
+            <ul class="courses">
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Suecia"><use href="#flag-sv" /></svg></span>
+                <h4>Sueco</h4>
+                <p class="native"><span lang="sv">svenska</span> · Suecia</p>
+                <p class="size">A1–C1 · 8 fases · 75 módulos</p>
+                <p class="detail">Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Rusia"><use href="#flag-ru" /></svg></span>
+                <h4>Ruso</h4>
+                <p class="native" lang="ru">ру́сский язы́к</p>
+                <p class="size">A1–C1 · 8 fases · 78 módulos</p>
+                <p class="detail">Empieza con el alfabeto cirílico y muestra las marcas de acento en todo momento. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de España"><use href="#flag-es" /></svg></span>
+                <h4>Español</h4>
+                <p class="native"><span lang="es">español</span> · España</p>
+                <p class="size">A1–C1 · 8 fases · 78 módulos</p>
+                <p class="detail">Español peninsular, con notas sobre el uso en Latinoamérica y un módulo sobre las variedades del español. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Francia"><use href="#flag-fr" /></svg></span>
+                <h4>Francés</h4>
+                <p class="native"><span lang="fr">français</span> · Francia</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">El francés de Francia, con un módulo sobre el francés en el mundo. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Alemania"><use href="#flag-de" /></svg></span>
+                <h4>Alemán</h4>
+                <p class="native"><span lang="de">Deutsch</span> · Alemania</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">El alemán estándar de Alemania, con un módulo sobre el alemán en Austria y Suiza. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Italia"><use href="#flag-it" /></svg></span>
+                <h4>Italiano</h4>
+                <p class="native"><span lang="it">italiano</span> · Italia</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">El italiano estándar de Italia, con un módulo sobre el italiano en toda Italia y fuera de ella. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Brasil"><use href="#flag-br" /></svg></span>
+                <h4>Portugués de Brasil</h4>
+                <p class="native"><span lang="pt-BR">português</span> · Brasil</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">El portugués de Brasil, con un módulo sobre el portugués en Brasil y en el mundo. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Finlandia"><use href="#flag-fi" /></svg></span>
+                <h4>Finés</h4>
+                <p class="native"><span lang="fi">suomi</span> · Finlandia</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">Finés estándar con el finés hablado enseñado a la par, y módulos sobre los dialectos y sobre el sueco en Finlandia. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Japón"><use href="#flag-jp" /></svg></span>
+                <h4>Japonés</h4>
+                <p class="native"><span lang="ja">日本語</span> · Japón</p>
+                <p class="size">A1–C1 · 8 fases · 80 módulos</p>
+                <p class="detail">Empieza con hiragana y katakana, y luego enseña unos 1000 kanji paso a paso, con furigana que puedes ocultar. Las fases siguen los niveles N5 a N1 del JLPT. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Ucrania"><use href="#flag-ua" /></svg></span>
+                <h4>Ucraniano</h4>
+                <p class="native" lang="uk">украї́нська мо́ва</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">Ucraniano estándar con la ortografía de 2019 y marcas de acento en todo momento. No hay práctica de pronunciación, porque la evaluación del habla no cubre el ucraniano. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de los Países Bajos"><use href="#flag-nl" /></svg></span>
+                <h4>Neerlandés</h4>
+                <p class="native"><span lang="nl">Nederlands</span> · Países Bajos</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">El neerlandés estándar de los Países Bajos, con un módulo sobre las variedades del neerlandés. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Polonia"><use href="#flag-pl" /></svg></span>
+                <h4>Polaco</h4>
+                <p class="native"><span lang="pl">polski</span> · Polonia</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">El polaco estándar de Polonia, con los siete casos, el aspecto verbal y el plural masculino personal enseñados paso a paso. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de la Liga Árabe"><use href="#flag-arab-league" /></svg></span>
+                <h4>Árabe</h4>
+                <p class="native"><bdi lang="ar">العربية</bdi> · el mundo árabe</p>
+                <p class="size">A1–C1 · 8 fases · 77 módulos</p>
+                <p class="detail">Árabe estándar moderno, escrito de derecha a izquierda. Empieza con la escritura; los signos vocálicos se muestran al principio y se van quitando paso a paso, como en los textos reales, y puedes ocultarlas. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de China"><use href="#flag-cn" /></svg></span>
+                <h4>Chino</h4>
+                <p class="native"><span lang="zh-Hans">中文</span> · China continental</p>
+                <p class="size">De HSK 1 a HSK 7–9 · 8 fases · 80 módulos</p>
+                <p class="detail">Mandarín tal como se escribe en China continental, en caracteres simplificados. Empieza con el pinyin y los tonos; en las primeras fases el pinyin aparece sobre cada palabra, y puedes ocultarlo. Toca una palabra para ver su clasificador y su forma tradicional. Las fases siguen los niveles HSK 1 a HSK 7–9. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Georgia"><use href="#flag-ge" /></svg></span>
+                <h4>Georgiano</h4>
+                <p class="native"><span lang="ka">ქართული</span> · Georgia</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">El georgiano literario estándar de Georgia. Empieza con el alfabeto mjedruli, que no tiene mayúsculas, y escribes con un teclado georgiano fonético. Los sujetos en ergativo y en dativo, las series verbales (screeves), los preverbios y la marcación del objeto se enseñan paso a paso. Las especializaciones profesionales, las historias, los textos sobre el país, las trampas comunes y la preparación de exámenes llegarán más adelante. No hay práctica de pronunciación, porque la evaluación del habla no cubre el georgiano.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Estados Unidos"><use href="#flag-us" /></svg></span>
+                <h4>Inglés</h4>
+                <p class="native"><span lang="en">English</span> · Estados Unidos</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">Inglés de Estados Unidos, explicado en inglés sencillo adaptado a tu nivel y sin traducciones, con un módulo sobre el inglés de Estados Unidos y el del Reino Unido. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+            </ul>
+          </div>
+          <div role="tabpanel" id="courses-ru" aria-labelledby="tab-courses-ru" hidden>
+            <ul class="courses">
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Estados Unidos"><use href="#flag-us" /></svg></span>
+                <h4>Inglés</h4>
+                <p class="native"><span lang="en">English</span> · Estados Unidos</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">Inglés de Estados Unidos enseñado en ruso, con la gramática comparada con el ruso y ejercicios de traducción en ambos sentidos. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Finlandia"><use href="#flag-fi" /></svg></span>
+                <h4>Finés</h4>
+                <p class="native"><span lang="fi">suomi</span> · Finlandia</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail">Finés estándar enseñado en ruso, con la gramática comparada con el ruso y el finés hablado junto a la lengua escrita. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+            </ul>
+          </div>
+          <div role="tabpanel" id="courses-es" aria-labelledby="tab-courses-es">
+            <ul class="courses">
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Estados Unidos"><use href="#flag-us" /></svg></span>
+                <h4>Inglés</h4>
+                <p class="native"><span lang="en">English</span> · Estados Unidos</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail"><span lang="es">Inglés para hispanohablantes.</span> Inglés de Estados Unidos con explicaciones en español latinoamericano neutro, la gramática comparada con el español, falsos amigos y preparación para los exámenes IELTS, TOEFL y Cambridge. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+            </ul>
+          </div>
+          <div role="tabpanel" id="courses-fi" aria-labelledby="tab-courses-fi" hidden>
+            <ul class="courses">
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Bandera de Estados Unidos"><use href="#flag-us" /></svg></span>
+                <h4>Inglés</h4>
+                <p class="native"><span lang="en">English</span> · Estados Unidos</p>
+                <p class="size">A1–C1 · 8 fases · 76 módulos</p>
+                <p class="detail"><span lang="fi">Englanti suomenkielisille.</span> Inglés de Estados Unidos con explicaciones en finés, la gramática comparada con el finés, falsos amigos y preparación para los exámenes IELTS, TOEFL y Cambridge. Además, 13 especializaciones profesionales con 117 módulos más.</p>
+              </li>
+            </ul>
+          </div>
         </section>
       </div>
       <section class="section path-bg" id="path" aria-labelledby="path-title">
@@ -4012,26 +4024,41 @@
           })
         })
 
-        const tabs = Array.from(document.querySelectorAll('[role="tab"]'))
-        const select = (tab) => {
-          tabs.forEach((other) => {
-            const selected = other === tab
-            other.setAttribute('aria-selected', String(selected))
-            other.tabIndex = selected ? 0 : -1
-            document.getElementById(other.getAttribute('aria-controls')).hidden = !selected
-          })
-        }
-        tabs.forEach((tab, index) => {
-          tab.addEventListener('click', () => select(tab))
-          tab.addEventListener('keydown', (event) => {
-            const step = { ArrowRight: 1, ArrowLeft: -1 }[event.key]
-            if (step) {
-              const next = tabs[(index + step + tabs.length) % tabs.length]
-              select(next)
-              next.focus()
-            }
+        // The path section splits one set of tabs over several tablists, so tabs belong together by section.
+        document.querySelectorAll('section').forEach((section) => {
+          const tabs = Array.from(section.querySelectorAll('[role="tab"]'))
+          const select = (tab) => {
+            tabs.forEach((other) => {
+              const selected = other === tab
+              other.setAttribute('aria-selected', String(selected))
+              other.tabIndex = selected ? 0 : -1
+              document.getElementById(other.getAttribute('aria-controls')).hidden = !selected
+            })
+          }
+          tabs.forEach((tab, index) => {
+            tab.addEventListener('click', () => select(tab))
+            tab.addEventListener('keydown', (event) => {
+              const step = { ArrowRight: 1, ArrowLeft: -1 }[event.key]
+              if (step) {
+                const next = tabs[(index + step + tabs.length) % tabs.length]
+                select(next)
+                next.focus()
+              }
+            })
           })
         })
+
+        // Most visitors land on the English page whatever they speak, so there the courses explained in
+        // their browser's language open first. On a translated page the visitor has already chosen.
+        if (document.documentElement.lang === 'en') {
+          const baseTabs = Array.from(document.querySelectorAll('#courses [data-base]'))
+          const preferred = navigator.languages
+            .map((language) => baseTabs.find((tab) => tab.dataset.base === language.slice(0, 2).toLowerCase()))
+            .find(Boolean)
+          if (preferred && preferred.getAttribute('aria-selected') !== 'true') {
+            preferred.click()
+          }
+        }
       })()
     </script>
     <script>

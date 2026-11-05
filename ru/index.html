@@ -660,16 +660,20 @@
         border-radius: 3px;
         margin-bottom: 14px;
       }
-      .course-group {
-        font-size: 0.75rem;
-        font-weight: 600;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: var(--subtle);
-        margin: 32px 0 12px;
+      .course-tabs {
+        margin-bottom: 24px;
       }
-      .course-group:first-of-type {
-        margin-top: 0;
+      .tab.tab-text {
+        padding: 8px 14px;
+      }
+      .tab-count {
+        font-size: 0.8125rem;
+        font-weight: 600;
+        color: var(--subtle);
+      }
+      .tab[aria-selected='true'] .tab-count {
+        color: inherit;
+        opacity: 0.7;
       }
       .course h4 {
         font-family: var(--serif);
@@ -696,7 +700,7 @@
       }
       @media (max-width: 1100px) {
         .courses {
-          grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
         }
       }
 
@@ -2062,161 +2066,169 @@
               языке. Каждый курс учит одному стандартному варианту языка, так что лексика, орфография и произношение, которые вы осваиваете, согласуются между собой.
             </p>
           </div>
-          <h3 class="course-group" id="courses-en">Для англоговорящих</h3>
-          <ul class="courses" aria-labelledby="courses-en">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Швеции"><use href="#flag-sv" /></svg></span>
-              <h4>Шведский</h4>
-              <p class="native"><span lang="sv">svenska</span> · Швеция</p>
-              <p class="size">A1–C1 · 8 ступеней · 75 модулей</p>
-              <p class="detail">А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг России"><use href="#flag-ru" /></svg></span>
-              <h4>Русский</h4>
-              <p class="native" lang="ru">ру́сский язы́к</p>
-              <p class="size">A1–C1 · 8 ступеней · 78 модулей</p>
-              <p class="detail">Начинается с кириллицы, ударения отмечены во всём курсе. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Испании"><use href="#flag-es" /></svg></span>
-              <h4>Испанский</h4>
-              <p class="native"><span lang="es">español</span> · Испания</p>
-              <p class="size">A1–C1 · 8 ступеней · 78 модулей</p>
-              <p class="detail">Кастильский испанский с заметками о латиноамериканских особенностях и модулем о вариантах испанского. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Франции"><use href="#flag-fr" /></svg></span>
-              <h4>Французский</h4>
-              <p class="native"><span lang="fr">français</span> · Франция</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Французский язык Франции с модулем о французском в мире. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Германии"><use href="#flag-de" /></svg></span>
-              <h4>Немецкий</h4>
-              <p class="native"><span lang="de">Deutsch</span> · Германия</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Литературный немецкий язык Германии с модулем о немецком в Австрии и Швейцарии. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Италии"><use href="#flag-it" /></svg></span>
-              <h4>Итальянский</h4>
-              <p class="native"><span lang="it">italiano</span> · Италия</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Литературный итальянский язык Италии с модулем об итальянском по всей Италии и за её пределами. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Бразилии"><use href="#flag-br" /></svg></span>
-              <h4>Бразильский португальский</h4>
-              <p class="native"><span lang="pt-BR">português</span> · Бразилия</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Португальский язык Бразилии с модулем о португальском в Бразилии и в мире. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Финляндии"><use href="#flag-fi" /></svg></span>
-              <h4>Финский</h4>
-              <p class="native"><span lang="fi">suomi</span> · Финляндия</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Литературный финский, а параллельно с ним — разговорный, и модули о диалектах и о шведском языке в Финляндии. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Японии"><use href="#flag-jp" /></svg></span>
-              <h4>Японский</h4>
-              <p class="native"><span lang="ja">日本語</span> · Япония</p>
-              <p class="size">A1–C1 · 8 ступеней · 80 модулей</p>
-              <p class="detail">Начинается с хираганы и катаканы, затем шаг за шагом вводит около 1000 иероглифов; фуригану можно скрыть. Ступени соответствуют уровням JLPT от N5 до N1. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Украины"><use href="#flag-ua" /></svg></span>
-              <h4>Украинский</h4>
-              <p class="native" lang="uk">украї́нська мо́ва</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Литературный украинский по правописанию 2019 года, ударения отмечены во всём курсе. Практики произношения нет: автоматическая оценка речи не поддерживает украинский. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Нидерландов"><use href="#flag-nl" /></svg></span>
-              <h4>Нидерландский</h4>
-              <p class="native"><span lang="nl">Nederlands</span> · Нидерланды</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Литературный нидерландский язык Нидерландов с модулем о вариантах нидерландского. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Польши"><use href="#flag-pl" /></svg></span>
-              <h4>Польский</h4>
-              <p class="native"><span lang="pl">polski</span> · Польша</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Литературный польский язык Польши: все семь падежей, вид глагола и мужско-личная форма множественного числа вводятся шаг за шагом. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Лиги арабских государств"><use href="#flag-arab-league" /></svg></span>
-              <h4>Арабский</h4>
-              <p class="native"><bdi lang="ar">العربية</bdi> · арабский мир</p>
-              <p class="size">A1–C1 · 8 ступеней · 77 модулей</p>
-              <p class="detail">Современный литературный арабский, пишется справа налево. Начинается с письменности; огласовки сначала проставлены, а затем постепенно убираются, как в реальных текстах, и их можно скрыть. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Китая"><use href="#flag-cn" /></svg></span>
-              <h4>Китайский</h4>
-              <p class="native"><span lang="zh-Hans">中文</span> · материковый Китай</p>
-              <p class="size">От HSK 1 до HSK 7–9 · 8 ступеней · 80 модулей</p>
-              <p class="detail">Путунхуа в том виде, в каком на нём пишут в материковом Китае, упрощёнными иероглифами. Начинается с пиньиня и тонов; на первых ступенях пиньинь показан над каждым словом, и его можно скрыть. Нажмите на слово, чтобы увидеть его счётное слово и традиционное написание. Ступени соответствуют уровням от HSK 1 до HSK 7–9. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Грузии"><use href="#flag-ge" /></svg></span>
-              <h4>Грузинский</h4>
-              <p class="native"><span lang="ka">ქართული</span> · Грузия</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Литературный грузинский язык Грузии. Начинается с алфавита мхедрули, в котором нет заглавных букв; печатать нужно на фонетической грузинской раскладке. Эргативный и дательный субъект, серии (скривы), превербы и маркирование объекта вводятся шаг за шагом. Профессиональные специализации, рассказы, тексты о стране, типичные ловушки и подготовка к экзаменам появятся позже. Практики произношения нет: автоматическая оценка речи не поддерживает грузинский.</p>
-            </li>
-          </ul>
-          <h3 class="course-group" id="courses-mono">На английском</h3>
-          <ul class="courses" aria-labelledby="courses-mono">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг США"><use href="#flag-us" /></svg></span>
-              <h4>Английский</h4>
-              <p class="native"><span lang="en">English</span> · США</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Американский английский: объяснения на простом английском под ваш уровень, без переводов, и модуль об американском и британском английском. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-          </ul>
-          <h3 class="course-group" id="courses-ru">Для русскоговорящих</h3>
-          <ul class="courses" aria-labelledby="courses-ru">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг США"><use href="#flag-us" /></svg></span>
-              <h4>Английский</h4>
-              <p class="native"><span lang="en">English</span> · США</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Американский английский с объяснениями на русском, сравнением грамматики с русской и упражнениями на перевод в обе стороны. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг Финляндии"><use href="#flag-fi" /></svg></span>
-              <h4>Финский</h4>
-              <p class="native"><span lang="fi">suomi</span> · Финляндия</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail">Литературный финский с объяснениями на русском, сравнением грамматики с русской и разговорным финским наряду с письменным языком. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-          </ul>
-          <h3 class="course-group" id="courses-es">Для испаноговорящих</h3>
-          <ul class="courses" aria-labelledby="courses-es">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг США"><use href="#flag-us" /></svg></span>
-              <h4>Английский</h4>
-              <p class="native"><span lang="en">English</span> · США</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail"><span lang="es">Inglés para hispanohablantes.</span> Американский английский с объяснениями на нейтральном латиноамериканском испанском, сравнением грамматики с испанской, ложными друзьями переводчика и подготовкой к экзаменам IELTS, TOEFL и Cambridge. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-          </ul>
-          <h3 class="course-group" id="courses-fi">Для финноговорящих</h3>
-          <ul class="courses" aria-labelledby="courses-fi">
-            <li class="course">
-              <span class="flag"><svg role="img" aria-label="Флаг США"><use href="#flag-us" /></svg></span>
-              <h4>Английский</h4>
-              <p class="native"><span lang="en">English</span> · США</p>
-              <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
-              <p class="detail"><span lang="fi">Englanti suomenkielisille.</span> Американский английский с объяснениями на финском, сравнением грамматики с финской, ложными друзьями переводчика и подготовкой к экзаменам IELTS, TOEFL и Cambridge. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
-            </li>
-          </ul>
+          <p class="tab-group-label" id="courses-tabs-label">Объяснения на языке</p>
+          <div class="tabs course-tabs" role="tablist" aria-labelledby="courses-tabs-label">
+            <button class="tab tab-text" role="tab" type="button" id="tab-courses-en" aria-controls="courses-en" aria-selected="false" tabindex="-1" data-base="en"><span lang="en">English</span><span class="tab-count">16</span></button>
+            <button class="tab tab-text" role="tab" type="button" id="tab-courses-ru" aria-controls="courses-ru" aria-selected="true" data-base="ru"><span>Русский</span><span class="tab-count">2</span></button>
+            <button class="tab tab-text" role="tab" type="button" id="tab-courses-es" aria-controls="courses-es" aria-selected="false" tabindex="-1" data-base="es"><span lang="es">Español</span><span class="tab-count">1</span></button>
+            <button class="tab tab-text" role="tab" type="button" id="tab-courses-fi" aria-controls="courses-fi" aria-selected="false" tabindex="-1" data-base="fi"><span lang="fi">Suomi</span><span class="tab-count">1</span></button>
+          </div>
+          <div role="tabpanel" id="courses-en" aria-labelledby="tab-courses-en" hidden>
+            <ul class="courses">
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Швеции"><use href="#flag-sv" /></svg></span>
+                <h4>Шведский</h4>
+                <p class="native"><span lang="sv">svenska</span> · Швеция</p>
+                <p class="size">A1–C1 · 8 ступеней · 75 модулей</p>
+                <p class="detail">А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг России"><use href="#flag-ru" /></svg></span>
+                <h4>Русский</h4>
+                <p class="native" lang="ru">ру́сский язы́к</p>
+                <p class="size">A1–C1 · 8 ступеней · 78 модулей</p>
+                <p class="detail">Начинается с кириллицы, ударения отмечены во всём курсе. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Испании"><use href="#flag-es" /></svg></span>
+                <h4>Испанский</h4>
+                <p class="native"><span lang="es">español</span> · Испания</p>
+                <p class="size">A1–C1 · 8 ступеней · 78 модулей</p>
+                <p class="detail">Кастильский испанский с заметками о латиноамериканских особенностях и модулем о вариантах испанского. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Франции"><use href="#flag-fr" /></svg></span>
+                <h4>Французский</h4>
+                <p class="native"><span lang="fr">français</span> · Франция</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Французский язык Франции с модулем о французском в мире. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Германии"><use href="#flag-de" /></svg></span>
+                <h4>Немецкий</h4>
+                <p class="native"><span lang="de">Deutsch</span> · Германия</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Литературный немецкий язык Германии с модулем о немецком в Австрии и Швейцарии. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Италии"><use href="#flag-it" /></svg></span>
+                <h4>Итальянский</h4>
+                <p class="native"><span lang="it">italiano</span> · Италия</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Литературный итальянский язык Италии с модулем об итальянском по всей Италии и за её пределами. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Бразилии"><use href="#flag-br" /></svg></span>
+                <h4>Бразильский португальский</h4>
+                <p class="native"><span lang="pt-BR">português</span> · Бразилия</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Португальский язык Бразилии с модулем о португальском в Бразилии и в мире. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Финляндии"><use href="#flag-fi" /></svg></span>
+                <h4>Финский</h4>
+                <p class="native"><span lang="fi">suomi</span> · Финляндия</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Литературный финский, а параллельно с ним — разговорный, и модули о диалектах и о шведском языке в Финляндии. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Японии"><use href="#flag-jp" /></svg></span>
+                <h4>Японский</h4>
+                <p class="native"><span lang="ja">日本語</span> · Япония</p>
+                <p class="size">A1–C1 · 8 ступеней · 80 модулей</p>
+                <p class="detail">Начинается с хираганы и катаканы, затем шаг за шагом вводит около 1000 иероглифов; фуригану можно скрыть. Ступени соответствуют уровням JLPT от N5 до N1. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Украины"><use href="#flag-ua" /></svg></span>
+                <h4>Украинский</h4>
+                <p class="native" lang="uk">украї́нська мо́ва</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Литературный украинский по правописанию 2019 года, ударения отмечены во всём курсе. Практики произношения нет: автоматическая оценка речи не поддерживает украинский. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Нидерландов"><use href="#flag-nl" /></svg></span>
+                <h4>Нидерландский</h4>
+                <p class="native"><span lang="nl">Nederlands</span> · Нидерланды</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Литературный нидерландский язык Нидерландов с модулем о вариантах нидерландского. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Польши"><use href="#flag-pl" /></svg></span>
+                <h4>Польский</h4>
+                <p class="native"><span lang="pl">polski</span> · Польша</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Литературный польский язык Польши: все семь падежей, вид глагола и мужско-личная форма множественного числа вводятся шаг за шагом. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Лиги арабских государств"><use href="#flag-arab-league" /></svg></span>
+                <h4>Арабский</h4>
+                <p class="native"><bdi lang="ar">العربية</bdi> · арабский мир</p>
+                <p class="size">A1–C1 · 8 ступеней · 77 модулей</p>
+                <p class="detail">Современный литературный арабский, пишется справа налево. Начинается с письменности; огласовки сначала проставлены, а затем постепенно убираются, как в реальных текстах, и их можно скрыть. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Китая"><use href="#flag-cn" /></svg></span>
+                <h4>Китайский</h4>
+                <p class="native"><span lang="zh-Hans">中文</span> · материковый Китай</p>
+                <p class="size">От HSK 1 до HSK 7–9 · 8 ступеней · 80 модулей</p>
+                <p class="detail">Путунхуа в том виде, в каком на нём пишут в материковом Китае, упрощёнными иероглифами. Начинается с пиньиня и тонов; на первых ступенях пиньинь показан над каждым словом, и его можно скрыть. Нажмите на слово, чтобы увидеть его счётное слово и традиционное написание. Ступени соответствуют уровням от HSK 1 до HSK 7–9. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Грузии"><use href="#flag-ge" /></svg></span>
+                <h4>Грузинский</h4>
+                <p class="native"><span lang="ka">ქართული</span> · Грузия</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Литературный грузинский язык Грузии. Начинается с алфавита мхедрули, в котором нет заглавных букв; печатать нужно на фонетической грузинской раскладке. Эргативный и дательный субъект, серии (скривы), превербы и маркирование объекта вводятся шаг за шагом. Профессиональные специализации, рассказы, тексты о стране, типичные ловушки и подготовка к экзаменам появятся позже. Практики произношения нет: автоматическая оценка речи не поддерживает грузинский.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг США"><use href="#flag-us" /></svg></span>
+                <h4>Английский</h4>
+                <p class="native"><span lang="en">English</span> · США</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Американский английский: объяснения на простом английском под ваш уровень, без переводов, и модуль об американском и британском английском. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+            </ul>
+          </div>
+          <div role="tabpanel" id="courses-ru" aria-labelledby="tab-courses-ru">
+            <ul class="courses">
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг США"><use href="#flag-us" /></svg></span>
+                <h4>Английский</h4>
+                <p class="native"><span lang="en">English</span> · США</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Американский английский с объяснениями на русском, сравнением грамматики с русской и упражнениями на перевод в обе стороны. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг Финляндии"><use href="#flag-fi" /></svg></span>
+                <h4>Финский</h4>
+                <p class="native"><span lang="fi">suomi</span> · Финляндия</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail">Литературный финский с объяснениями на русском, сравнением грамматики с русской и разговорным финским наряду с письменным языком. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+            </ul>
+          </div>
+          <div role="tabpanel" id="courses-es" aria-labelledby="tab-courses-es" hidden>
+            <ul class="courses">
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг США"><use href="#flag-us" /></svg></span>
+                <h4>Английский</h4>
+                <p class="native"><span lang="en">English</span> · США</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail"><span lang="es">Inglés para hispanohablantes.</span> Американский английский с объяснениями на нейтральном латиноамериканском испанском, сравнением грамматики с испанской, ложными друзьями переводчика и подготовкой к экзаменам IELTS, TOEFL и Cambridge. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+            </ul>
+          </div>
+          <div role="tabpanel" id="courses-fi" aria-labelledby="tab-courses-fi" hidden>
+            <ul class="courses">
+              <li class="course">
+                <span class="flag"><svg role="img" aria-label="Флаг США"><use href="#flag-us" /></svg></span>
+                <h4>Английский</h4>
+                <p class="native"><span lang="en">English</span> · США</p>
+                <p class="size">A1–C1 · 8 ступеней · 76 модулей</p>
+                <p class="detail"><span lang="fi">Englanti suomenkielisille.</span> Американский английский с объяснениями на финском, сравнением грамматики с финской, ложными друзьями переводчика и подготовкой к экзаменам IELTS, TOEFL и Cambridge. А также 13 профессиональных специализаций — ещё 117 модулей.</p>
+              </li>
+            </ul>
+          </div>
         </section>
       </div>
       <section class="section path-bg" id="path" aria-labelledby="path-title">
@@ -4012,26 +4024,41 @@
           })
         })
 
-        const tabs = Array.from(document.querySelectorAll('[role="tab"]'))
-        const select = (tab) => {
-          tabs.forEach((other) => {
-            const selected = other === tab
-            other.setAttribute('aria-selected', String(selected))
-            other.tabIndex = selected ? 0 : -1
-            document.getElementById(other.getAttribute('aria-controls')).hidden = !selected
-          })
-        }
-        tabs.forEach((tab, index) => {
-          tab.addEventListener('click', () => select(tab))
-          tab.addEventListener('keydown', (event) => {
-            const step = { ArrowRight: 1, ArrowLeft: -1 }[event.key]
-            if (step) {
-              const next = tabs[(index + step + tabs.length) % tabs.length]
-              select(next)
-              next.focus()
-            }
+        // The path section splits one set of tabs over several tablists, so tabs belong together by section.
+        document.querySelectorAll('section').forEach((section) => {
+          const tabs = Array.from(section.querySelectorAll('[role="tab"]'))
+          const select = (tab) => {
+            tabs.forEach((other) => {
+              const selected = other === tab
+              other.setAttribute('aria-selected', String(selected))
+              other.tabIndex = selected ? 0 : -1
+              document.getElementById(other.getAttribute('aria-controls')).hidden = !selected
+            })
+          }
+          tabs.forEach((tab, index) => {
+            tab.addEventListener('click', () => select(tab))
+            tab.addEventListener('keydown', (event) => {
+              const step = { ArrowRight: 1, ArrowLeft: -1 }[event.key]
+              if (step) {
+                const next = tabs[(index + step + tabs.length) % tabs.length]
+                select(next)
+                next.focus()
+              }
+            })
           })
         })
+
+        // Most visitors land on the English page whatever they speak, so there the courses explained in
+        // their browser's language open first. On a translated page the visitor has already chosen.
+        if (document.documentElement.lang === 'en') {
+          const baseTabs = Array.from(document.querySelectorAll('#courses [data-base]'))
+          const preferred = navigator.languages
+            .map((language) => baseTabs.find((tab) => tab.dataset.base === language.slice(0, 2).toLowerCase()))
+            .find(Boolean)
+          if (preferred && preferred.getAttribute('aria-selected') !== 'true') {
+            preferred.click()
+          }
+        }
       })()
     </script>
     <script>
