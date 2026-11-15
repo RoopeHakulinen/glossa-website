@@ -55,7 +55,7 @@
       "type": "list",
       "eyebrow": "Exam preparation",
       "heading": "Practice papers for the JLPT",
-      "intro": "The course has timed practice papers for the Japanese-Language Proficiency Test (<span lang=\"ja\">日本語能力試験</span>), two papers at each of its five levels. Like the real test, they cover language knowledge, reading and listening; the JLPT has no writing or speaking test. <a href=\"/exams/jlpt.html\">What the papers cover and how they differ from the real test</a>.",
+      "intro": "The course has timed practice papers for the Japanese-Language Proficiency Test (<span lang=\"ja\">日本語能力試験</span>), two papers at each of its five levels. Like the real test, they cover language knowledge, reading and listening; the JLPT has no writing or speaking test. <a href=\"/exams/jlpt\">What the papers cover and how they differ from the real test</a>.",
       "items": [
         "<b>N5</b>, the first level",
         "<b>N4</b>",

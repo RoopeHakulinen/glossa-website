@@ -81,13 +81,13 @@
         { "question": "Which exam do I need for Italian citizenship?", "answer": "The Società Dante Alighieri states that the Italian state recognises PLIDA B1 for citizenship applications; CILS has a separate citizenship version of its B1 exam. The Italian authorities that handle your application decide which certificates they accept and set the other conditions." },
         { "question": "CILS, CELI or PLIDA: which should I take?", "answer": "That depends on what the certificate is for and where you can sit it. They differ in structure: CILS has a separate language structures test and needs a pass in every test, CELI adds the written tests together and grades from A to E, and PLIDA needs 18 of 30 in each of four tests." },
         { "question": "What is free?", "answer": "The whole Italian course from A1 to C1, the grammar reference and word practice are free. The practice papers, conversation practice, stories and the other extras are part of Premium." },
-        { "question": "I speak Spanish. Is there a course for me?", "answer": "Yes. <a href=\"/es/courses/italian.html\" hreflang=\"es\">Italiano para hispanohablantes</a> has the same CILS, CELI and PLIDA papers, with the instructions and explanations in Spanish." }
+        { "question": "I speak Spanish. Is there a course for me?", "answer": "Yes. <a href=\"/es/courses/italian\" hreflang=\"es\">Italiano para hispanohablantes</a> has the same CILS, CELI and PLIDA papers, with the instructions and explanations in Spanish." }
       ]
     }
   ],
   "closing": {
     "heading": "Start with the course, practise with the papers.",
-    "text": "Sign in with Google, take the placement test if you already know some Italian, and open the first module or the practice papers. <a href=\"/courses/italian.html\">More about the Italian course</a>."
+    "text": "Sign in with Google, take the placement test if you already know some Italian, and open the first module or the practice papers. <a href=\"/courses/italian\">More about the Italian course</a>."
   },
   "trademark": "CILS (Certificazione di Italiano come Lingua Straniera) is awarded by the Università per Stranieri di Siena, CELI (Certificati di Lingua Italiana) by the Università per Stranieri di Perugia and PLIDA (Progetto Lingua Italiana Dante Alighieri) by the Società Dante Alighieri. Glossa is not affiliated with or endorsed by any of them."
 }

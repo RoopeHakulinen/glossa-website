@@ -1,6 +1,6 @@
 # Course and exam landing pages
 
-`build.mjs` turns each `pages/<locale>/<kind>/<slug>.json` into `<locale>/<kind>/<slug>.html` (English at the site root), writes `sitemap.xml`, and adds to every page a list of the other pages of its kind in its language. Run it after editing any JSON and commit the generated HTML with it:
+`build.mjs` turns each `pages/<locale>/<kind>/<slug>.json` into `<locale>/<kind>/<slug>.html` (English at the site root), served and linked without the `.html` (GitHub Pages resolves `/exams/yki` to `exams/yki.html`), writes `sitemap.xml`, and adds to every page a list of the other pages of its kind in its language. Run it after editing any JSON and commit the generated HTML with it:
 
 ```bash
 node tools/landing-pages/build.mjs

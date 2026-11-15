@@ -57,7 +57,7 @@
       "type": "list",
       "eyebrow": "Exam preparation",
       "heading": "Practice papers for the Certificate of Attainment in Greek",
-      "intro": "Two timed papers at each of two levels of the Greek state certificate (<span lang=\"el\">Ελληνομάθεια</span>), set by the Centre for the Greek Language, in reading, listening and writing, with original texts. Neither includes speaking. <a href=\"/exams/greek.html\">What the exam asks and how the papers differ</a>.",
+      "intro": "Two timed papers at each of two levels of the Greek state certificate (<span lang=\"el\">Ελληνομάθεια</span>), set by the Centre for the Greek Language, in reading, listening and writing, with original texts. Neither includes speaking. <a href=\"/exams/greek\">What the exam asks and how the papers differ</a>.",
       "items": [
         "<b>B1</b> (<span lang=\"el\">Β1</span>), with reading, listening and writing at full length.",
         "<b>B2</b> (<span lang=\"el\">Β2</span>), with reading, use of language, listening and writing; writing at full length, the others shorter."

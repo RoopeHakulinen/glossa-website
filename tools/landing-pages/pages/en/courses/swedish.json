@@ -59,7 +59,7 @@
       "type": "list",
       "eyebrow": "Exam preparation",
       "heading": "Practice papers for Tisus",
-      "intro": "The course has two timed practice papers for <a href=\"/exams/tisus.html\">Tisus</a>, Stockholm University's test of the Swedish needed for university studies in Sweden.",
+      "intro": "The course has two timed practice papers for <a href=\"/exams/tisus\">Tisus</a>, Stockholm University's test of the Swedish needed for university studies in Sweden.",
       "items": [
         "<b>Reading</b> in the test's task types, shorter than the real part.",
         "<b>Writing</b> at full length: one argumentative text in 2 hours 30 minutes, rated by AI against the Tisus criteria.",
@@ -95,8 +95,8 @@
         { "question": "Is the Swedish course really free?", "answer": "Yes. All 75 modules from A1 to C1, the grammar reference, word practice and the placement test are free, with 5 Ask AI questions a day. Premium adds the specializations, Tisus papers, stories, conversations and the other extras." },
         { "question": "Which Swedish does it teach?", "answer": "The Swedish of Sweden. Tier 8 has modules on spoken Swedish and on varieties such as Finland Swedish and the speech of Skåne and Gothenburg." },
         { "question": "I already know some Swedish. Do I have to start from the beginning?", "answer": "No. The placement test tells you which tier to start from." },
-        { "question": "Does it prepare for Tisus?", "answer": "It has two timed practice papers for the reading and writing parts of Tisus, and the upper tiers cover the academic and formal Swedish the test asks for. There is no speaking part, and the papers cannot tell you whether you would pass. The <a href=\"/exams/tisus.html\">Tisus page</a> has the details." },
-        { "question": "Is there a version for Finnish speakers?", "answer": "Yes. <a href=\"/fi/courses/swedish.html\" lang=\"fi\">Ruotsi suomenkielisille</a> has the same modules with explanations in Finnish, and also practice papers for the Swedish YKI test at the intermediate level." }
+        { "question": "Does it prepare for Tisus?", "answer": "It has two timed practice papers for the reading and writing parts of Tisus, and the upper tiers cover the academic and formal Swedish the test asks for. There is no speaking part, and the papers cannot tell you whether you would pass. The <a href=\"/exams/tisus\">Tisus page</a> has the details." },
+        { "question": "Is there a version for Finnish speakers?", "answer": "Yes. <a href=\"/fi/courses/swedish\" lang=\"fi\">Ruotsi suomenkielisille</a> has the same modules with explanations in Finnish, and also practice papers for the Swedish YKI test at the intermediate level." }
       ]
     }
   ],

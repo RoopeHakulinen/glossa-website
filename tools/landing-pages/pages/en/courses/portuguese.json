@@ -63,7 +63,7 @@
       "heading": "Practice papers for Celpe-Bras",
       "intro": "The course has timed practice papers for one exam:",
       "items": [
-        "<a href=\"/exams/celpe-bras.html\"><b>Celpe-Bras</b></a>, Brazil's certificate of proficiency in Portuguese: four practice papers for its written part, with original content. The oral part is not included."
+        "<a href=\"/exams/celpe-bras\"><b>Celpe-Bras</b></a>, Brazil's certificate of proficiency in Portuguese: four practice papers for its written part, with original content. The oral part is not included."
       ]
     },
     {
@@ -96,7 +96,7 @@
         { "question": "Is the course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice and the placement test are free. Premium adds specializations, conversation practice, stories, the Celpe-Bras papers and the other extras." },
         { "question": "I already know some Portuguese. Do I have to start at the beginning?", "answer": "No. The placement test finds the tier that fits and starts you there." },
         { "question": "Can I practise speaking?", "answer": "Yes. The course has speaking exercises with pronunciation feedback. Premium adds conversation practice with an AI character and pronunciation practice on any sentence you type." },
-        { "question": "I speak Spanish. Is there a course for me?", "answer": "Yes. <a href=\"/es/courses/portuguese.html\">Brazilian Portuguese for Spanish speakers</a> is a shorter course of 40 modules, explained in Spanish and built around what differs from Spanish." }
+        { "question": "I speak Spanish. Is there a course for me?", "answer": "Yes. <a href=\"/es/courses/portuguese\">Brazilian Portuguese for Spanish speakers</a> is a shorter course of 40 modules, explained in Spanish and built around what differs from Spanish." }
       ]
     }
   ],

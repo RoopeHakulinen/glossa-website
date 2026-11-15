@@ -81,8 +81,8 @@
         { "question": "Is Glossa connected with Inep?", "answer": "No. Glossa is not affiliated with Inep or Brazil's ministries. The papers follow Inep's published exam descriptions, with original content. Inep publishes a commented collection of tasks and past papers on its website." },
         { "question": "Which level will I get?", "answer": "Glossa cannot say. The level depends on the lower of your written and oral grades, and the papers cover only the written part and give no grade." },
         { "question": "Do the papers cover European Portuguese exams?", "answer": "No. The Celpe-Bras certifies Brazilian Portuguese, and so does the course. The CAPLE certificates of the University of Lisbon test European Portuguese and are not covered." },
-        { "question": "What is free?", "answer": "The whole Brazilian Portuguese course from A1 to C1, the grammar reference, word practice and the placement test are free. The Celpe-Bras papers, conversation practice, stories and the other extras are part of Premium. See the <a href=\"/courses/portuguese.html\">course page</a>." },
-        { "question": "I speak Spanish. Is there a course for me?", "answer": "Yes. Brazilian Portuguese for Spanish speakers has the same four papers, with the instructions in Spanish. See the <a href=\"/es/exams/celpe-bras.html\">page in Spanish</a>." }
+        { "question": "What is free?", "answer": "The whole Brazilian Portuguese course from A1 to C1, the grammar reference, word practice and the placement test are free. The Celpe-Bras papers, conversation practice, stories and the other extras are part of Premium. See the <a href=\"/courses/portuguese\">course page</a>." },
+        { "question": "I speak Spanish. Is there a course for me?", "answer": "Yes. Brazilian Portuguese for Spanish speakers has the same four papers, with the instructions in Spanish. See the <a href=\"/es/exams/celpe-bras\">page in Spanish</a>." }
       ]
     }
   ],

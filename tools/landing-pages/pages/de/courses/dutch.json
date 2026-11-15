@@ -61,7 +61,7 @@
       "items": [
         "<b><span lang=\"nl\">Programma I</span> (B1)</b>: zwei Übungsprüfungen mit Lesen, Hören und Schreiben.",
         "<b><span lang=\"nl\">Programma II</span> (B2)</b>: zwei Übungsprüfungen mit Lesen, Hören und Schreiben.",
-        "Was die Prüfung verlangt und worin sich die Übungsprüfungen unterscheiden: <a href=\"/de/exams/nt2.html\">Staatsexamen NT2 üben</a>."
+        "Was die Prüfung verlangt und worin sich die Übungsprüfungen unterscheiden: <a href=\"/de/exams/nt2\">Staatsexamen NT2 üben</a>."
       ]
     },
     {
@@ -72,8 +72,8 @@
         { "question": "Ist der Kurs wirklich kostenlos?", "answer": "Ja. Alle 40 Module von A1 bis C1, die Grammatikübersicht, das Wortschatztraining, der Einstufungstest und 5 Fragen am Tag an den KI-Tutor (KI fragen) sind kostenlos. Premium ergänzt die NT2-Übungsprüfungen, Redewendungen und weitere Extras." },
         { "question": "Warum hat der Kurs nur 40 Module?", "answer": "Weil er voraussetzt, dass du Deutsch sprichst. Was im Niederländischen wie im Deutschen funktioniert, braucht kein eigenes Modul; der Platz geht an das, was anders ist." },
         { "question": "Welches Niederländisch lerne ich?", "answer": "Das Standardniederländisch der Niederlande. Ein Modul der letzten Stufe behandelt das Niederländische in Flandern." },
-        { "question": "Hilft der Kurs bei der <span lang=\"nl\">inburgering</span> oder beim NT2?", "answer": "Der Kurs reicht von A1 bis C1, also über die Stufen B1 und B2 des Staatsexamens NT2 hinaus, und Premium enthält Übungsprüfungen für beide Programme. Sie decken das Sprechen nicht ab und zeigen keine Bestehensgrenze; die <a href=\"/de/exams/nt2.html\">NT2-Seite</a> erklärt, was sie abdecken." },
-        { "question": "Gibt es Fachwortschatz, etwa für Medizin oder Recht?", "answer": "In diesem Kurs nicht. Der Kurs Niederländisch für Englischsprachige hat 13 Fachkurse, falls du gut genug Englisch sprichst: <a href=\"/courses/dutch.html\">Dutch for English speakers</a>." }
+        { "question": "Hilft der Kurs bei der <span lang=\"nl\">inburgering</span> oder beim NT2?", "answer": "Der Kurs reicht von A1 bis C1, also über die Stufen B1 und B2 des Staatsexamens NT2 hinaus, und Premium enthält Übungsprüfungen für beide Programme. Sie decken das Sprechen nicht ab und zeigen keine Bestehensgrenze; die <a href=\"/de/exams/nt2\">NT2-Seite</a> erklärt, was sie abdecken." },
+        { "question": "Gibt es Fachwortschatz, etwa für Medizin oder Recht?", "answer": "In diesem Kurs nicht. Der Kurs Niederländisch für Englischsprachige hat 13 Fachkurse, falls du gut genug Englisch sprichst: <a href=\"/courses/dutch\">Dutch for English speakers</a>." }
       ]
     }
   ],

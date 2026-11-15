@@ -133,7 +133,7 @@
       "type": "list",
       "eyebrow": "Exam preparation",
       "heading": "Practice papers for TOPIK",
-      "intro": "The course has timed practice papers for both tests of the Test of Proficiency in Korean (<span lang=\"ko\">한국어능력시험</span>), in the paper-based test's task types and with original content. Neither covers the separate speaking test. <a href=\"/exams/topik.html\">What the papers cover and how they differ from the real test</a>.",
+      "intro": "The course has timed practice papers for both tests of the Test of Proficiency in Korean (<span lang=\"ko\">한국어능력시험</span>), in the paper-based test's task types and with original content. Neither covers the separate speaking test. <a href=\"/exams/topik\">What the papers cover and how they differ from the real test</a>.",
       "items": [
         "<b>TOPIK I</b>, levels 1 and 2: two full-length papers of listening and reading, for learners who have finished Tier 4.",
         "<b>TOPIK II</b>, levels 3 to 6: two papers of listening, writing and reading, for learners who have finished Tier 6; the hardest items assume Tier 8."

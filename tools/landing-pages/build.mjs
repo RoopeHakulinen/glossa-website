@@ -21,7 +21,7 @@ const escapeAttribute = (text) => text.replaceAll('&', '&amp;').replaceAll('"', 
 const stripTags = (html) => html.replace(/<[^>]+>/g, '')
 
 const prefix = (locale) => (locale === 'en' ? '' : `${locale}/`)
-const pagePath = (locale, kind, slug) => `${prefix(locale)}${kind}/${slug === 'index' ? '' : `${slug}.html`}`
+const pagePath = (locale, kind, slug) => `${prefix(locale)}${kind}/${slug === 'index' ? '' : slug}`
 const pageUrl = (locale, kind, slug) => `https://glossa.study/${pagePath(locale, kind, slug)}`
 
 function loadPages() {

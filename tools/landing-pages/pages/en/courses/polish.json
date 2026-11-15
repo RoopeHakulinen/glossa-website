@@ -54,7 +54,7 @@
       "heading": "Practice papers for the Polish certificate",
       "intro": "The course has two timed practice papers each for the B1 and B2 levels of the <span lang=\"pl\">egzamin certyfikatowy z języka polskiego jako obcego</span>, Poland's state exam in Polish as a foreign language. B1 or higher is required for recognition as a Polish citizen, unless you have a Polish school certificate; B2 is what most university programmes expect.",
       "items": [
-        "<a href=\"/exams/polish.html\">Polish B1 and B2 certificate practice papers</a>: what the exam asks, what the papers cover, and where they differ from the real exam."
+        "<a href=\"/exams/polish\">Polish B1 and B2 certificate practice papers</a>: what the exam asks, what the papers cover, and where they differ from the real exam."
       ]
     },
     {
@@ -86,8 +86,8 @@
         { "question": "Is the Polish course really free?", "answer": "Yes. All 76 modules, the grammar reference, word practice and the placement test are free, with 5 Ask AI questions a day. Premium adds the extras listed above." },
         { "question": "How far does the course go?", "answer": "From first words to C1, in eight tiers. The last tiers cover formal and official Polish, style, spoken Polish and literature." },
         { "question": "I already know some Polish. Do I have to start at the beginning?", "answer": "No. The placement test finds the tier to start from." },
-        { "question": "Does it prepare me for the B1 exam for Polish citizenship?", "answer": "The course teaches Polish up to C1, and Premium adds timed practice papers for the B1 and B2 certificate. The papers have no oral part and are shorter than the real exam in listening, reading and grammar. The <a href=\"/exams/polish.html\">exam page</a> has the details." },
-        { "question": "I speak Ukrainian. Is there a course for me?", "answer": "Yes. <a href=\"/uk/courses/polish.html\">Polish for Ukrainian speakers</a> is a shorter course of 40 modules, explained in Ukrainian and built around what differs from Ukrainian, with the same certificate papers." }
+        { "question": "Does it prepare me for the B1 exam for Polish citizenship?", "answer": "The course teaches Polish up to C1, and Premium adds timed practice papers for the B1 and B2 certificate. The papers have no oral part and are shorter than the real exam in listening, reading and grammar. The <a href=\"/exams/polish\">exam page</a> has the details." },
+        { "question": "I speak Ukrainian. Is there a course for me?", "answer": "Yes. <a href=\"/uk/courses/polish\">Polish for Ukrainian speakers</a> is a shorter course of 40 modules, explained in Ukrainian and built around what differs from Ukrainian, with the same certificate papers." }
       ]
     }
   ],

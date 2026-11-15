@@ -87,7 +87,7 @@
         { "question": "Programma I or Programma II?", "answer": "Programma I is at B1 and Programma II at B2. For <span lang=\"nl\">inburgering</span>, your municipality's plan names which one you take. The authorities that decide on <span lang=\"nl\">inburgering</span> and naturalisation set the other conditions." },
         { "question": "What is free?", "answer": "The whole Dutch course from A1 to C1, the grammar reference, word practice and the placement test are free. The NT2 practice papers, conversation practice, stories and the other extras are part of Premium." },
         { "question": "Does Glossa prepare me for the speaking part?", "answer": "Not with a practice paper. The course's speaking exercises give pronunciation feedback, and the conversation practice in Premium is practice in answering freely, but neither is rated like the exam." },
-        { "question": "I speak German. Is there a course for me?", "answer": "Yes. Dutch for German speakers has the same NT2 papers, with the instructions and explanations in German: <a href=\"/de/exams/nt2.html\">NT2 auf Deutsch</a>." }
+        { "question": "I speak German. Is there a course for me?", "answer": "Yes. Dutch for German speakers has the same NT2 papers, with the instructions and explanations in German: <a href=\"/de/exams/nt2\">NT2 auf Deutsch</a>." }
       ]
     }
   ],

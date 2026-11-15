@@ -5,7 +5,7 @@
   "eyebrow": "Exam preparation · Ukrainian",
   "heading": "Practise for the <em>Ukrainian</em> citizenship exam and telc B2.",
   "lead": "Timed practice papers for the listening, reading and writing parts of the state language exam for Ukrainian citizenship (B1) and of telc Ukrainian B2 Online. Behind them is a complete Ukrainian course from the alphabet to C1, so you can work on whatever the papers show you are missing.",
-  "fineprint": "The Ukrainian course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available <a href=\"/ru/exams/ukrainian.html\">for Russian speakers</a>.",
+  "fineprint": "The Ukrainian course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available <a href=\"/ru/exams/ukrainian\">for Russian speakers</a>.",
   "panel": {
     "label": "From citizenship practice paper 1, reading",
     "lang": "uk",
@@ -90,7 +90,7 @@
         { "question": "Which exam is the one for citizenship?", "answer": "The state language exam for citizenship at level B1, run by the National Commission on State Language Standards, with 70% overall to pass. The Ukrainian authorities that decide on citizenship set the other conditions." },
         { "question": "Can I take the citizenship exam online?", "answer": "No. It is taken on a computer at exam centres marked for citizenship in Kyiv, Lviv and Kharkiv. telc Ukrainian B2 Online, by contrast, is taken only online." },
         { "question": "What is free?", "answer": "The whole Ukrainian course from the alphabet to C1, the grammar reference and word practice are free. The practice papers, conversation practice, stories and the other extras are part of Premium." },
-        { "question": "I speak Russian. Is there a course for me?", "answer": "Yes. <a href=\"/ru/exams/ukrainian.html\">Ukrainian for Russian speakers</a> has the same papers, with the instructions and explanations in Russian." }
+        { "question": "I speak Russian. Is there a course for me?", "answer": "Yes. <a href=\"/ru/exams/ukrainian\">Ukrainian for Russian speakers</a> has the same papers, with the instructions and explanations in Russian." }
       ]
     }
   ],

@@ -54,7 +54,7 @@
       "heading": "Practice papers for the TYS",
       "intro": "The course has two timed practice papers for the <span lang=\"tr\">Türkçe Yeterlik Sınavı</span> (TYS), the Yunus Emre Institute's exam of Turkish as a foreign language, used for university study and work in Türkiye.",
       "items": [
-        "<a href=\"/exams/turkish.html\">TYS practice papers</a>: what the exam asks, what the papers cover, and where they differ from the real exam."
+        "<a href=\"/exams/turkish\">TYS practice papers</a>: what the exam asks, what the papers cover, and where they differ from the real exam."
       ]
     },
     {
@@ -87,7 +87,7 @@
         { "question": "How far does the course go?", "answer": "From first words to C1, in eight tiers. The last tiers cover formal and official Turkish, style, spoken Turkish and literature." },
         { "question": "Which Turkish does it teach?", "answer": "The standard Turkish of Türkiye, spelled by the rules of the Turkish Language Association (<span lang=\"tr\">Türk Dil Kurumu</span>)." },
         { "question": "Can I practise speaking?", "answer": "The Turkish in the course comes with audio, and Premium has conversation practice with an AI character. There is no rating of your pronunciation, because the speech assessment Glossa uses does not cover Turkish." },
-        { "question": "Does it prepare me for the TYS?", "answer": "The course teaches Turkish up to C1, and Premium adds two timed practice papers for the TYS. The papers have no speaking test and are shorter than the real exam in reading and listening. The <a href=\"/exams/turkish.html\">exam page</a> has the details." }
+        { "question": "Does it prepare me for the TYS?", "answer": "The course teaches Turkish up to C1, and Premium adds two timed practice papers for the TYS. The papers have no speaking test and are shorter than the real exam in reading and listening. The <a href=\"/exams/turkish\">exam page</a> has the details." }
       ]
     }
   ],

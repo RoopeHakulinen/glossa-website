@@ -79,7 +79,7 @@
         { "question": "Which level do I need for citizenship?", "answer": "B1 or higher. The voivode decides on recognition as a Polish citizen and there are other conditions besides the certificate; the voivodeship office (<span lang=\"pl\">urząd wojewódzki</span>) answers questions about them." },
         { "question": "Does the certificate expire?", "answer": "No. It states the level passed and does not expire. After a failed exam you can sit it again at the next session." },
         { "question": "What is free?", "answer": "The whole Polish course from A1 to C1, the grammar reference and word practice are free. The practice papers, conversation practice, stories and the other extras are part of Premium." },
-        { "question": "I speak Ukrainian. Is there a course for me?", "answer": "Yes. <a href=\"/uk/courses/polish.html\">Polish for Ukrainian speakers</a> has the same B1 and B2 papers, with the instructions and explanations in Ukrainian." }
+        { "question": "I speak Ukrainian. Is there a course for me?", "answer": "Yes. <a href=\"/uk/courses/polish\">Polish for Ukrainian speakers</a> has the same B1 and B2 papers, with the instructions and explanations in Ukrainian." }
       ]
     }
   ],

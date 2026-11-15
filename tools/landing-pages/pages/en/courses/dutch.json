@@ -62,7 +62,7 @@
       "items": [
         "<b>Programma I (B1)</b>: two papers with reading, listening and writing.",
         "<b>Programma II (B2)</b>: two papers with reading, listening and writing.",
-        "What the exam asks and where the papers differ from it: <a href=\"/exams/nt2.html\">Staatsexamen NT2 practice</a>."
+        "What the exam asks and where the papers differ from it: <a href=\"/exams/nt2\">Staatsexamen NT2 practice</a>."
       ]
     },
     {
@@ -94,8 +94,8 @@
         { "question": "Is the Dutch course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice, the placement test and 5 Ask AI questions a day are free. Premium adds the specializations, exam papers, stories, conversations and other extras." },
         { "question": "Which Dutch does the course teach?", "answer": "The standard Dutch of the Netherlands. A module in the advanced tier covers the varieties of Dutch, including the Dutch of Flanders." },
         { "question": "I already know some Dutch. Do I have to start at the beginning?", "answer": "No. The placement test finds your level, so you can start from the tier that fits." },
-        { "question": "Does it help with <span lang=\"nl\">inburgering</span> or the NT2 exam?", "answer": "The course goes from A1 to C1, past the B1 and B2 levels of the Staatsexamen NT2, and Premium has practice papers for both programmes. The papers do not cover speaking and give no pass mark; the <a href=\"/exams/nt2.html\">NT2 page</a> explains what they cover." },
-        { "question": "I speak German. Is there a course for me?", "answer": "Yes. Dutch for German speakers is a shorter course explained in German, built around what differs from German: <a href=\"/de/courses/dutch.html\">Niederländisch für Deutschsprachige</a>." }
+        { "question": "Does it help with <span lang=\"nl\">inburgering</span> or the NT2 exam?", "answer": "The course goes from A1 to C1, past the B1 and B2 levels of the Staatsexamen NT2, and Premium has practice papers for both programmes. The papers do not cover speaking and give no pass mark; the <a href=\"/exams/nt2\">NT2 page</a> explains what they cover." },
+        { "question": "I speak German. Is there a course for me?", "answer": "Yes. Dutch for German speakers is a shorter course explained in German, built around what differs from German: <a href=\"/de/courses/dutch\">Niederländisch für Deutschsprachige</a>." }
       ]
     }
   ],

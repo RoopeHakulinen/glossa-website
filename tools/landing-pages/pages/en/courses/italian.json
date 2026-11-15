@@ -60,7 +60,7 @@
       "heading": "Practice papers for CILS, CELI and PLIDA",
       "intro": "The course has two timed practice papers for each level of three Italian certificates, in their task formats with original content: CILS from the Università per Stranieri di Siena (A1 to C2), CELI from the Università per Stranieri di Perugia (CELI Impatto to CELI 5) and PLIDA from the Società Dante Alighieri (A1 to C2). That is 18 exams and 36 papers. They are part of Premium.",
       "items": [
-        "<a href=\"/exams/italian.html\">CILS, CELI and PLIDA practice papers</a>: what the B1 exams ask, what the papers cover and where they differ from the real exams."
+        "<a href=\"/exams/italian\">CILS, CELI and PLIDA practice papers</a>: what the B1 exams ask, what the papers cover and where they differ from the real exams."
       ]
     },
     {
@@ -99,7 +99,7 @@
   ],
   "closing": {
     "heading": "Start with the first module, or find your level.",
-    "text": "Sign in with Google, take the placement test if you already know some Italian, and open the module it suggests. Italian is also taught for Spanish speakers, in <a href=\"/es/courses/italian.html\" hreflang=\"es\">Italiano para hispanohablantes</a>."
+    "text": "Sign in with Google, take the placement test if you already know some Italian, and open the module it suggests. Italian is also taught for Spanish speakers, in <a href=\"/es/courses/italian\" hreflang=\"es\">Italiano para hispanohablantes</a>."
   },
   "trademark": "CILS is awarded by the Università per Stranieri di Siena, CELI by the Università per Stranieri di Perugia and PLIDA by the Società Dante Alighieri. Glossa is not affiliated with or endorsed by any of them."
 }

@@ -82,7 +82,7 @@
         { "question": "¿Qué nivel voy a obtener?", "answer": "Glossa no puede decirlo. El nivel depende de la más baja de tus notas escrita y oral, y los exámenes de práctica cubren solo la parte escrita y no dan nota." },
         { "question": "Hablo español. ¿Me sirve escribir en portuñol?", "answer": "No. Las tareas se escriben en portugués de Brasil, y la IA las califica según la norma brasileña. El curso dedica módulos y series de trampas justamente a los errores típicos del hispanohablante." },
         { "question": "¿Sirve para exámenes de portugués de Portugal?", "answer": "No. El Celpe-Bras certifica el portugués de Brasil, igual que el curso. Los certificados CAPLE de la Universidad de Lisboa evalúan el portugués europeo y no se incluyen." },
-        { "question": "¿Qué es gratis?", "answer": "Todo el curso de portugués de Brasil del A1 al C1, la referencia gramatical, la práctica de vocabulario y la prueba de nivel son gratis. Los exámenes de práctica del Celpe-Bras forman parte de Premium. Consulta la <a href=\"/es/courses/portuguese.html\">página del curso</a>." }
+        { "question": "¿Qué es gratis?", "answer": "Todo el curso de portugués de Brasil del A1 al C1, la referencia gramatical, la práctica de vocabulario y la prueba de nivel son gratis. Los exámenes de práctica del Celpe-Bras forman parte de Premium. Consulta la <a href=\"/es/courses/portuguese\">página del curso</a>." }
       ]
     }
   ],

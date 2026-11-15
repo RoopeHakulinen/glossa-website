@@ -61,7 +61,7 @@
       "type": "list",
       "eyebrow": "Exam preparation",
       "heading": "Practice papers for YKI",
-      "intro": "The course has timed practice papers for the reading, listening and writing subtests of the Finnish National Certificates of Language Proficiency, with original texts and recordings. They give no YKI grade and have no speaking subtest; the <a href=\"/exams/yki.html\">YKI page</a> says what they cover and where they differ from the real test.",
+      "intro": "The course has timed practice papers for the reading, listening and writing subtests of the Finnish National Certificates of Language Proficiency, with original texts and recordings. They give no YKI grade and have no speaking subtest; the <a href=\"/exams/yki\">YKI page</a> says what they cover and where they differ from the real test.",
       "items": [
         "<b>Basic level</b> (<span lang=\"fi\">perustaso</span>, A1–A2): two papers.",
         "<b>Intermediate level</b> (<span lang=\"fi\">keskitaso</span>, B1–B2), the level asked for Finnish citizenship: two papers.",
@@ -97,8 +97,8 @@
         { "question": "Is the Finnish course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice, the common traps and the placement test are free, with 5 Ask AI questions a day. Premium adds the extras listed above." },
         { "question": "I already know some Finnish. Do I have to start at the beginning?", "answer": "No. The placement test suggests where to start, and you can open any tier." },
         { "question": "Does it teach spoken Finnish or only the written language?", "answer": "Both. The course teaches standard Finnish and has modules on spoken Finnish in Tiers 5 and 6, and on dialects and Swedish in Finland in Tier 8." },
-        { "question": "Can it prepare me for the YKI test?", "answer": "The course goes up to C1, and Premium adds timed YKI practice papers at all three levels for reading, listening and writing. They cannot tell you whether you would pass or which grade you would get. See the <a href=\"/exams/yki.html\">YKI page</a>." },
-        { "question": "I speak Russian. Is there a version for me?", "answer": "Yes. <a href=\"/ru/courses/finnish.html\">Finnish for Russian speakers</a> has the same tiers, with explanations in Russian and grammar compared with Russian." }
+        { "question": "Can it prepare me for the YKI test?", "answer": "The course goes up to C1, and Premium adds timed YKI practice papers at all three levels for reading, listening and writing. They cannot tell you whether you would pass or which grade you would get. See the <a href=\"/exams/yki\">YKI page</a>." },
+        { "question": "I speak Russian. Is there a version for me?", "answer": "Yes. <a href=\"/ru/courses/finnish\">Finnish for Russian speakers</a> has the same tiers, with explanations in Russian and grammar compared with Russian." }
       ]
     }
   ],

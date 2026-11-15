@@ -61,7 +61,7 @@
       "type": "list",
       "eyebrow": "Exam preparation",
       "heading": "Practice papers for Goethe, telc and TestDaF",
-      "intro": "The course has two timed practice papers for each of these exams, with original texts and recordings, covering reading, listening and writing. They have no speaking part and cannot tell you which result you would get; the <a href=\"/exams/german.html\">German exams page</a> says what they cover and where they differ from the real exams.",
+      "intro": "The course has two timed practice papers for each of these exams, with original texts and recordings, covering reading, listening and writing. They have no speaking part and cannot tell you which result you would get; the <a href=\"/exams/german\">German exams page</a> says what they cover and where they differ from the real exams.",
       "items": [
         "<b>Goethe-Zertifikat</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2, B1, B2, C1 and C2 (<span lang=\"de\">Großes Deutsches Sprachdiplom</span>).",
         "<b>telc Deutsch</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2 (<span lang=\"de\">Start Deutsch 2</span>), B1 (<span lang=\"de\">Zertifikat Deutsch</span>), B2, C1, C1 Hochschule and C2.",
@@ -97,8 +97,8 @@
         { "question": "Is the German course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice, the common traps and the placement test are free, with 5 Ask AI questions a day. Premium adds the extras listed above." },
         { "question": "I already know some German. Do I have to start at the beginning?", "answer": "No. The placement test suggests where in the course to start." },
         { "question": "Which German does it teach?", "answer": "The standard German of Germany. A Tier 8 module covers German in Austria and Switzerland, such as <span lang=\"de\">Grüß Gott</span>, <span lang=\"de\">Jänner</span> and the Swiss spelling without <span lang=\"de\">ß</span>." },
-        { "question": "Can it prepare me for the Goethe, telc or TestDaF exam?", "answer": "The course goes up to C1, and Premium adds timed practice papers for 14 Goethe, telc and TestDaF exams, for reading, listening and writing. They cannot tell you whether you would pass or which result you would get. See the <a href=\"/exams/german.html\">German exams page</a>." },
-        { "question": "Is there a version for Russian or Finnish speakers?", "answer": "Yes. <a href=\"/ru/courses/german.html\">German for Russian speakers</a> and <a href=\"/fi/courses/german.html\">German for Finnish speakers</a> have the same tiers and exam papers, with explanations in Russian or Finnish and grammar compared with that language." }
+        { "question": "Can it prepare me for the Goethe, telc or TestDaF exam?", "answer": "The course goes up to C1, and Premium adds timed practice papers for 14 Goethe, telc and TestDaF exams, for reading, listening and writing. They cannot tell you whether you would pass or which result you would get. See the <a href=\"/exams/german\">German exams page</a>." },
+        { "question": "Is there a version for Russian or Finnish speakers?", "answer": "Yes. <a href=\"/ru/courses/german\">German for Russian speakers</a> and <a href=\"/fi/courses/german\">German for Finnish speakers</a> have the same tiers and exam papers, with explanations in Russian or Finnish and grammar compared with that language." }
       ]
     }
   ],

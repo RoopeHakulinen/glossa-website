@@ -74,13 +74,13 @@
         { "question": "Is Glossa an official DELE preparation course?", "answer": "No. Glossa is not connected with the Instituto Cervantes. The papers follow published descriptions of the exam, with original content." },
         { "question": "Which level should I practise for?", "answer": "The level you plan to register for. Each DELE level is a separate exam, and Glossa has two papers for each. If you are unsure of your level, the course's placement test shows which tier of the course to start from." },
         { "question": "What is free?", "answer": "The whole Spanish course from A1 to C1, the grammar reference and word practice are free. The DELE practice papers, conversation practice, stories and the other extras are part of Premium." },
-        { "question": "Is there a course in my own language?", "answer": "Yes, the same DELE papers come with Spanish for <a href=\"/ru/courses/spanish.html\">Russian</a>, <a href=\"/fi/courses/spanish.html\">Finnish</a>, <a href=\"/de/courses/spanish.html\">German</a>, <a href=\"/pt/courses/spanish.html\">Portuguese</a> and <a href=\"/it/courses/spanish.html\">Italian</a> speakers, with the instructions and explanations in that language." }
+        { "question": "Is there a course in my own language?", "answer": "Yes, the same DELE papers come with Spanish for <a href=\"/ru/courses/spanish\">Russian</a>, <a href=\"/fi/courses/spanish\">Finnish</a>, <a href=\"/de/courses/spanish\">German</a>, <a href=\"/pt/courses/spanish\">Portuguese</a> and <a href=\"/it/courses/spanish\">Italian</a> speakers, with the instructions and explanations in that language." }
       ]
     }
   ],
   "closing": {
     "heading": "Start with the course, practise with the papers.",
-    "text": "Sign in with Google, take the placement test if you already know some Spanish, and open the first module or the DELE papers. The <a href=\"/courses/spanish.html\">Spanish course</a> page has more on the course."
+    "text": "Sign in with Google, take the placement test if you already know some Spanish, and open the first module or the DELE papers. The <a href=\"/courses/spanish\">Spanish course</a> page has more on the course."
   },
   "trademark": "DELE (Diplomas de Español como Lengua Extranjera) are awarded by the Instituto Cervantes on behalf of Spain's Ministry of Education. Glossa is not affiliated with or endorsed by either."
 }

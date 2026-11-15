@@ -97,7 +97,7 @@
         { "question": "Osaan jo jonkin verran englantia. Pitääkö aloittaa alusta?", "answer": "Ei. Tasotesti kertoo, mistä kohdasta kurssia kannattaa aloittaa." },
         { "question": "Mitä englantia kurssi opettaa?", "answer": "Amerikanenglantia: ääntäminen, oikeinkirjoitus ja sanasto ovat amerikkalaisia. Tasolla 8 on moduulit amerikan- ja brittienglannin eroista ja muista englannin varieteeteista, ja Britanniaa käsittelevät tekstit on kirjoitettu brittienglanniksi ja luettu brittiläisellä äänellä." },
         { "question": "Auttaako kurssi IELTS-, TOEFL- tai Cambridge-kokeeseen?", "answer": "Kurssi vie C1-tasolle, ja Premiumissa on kaksi ajastettua harjoituskoetta seitsemään kokeeseen. Ne eivät takaa läpipääsyä eivätkä ennusta tulosta. Vaadittavan kokeen ja tuloksen päättää todistusta pyytävä taho, kuten yliopisto, työnantaja tai maan maahanmuuttoviranomainen, joka asettaa myös muut ehdot. Glossa ei ole yhteydessä Cambridge University Press &amp; Assessmentiin, British Counciliin, IDP:hen tai ETS:ään." },
-        { "question": "Mitä muita kursseja Glossassa on suomenkielisille?", "answer": "<a href=\"/fi/courses/swedish.html\">Ruotsi</a>, <a href=\"/fi/courses/german.html\">saksa</a>, <a href=\"/fi/courses/spanish.html\">espanja</a> ja <a href=\"/fi/courses/french.html\">ranska</a>, kaikki suomeksi selitettyinä." }
+        { "question": "Mitä muita kursseja Glossassa on suomenkielisille?", "answer": "<a href=\"/fi/courses/swedish\">Ruotsi</a>, <a href=\"/fi/courses/german\">saksa</a>, <a href=\"/fi/courses/spanish\">espanja</a> ja <a href=\"/fi/courses/french\">ranska</a>, kaikki suomeksi selitettyinä." }
       ]
     }
   ],

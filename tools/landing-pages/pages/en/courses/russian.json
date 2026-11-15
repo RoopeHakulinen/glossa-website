@@ -55,7 +55,7 @@
       "type": "list",
       "eyebrow": "Exam preparation",
       "heading": "Practice papers for TORFL",
-      "intro": "The course has timed practice papers for the TORFL (<span lang=\"ru\">ТРКИ</span>), the Russian state test of Russian as a foreign language, at five levels, two papers each. They cover vocabulary and grammar, reading, listening and writing; the papers have no speaking subtest. <a href=\"/exams/torfl.html\">What the papers cover and how they differ from the real test</a>.",
+      "intro": "The course has timed practice papers for the TORFL (<span lang=\"ru\">ТРКИ</span>), the Russian state test of Russian as a foreign language, at five levels, two papers each. They cover vocabulary and grammar, reading, listening and writing; the papers have no speaking subtest. <a href=\"/exams/torfl\">What the papers cover and how they differ from the real test</a>.",
       "items": [
         "<b>Elementary level</b> (<span lang=\"ru\">ТЭУ</span>, A1)",
         "<b>Basic level</b> (<span lang=\"ru\">ТБУ</span>, A2)",

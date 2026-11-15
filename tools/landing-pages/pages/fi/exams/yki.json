@@ -72,7 +72,7 @@
       "items": [
         { "question": "Onko Glossa virallinen YKI-valmennus?", "answer": "Ei ole. Glossalla ei ole yhteyttä Opetushallitukseen eikä Jyväskylän yliopistoon. Harjoituskokeet noudattavat niiden julkaisemia testikuvauksia, mutta sisältö on Glossan omaa." },
         { "question": "Mikä taso tarvitaan kansalaisuutta varten?", "answer": "Keskitaso ja vähintään taitotaso 3 jossakin yllä mainituista pareista. Kansalaisuudesta päättää Maahanmuuttovirasto (Migri), joka asettaa myös muut ehdot." },
-        { "question": "Millä kielellä ohjeet ovat?", "answer": "Kokeiden tekstit, äänitteet ja kysymykset ovat suomeksi niin kuin testissä. Ohjeet ja kurssin selitykset ovat englanniksi tai venäjäksi sen mukaan, kumman kurssin valitset: <a href=\"/courses/finnish.html\">Finnish for English speakers</a> tai <a href=\"/ru/courses/finnish.html\">Финский для русскоговорящих</a>." },
+        { "question": "Millä kielellä ohjeet ovat?", "answer": "Kokeiden tekstit, äänitteet ja kysymykset ovat suomeksi niin kuin testissä. Ohjeet ja kurssin selitykset ovat englanniksi tai venäjäksi sen mukaan, kumman kurssin valitset: <a href=\"/courses/finnish\">Finnish for English speakers</a> tai <a href=\"/ru/courses/finnish\">Финский для русскоговорящих</a>." },
         { "question": "Mikä on maksutonta?", "answer": "Koko suomen kurssi A1-tasolta C1-tasolle, kielioppi, sanaharjoittelu ja tasotesti ovat maksuttomia. YKI-harjoituskokeet, keskusteluharjoitukset, tarinat ja muut lisät kuuluvat Premiumiin." }
       ]
     }

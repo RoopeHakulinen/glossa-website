@@ -97,7 +97,7 @@
         { "question": "Ich kann schon etwas Englisch. Muss ich von vorn anfangen?", "answer": "Nein. Der Einstufungstest zeigt, an welcher Stelle im Kurs du einsteigen kannst." },
         { "question": "Welches Englisch lehrt der Kurs?", "answer": "Amerikanisches Englisch: Aussprache, Schreibung und Wortschatz sind amerikanisch. Stufe 8 hat Module zu den Unterschieden zwischen amerikanischem und britischem Englisch und zu weiteren Varietäten, und die Texte über Großbritannien sind in britischem Englisch geschrieben und mit britischer Stimme vertont." },
         { "question": "Hilft der Kurs bei IELTS, TOEFL oder Cambridge?", "answer": "Der Kurs führt bis C1, und Premium hat je zwei Übungsprüfungen mit Zeitlimit für sieben Prüfungen. Sie garantieren kein Bestehen und sagen kein Ergebnis voraus. Welche Prüfung und welches Ergebnis nötig sind, entscheidet, wer das Zertifikat verlangt, etwa eine Hochschule, ein Arbeitgeber oder die Einwanderungsbehörde eines Landes, die auch die übrigen Bedingungen festlegt. Glossa ist nicht mit Cambridge University Press &amp; Assessment, dem British Council, IDP oder ETS verbunden." },
-        { "question": "Welche anderen Kurse gibt es für Deutschsprachige?", "answer": "<a href=\"/de/courses/spanish.html\">Spanisch</a>, <a href=\"/de/courses/french.html\">Französisch</a> und <a href=\"/de/courses/dutch.html\">Niederländisch</a>, ebenfalls auf Deutsch erklärt." }
+        { "question": "Welche anderen Kurse gibt es für Deutschsprachige?", "answer": "<a href=\"/de/courses/spanish\">Spanisch</a>, <a href=\"/de/courses/french\">Französisch</a> und <a href=\"/de/courses/dutch\">Niederländisch</a>, ebenfalls auf Deutsch erklärt." }
       ]
     }
   ],

@@ -5,7 +5,7 @@
   "eyebrow": "Course · Ukrainian for English speakers",
   "heading": "Learn <em>Ukrainian</em>, from the alphabet to C1.",
   "lead": "A complete course in standard Ukrainian in the 2019 spelling, written for English speakers. The cases, aspect, the vocative and the verbs of motion are explained directly, every answer gets feedback that says why, stress marks are shown throughout, and every Ukrainian word can be tapped for its forms and meaning.",
-  "fineprint": "The whole course, the grammar reference and word practice are free. Specializations, stories, conversation practice, exam papers and the other extras are part of Premium, €8.99 a month or €69.99 a year. Also available <a href=\"/ru/courses/ukrainian.html\">for Russian speakers</a>.",
+  "fineprint": "The whole course, the grammar reference and word practice are free. Specializations, stories, conversation practice, exam papers and the other extras are part of Premium, €8.99 a month or €69.99 a year. Also available <a href=\"/ru/courses/ukrainian\">for Russian speakers</a>.",
   "panel": {
     "label": "The course, tier by tier",
     "lang": "en",
@@ -57,7 +57,7 @@
       "type": "list",
       "eyebrow": "Exam preparation",
       "heading": "Practice papers for two Ukrainian exams",
-      "intro": "Two timed papers for each exam, in listening, reading and writing, with original texts. Neither includes speaking. <a href=\"/exams/ukrainian.html\">What the exams ask and how the papers differ</a>.",
+      "intro": "Two timed papers for each exam, in listening, reading and writing, with original texts. Neither includes speaking. <a href=\"/exams/ukrainian\">What the exams ask and how the papers differ</a>.",
       "items": [
         "<b>The state language exam for Ukrainian citizenship (B1)</b>, run by the National Commission on State Language Standards.",
         "<b>telc Ukrainian B2 Online</b>, a certificate exam taken online."
@@ -93,7 +93,7 @@
         { "question": "Which Ukrainian does it teach?", "answer": "Standard Ukrainian in the 2019 spelling, with stress marks throughout. Tier 8 covers the 2019 orthography itself, style, spoken Ukrainian and literature." },
         { "question": "Can I practise speaking?", "answer": "Not with pronunciation feedback: speech assessment does not cover Ukrainian. Premium has conversation practice with an AI character in everyday and work situations, and the reading and listening texts in the course have audio." },
         { "question": "I already know some Ukrainian. Do I have to start at the beginning?", "answer": "No. Take the placement test and start at the tier it suggests." },
-        { "question": "I speak Russian. Is there a course for me?", "answer": "Yes. <a href=\"/ru/courses/ukrainian.html\">Ukrainian for Russian speakers</a> is a shorter course, taught in Russian, that dwells on how Ukrainian differs from Russian." }
+        { "question": "I speak Russian. Is there a course for me?", "answer": "Yes. <a href=\"/ru/courses/ukrainian\">Ukrainian for Russian speakers</a> is a shorter course, taught in Russian, that dwells on how Ukrainian differs from Russian." }
       ]
     }
   ],
