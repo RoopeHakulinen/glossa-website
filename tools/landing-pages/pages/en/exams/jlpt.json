@@ -1,0 +1,77 @@
+{
+  "title": "JLPT practice papers, N5 to N1 · Glossa",
+  "description": "Timed JLPT practice papers for N5 to N1, with a full Japanese course behind them: what each level asks, its pass marks, and what the papers leave out.",
+  "card": { "title": "JLPT (Japanese)", "text": "Two timed practice papers at each level from N5 to N1, in the real test's task types." },
+  "eyebrow": "Exam preparation · Japanese",
+  "heading": "Practise for the <em>JLPT</em>, from N5 to N1.",
+  "lead": "Timed practice papers for the Japanese-Language Proficiency Test at all five levels, with language knowledge, reading and listening in the real test's task types and original content. Behind them is a complete Japanese course from hiragana to advanced, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Japanese course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From N3 practice paper 1, reading",
+    "lang": "ja",
+    "title": "問題4（1）",
+    "text": "来週の水曜日、午後1時から5時まで、ビルの電気の点検があります。その間、エレベーターとコピー機は使えません。パソコンは使えますが、念のため、作業中のファイルは12時までに保存しておいてください。",
+    "question": "この連絡を読んだ社員は、水曜日に何をしなければならないか。",
+    "options": ["午後1時までにパソコンを止める。", "12時までにファイルを保存する。", "午後の会議を中止する。", "エレベーターの点検を手伝う。"],
+    "note": "Every word in a paper can be tapped for its reading and meaning while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The test",
+      "heading": "What each level asks",
+      "intro": "The JLPT (<span lang=\"ja\">日本語能力試験</span>) is run by the Japan Foundation outside Japan and by Japan Educational Exchanges and Services (JEES) in Japan. It has five levels, from N5, the easiest, to N1, and each is a separate test: you can take any level without passing the one below. It tests reading and listening only, on paper, with every question multiple choice. Every level is passed on a total and a minimum in each scoring section; missing a section also means failing.",
+      "columns": ["Level", "The real test", "In Glossa's papers"],
+      "rows": [
+        ["N5", "Vocabulary 20 minutes, grammar and reading 40, listening 30. Pass: 80 of 180 in all, at least 38 of 120 in language knowledge and reading and 19 of 60 in listening.", "Every task, in two sections: language knowledge and reading (60 minutes) and listening (30 minutes). The JLPT does not publish question counts at N5."],
+        ["N4", "Vocabulary 25 minutes, grammar and reading 55, listening 35. Pass: 90 of 180 in all, at least 38 of 120 in language knowledge and reading and 19 of 60 in listening.", "Full length: every task with its number of questions, in two sections of 80 and 35 minutes."],
+        ["N3", "Vocabulary 30 minutes, grammar and reading 70, listening 40. Pass: 95 of 180 in all and at least 19 of 60 in each of three sections.", "Every task, with a little over half the questions in language knowledge and listening and about two thirds in reading: 39, 20 and 21 minutes."],
+        ["N2", "Language knowledge and reading 105 minutes, listening 50. Pass: 90 of 180 in all and at least 19 of 60 in each of three sections.", "Every task, 65 questions against about 107: 45, 22 and 27 minutes."],
+        ["N1", "Language knowledge and reading 110 minutes, listening 55. Pass: 100 of 180 in all and at least 19 of 60 in each of three sections.", "Every task, 69 questions against about 108: 45, 31 and 30 minutes."]
+      ],
+      "note": "Based on the JLPT's published test guidelines, guidebook and results pages, checked in October 2026. The listening time varies a little with the length of the recordings, and the JLPT says the number of questions may differ a little from test to test."
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers at each level", "text": "Ten timed papers from N5 to N1, with original texts and recordings in the JLPT's task types: kanji reading, orthography, paraphrases, usage, grammar form, sentence composition, reading passages, information retrieval and the listening tasks." },
+        { "title": "Pass marks applied to each section", "text": "Each scoring section is its own section in the paper, and the level's pass marks are applied to it as shares of points, so you can see which section is holding you back." },
+        { "title": "A full course behind the papers", "text": "80 modules in eight tiers that follow the grammar of N5 to N1, with about 1,000 kanji taught step by step, so a weak spot in a paper has a module to go back to. The N5 papers are written for learners who have finished Tier 3, the N1 papers for those who have finished Tier 8." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Japanese word can be tapped for its reading, forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real test",
+      "items": [
+        "<b>No JLPT score is given.</b> The JLPT's scores are scaled and equated across sessions, not counts of right answers, so a paper shows the share of points in each section only. Glossa does not convert it into a JLPT score and cannot tell you whether you would pass.",
+        "<b>N3, N2 and N1 papers are shorter</b> than the real test, with every task kept and the time cut to match.",
+        "<b>Sentence composition</b> asks for all four pieces in order, not only the piece in the starred blank.",
+        "<b>Text grammar is typed:</b> you write the missing words, with a hint under each gap, instead of choosing from four options.",
+        "<b>Recordings can be replayed.</b> The real test plays each one once, so play it once and then answer. Each recording is read by one voice, with the speakers named.",
+        "<b>No pictures.</b> Where the real test shows a picture, the situation is described in words. At N4 and N3 the listening options are written even where the real test only speaks them.",
+        "<b>Kanji at N1.</b> The course teaches about 1,000 kanji; the earlier test specifications expected about 2,000 at the level N1 replaced, and the N1 papers use them as the real test does.",
+        "<b>Words can be tapped</b> for their meaning while you practise; the real test allows no dictionary."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official JLPT preparation course?", "answer": "No. Glossa is not connected with the Japan Foundation or Japan Educational Exchanges and Services. The papers follow the JLPT's published test guidelines, with original content. The JLPT's website has its own sample questions and practice workbooks; check them for the current format." },
+        { "question": "Do the papers include writing or speaking?", "answer": "No, because the JLPT has neither. It tests language knowledge, reading and listening. The course has speaking exercises with pronunciation feedback, and Premium has conversation practice with an AI character." },
+        { "question": "Which level should I practise for?", "answer": "Each level is a separate test, so you choose one. The course's tiers follow N5 to N1, and each level's papers say which tier they are written for: Tier 3 for N5, Tier 7 for N2 and Tier 8 for N1. As in the real test, words above the level carry readings." },
+        { "question": "What is free?", "answer": "The whole Japanese course, the grammar reference, word practice and the placement test are free. The JLPT practice papers, specializations, conversation practice, stories and the other extras are part of Premium." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Japanese, and open the first module or the JLPT papers."
+  },
+  "trademark": "The Japanese-Language Proficiency Test (JLPT, <span lang=\"ja\">日本語能力試験</span>) is administered by the Japan Foundation and Japan Educational Exchanges and Services. Glossa is not affiliated with or endorsed by them."
+}

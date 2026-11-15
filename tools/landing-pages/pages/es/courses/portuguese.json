@@ -1,0 +1,83 @@
+{
+  "title": "Curso de portugués de Brasil para hispanohablantes · Glossa",
+  "description": "Portugués de Brasil del A1 al C1 explicado en español: 40 módulos centrados en lo que cambia respecto al español, de los sonidos nasales al portuñol. Gratis.",
+  "card": { "title": "Portugués de Brasil", "text": "40 módulos del A1 al C1, explicados en español y centrados en lo que es distinto." },
+  "eyebrow": "Curso · Portugués de Brasil para hispanohablantes",
+  "heading": "Aprende <em>portugués de Brasil</em> a partir de tu español.",
+  "lead": "Si hablas español, ya entiendes mucho portugués escrito desde el primer día. Este curso lo aprovecha: dice en una frase lo que funciona igual y dedica el tiempo a lo que cambia, en 40 módulos y ocho fases del A1 al C1, con la gramática explicada directamente y correcciones que dicen por qué.",
+  "fineprint": "Todo el curso es gratis, con la referencia gramatical, la práctica de vocabulario y la prueba de nivel. Los exámenes de práctica del Celpe-Bras y los demás extras forman parte de Premium, que cuesta 8,99 € al mes o 69,99 € al año.",
+  "panel": {
+    "label": "El curso en ocho fases",
+    "items": [
+      { "title": "Fase 1 · Sonidos y primeras palabras", "text": "Vocales nasales, consonantes, tildes, <span lang=\"pt-BR\">você</span> y <span lang=\"pt-BR\">a gente</span>, contracciones." },
+      { "title": "Fase 2 · El presente y la vida diaria", "text": "<span lang=\"pt-BR\">Ir</span> más infinitivo sin <i>a</i>, <span lang=\"pt-BR\">gostar de</span> y <span lang=\"pt-BR\">muito</span>, la rutina." },
+      { "title": "Fase 3 · Posesivos y <span lang=\"pt-BR\">pretérito perfeito</span>", "text": "<span lang=\"pt-BR\">Seu</span> y <span lang=\"pt-BR\">dele</span>, preposiciones, primeros falsos amigos." },
+      { "title": "Fase 4 · El <span lang=\"pt-BR\">imperfeito</span> y los pronombres", "text": "Pronombres en el habla y en la escritura, <span lang=\"pt-BR\">tenho feito</span>." },
+      { "title": "Fase 5 · Futuro, condicional, subjuntivo", "text": "El presente de subjuntivo, <span lang=\"pt-BR\">ficar</span>, el trabajo." },
+      { "title": "Fase 6 · Futuro de subjuntivo", "text": "<span lang=\"pt-BR\">Quando eu chegar</span>, el infinitivo personal, más falsos amigos." },
+      { "title": "Fase 7 · Discurso y matices", "text": "La pasiva, el estilo indirecto, el catálogo del portuñol." },
+      { "title": "Fase 8 · Nivel avanzado", "text": "Conectores, modismos, el portugués de Portugal, traducción desde el español." }
+    ],
+    "note": "Cinco módulos por fase. La prueba de nivel te deja empezar más arriba."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "El curso",
+      "heading": "Qué enseña el curso y cómo",
+      "items": [
+        { "title": "Escrito para hispanohablantes", "text": "No es un curso para angloparlantes traducido. El género, el sujeto omitido, <i>ser</i> y <i>estar</i>, los dos pasados y el subjuntivo ya los tienes: el curso lo dice y pasa a lo que es distinto." },
+        { "title": "Lo que el español no te da", "text": "Las vocales nasales y abiertas, la <span lang=\"pt-BR\">t</span>, la <span lang=\"pt-BR\">d</span> y la <span lang=\"pt-BR\">r</span> de Brasil, las contracciones, <span lang=\"pt-BR\">tenho feito</span>, que no es «he hecho», el futuro de subjuntivo y el infinitivo personal." },
+        { "title": "El portuñol, con nombre", "text": "Los errores típicos del hispanohablante aparecen señalados junto a la forma portuguesa correcta, y la fase 7 reúne el catálogo del portuñol. Los falsos amigos tienen módulos propios, de <span lang=\"pt-BR\">escritório</span> a <span lang=\"pt-BR\">esquisito</span>." },
+        { "title": "Correcciones que dicen por qué", "text": "Cada respuesta se corrige con una explicación y un enlace a la regla en la referencia gramatical, escrita en español." },
+        { "title": "Leer, escuchar, escribir y hablar", "text": "Traducciones en los dos sentidos, lecturas, comprensión auditiva y ejercicios de pronunciación con corrección. Cada palabra en portugués se puede tocar para ver su significado, sus formas y su audio." },
+        { "title": "Una sola variedad", "text": "El portugués de Brasil tal como lo habla y lo escribe una persona culta, con <span lang=\"pt-BR\">você</span> y la ortografía brasileña. El portugués de Portugal tiene su propio módulo en la fase 8." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Planes",
+      "heading": "Qué es gratis y qué es Premium",
+      "intro": "El curso es gratis, entero. Premium añade extras en torno a él.",
+      "columns": ["Función", "Gratis", "Premium"],
+      "rows": [
+        ["El curso", "Los 40 módulos, del A1 al C1", "Lo mismo"],
+        ["Referencia gramatical, práctica de vocabulario, prueba de nivel", "Incluido", "Incluido"],
+        ["Trampas comunes: falsos amigos y portuñol", "12 series", "12 series"],
+        ["Preguntar a la IA", "5 preguntas al día", "50 preguntas al día"],
+        ["Exámenes de práctica del Celpe-Bras", "No incluido", "4 exámenes cronometrados"],
+        ["Modismos con sus equivalentes en otros idiomas", "No incluido", "Incluido"],
+        ["Práctica de pronunciación con frases que escribes tú", "No incluido", "Incluido"],
+        ["Lecciones sobre un tema que eliges", "No incluido", "Incluido"],
+        ["Descarga de módulos para usarlos sin conexión", "No incluido", "Incluido"]
+      ],
+      "note": "Premium cuesta 8,99 € al mes o 69,99 € al año y se puede cancelar en cualquier momento. Este curso no tiene especializaciones profesionales, historias, textos sobre el país ni práctica de conversación; el curso para angloparlantes sí las tiene."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exámenes",
+      "heading": "Exámenes de práctica del Celpe-Bras",
+      "intro": "El curso incluye exámenes de práctica cronometrados para un examen:",
+      "items": [
+        "<a href=\"/es/exams/celpe-bras.html\"><b>Celpe-Bras</b></a>, el certificado de dominio del portugués de Brasil: cuatro exámenes de práctica de su parte escrita, con contenido original e instrucciones en español. La parte oral no está incluida."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Preguntas",
+      "heading": "Preguntas frecuentes",
+      "items": [
+        { "question": "¿Es portugués de Brasil o de Portugal?", "answer": "De Brasil: el vocabulario, la ortografía y el audio siguen la norma brasileña. Un módulo de la fase 8 explica en qué se diferencia el portugués de Portugal." },
+        { "question": "¿Por qué tiene 40 módulos y no 76, como el curso para angloparlantes?", "answer": "Porque un hispanohablante ya trae buena parte de la gramática y del vocabulario. El curso no repite lo que funciona igual que en español y se concentra en lo que cambia, sin dejar de llegar al C1." },
+        { "question": "¿El curso es realmente gratis?", "answer": "Sí. Los 40 módulos, la referencia gramatical, la práctica de vocabulario, la prueba de nivel y las trampas comunes son gratis. Premium añade los exámenes de práctica del Celpe-Bras, los modismos y los demás extras." },
+        { "question": "¿En qué español están las explicaciones?", "answer": "En un español latinoamericano neutro, tratando de tú, con la palabra de España al lado cuando es distinta." },
+        { "question": "Ya sé algo de portugués. ¿Tengo que empezar desde cero?", "answer": "No. La prueba de nivel encuentra la fase que te corresponde, y puedes empezar ahí." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Empieza por el primer módulo o por la prueba de nivel.",
+    "text": "Inicia sesión con Google, haz la prueba de nivel si ya sabes algo de portugués y abre tu primer módulo."
+  },
+  "trademark": "El Celpe-Bras lo organiza el Inep junto con el Ministerio de Educación y el Ministerio de Relaciones Exteriores de Brasil. Glossa no está afiliada a ellos ni cuenta con su respaldo."
+}

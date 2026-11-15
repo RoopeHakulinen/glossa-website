@@ -1,0 +1,93 @@
+{
+  "title": "CILS, CELI and PLIDA practice papers for Italian · Glossa",
+  "description": "Timed practice papers for every level of CILS, CELI and PLIDA, including B1, with a full Italian course to C1. What B1 asks and what the papers leave out.",
+  "card": { "title": "CILS, CELI and PLIDA (Italian)", "text": "Practice papers for all three Italian certificates at every level, including PLIDA B1 for citizenship applications." },
+  "eyebrow": "Exam preparation · Italian",
+  "heading": "Practise for <em>CILS, CELI and PLIDA</em> in Italian.",
+  "lead": "Timed practice papers for the listening, reading, language structures and writing tests of the three Italian certificates, at every level from A1 to C2. They include the B1 exams, among them PLIDA B1, which the Società Dante Alighieri states the Italian state recognises for citizenship applications. Behind the papers is a complete Italian course from first words to C1, so you can work on whatever they show you are missing.",
+  "fineprint": "The Italian course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Spanish speakers.",
+  "panel": {
+    "label": "From PLIDA B1 practice paper 1, reading",
+    "lang": "it",
+    "title": "Una lettera alla rivista",
+    "text": "Mi chiamo Teresa e ho sessantasette anni. Fino all'anno scorso non avevo neanche il computer: per me la tecnologia era una cosa per i giovani. Poi mia figlia si è trasferita in Germania per lavoro e ho capito che dovevo imparare, se volevo vedere i miei nipoti più spesso che a Natale.",
+    "question": "Teresa ha deciso di imparare a usare la tecnologia perché…",
+    "options": ["voleva leggere il giornale su internet.", "il corso del Comune non costava niente.", "voleva sentire e vedere più spesso la famiglia lontana.", "sua figlia le aveva regalato un tablet."],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exams",
+      "heading": "What the three B1 exams ask",
+      "intro": "Each certificate has six levels aligned to the CEFR, and each level is a separate exam. At B1 they test the same four skills, but they divide them differently and pass you by different rules.",
+      "columns": ["", "CILS UNO-B1", "CELI 2", "PLIDA B1"],
+      "rows": [
+        ["Awarded by", "Università per Stranieri di Siena (Centro CILS)", "Università per Stranieri di Perugia (CVCL)", "Società Dante Alighieri"],
+        ["Listening", "3 parts, 30 minutes", "3 tasks, 33 items, 20 minutes", "4 parts, 20 items, about 40 minutes"],
+        ["Reading", "3 parts, 50 minutes", "5 tasks, 37 items, which include grammar", "4 parts, 18 items, 40 minutes"],
+        ["Language structures", "A test of its own: 4 parts, 60 minutes", "Within reading", "No separate test"],
+        ["Writing", "A description of 100 to 120 words and an informal email of 50 to 80 words, 70 minutes", "A form, a short announcement and a letter of 90 to 100 words; reading and writing share 2 hours", "Two guided texts of 110 to 150 and 70 to 100 words, 60 minutes"],
+        ["Speaking", "2 tasks, 10 minutes", "3 tasks, 10 to 12 minutes after about 12 minutes of preparation", "3 parts, about 15 minutes"],
+        ["To pass", "11 of 20 in each of the five tests", "72 of 120 points in the written part and 22 of 40 in speaking", "18 of 30 in each of the four tests"],
+        ["If you fail part of it", "Retake only the failed tests within 18 months", "Keep the part you passed for one year and retake the other", "Keep the tests you passed for 18 months and resit the others"],
+        ["Glossa's B1 papers", "Listening 16, reading 27, language use 30 and writing 70 minutes", "Reading 38, writing 50 and listening 10 minutes", "Listening 22, reading 22 and writing 60 minutes"]
+      ],
+      "note": "Based on the published descriptions of the Università per Stranieri di Siena, the Università per Stranieri di Perugia and the Società Dante Alighieri, checked in October 2026. Check their pages for the current format."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Citizenship and residence",
+      "heading": "Which exam the papers follow",
+      "intro": "The Società Dante Alighieri states that the Italian state recognises PLIDA B1 for citizenship applications and names A2 as the level for the EU residence permit. The other two boards run separate versions for particular groups, which Glossa's papers do not follow:",
+      "items": [
+        "<b>PLIDA B1</b>: Glossa's papers follow the ordinary B1 exam.",
+        "<b>PLIDA A2</b>: Glossa's papers follow the ordinary A2 exam taken abroad. Candidates in Italy take PLIDA A2 <span lang=\"it\">inItalia</span>, with the same four tests and pass rule but 45 minutes for writing and about 12 for speaking.",
+        "<b>CILS</b>: the version for citizenship (<span lang=\"it\">B1 cittadinanza</span>) is a separate exam. Glossa's papers follow the standard UNO-B1.",
+        "<b>CELI</b>: the CVCL also runs separate CELI for adult immigrants. Glossa's papers follow the general CELI.",
+        "The Italian authorities that handle your application decide which certificates they accept and set the other conditions."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers for every level", "text": "CILS A1 to QUATTRO-C2, CELI Impatto to CELI 5 and PLIDA A1 to C2: 18 exams and 36 papers, in each exam's task formats with original texts and recordings." },
+        { "title": "Writing rated against the criteria", "text": "Your texts are rated by AI against the board's published writing criteria, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, with articles and prepositions, the <span lang=\"it\">passato prossimo</span>, <span lang=\"it\">ci</span> and <span lang=\"it\">ne</span> and the subjunctive explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Italian word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exams",
+      "items": [
+        "<b>No grade and no score conversion.</b> A paper shows the share of points in each section. It does not use the boards' conversion tables, cannot give a CELI grade from A to E, and never turns writing into a PLIDA score out of 30. PLIDA weights items by difficulty; here every item counts the same.",
+        "<b>Listening and reading are shorter</b> than the real tests, about half the items in the same task types, and the time is cut to match. At B1, writing is full length.",
+        "<b>There is no speaking test.</b> All three certificates need speaking, so passing the sections of a paper does not cover the whole exam.",
+        "<b>Some task formats are adapted.</b> At CILS B1, statements you would pick from a list are marked true or false one by one; at PLIDA B1, options shown as pictures are short sentences; at CELI 2, reading and writing are timed separately instead of as one 2-hour block.",
+        "<b>Recordings can be replayed, with one voice.</b> In CILS and PLIDA you hear each recording twice. The CELI 2 description does not say how often, but the board’s CELI 1 and CELI 3 sample papers play each one twice. Play each recording twice and then answer. In dialogues both speakers are read by one voice.",
+        "<b>Words can be tapped</b> for their meaning while you practise; the real exams allow no dictionary."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official CILS, CELI or PLIDA preparation course?", "answer": "No. Glossa is not connected with the Università per Stranieri di Siena, the Università per Stranieri di Perugia or the Società Dante Alighieri. The papers follow their published exam descriptions, with original content." },
+        { "question": "Which exam do I need for Italian citizenship?", "answer": "The Società Dante Alighieri states that the Italian state recognises PLIDA B1 for citizenship applications; CILS has a separate citizenship version of its B1 exam. The Italian authorities that handle your application decide which certificates they accept and set the other conditions." },
+        { "question": "CILS, CELI or PLIDA: which should I take?", "answer": "That depends on what the certificate is for and where you can sit it. They differ in structure: CILS has a separate language structures test and needs a pass in every test, CELI adds the written tests together and grades from A to E, and PLIDA needs 18 of 30 in each of four tests." },
+        { "question": "What is free?", "answer": "The whole Italian course from A1 to C1, the grammar reference and word practice are free. The practice papers, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "I speak Spanish. Is there a course for me?", "answer": "Yes. <a href=\"/es/courses/italian.html\" hreflang=\"es\">Italiano para hispanohablantes</a> has the same CILS, CELI and PLIDA papers, with the instructions and explanations in Spanish." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Italian, and open the first module or the practice papers. <a href=\"/courses/italian.html\">More about the Italian course</a>."
+  },
+  "trademark": "CILS (Certificazione di Italiano come Lingua Straniera) is awarded by the Università per Stranieri di Siena, CELI (Certificati di Lingua Italiana) by the Università per Stranieri di Perugia and PLIDA (Progetto Lingua Italiana Dante Alighieri) by the Società Dante Alighieri. Glossa is not affiliated with or endorsed by any of them."
+}

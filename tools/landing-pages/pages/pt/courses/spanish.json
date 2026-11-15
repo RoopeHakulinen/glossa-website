@@ -1,0 +1,85 @@
+{
+  "title": "Espanhol para falantes de português, A1 a C1 · Glossa",
+  "description": "Curso de espanhol da Espanha explicado em português, do A1 ao C1: 40 módulos focados no que é diferente do português, com correção que diz por quê. Grátis.",
+  "card": { "title": "Espanhol", "text": "O espanhol da Espanha do A1 ao C1, a partir do que o português já ensina, com foco no que é diferente." },
+  "eyebrow": "Curso · Espanhol para falantes de português",
+  "heading": "Espanhol a partir do que <em>o português já ensina</em>.",
+  "lead": "Um curso de espanhol da Espanha, do A1 ao C1, explicado em português do Brasil. Ele não reensina o que as duas línguas têm em comum: vai direto ao que é diferente, como as vogais sem nasalização, o <span lang=\"es\">pretérito perfecto</span>, a colocação dos pronomes, os falsos amigos e o portunhol.",
+  "fineprint": "O curso inteiro é grátis: os 40 módulos, a referência gramatical, a prática de palavras e o teste de nivelamento. Os simulados do DELE, as expressões idiomáticas e os outros extras fazem parte do Premium, 8,99 € por mês ou 69,99 € por ano.",
+  "panel": {
+    "label": "O curso: oito fases, 40 módulos",
+    "lang": "pt-BR",
+    "items": [
+      { "title": "A1 · Sons e primeiras palavras", "text": "Os sons, a ortografia e o acento gráfico, o tratamento, artigos e gênero, <span lang=\"es\">estar</span>, <span lang=\"es\">hay</span> e os números." },
+      { "title": "A1 · O presente e o dia a dia", "text": "O presente e os irregulares, <span lang=\"es\">ir a</span>, <span lang=\"es\">gustar</span>, <span lang=\"es\">muy</span> e <span lang=\"es\">mucho</span>, a rotina e as compras." },
+      { "title": "A2 · Os passados", "text": "O <span lang=\"es\">pretérito perfecto</span> da Espanha, o <span lang=\"es\">indefinido</span>, o imperfeito, os primeiros falsos amigos." },
+      { "title": "A2 · Pronomes e preposições", "text": "Os pronomes oblíquos e sua colocação, o <span lang=\"es\">a</span> pessoal, <span lang=\"es\">por</span> e <span lang=\"es\">para</span>." },
+      { "title": "B1 · Futuro, condicional e subjuntivo", "text": "O presente do subjuntivo, <span lang=\"es\">cuando</span> e <span lang=\"es\">si</span> sem o futuro do subjuntivo, o imperativo." },
+      { "title": "B1 · Subjuntivo passado e orações", "text": "O imperfeito do subjuntivo, orações sem infinitivo pessoal, os relativos, as construções com <span lang=\"es\">se</span>." },
+      { "title": "B2 · Discurso e nuance", "text": "O discurso indireto, as orações condicionais, falsos amigos abstratos e o portunhol." },
+      { "title": "C1 · Nível avançado", "text": "Conectores, expressões idiomáticas, o espanhol da América Latina, registro, tradução do português." }
+    ],
+    "note": "O teste de nivelamento mostra em que fase você pode começar."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "O curso",
+      "heading": "O que o curso ensina, e como",
+      "items": [
+        { "title": "Feito para quem fala português", "text": "Quem fala português entende muito espanhol desde o primeiro dia, e os erros vêm de hábitos do português. Por isso o curso tem 40 módulos, e não o dobro: cada um parte do que já funciona igual e se concentra no que muda." },
+        { "title": "A gramática explicada", "text": "Cada módulo explica suas regras diretamente, comparando com o português: por que <span lang=\"es\">he comido</span> não é \"tenho comido\", onde vão os pronomes, por que <span lang=\"es\">cuando llegues</span> e não um futuro do subjuntivo." },
+        { "title": "Correção que diz por quê", "text": "Cada resposta recebe uma correção com o motivo e um link para a regra gramatical. O único progresso mostrado é quanto do curso você concluiu." },
+        { "title": "Cada palavra pode ser aberta", "text": "Toque em qualquer palavra em espanhol para ver o significado, todas as formas e o áudio da pronúncia." },
+        { "title": "Falsos amigos e portunhol", "text": "Três módulos de falsos amigos ao longo do curso, um módulo sobre o portunhol e, no fim, tradução do português para o espanhol. Os exercícios de fala recebem correção da pronúncia." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Grátis e Premium",
+      "heading": "O que é grátis e o que faz parte do Premium",
+      "columns": ["", "Grátis", "Premium"],
+      "rows": [
+        ["Curso", "Os 40 módulos do A1 ao C1, com referência gramatical, prática de palavras e teste de nivelamento", "O mesmo"],
+        ["Perguntas à IA", "5 perguntas por dia", "50 perguntas por dia"],
+        ["Exames", "—", "Simulados cronometrados do DELE, do A1 ao C2"],
+        ["Expressões idiomáticas", "—", "Expressões idiomáticas espanholas, com equivalentes em português"],
+        ["Aulas sob medida", "—", "Aulas escritas sobre um tema que você escolhe"],
+        ["Pronúncia e offline", "—", "Prática de pronúncia com frases que você digita e download dos módulos para estudar sem internet"]
+      ],
+      "note": "O Premium custa 8,99 € por mês ou 69,99 € por ano e pode ser cancelado a qualquer momento; ele continua até o fim do período pago. Este curso não tem especializações profissionais, histórias, prática de conversação nem textos sobre como o país funciona."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exames",
+      "heading": "Simulados do DELE",
+      "intro": [
+        "Para cada um dos seis níveis do DELE (<span lang=\"es\">Diplomas de Español como Lengua Extranjera</span>), do A1 ao C2, há dois simulados nos formatos de tarefa do exame, com textos e gravações próprios. As tarefas escritas são avaliadas por IA segundo os critérios do DELE. Formato do exame conforme as descrições publicadas, verificado em outubro de 2026.",
+        "Em que eles diferem do exame real:"
+      ],
+      "items": [
+        "<b>Não dão o resultado <span lang=\"es\">apto</span> ou <span lang=\"es\">no apto</span>.</b> Um simulado mostra a proporção de pontos; a avaliação da IA é uma estimativa, não a nota de um examinador.",
+        "<b>As partes de leitura e de compreensão auditiva são mais curtas</b>, com menos itens por tarefa e o tempo reduzido na mesma proporção. As tarefas escritas estão completas.",
+        "<b>Não há prova oral.</b>",
+        "<b>As gravações podem ser repetidas.</b> No exame cada gravação toca um número fixo de vezes, duas a partir do A2; ouça o mesmo número de vezes e depois responda."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Perguntas",
+      "heading": "Perguntas frequentes",
+      "items": [
+        { "question": "O curso de espanhol é grátis mesmo?", "answer": "Sim. Os 40 módulos do A1 ao C1, a referência gramatical, a prática de palavras e o teste de nivelamento são grátis. O Premium acrescenta os simulados do DELE, as expressões idiomáticas e os outros extras." },
+        { "question": "Que espanhol eu aprendo?", "answer": "O espanhol da Espanha, com <span lang=\"es\">vosotros</span>, o <span lang=\"es\">pretérito perfecto</span> peninsular e vozes da Espanha. Um módulo do nível C1 trata do espanhol da América Latina." },
+        { "question": "Por que só 40 módulos?", "answer": "Porque o curso não reensina o que o português já dá. Ele vai até o C1 concentrando-se no que é diferente: sons, gêneros, tempos verbais, pronomes, preposições e falsos amigos." },
+        { "question": "Já sei um pouco de espanhol. Preciso começar do zero?", "answer": "Não. Faça o teste de nivelamento; ele mostra em que fase você pode começar." },
+        { "question": "O Glossa prepara para o DELE?", "answer": "Há dois simulados para cada nível, do A1 ao C2, com leitura, compreensão auditiva e produção escrita. A prova oral não está incluída, e o Glossa não diz se você seria aprovado. O Glossa não tem vínculo com o Instituto Cervantes." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Comece pelo primeiro módulo.",
+    "text": "Entre na sua conta, faça o teste de nivelamento se já sabe um pouco de espanhol e abra o primeiro módulo."
+  },
+  "trademark": "O DELE (Diplomas de Español como Lengua Extranjera) é concedido pelo Instituto Cervantes em nome do Ministério da Educação da Espanha. O Glossa não tem vínculo com o Instituto Cervantes nem é endossado por ele."
+}

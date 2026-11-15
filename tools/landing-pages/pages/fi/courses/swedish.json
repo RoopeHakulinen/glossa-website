@@ -1,0 +1,107 @@
+{
+  "title": "Ruotsin kurssi suomenkielisille, A1–C1 · Glossa",
+  "description": "Ruotsin kurssi alusta C1-tasolle: 75 moduulia, kielioppi selitettynä ja suomeen verraten, palaute perusteluineen. YKI- ja Tisus-harjoituskokeet Premiumissa.",
+  "card": { "title": "Ruotsi", "text": "75 moduulia alusta C1-tasolle, selitykset suomeksi ja harjoituskokeet YKI:n keskitasolle ja Tisukseen." },
+  "eyebrow": "Kurssi · Ruotsi suomenkielisille",
+  "heading": "Opi <em>ruotsia</em> kunnolla, alusta C1-tasolle.",
+  "lead": "Ruotsissa puhuttua ruotsia 75 moduulissa ja kahdeksalla tasolla, ääntämisestä sekä <span lang=\"sv\">en</span>- ja <span lang=\"sv\">ett</span>-sanoista s-passiiviin, nominaalityyliin, virastoruotsiin ja akateemiseen ruotsiin. Kielioppi selitetään suoraan ja suomeen verraten, ja huomautukset kertovat, missä suomenruotsi poikkeaa.",
+  "fineprint": "Koko kurssi, kielioppiopas, sanaharjoittelu ja tasotesti ovat maksuttomia. Erikoisalakurssit, YKI- ja Tisus-harjoituskokeet ja muut lisäosat kuuluvat Premiumiin, 8,99 € kuukaudessa tai 69,99 € vuodessa.",
+  "panel": {
+    "label": "Kurssi taso tasolta",
+    "items": [
+      { "title": "1 · Äänteet ja ensimmäiset sanat", "text": "Ääntäminen, tervehdykset, <span lang=\"sv\">en</span>- ja <span lang=\"sv\">ett</span>-sanat, preesens, numerot." },
+      { "title": "2 · Arkipuheen perusta", "text": "Määräinen muoto, monikko, adjektiivit, verbi toisella paikalla." },
+      { "title": "3 · Arkielämä", "text": "Verbiryhmät, modaaliverbit, prepositiot, ruoka, kaupunki, ostokset." },
+      { "title": "4 · Menneisyys", "text": "Menneen ajan aikamuodot, epäsäännölliset verbit, futuuri, refleksiivit." },
+      { "title": "5 · Sujuvuus", "text": "Sivulauseet, partikkeliverbit, vertailu, s-passiivi." },
+      { "title": "6 · Keskitaso", "text": "Relatiivilauseet, konditionaali, epäsuora esitys, partisiipit." },
+      { "title": "7 · Ylempi keskitaso", "text": "Passiivit, nominaalityyli, sidossanat, sananmuodostus, virastoruotsi." },
+      { "title": "8 · Edistynyt taso", "text": "Vaativa sanajärjestys, tyyli, puhuttu ruotsi, kielen varieteetit." }
+    ],
+    "note": "Yhteensä 75 moduulia. Jos osaat jo ruotsia, tasotesti kertoo, miltä tasolta aloittaa."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Miten kurssi opettaa",
+      "heading": "Kirjoitettu suomenkielisille, ei käännetty",
+      "items": [
+        { "title": "Kielioppi suomeen verraten", "text": "Selitykset lähtevät siitä, mikä suomenpuhujalle on uutta: suku ja artikkelit, verbi toisella paikalla, prepositiot sijapäätteiden tilalla, <span lang=\"sv\">det finns</span> ja asentoverbit suomen on-rakenteiden tilalla. Kielioppiopas kokoaa kaikki säännöt yhteen paikkaan." },
+        { "title": "Missä kouluruotsi menee vikaan", "text": "Kurssi alkaa alusta, mutta kertoo matkan varrella, mihin koulussa ruotsia lukeneet tavallisesti kompastuvat." },
+        { "title": "Riikinruotsi ja suomenruotsi", "text": "Kurssi opettaa Ruotsin ruotsia. Huomautukset kertovat, missä suomenruotsi poikkeaa ja on Suomessa oikein, ja tason 8 moduuli käsittelee suomenruotsia ja ruotsin alueellisia muotoja." },
+        { "title": "Palaute perusteluineen", "text": "Väärä vastaus merkitään oikean muodon ja syyn kera, ja linkki vie kielioppisääntöön. Käännöstehtäviä tehdään molempiin suuntiin." },
+        { "title": "Jokainen sana avautuu", "text": "Napauta mitä tahansa ruotsin sanaa harjoituksessa, tekstissä tai tarinassa, niin näet merkityksen, taivutusmuodot ja kuulet ääntämyksen." },
+        { "title": "Puhetehtävät ääntämispalautteella", "text": "Ruotsille on ääntämisen arviointi, joten kurssilla on tehtäviä, joissa sanot lauseen ääneen ja saat palautteen jokaisesta sanasta." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Tilaukset",
+      "heading": "Mikä on maksutonta ja mikä kuuluu Premiumiin",
+      "intro": "Itse kurssi on maksuton. Premium tuo harjoittelua sen lisäksi.",
+      "columns": ["Ominaisuus", "Maksuton", "Premium"],
+      "rows": [
+        ["Kaikki 75 moduulia, A1–C1", "Kyllä", "Kyllä"],
+        ["Kielioppiopas, sanaharjoittelu, tasotesti", "Kyllä", "Kyllä"],
+        ["Kysy tekoälyltä mistä tahansa tehtävästä", "5 kysymystä päivässä", "50 kysymystä päivässä"],
+        ["13 erikoisalakurssia", "Ei", "Kyllä"],
+        ["Tarinat ja tekoälyn palaute uudelleenkerronnasta", "Ei", "Kyllä"],
+        ["Keskusteluharjoitukset tekoälyhahmon kanssa", "Ei", "Kyllä"],
+        ["Oppitunnit itse valitsemastasi aiheesta", "Ei", "Kyllä"],
+        ["Ajastetut YKI- ja Tisus-harjoituskokeet", "Ei", "Kyllä"],
+        ["Tekstit siitä, miten Ruotsi toimii, idiomit", "Ei", "Kyllä"],
+        ["Ääntämisharjoitukset itse kirjoittamillasi lauseilla", "Ei", "Kyllä"],
+        ["Lataus offline-käyttöön", "Ei", "Kyllä"]
+      ],
+      "note": "Premium maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Kokeisiin valmistautuminen",
+      "heading": "Harjoituskokeet YKI:n keskitasolle ja Tisukseen",
+      "intro": "Kurssilla on kaksi ajastettua harjoituskoetta kumpaankin kokeeseen. Molemmista kerrotaan tarkemmin <a href=\"/fi/exams/tisus.html\">harjoituskoesivulla</a>.",
+      "items": [
+        "<b>YKI, ruotsin keskitaso</b> (tasot 3–4): tekstin ymmärtäminen, puheen ymmärtäminen ja kirjoittaminen. Tätä tasoa vaaditaan Suomen kansalaisuuteen, ja sillä voi osoittaa julkishallinnon tehtävissä vaadittavan ruotsin taidon.",
+        "<b>Tisus</b>, Tukholman yliopiston koe ruotsalaisiin korkeakouluopintoihin: luetun ymmärtäminen ja täysimittainen kirjoittaminen.",
+        "<b>Puhumisen osakoetta ei ole</b> kummassakaan, eikä harjoituskoe anna arvosanaa tai taitotasoa: se näyttää vain pisteosuuden."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Erikoisalat",
+      "heading": "Ruotsia omalle alallesi",
+      "intro": "Kolmetoista erikoisalakurssia, joissa kussakin on yhdeksän moduulia kolmessa vaiheessa (perusteet, työsanasto, ammattitaso). Vaiheet avautuvat, kun pääkurssissa pääset tasoille 4, 6 ja 8:",
+      "items": [
+        "Politiikka ja hallinto",
+        "Juridiikka ja lakityö",
+        "Ympäristö ja kestävä kehitys",
+        "Liiketoiminta ja johtaminen",
+        "Rahoitus, pankkiala ja talous",
+        "Lääketiede ja terveys",
+        "Ohjelmistot ja IT",
+        "Tiede ja akateeminen maailma",
+        "Tekniikka, teollisuus ja energia",
+        "Journalismi ja media",
+        "Diplomatia ja kansainväliset suhteet",
+        "Matkailu ja hotelliala",
+        "Urheilu ja kuntoilu"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Kysymyksiä",
+      "heading": "Usein kysyttyä",
+      "items": [
+        { "question": "Onko ruotsin kurssi todella maksuton?", "answer": "On. Kaikki 75 moduulia A1-tasolta C1-tasolle, kielioppiopas, sanaharjoittelu ja tasotesti ovat maksuttomia, ja tekoälyltä voi kysyä viisi kysymystä päivässä. Premium tuo erikoisalakurssit, harjoituskokeet, tarinat, keskustelut ja muut lisäosat." },
+        { "question": "Luin ruotsia koulussa. Pitääkö aloittaa alusta?", "answer": "Ei tarvitse. Tasotesti kertoo, miltä tasolta kannattaa aloittaa." },
+        { "question": "Opettaako kurssi suomenruotsia?", "answer": "Kurssi opettaa Ruotsissa puhuttua ruotsia. Huomautukset kertovat, missä suomenruotsi poikkeaa ja on Suomessa oikein, ja tason 8 moduuli käsittelee suomenruotsia ja ruotsin alueellisia muotoja." },
+        { "question": "Auttaako kurssi virkamiesruotsissa?", "answer": "Julkishallinnon tehtävissä vaadittavan ruotsin taidon voi nyt osoittaa YKI-testillä: tyydyttävää taitoa vastaa keskitason arvio 3 ja hyvää taitoa keskitason arvio 4 tai ylimmän tason arvio 5. Kurssilla on harjoituskokeet ruotsin keskitasolle, ja tason 7 moduuli käsittelee virastoruotsia." },
+        { "question": "Entä ylioppilastutkinnon ruotsin koe?", "answer": "Se on eri koe, eikä Glossa tee sille harjoituskokeita. Kurssin kielioppi ja sanasto ovat silti samaa ruotsia." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Avaa ensimmäinen moduuli.",
+    "text": "Kirjaudu Google-tunnuksella, tee tasotesti, jos osaat jo ruotsia, ja aloita siltä tasolta, jonka se ehdottaa."
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "title": "English exam practice: Cambridge, IELTS and TOEFL papers · Glossa",
+  "description": "Timed practice papers for Cambridge B1 to C2, IELTS Academic and General Training and TOEFL iBT, with a full English course to C1, and what they leave out.",
+  "card": { "title": "Cambridge, IELTS and TOEFL (English)", "text": "Practice papers for seven English exams, from B1 Preliminary to C2 Proficiency, both IELTS versions and TOEFL iBT." },
+  "eyebrow": "Exam preparation · English",
+  "heading": "Practise for <em>English exams</em>: Cambridge, IELTS and TOEFL.",
+  "lead": "Timed practice papers for B1 Preliminary, B2 First, C1 Advanced and C2 Proficiency, IELTS Academic, IELTS General Training and the TOEFL iBT, in the exams' task formats with original texts and recordings. Behind them is a complete course in US English from first words to C1, explained in plain English at your level, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The English course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available with explanations in Russian, Ukrainian, Finnish, German, Spanish, Portuguese, Italian and French.",
+  "panel": {
+    "label": "From B2 First, practice paper 1, reading part 5",
+    "lang": "en",
+    "title": "Starting from scratch at forty",
+    "text": "For most of my adult life, I told people that I wasn't musical. It was something I had decided at the age of nine, when my piano teacher sighed loudly every time I played a wrong note, and I had never had any reason to question it.",
+    "question": "Why had the writer always believed that she was not musical?",
+    "options": [
+      "Her daughter was a much better musician than she was.",
+      "A teacher's reaction to her mistakes had convinced her as a child.",
+      "She had tried several instruments without success.",
+      "Her friends had told her that she could not sing."
+    ],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exams",
+      "heading": "Which exams the papers cover",
+      "intro": "There are two practice papers for each of seven exams: four Cambridge English Qualifications from Cambridge University Press &amp; Assessment, the two versions of IELTS, run by the British Council, IDP and Cambridge, and the TOEFL iBT from ETS.",
+      "columns": ["Exam", "What it is", "In Glossa's papers"],
+      "rows": [
+        ["B1 Preliminary", "Four papers in about 2 hours 12 minutes: Reading (6 parts, 32 questions, 45 minutes), Writing (an email and an article or story, 45 minutes), Listening (4 parts, 25 questions, about 30 minutes, each recording heard twice) and Speaking in pairs.", "Reading in 25 minutes and Listening in 16, with about half the questions; Writing full length. Listening Part 1 has written options instead of pictures. No speaking."],
+        ["B2 First", "Four papers in about 3 hours 29 minutes: Reading and Use of English (7 parts, 52 questions, 1 hour 15 minutes), Writing (an essay and one task from three, 1 hour 20 minutes), Listening (4 parts, 30 questions, about 40 minutes) and Speaking in pairs.", "Every part with about half its questions: Reading in 22 minutes and Use of English in 16 as two sections, Listening in 21. Writing full length. No speaking."],
+        ["C1 Advanced", "Four papers in about 3 hours 55 minutes: Reading and Use of English (8 parts, 56 questions, 1 hour 30 minutes), Writing (2 tasks, 1 hour 30 minutes), Listening (4 parts, 30 questions, about 40 minutes) and Speaking in pairs.", "Every part with about half its questions: Reading and Use of English in 45 minutes, Listening in 23. Writing full length. No speaking."],
+        ["C2 Proficiency", "Four papers in about 3 hours 56 minutes: Reading and Use of English (7 parts, 53 questions, 1 hour 30 minutes), Writing (a summary essay and one task from three, 1 hour 30 minutes), Listening (4 parts, 30 questions, about 40 minutes) and Speaking in pairs.", "Every part with about half its questions: Reading and Use of English in 45 minutes instead of 90, shorter Listening. Writing full length. No speaking."],
+        ["IELTS Academic", "For university study and professional registration. Listening (4 parts, 40 questions, about 30 minutes, each recording played once), Reading (3 long texts, 40 questions, 60 minutes), Writing (describing a chart or process, and an essay, 60 minutes) and Speaking with an examiner. About 2 hours 45 minutes in all.", "Listening with 16 questions in 15 minutes, Reading with two texts and 20 questions in 30 minutes, Writing full length with the Task 1 data given as a table. No speaking."],
+        ["IELTS General Training", "For work, training and migration. Listening and Speaking as in Academic; Reading on everyday and workplace texts and one longer text; Writing a letter and an essay in 60 minutes.", "About 16 listening and 20 reading questions with the time cut to match; Writing full length. No speaking."],
+        ["TOEFL iBT", "Taken on a computer, at a test centre or at home. Since January 2026: Reading, Listening, Writing and Speaking (Listen and Repeat, Take an Interview) in new, shorter tasks. The test adapts to you; ETS asks you to allow about two hours.", "All four sections, shorter and not adaptive. Speaking has Listen and Repeat, with the sentence shown, and no interview."]
+      ],
+      "note": "Based on Cambridge University Press &amp; Assessment's handbooks and format pages, ielts.org and ETS's test description, checked in October 2026. In March 2026 the IELTS partners announced that the paper-based test is being withdrawn in favour of a computer test from mid-2026, depending on the country. Check the current format before your exam."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Results",
+      "heading": "How the exams report results",
+      "intro": "None of these exams gives a single mark out of 100, and each reports its result differently.",
+      "items": [
+        "<b>Cambridge:</b> each paper gets a score on the Cambridge English Scale, and the overall score is their average, with no minimum for a single paper. The lowest overall score that passes is 140 for B1 Preliminary, 160 for B2 First, 180 for C1 Advanced and 200 for C2 Proficiency.",
+        "<b>IELTS:</b> each test gets a band from 0 to 9, in whole or half bands, and the overall band is their mean, rounded to the nearest half band. There is no pass or fail: each university, employer or authority sets the band it requires.",
+        "<b>TOEFL iBT:</b> each section is scored from 1 to 6, and the overall score is their average, rounded to the nearest half band. For two years after January 2026 the report also gives a comparable score on the older 0–120 scale. There is no pass mark: each university or programme sets the score it requires.",
+        "<b>Glossa's papers show the share of points in each section.</b> They do not turn it into a Cambridge English Scale score, an IELTS band or a TOEFL score."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers for every exam", "text": "14 papers in all, in the exams' task formats, with original texts and recordings. The section instructions are in English here and in the learner's language in the other English courses." },
+        { "title": "Writing rated against the criteria", "text": "Your texts are rated by AI against the published Cambridge or IELTS criteria, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, from the present simple to inversion, register, academic and business English, so a weak spot in a paper has a module to go back to." },
+        { "title": "Explained in English, at your level", "text": "The course is taught in English with no translations. Explanations are in plain English graded to your level, and meaning comes from examples, context, simple definitions and contrasts." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. 13 sets of common traps cover make and do, uncountable nouns, prepositions, false friends and pronunciation." },
+        { "title": "Speaking practice outside the papers", "text": "Spoken exercises in the course are checked for pronunciation, and Premium has 36 conversations with an AI character, typed or spoken, from ordering coffee to a job interview and a debate." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exams",
+      "items": [
+        "<b>No score, band or grade is given.</b> A paper shows the share of points per section and cannot tell you which Cambridge grade, IELTS band or TOEFL score you would get.",
+        "<b>Reading and listening are shorter</b> than in the real exams, usually about half the questions with the time cut to match. Writing is full length.",
+        "<b>There is no speaking test</b>, except Listen and Repeat in the TOEFL papers. Glossa cannot yet assess free speech the way examiners do.",
+        "<b>Recordings can be replayed, and each is read by one voice</b> with the speakers' names. Play each one as often as the real exam does: twice for Cambridge, once for IELTS and TOEFL.",
+        "<b>Some marking is simpler.</b> Every question is worth one point, while some Cambridge parts give two marks. In IELTS writing the two tasks count the same in Glossa, while in the real test Task 2 counts twice as much.",
+        "<b>The TOEFL papers are not adaptive</b>: everyone gets the same tasks.",
+        "<b>The papers use American spelling.</b> Cambridge and IELTS accept it when it is used consistently.",
+        "<b>Words can be tapped</b> for their meaning while you practise; the real exams allow no dictionary."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa connected with Cambridge, IELTS or ETS?", "answer": "No. Glossa is not connected with Cambridge University Press &amp; Assessment, the British Council, IDP or ETS. The papers follow their published test descriptions, with original content." },
+        { "question": "Which exam should I take?", "answer": "Whoever asks you for a certificate decides which exams and scores they accept, so check with them first. IELTS Academic is for university study and professional registration, IELTS General Training for work, training and migration, and the TOEFL iBT is asked for by universities in the United States and many other countries. Cambridge exams certify one level each, from B1 to C2." },
+        { "question": "I need IELTS for a visa or residence permit. Does this help?", "answer": "The papers practise the IELTS task formats, but they do not predict a band. The immigration authority of the country decides which tests and bands it accepts and sets the other conditions, so check its requirements before you book." },
+        { "question": "What is free?", "answer": "The whole English course from A1 to C1, the grammar reference, word practice, the traps and the placement test are free, with 5 Ask AI questions a day. The exam papers, conversations, stories, specializations and the other extras are part of Premium." },
+        { "question": "Can I study with explanations in my own language?", "answer": "Yes. The same course, with the same exam papers, is available with explanations in <a href=\"/ru/courses/english.html\">Russian</a>, <a href=\"/uk/courses/english.html\">Ukrainian</a>, <a href=\"/fi/courses/english.html\">Finnish</a>, <a href=\"/de/courses/english.html\">German</a>, <a href=\"/es/courses/english.html\">Spanish</a>, <a href=\"/pt/courses/english.html\">Portuguese</a>, <a href=\"/it/courses/english.html\">Italian</a> and <a href=\"/fr/courses/english.html\">French</a>, with translation exercises both ways." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some English, and open the first module or the exam papers."
+  },
+  "trademark": "The Cambridge English Qualifications are run by Cambridge University Press &amp; Assessment. IELTS is run by the British Council, IDP and Cambridge. The TOEFL iBT is made by ETS. Glossa is not affiliated with or endorsed by any of them."
+}

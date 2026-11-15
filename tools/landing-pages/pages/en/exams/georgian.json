@@ -1,0 +1,88 @@
+{
+  "title": "Georgian State Language Exam practice papers · Glossa",
+  "description": "Timed practice papers for Georgia's State Language Exam, tests A (A1–A2) and B (B1–B2), a full Georgian course to C1, and what the papers leave out.",
+  "card": { "title": "State Language Exam (Georgian)", "text": "Practice papers for tests A and B, in listening, reading and writing." },
+  "eyebrow": "Exam preparation · Georgian",
+  "heading": "Practise for Georgia's <em>State Language Exam</em>.",
+  "lead": "Timed practice papers for the listening, reading and writing parts of the State Language Exam (<span lang=\"ka\">სახელმწიფო ენის გამოცდა</span>), for test A (levels A1 and A2) and test B (levels B1 and B2). Behind them is a complete Georgian course from the script to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Georgian course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From test A, practice paper 1, reading",
+    "lang": "ka",
+    "title": "გამარჯობა, ქეთი!",
+    "text": "სკოლასთან ახლოს პატარა ბინა ვიქირავე. ბინა ნათელი და თბილია, მაგრამ ერთი პრობლემა აქვს: ღამით ქუჩაში ძალიან ხმაურია, რადგან ახლოს ბარია.",
+    "question": "რა პრობლემა აქვს მარიამის ბინას?",
+    "options": ["ბინა ძალიან ცივია.", "ღამით ქუჩაში ხმაურია.", "ბინა სკოლიდან შორსაა."],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exam",
+      "heading": "What the exam asks",
+      "intro": [
+        "The exam certifies how well a person knows Georgian. The National Assessment and Examinations Center (NAEC, <span lang=\"ka\">შეფასებისა და გამოცდების ეროვნული ცენტრი</span>) runs it in Tbilisi, and the State Language Department issues the certificate to those who pass. It is voluntary and open to anyone who registers; the fee, as the decree set it in 2025, is 50 lari.",
+        "There are two tests: test A decides A1 or A2 and test B decides B1 or B2, depending on your points. Each has four parts of 25 points. Listening, reading and writing share 2 hours 30 minutes, of which 40 minutes are for listening; speaking takes 9 minutes after a short break."
+      ],
+      "columns": ["Part", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Listening <span lang=\"ka\">(მოსმენა)</span>", "25 questions on recordings heard twice. In test A, short announcements with true-or-false statements and short dialogues with three answers; in test B, opinions matched to speakers and other tasks with up to four options.", "All 25 questions in the real test's numbers of options, in 40 minutes."],
+        ["Reading <span lang=\"ka\">(კითხვა)</span>", "25 questions. In test A, signs and notices with true-or-false statements and a personal letter with questions; in test B, short articles and opinions to match to people, with up to five options.", "All 25 questions in 60 minutes, a split of the shared time that Glossa sets because NAEC does not publish one."],
+        ["Writing <span lang=\"ka\">(წერა)</span>", "Test A: six short facts, as on a form, then a short text and a longer letter. Test B: two argued texts of 10 and 15 points.", "All the writing tasks in 50 minutes, rated by AI against NAEC's published criteria."],
+        ["Speaking <span lang=\"ka\">(ლაპარაკი)</span>", "Three tasks, such as talking about your day (test A) or discussing a topic along three points (test B).", "Not included: Glossa has no speech assessment for Georgian."]
+      ],
+      "note": "Based on Government Decree No. 418 of 24 September 2025 and NAEC's published test descriptions, sample tasks and scoring schemes for the first session on 6 December 2025, checked in November 2026. NAEC sets the format, the number of tasks and the time before each session, so it can change; at that check no 2026 session had been announced. Look at naec.ge before you register."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Levels",
+      "heading": "What each level needs",
+      "intro": "A level needs both a total of the 100 points and a minimum in every part, speaking included. A part below its minimum fails that level whatever the total.",
+      "items": [
+        "<b>A1 or B1:</b> 41 points or more, and at least 9 in listening, 11 in reading, 7 in writing and 7 in speaking.",
+        "<b>A2 or B2:</b> 61 points or more, and at least 14 in listening, 16 in reading, 12 in writing and 12 in speaking."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers for each test", "text": "Four papers in all, full length in listening, reading and writing, with original texts and recordings on everyday life in Georgia: shops, transport, a doctor, a flat, work, travel and the regions." },
+        { "title": "Writing rated against the criteria", "text": "Your texts are rated by AI against NAEC's published writing criteria, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from the Mkhedruli script to C1, with the ergative, the screeves, preverbs and object marking explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Georgian word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exam",
+      "items": [
+        "<b>No level is given.</b> A paper shows the share of points in each part. Test A papers check each part against the A2 minimum, and test B papers against the B1 minimums; the real total includes speaking, which Glossa cannot count, so a paper cannot tell you which level you would reach.",
+        "<b>There is no speaking part</b>, although it is 25 of the 100 points.",
+        "<b>Reading and writing are timed separately</b>, 60 and 50 minutes. The real test gives them 110 minutes together with no published split.",
+        "<b>Some task types are Glossa's.</b> NAEC publishes sample tasks and answer keys, not the full tests, so beyond the samples the mix of tasks is Glossa's, with the real test's numbers of questions and options.",
+        "<b>Word counts</b> follow the published samples where there are any; the others are Glossa's.",
+        "<b>Recordings can be replayed.</b> In the exam you hear each one twice, so play it twice and then answer.",
+        "<b>You choose and type answers on screen</b>, and words can be tapped for their meaning; in the exam you mark a paper answer sheet."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official preparation course for the State Language Exam?", "answer": "No. Glossa is not connected with NAEC or the State Language Department. The papers follow NAEC's published test descriptions and scoring schemes, with original content. NAEC's own sample tasks and recordings are on naec.ge; work through them too." },
+        { "question": "Do these papers prepare for the Georgian citizenship test?", "answer": "No. People applying for Georgian citizenship take a separate test of the state language at the Public Service Development Agency, whose tasks are not published. The authorities that decide on citizenship set that test and the other conditions." },
+        { "question": "Which test should I take, A or B?", "answer": "Test A certifies A1 or A2 and test B certifies B1 or B2. In the course, tiers 1–4 cover A1–A2 and tiers 5–7 B1–B2; the placement test shows where you are." },
+        { "question": "What is free?", "answer": "The whole Georgian course from the script to C1, the grammar reference and word practice are free. The exam papers, conversation practice, stories and the other extras are part of Premium." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Georgian, and open the first module or the State Language Exam papers. <a href=\"/courses/georgian.html\">About the Georgian course</a>."
+  },
+  "trademark": "The State Language Exam is run by the National Assessment and Examinations Center (NAEC) of Georgia, and its certificates are issued by the State Language Department. Glossa is not affiliated with or endorsed by either."
+}

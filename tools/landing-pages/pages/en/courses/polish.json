@@ -1,0 +1,98 @@
+{
+  "title": "Polish course for English speakers, A1 to C1 · Glossa",
+  "description": "A full Polish course from first words to C1: 76 modules in eight tiers, cases and aspect explained directly, and practice papers for the B1 and B2 certificate.",
+  "card": { "title": "Polish", "text": "76 modules from A1 to C1, with the cases, aspect and the virile plural explained step by step." },
+  "eyebrow": "Course · Polish for English speakers",
+  "heading": "Learn <em>Polish</em> with the grammar explained.",
+  "lead": "A complete course in the standard Polish of Poland, from the alphabet to C1. All seven cases, verbal aspect, the virile plural and verbs of motion are taught directly, one step at a time, and every answer gets feedback that says why it was right or wrong.",
+  "fineprint": "The whole course is free: all 76 modules, the grammar reference, word practice and the placement test. Practice papers, specializations and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course: eight tiers, 76 modules",
+    "items": [
+      { "title": "Tier 1 · Sounds and first words", "text": "The alphabet and sounds, <span lang=\"pl\">ty</span> and <span lang=\"pl\">Pan/Pani</span>, gender, <span lang=\"pl\">być</span>, numbers." },
+      { "title": "Tier 2 · First sentences", "text": "The accusative and locative, plurals with virile forms, the past tense." },
+      { "title": "Tier 3 · The cases and aspect", "text": "Genitive, instrumental, dative and vocative, aspect and the future, verbs of motion." },
+      { "title": "Tier 4 · Building fluency", "text": "The imperative, <span lang=\"pl\">się</span>, numbers with nouns, comparison." },
+      { "title": "Tier 5 · Everyday fluency", "text": "Prefixed verbs of motion, the conditional, complex sentences, work and education." },
+      { "title": "Tier 6 · Intermediate", "text": "Participles, the impersonal and the passive, reported speech, the media." },
+      { "title": "Tier 7 · Upper intermediate", "text": "Verb government, word formation, formal address, law, business and official Polish." },
+      { "title": "Tier 8 · Advanced", "text": "Aspect nuances, word order, style, spoken Polish, history and literature." }
+    ],
+    "note": "76 modules in all. A placement test lets you start further up if you already know some Polish."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "The course",
+      "heading": "What the course teaches, and how",
+      "items": [
+        { "title": "Grammar taught directly", "text": "Each module explains its grammar before you practise it: why <span lang=\"pl\">kobieta</span> becomes <span lang=\"pl\">kobietę</span> after a verb, when to use <span lang=\"pl\">robić</span> and when <span lang=\"pl\">zrobić</span>. A searchable grammar reference links each rule to the modules that teach it." },
+        { "title": "Feedback that says why", "text": "A wrong answer shows the correct one, the reason yours was wrong and a link to the rule. There is no limit on how many exercises you do." },
+        { "title": "Every word can be tapped", "text": "Tap any Polish word, anywhere in the course, for its meanings, its full table of forms, examples and audio." },
+        { "title": "Speaking with pronunciation feedback", "text": "Speaking exercises in the modules rate your pronunciation of Polish sentences, and the Polish in the course comes with audio." },
+        { "title": "From everyday to official Polish", "text": "The later tiers cover the language of work, the media, law, business and offices, and the last tier spoken Polish, style, history and literature." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "columns": ["", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 76 modules from A1 to C1, the grammar reference, word practice, the placement test and 12 sets of common traps.", "Everything in Free."],
+        ["Ask AI", "5 questions a day about any exercise or text.", "50 questions a day."],
+        ["Practice", "Exercises, speaking with pronunciation feedback, and review of the words you learn.", "Conversation practice with an AI character in 36 scenarios, pronunciation practice on sentences you type, and lessons written on a topic you choose."],
+        ["Reading", "The texts in the modules.", "Stories with AI feedback on your retellings, texts on how Poland works (the state, taxes, work, healthcare, renting) and idioms."],
+        ["Specializations and exams", "Not included.", "13 professional specializations and timed practice papers for the B1 and B2 certificate."],
+        ["Offline", "Not included.", "Download modules and stories to use offline."]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for the Polish certificate",
+      "intro": "The course has two timed practice papers each for the B1 and B2 levels of the <span lang=\"pl\">egzamin certyfikatowy z języka polskiego jako obcego</span>, Poland's state exam in Polish as a foreign language. B1 or higher is required for recognition as a Polish citizen, unless you have a Polish school certificate; B2 is what most university programmes expect.",
+      "items": [
+        "<a href=\"/exams/polish.html\">Polish B1 and B2 certificate practice papers</a>: what the exam asks, what the papers cover, and where they differ from the real exam."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "13 professional specializations",
+      "intro": "Each specialization has nine modules in three stages, Foundations, Working vocabulary and Professional, which open as you reach tiers 4, 6 and 8 of the course.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Polish course really free?", "answer": "Yes. All 76 modules, the grammar reference, word practice and the placement test are free, with 5 Ask AI questions a day. Premium adds the extras listed above." },
+        { "question": "How far does the course go?", "answer": "From first words to C1, in eight tiers. The last tiers cover formal and official Polish, style, spoken Polish and literature." },
+        { "question": "I already know some Polish. Do I have to start at the beginning?", "answer": "No. The placement test finds the tier to start from." },
+        { "question": "Does it prepare me for the B1 exam for Polish citizenship?", "answer": "The course teaches Polish up to C1, and Premium adds timed practice papers for the B1 and B2 certificate. The papers have no oral part and are shorter than the real exam in listening, reading and grammar. The <a href=\"/exams/polish.html\">exam page</a> has the details." },
+        { "question": "I speak Ukrainian. Is there a course for me?", "answer": "Yes. <a href=\"/uk/courses/polish.html\">Polish for Ukrainian speakers</a> is a shorter course of 40 modules, explained in Ukrainian and built around what differs from Ukrainian, with the same certificate papers." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the first module.",
+    "text": "Sign in with Google, take the placement test if you already know some Polish, and open the first module."
+  }
+}

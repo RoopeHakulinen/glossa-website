@@ -1,0 +1,99 @@
+{
+  "title": "Staatsexamen NT2 üben: Übungsprüfungen B1 und B2 · Glossa",
+  "description": "Übungsprüfungen mit Zeitlimit für das Staatsexamen NT2, Programma I (B1) und II (B2), mit Kurs auf Deutsch. Was die Prüfung verlangt, was die Übungen auslassen.",
+  "card": { "title": "Staatsexamen NT2 (Niederländisch)", "text": "Übungsprüfungen für Programma I und II, die niederländische Staatsprüfung auf B1 und B2." },
+  "eyebrow": "Prüfungsvorbereitung · Niederländisch",
+  "heading": "Für das <em>Staatsexamen NT2</em> üben.",
+  "lead": "Übungsprüfungen mit Zeitlimit für Lesen, Hören und Schreiben in der niederländischen Staatsprüfung für Niederländisch als Zweitsprache, für <span lang=\"nl\">Programma I</span> (B1) und <span lang=\"nl\">Programma II</span> (B2), mit Anleitungen auf Deutsch. Dahinter steht ein vollständiger Niederländischkurs für Deutschsprachige von A1 bis C1, mit dem du an dem arbeitest, was dir in den Übungsprüfungen noch fehlt.",
+  "fineprint": "Der Niederländischkurs ist kostenlos. Die Übungsprüfungen gehören zu Premium, 8,99 € im Monat oder 69,99 € im Jahr. Auch für Englischsprachige verfügbar.",
+  "panel": {
+    "label": "Aus Übungsprüfung 1, Programma I, Lesen",
+    "lang": "nl",
+    "title": "Je stage vanaf februari",
+    "text": "Je geeft je stageplaats uiterlijk 15 december door aan je stagebegeleider. Studenten die dan nog geen plaats hebben, krijgen een gesprek met hun mentor.",
+    "question": "Wat gebeurt er als een student op 15 december nog geen stageplaats heeft?",
+    "options": ["Hij moet zelf bedrijven bellen.", "Hij begint later met zijn stage.", "Hij krijgt een gesprek met zijn mentor."],
+    "note": "Jedes Wort in einer Übungsprüfung lässt sich beim Üben antippen, mit Bedeutung und Formen."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "Die Prüfung",
+      "heading": "Was die vier Teile verlangen",
+      "intro": "Für den Inhalt der Prüfung ist das <span lang=\"nl\">College voor Toetsen en Examens</span> (CvTE) zuständig, Anmeldung und Ergebnisse laufen über DUO. Jedes Programm hat vier Teile (<span lang=\"nl\">onderdelen</span>), die alle am Computer in einem Prüfungszentrum in den Niederlanden abgelegt werden; für jeden Teil meldest du dich einzeln an. Die meisten Aufgaben drehen sich um Arbeit oder Ausbildung, einige um den Alltag. <span lang=\"nl\">Programma I</span> musst du vor <span lang=\"nl\">Programma II</span> nicht ablegen.",
+      "columns": ["Teil", "Programma I (B1)", "Programma II (B2)", "In den Übungsprüfungen von Glossa"],
+      "rows": [
+        ["Lesen <span lang=\"nl\">(Lezen)</span>", "6 Texte, 36 Auswahlfragen, 110 Minuten. Die Texte stehen in einem gedruckten Heft, die Fragen auf dem Bildschirm.", "6 Texte, 36 Auswahlfragen, 100 Minuten.", "3 Texte mit 18 Fragen, am Bildschirm und ohne Wörterbuch. 55 Minuten für <span lang=\"nl\">Programma I</span>, 50 für <span lang=\"nl\">Programma II</span>."],
+        ["Hören <span lang=\"nl\">(Luisteren)</span>", "Etwa 40 Auswahlfragen zu 5 oder mehr Aufnahmen, darunter 1–3 Videoclips, 90 Minuten. Jede Aufnahme läuft einmal.", "Dasselbe Format, 90 Minuten.", "20 Fragen in 45 Minuten, ohne Videoclips, eine Stimme pro Aufnahme."],
+        ["Schreiben <span lang=\"nl\">(Schrijven)</span>", "8 Satzaufgaben, 2 kurze Nachrichten oder Formulare und 2 kurze Texte, 100 Minuten.", "7 oder 8 Satzaufgaben, 1 oder 2 kurze und 1 oder 2 mittellange Schreibaufgaben, 100 Minuten.", "<span lang=\"nl\">Programma I</span>: 6 Aufgaben in 50 Minuten. <span lang=\"nl\">Programma II</span>: 4 Satzaufgaben, eine kurze und eine mittellange Aufgabe in 55 Minuten. Bewertet von einer KI."],
+        ["Sprechen <span lang=\"nl\">(Spreken)</span>", "8 kurze und 8 mittellange Aufgaben, ins Mikrofon gesprochen, etwa 25 Minuten.", "4 kurze, 8 mittellange und eine lange Aufgabe von zwei Minuten, etwa 25 Minuten.", "Nicht enthalten: Freie Antworten kann Glossa noch nicht bewerten."]
+      ],
+      "note": "Nach den Beschreibungen auf staatsexamensnt2.nl und duo.nl, Stand Oktober 2026. Einziges erlaubtes Hilfsmittel ist das gedruckte Taschenwörterbuch von Van Dale für Niederländisch als Zweitsprache, nur beim Lesen und Schreiben."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Punkte und Bestehen",
+      "heading": "Wann ein Teil bestanden ist",
+      "intro": "Lesen und Hören wertet ein Computer aus, Schreiben und Sprechen bewerten zwei geschulte Bewerter. Die Rohpunkte jedes Teils werden in einen Skalenwert umgerechnet, und ein Teil ist ab einem Skalenwert von 500 bestanden.",
+      "items": [
+        "<b>Jeder Teil wird für sich bestanden.</b> Für jeden bestandenen Teil bekommst du ein Zertifikat, und einen nicht bestandenen Teil kannst du wiederholen.",
+        "<b>Das Diplom</b> folgt, sobald alle vier Teile bestanden sind. Zertifikate und Diplom verfallen nicht.",
+        "<b>Die Umrechnung wird nicht veröffentlicht</b>, es gibt also keine Bestehensgrenze in Rohpunkten, an der du dich messen könntest."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Inburgering und Einbürgerung",
+      "heading": "Welches Programm du brauchst",
+      "intro": "Laut den Beschreibungen der Prüfung:",
+      "items": [
+        "<b><span lang=\"nl\">Programma I</span></b> erfüllt die B1-Sprachanforderung für die <span lang=\"nl\">inburgering</span> und für die Einbürgerung und zeigt, dass dein Niederländisch für Arbeit oder Ausbildung auf <span lang=\"nl\">mbo</span>-Niveau 3 oder 4 reicht.",
+        "<b><span lang=\"nl\">Programma II</span></b> zeigt, dass dein Niederländisch für Arbeit oder Studium an einer Fachhochschule (<span lang=\"nl\">hbo</span>) oder Universität reicht.",
+        "Nach der <span lang=\"nl\">Wet inburgering 2021</span> ist der Sprachteil der B1-Route <span lang=\"nl\">Programma I</span> oder <span lang=\"nl\">Programma II</span>, je nachdem, was der Plan deiner Gemeinde (<span lang=\"nl\">Plan Inburgering en Participatie</span>) vorsieht.",
+        "Die übrigen Voraussetzungen für <span lang=\"nl\">inburgering</span> und Einbürgerung legen die Behörden fest, die darüber entscheiden. Kläre mit ihnen, was für dich gilt."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "Was du bekommst",
+      "heading": "Übungsprüfungen zum Üben, ein Kurs zum Lernen",
+      "items": [
+        { "title": "Zwei Übungsprüfungen pro Programm", "text": "Eigene Texte und Aufnahmen in den Aufgabenformaten der Prüfung, meist rund um Arbeit und Ausbildung: Praktika, Vorstellungsgespräche, Homeoffice, Sicherheit am Arbeitsplatz." },
+        { "title": "Schreiben, bewertet von einer KI", "text": "Deine Texte bewertet eine KI, in <span lang=\"nl\">Programma II</span> danach, ob die Aufgabe erfüllt ist und wie verständlich der Text ist, sowie nach Grammatik, Rechtschreibung, Wortwahl, Zusammenhang und Aufbau. Das ist eine Schätzung, keine Bewertung durch zwei Bewerter." },
+        { "title": "Ein ganzer Kurs dahinter", "text": "40 Module in acht Stufen von A1 bis C1, auf Deutsch erklärt und auf das ausgerichtet, was anders ist als im Deutschen: <span lang=\"nl\">er</span>, die Verben am Satzende, das Passiv, falsche Freunde. So hat jede Schwäche, die eine Übungsprüfung zeigt, ein Modul zum Nacharbeiten." },
+        { "title": "Rückmeldung mit Begründung", "text": "Jede Antwort im Kurs bekommt eine Rückmeldung mit Begründung und einem Link zur Grammatikregel. Jedes niederländische Wort zeigt beim Antippen Formen, Bedeutung und Aussprache." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Ehrliche Grenzen",
+      "heading": "Worin sich die Übungsprüfungen von der echten Prüfung unterscheiden",
+      "items": [
+        "<b>Keine Bestehensgrenze.</b> Das Ergebnis eines Teils ist der Anteil der erreichten Punkte. Die Prüfungsstelle veröffentlicht keine Umrechnung in Skalenwerte, daher kann eine Übungsprüfung nicht sagen, ob du 500 erreichen würdest.",
+        "<b>Kürzer</b> als die echten Teile, mit denselben Aufgabentypen: etwa die Hälfte der Aufgaben, die Zeit entsprechend gekürzt.",
+        "<b>Kein Teil Sprechen.</b> Das Aussprachetraining (Premium) übt, wie du etwas sagst, nicht die freien Antworten der Prüfung.",
+        "<b>Lesen am Bildschirm</b>, und es gibt kein Wörterbuch.",
+        "<b>Aufnahmen lassen sich wiederholen, Videoclips gibt es nicht.</b> In der Prüfung liest du zuerst die Frage und hörst die Aufnahme einmal; mach es hier genauso. In <span lang=\"nl\">Programma II</span> hat hier jede Aufnahme vier Fragen statt einer.",
+        "<b>Eine Stimme pro Aufnahme.</b> In Gesprächen liest eine Stimme alle Rollen, jeweils mit dem Namen.",
+        "<b>Die Wortzahlen in den Schreibaufgaben sind Richtwerte von Glossa</b>; die Prüfungsstelle veröffentlicht keine Wortgrenzen."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Fragen",
+      "heading": "Häufige Fragen",
+      "items": [
+        { "question": "Ist Glossa ein offizieller Vorbereitungskurs für das NT2?", "answer": "Nein. Glossa ist weder mit dem CvTE noch mit DUO verbunden. Die Übungsprüfungen folgen den veröffentlichten Beschreibungen der Prüfung, mit eigenen Inhalten. Den aktuellen Aufbau zeigt die Übungsumgebung des CvTE (<span lang=\"nl\">oefenexamens</span>) auf staatsexamensnt2.nl." },
+        { "question": "Programma I oder Programma II?", "answer": "<span lang=\"nl\">Programma I</span> entspricht B1, <span lang=\"nl\">Programma II</span> B2. Für die <span lang=\"nl\">inburgering</span> legt der Plan deiner Gemeinde fest, welches du ablegst. Über <span lang=\"nl\">inburgering</span> und Einbürgerung entscheiden die zuständigen Behörden, und sie legen auch die übrigen Voraussetzungen fest." },
+        { "question": "Was ist kostenlos?", "answer": "Der ganze Niederländischkurs von A1 bis C1, die Grammatikübersicht, das Wortschatztraining und der Einstufungstest sind kostenlos. Die NT2-Übungsprüfungen, Redewendungen und die anderen Extras gehören zu Premium." },
+        { "question": "Bereitet Glossa auf den Teil Sprechen vor?", "answer": "Nicht mit einer Übungsprüfung. Die Sprechübungen im Kurs geben Rückmeldung zur Aussprache, werden aber nicht wie in der Prüfung bewertet." },
+        { "question": "Muss ich wirklich bei null anfangen, obwohl ich Deutsch spreche?", "answer": "Nein. Der Einstufungstest findet dein Niveau, und der Kurs setzt ohnehin voraus, dass du Deutsch sprichst: Er konzentriert sich auf das, was im Niederländischen anders ist. Mehr dazu auf der Seite zum <a href=\"/de/courses/dutch.html\">Niederländischkurs</a>." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Mit dem Kurs lernen, mit den Übungsprüfungen üben.",
+    "text": "Melde dich mit Google an, mach den Einstufungstest, wenn du schon etwas Niederländisch kannst, und öffne das erste Modul oder die NT2-Übungsprüfungen."
+  },
+  "trademark": "Für das Staatsexamen Nederlands als tweede taal (NT2) ist das College voor Toetsen en Examens (CvTE) zuständig, Anmeldung und Ergebnisse laufen über DUO. Glossa ist mit keinem von beiden verbunden und wird von keinem empfohlen."
+}

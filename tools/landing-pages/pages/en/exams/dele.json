@@ -1,0 +1,86 @@
+{
+  "title": "DELE practice papers: Spanish exam A1 to C2 · Glossa",
+  "description": "Timed practice papers for all six DELE Spanish levels, A1 to C2, with a full Spanish course. What each test asks, how passing works, what the papers leave out.",
+  "card": { "title": "DELE (Spanish)", "text": "Two timed practice papers for each DELE level from A1 to C2, with writing rated against the DELE criteria." },
+  "eyebrow": "Exam preparation · Spanish",
+  "heading": "Practise for the <em>DELE</em> in Spanish.",
+  "lead": "Timed practice papers for the Diplomas de Español como Lengua Extranjera at all six levels, A1 to C2, in the exam's task formats with original texts and recordings. Behind them is a complete Spanish course from first words to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Spanish course is free. The DELE practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Russian, Finnish, German, Portuguese and Italian speakers.",
+  "panel": {
+    "label": "From DELE B1 practice paper 1, reading",
+    "lang": "es",
+    "title": "Libros que hablan",
+    "text": "En una biblioteca humana, los libros no se leen: se escuchan. La idea nació en Dinamarca en el año 2000, cuando un grupo de jóvenes quiso organizar una actividad contra los prejuicios.",
+    "question": "Según el texto, la primera biblioteca humana se organizó para…",
+    "options": ["luchar contra los prejuicios.", "conseguir dinero para una biblioteca.", "dar trabajo a personas sin hogar."],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exam",
+      "heading": "What the B1 exam asks",
+      "intro": "The DELE are awarded by the Instituto Cervantes on behalf of Spain's Ministry of Education. Each level is a separate exam. At B1 there are four tests (<span lang=\"es\">pruebas</span>) of 25 points each; reading, listening and writing are taken on the same day, and the speaking test can be on another day.",
+      "columns": ["Test", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Reading <span lang=\"es\">(Comprensión de lectura)</span>", "5 tasks, 30 items, 70 minutes: notices, advertisements, personal messages, guides and biographies, with matching, multiple choice, fragments to put back and gaps to fill.", "All five task types with 3 items each, in 35 minutes."],
+        ["Listening <span lang=\"es\">(Comprensión auditiva)</span>", "5 tasks, 30 items, 40 minutes: messages, announcements, a monologue, radio news and conversations, each played twice.", "All five task types with 3 items each, in 20 minutes."],
+        ["Writing <span lang=\"es\">(Expresión e interacción escritas)</span>", "2 tasks, 60 minutes: an email, letter or forum post of 100 to 120 words, and a description or narrative of 130 to 150 words.", "Both tasks and the full 60 minutes, rated by AI against the DELE criteria."],
+        ["Speaking <span lang=\"es\">(Expresión e interacción orales)</span>", "4 tasks, 15 minutes after 15 minutes of preparation: a presentation, a conversation about it, a photograph and a role play.", "Not included: Glossa cannot yet assess free speech. The course's conversation practice covers speaking situations."]
+      ],
+      "note": "From the DELE B1 exam description in Glossa's course, based on published descriptions of the exam and checked in October 2026. The Instituto Cervantes publishes the exam guide and model papers; check them for the current format."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Passing",
+      "heading": "How the result is decided",
+      "intro": "From A1 to C1 the four tests form two groups, and you need at least 30 of the 50 points in <b>each</b> group to pass (<span lang=\"es\">apto</span>). A strong test can make up for a weaker one in the same group, but not in the other.",
+      "items": [
+        "<b>A1 to B2:</b> group 1 is reading and writing, group 2 is listening and speaking.",
+        "<b>C1:</b> group 1 is tests 1 and 3 (reading and use of language; listening and writing), group 2 is tests 2 and 4 (listening and use of language; reading and speaking).",
+        "<b>C2:</b> three tests, each combining several skills, with a third of the points each. You need 60% in each test in the same sitting; one test cannot make up for another.",
+        "The result is <span lang=\"es\">apto</span> or <span lang=\"es\">no apto</span>."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers at each level", "text": "Twelve timed papers from A1 to C2, each with its own original texts and recordings, from small ads and a trip to Toledo at A2 to the right to disconnect and holiday flats at C1." },
+        { "title": "Writing rated against the criteria", "text": "Your writing tasks are rated by AI against the DELE criteria, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "78 modules in eight tiers from A1 to C1, with <span lang=\"es\">ser</span> and <span lang=\"es\">estar</span>, the past tenses and the subjunctive explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Spanish word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exam",
+      "items": [
+        "<b>The result is an estimate.</b> A paper shows your share of points and whether each group (each test at C2) reaches the 60% pass mark, but with shorter tests, writing rated by AI and no speaking test it cannot tell you whether you would be <span lang=\"es\">apto</span>.",
+        "<b>Reading and listening are shorter</b> than in the real exam, in the same task types, with the time cut to match. Writing is full length, including the recording the B2, C1 and C2 writing tasks are based on.",
+        "<b>There is no speaking test</b> (test 4 at C1, test 3 at C2), so from A1 to C1 the papers judge group 2 on its listening test alone.",
+        "<b>Recordings can be replayed.</b> In the exam each one is played a set number of times (twice from A2 up), so play it as often as the exam would and then answer.",
+        "<b>One voice per recording.</b> In conversations all speakers are read by one voice, with their names.",
+        "<b>Words can be tapped</b> for their meaning while you practise; the real exam allows no dictionary."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official DELE preparation course?", "answer": "No. Glossa is not connected with the Instituto Cervantes. The papers follow published descriptions of the exam, with original content." },
+        { "question": "Which level should I practise for?", "answer": "The level you plan to register for. Each DELE level is a separate exam, and Glossa has two papers for each. If you are unsure of your level, the course's placement test shows which tier of the course to start from." },
+        { "question": "What is free?", "answer": "The whole Spanish course from A1 to C1, the grammar reference and word practice are free. The DELE practice papers, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "Is there a course in my own language?", "answer": "Yes, the same DELE papers come with Spanish for <a href=\"/ru/courses/spanish.html\">Russian</a>, <a href=\"/fi/courses/spanish.html\">Finnish</a>, <a href=\"/de/courses/spanish.html\">German</a>, <a href=\"/pt/courses/spanish.html\">Portuguese</a> and <a href=\"/it/courses/spanish.html\">Italian</a> speakers, with the instructions and explanations in that language." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Spanish, and open the first module or the DELE papers. The <a href=\"/courses/spanish.html\">Spanish course</a> page has more on the course."
+  },
+  "trademark": "DELE (Diplomas de Español como Lengua Extranjera) are awarded by the Instituto Cervantes on behalf of Spain's Ministry of Education. Glossa is not affiliated with or endorsed by either."
+}

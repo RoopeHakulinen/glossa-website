@@ -1,0 +1,102 @@
+{
+  "title": "Ukrainian exam practice: citizenship B1 and telc B2 · Glossa",
+  "description": "Timed practice papers for the Ukrainian state language exam for citizenship (B1) and telc Ukrainian B2 Online, with a full Ukrainian course from A1 to C1.",
+  "card": { "title": "Ukrainian exams", "text": "Practice papers for the citizenship exam at B1 and for telc Ukrainian B2 Online." },
+  "eyebrow": "Exam preparation · Ukrainian",
+  "heading": "Practise for the <em>Ukrainian</em> citizenship exam and telc B2.",
+  "lead": "Timed practice papers for the listening, reading and writing parts of the state language exam for Ukrainian citizenship (B1) and of telc Ukrainian B2 Online. Behind them is a complete Ukrainian course from the alphabet to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Ukrainian course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available <a href=\"/ru/exams/ukrainian.html\">for Russian speakers</a>.",
+  "panel": {
+    "label": "From citizenship practice paper 1, reading",
+    "lang": "uk",
+    "title": "Почні́ть із прогу́лянки",
+    "text": "Лі́карка з Ві́нниці Окса́на Бо́ндар ра́дить свої́м паціє́нтам поча́ти з найпрості́шого — з ходьби́. «Бага́то хто ду́має, що для здоро́в’я тре́ба ходи́ти в спортза́л або́ бі́гати марафо́ни, — ка́же вона́. — Але́ бі́льшості люде́й до́сить щодня́ гуля́ти хоча́ б пів годи́ни».",
+    "question": "Що, на ду́мку лі́карки, до́сить для здоро́в’я бі́льшості люде́й?",
+    "options": ["Ходи́ти в спортза́л три́чі на ти́ждень.", "Щодня́ гуля́ти хоча́ б пів годи́ни.", "Бі́гати щора́нку.", "Купи́ти спеціа́льний о́дяг для спо́рту."],
+    "note": "Words in a paper carry stress marks and can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "Citizenship exam",
+      "heading": "What the citizenship exam asks",
+      "intro": "The state language exam for citizenship (<span lang=\"uk\">і́спит на рі́вень володі́ння держа́вною мо́вою для набуття́ громадя́нства Украї́ни</span>) is run by the National Commission on State Language Standards through authorised institutions. It is taken on a computer at exam centres marked for citizenship in Kyiv, Lviv and Kharkiv, not online, and lasts at most 150 minutes.",
+      "columns": ["Part", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Listening <span lang=\"uk\">(слу́хання)</span>", "12 tasks: short recordings such as adverts and announcements with a question and three options, then true or false statements about one longer recording. Each recording is played twice.", "All 12 tasks, with original recordings. 15 minutes."],
+        ["Reading <span lang=\"uk\">(чита́ння)</span>", "31 tasks on six texts of about 1,000 words in all: subheadings, true or false, matching interview questions and answers, choosing a word or a grammatical form for a gap, and multiple-choice questions. Listening and reading share 60 minutes.", "All 31 tasks, with original texts. 45 minutes, a split Glossa sets."],
+        ["Writing <span lang=\"uk\">(письмо́)</span>", "A short message for a situation, up to 50 words, and a longer text on a topic that covers a list of points; the programme asks for at least 100 words. 40 minutes.", "Both tasks and the full 40 minutes, with 100 to 250 words for the longer text, rated by AI against the published criteria."],
+        ["Speaking <span lang=\"uk\">(говорі́ння)</span>", "Describe a photo, give a monologue on a topic and take part in a dialogue or answer situational questions, recorded on the computer. 20 minutes.", "Not included: Glossa has no speech assessment for Ukrainian."]
+      ],
+      "note": "Based on the National Commission on State Language Standards' published exam programme, paper characteristics and sample tasks, checked in October 2026. The fee is three times the subsistence minimum for able-bodied persons, 9,984 hryvnias in 2026."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Ukrainian citizenship",
+      "heading": "What citizenship asks of the exam",
+      "intro": "Ukrainian law requires a person who intends to acquire Ukrainian citizenship to certify their command of the state language, and the Commission has set the level at B1 at minimum. The exam is open to foreigners and stateless persons, and taking it does not oblige anyone to apply for citizenship.",
+      "items": [
+        "<b>All four parts count equally</b>, 25% each, whatever their raw points.",
+        "<b>70% overall passes</b> and gives a state certificate at level B1. No minimum per part is published.",
+        "<b>The certificate is electronic</b>, recorded in the Register of State Certificates, and valid indefinitely.",
+        "<b>The exam can be retaken</b> any number of times, at most once every four months.",
+        "The Ukrainian authorities that decide on citizenship set the other conditions."
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "telc Ukrainian B2 Online",
+      "heading": "What telc Ukrainian B2 asks",
+      "intro": "telc Ukrainian B2 Online is a certificate exam for general Ukrainian at level B2 from telc gGmbH, covering everyday and professional situations. It is taken online with camera and microphone on, only as a complete exam, and lasts 120 minutes in all.",
+      "columns": ["Subtest", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Reading", "15 items in three parts: match newspaper articles to headlines, choose the headline for short news items, and complete sentences about a magazine article. 40 minutes.", "All three parts, with original texts. 40 minutes."],
+        ["Listening", "Five radio news items and an interview, with 15 true or false statements; false means the recording contradicts the statement. Each recording is heard once. 20 minutes.", "The same tasks, with the interview in two halves and one voice per recording. 20 minutes."],
+        ["Writing", "A formal work email of at least 80 words, a forum post of at least 150 words giving your opinion, and an informal chat reply of at least 30 words. 45 minutes.", "All three tasks and the full 45 minutes, rated by AI against telc's criteria. The upper word limits are Glossa's."],
+        ["Speaking", "Talk about your work, give and justify an opinion, and talk about an experience. About 15 minutes.", "Not included."]
+      ],
+      "note": "Based on telc's published exam description and practice test, checked in October 2026. telc requires at least 60% of the 180 points and at least 30% in each of the four subtests to pass."
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers for each exam", "text": "Original texts and recordings on everyday topics: a train announcement, exchanging money, a family's move to Poltava, a coworking space in a Lviv library, a village family doctor." },
+        { "title": "Full length where it counts", "text": "The citizenship papers have every listening, reading and writing task of the real exam. The telc papers have every task of its three written subtests." },
+        { "title": "Writing rated against the criteria", "text": "Your texts are rated by AI against the published criteria of each exam, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from the alphabet to C1, with the cases, aspect, the vocative and the verbs of motion explained directly, so a weak spot in a paper has a module to go back to." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exams",
+      "items": [
+        "<b>There is no speaking part</b> in either exam's papers, although speaking is a quarter of the real result in both. A citizenship paper averages the other three parts against 70%; a telc paper checks 60% of their combined points and 30% in each.",
+        "<b>Reaching the mark on a paper is not a pass.</b> It covers three of the four parts, with writing rated by AI, so it cannot tell you whether you would pass. Glossa never converts a result into telc's grades.",
+        "<b>Listening and reading in the citizenship papers are timed separately</b>, 15 and 45 minutes; the real exam gives 60 minutes for both together.",
+        "<b>Recordings can be replayed.</b> The citizenship exam plays each one twice and telc only once, so listen as many times as the exam allows and then answer.",
+        "<b>The writing tasks count equally</b> in Glossa's writing score. The real citizenship exam does not publish its split, and telc gives 18, 18 and 9 points.",
+        "<b>Words can be tapped</b> for their meaning and forms, and words carry stress marks, which the telc exam does not have."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa connected with the Commission or with telc?", "answer": "No. Glossa is not connected with the National Commission on State Language Standards or with telc gGmbH. The papers follow their published exam descriptions, with original content." },
+        { "question": "Which exam is the one for citizenship?", "answer": "The state language exam for citizenship at level B1, run by the National Commission on State Language Standards, with 70% overall to pass. The Ukrainian authorities that decide on citizenship set the other conditions." },
+        { "question": "Can I take the citizenship exam online?", "answer": "No. It is taken on a computer at exam centres marked for citizenship in Kyiv, Lviv and Kharkiv. telc Ukrainian B2 Online, by contrast, is taken only online." },
+        { "question": "What is free?", "answer": "The whole Ukrainian course from the alphabet to C1, the grammar reference and word practice are free. The practice papers, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "I speak Russian. Is there a course for me?", "answer": "Yes. <a href=\"/ru/exams/ukrainian.html\">Ukrainian for Russian speakers</a> has the same papers, with the instructions and explanations in Russian." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Ukrainian, and open the first module or the exam papers."
+  },
+  "trademark": "The state language exam for Ukrainian citizenship is administered by the National Commission on State Language Standards. telc Ukrainian B2 Online is an exam of telc gGmbH. Glossa is not affiliated with or endorsed by either."
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Learn Greek: a full Modern Greek course from A1 to C1 · Glossa",
+  "description": "A complete Modern Greek course for English speakers, from the alphabet to C1: 76 modules, the cases, the two verb stems and aspect explained directly. Free.",
+  "card": { "title": "Greek", "text": "A full Modern Greek course from the alphabet to C1 in 76 modules, with 13 professional specializations and Ellinomatheia B1 and B2 papers." },
+  "eyebrow": "Course · Greek for English speakers",
+  "heading": "Learn <em>Greek</em>, from the alphabet to C1.",
+  "lead": "A complete course in the standard Modern Greek of Greece, in the monotonic spelling, written for English speakers. It starts with the alphabet, its sounds and the written accent, with typing on a Greek keyboard, then takes the cases, the two verb stems and aspect one step at a time. Every answer gets feedback that says why, and every Greek word can be tapped for its forms and meaning.",
+  "fineprint": "The whole course, the grammar reference and word practice are free. Specializations, stories, conversation practice, exam papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "lang": "en",
+    "items": [
+      { "title": "1 · Sounds and first words", "text": "The alphabet and the written accent, greetings, nouns and articles, the present tense, numbers." },
+      { "title": "2 · First sentences", "text": "Adjectives, the accusative and final ν, plurals, possessives, the two verb stems." },
+      { "title": "3 · The verb system", "text": "The genitive, the dependent with να, the future with θα, the aorist, weak object pronouns." },
+      { "title": "4 · Building fluency", "text": "The imperative, verbs in -μαι, the imperfect, the full declensions, comparison." },
+      { "title": "5 · Everyday fluency", "text": "The perfect tenses, the passive aorist, conditionals, relative clauses." },
+      { "title": "6 · Intermediate", "text": "Participles, the gerund, the passive voice, reported speech, aspect in use." },
+      { "title": "7 · Upper intermediate", "text": "Verb government, word formation, formal address, official Greek." },
+      { "title": "8 · Advanced", "text": "Particles and word order, registers and diglossia, spoken Greek, literature." }
+    ],
+    "note": "76 modules in eight tiers, plus 13 professional specializations with 117 more modules."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "Grammar explained, not guessed at",
+      "items": [
+        { "title": "The alphabet first", "text": "The first module teaches the Greek letters, their sounds and the written accent. You type on a Greek keyboard from the start, and the course writes Greek in Greek letters throughout." },
+        { "title": "The verb, in stages", "text": "The present comes in tier 1, the two verb stems in tier 2, the future with <span lang=\"el\">θα</span>, the dependent with <span lang=\"el\">να</span> and the aorist in tier 3, the imperfect and verbs in <span lang=\"el\">-μαι</span> in tier 4, the perfect tenses and the passive aorist in tier 5, and aspect in use in tier 6, so the part of Greek that differs most from English gets more than one pass." },
+        { "title": "Feedback that says why", "text": "Every answer gets feedback with the reason and a link to the grammar rule. The grammar reference has one page per rule, linked to the lessons that teach it." },
+        { "title": "Every word inspectable", "text": "Tap any Greek word for its form, meaning, an example, its table of forms and audio." },
+        { "title": "Common traps", "text": "Twelve short sets on the mistakes English speakers make, from letters and sounds, <span lang=\"el\">εσύ</span> and <span lang=\"el\">εσείς</span>, final ν and the moving accent to aspect, weak pronouns, <span lang=\"el\">να</span> in place of the infinitive and false friends." },
+        { "title": "No pronunciation scoring", "text": "Speech assessment does not cover Greek, so the course has no pronunciation practice with feedback. Reading and listening texts have audio." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "columns": ["", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 76 modules in eight tiers, from the alphabet to C1", "The same"],
+        ["Grammar and words", "The grammar reference, word practice, common traps and a placement test", "The same"],
+        ["Ask AI", "5 questions a day", "50 questions a day"],
+        ["Specializations", "—", "13 professional courses, 117 modules"],
+        ["Stories", "—", "Six stories, with AI feedback on your retellings"],
+        ["Conversation practice", "—", "36 scenarios with an AI character, and lessons on a topic you choose"],
+        ["Exam preparation", "—", "Timed practice papers for the Certificate of Attainment in Greek at B1 and B2"],
+        ["Country and idioms", "—", "19 texts on how the country works, and six sets of idioms"],
+        ["Offline", "—", "Download modules and stories for use without a connection"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for the Certificate of Attainment in Greek",
+      "intro": "Two timed papers at each of two levels of the Greek state certificate (<span lang=\"el\">Ελληνομάθεια</span>), set by the Centre for the Greek Language, in reading, listening and writing, with original texts. Neither includes speaking. <a href=\"/exams/greek.html\">What the exam asks and how the papers differ</a>.",
+      "items": [
+        "<b>B1</b> (<span lang=\"el\">Β1</span>), with reading, listening and writing at full length.",
+        "<b>B2</b> (<span lang=\"el\">Β2</span>), with reading, use of language, listening and writing; writing at full length, the others shorter."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Greek for your field",
+      "intro": "Thirteen professional courses of nine modules each, in three stages: foundations, working vocabulary and professional. Each stage opens when you reach tier 4, 6 or 8 of the main course.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Greek course free?", "answer": "Yes. All 76 modules, the grammar reference, word practice, the common traps and the placement test are free. Premium adds the specializations, stories, conversation practice, exam papers and the other extras." },
+        { "question": "Do I need to know the Greek alphabet first?", "answer": "No. Tier 1 starts with the letters, their sounds and the written accent, and with typing on a Greek keyboard." },
+        { "question": "Which Greek does it teach?", "answer": "The standard Modern Greek of Greece, in the monotonic spelling. Tier 8 adds registers and the history of katharevousa and dimotiki, spoken Greek with regional speech for recognition, and short passages of Greek literature." },
+        { "question": "Can I practise speaking?", "answer": "Not with pronunciation feedback: speech assessment does not cover Greek. Premium has conversation practice with an AI character in everyday and work situations, and the reading and listening texts in the course have audio." },
+        { "question": "I already know some Greek. Do I have to start at the beginning?", "answer": "No. Take the placement test and start at the tier it suggests." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the alphabet, or with the placement test.",
+    "text": "Sign in with Google, take the placement test if you already know some Greek, and open the first module."
+  }
+}

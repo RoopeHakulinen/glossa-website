@@ -1,0 +1,84 @@
+{
+  "title": "YKI test practice: Finnish reading, listening and writing papers · Glossa",
+  "description": "Timed practice papers for the Finnish YKI test at the basic, intermediate and advanced levels, with a full Finnish course from A1 to C1. What the intermediate test asks, what Finnish citizenship requires, and what the papers do not cover.",
+  "card": { "title": "YKI (Finnish)", "text": "Practice papers at all three levels, including the intermediate test for Finnish citizenship." },
+  "eyebrow": "Exam preparation · Finnish",
+  "heading": "Practise for the <em>YKI</em> test in Finnish.",
+  "lead": "Timed practice papers for the reading, listening and writing subtests of the National Certificates of Language Proficiency, at the basic, intermediate and advanced levels. Behind them is a complete Finnish course from first words to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Finnish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Russian speakers.",
+  "panel": {
+    "label": "From practice paper 1, intermediate reading",
+    "lang": "fi",
+    "title": "Kirjasto lainaa muutakin kuin kirjoja",
+    "text": "Kirjastosta voi lainata kirjoja, elokuvia ja musiikkia, mutta monessa suomalaisessa kirjastossa on nykyään paljon muutakin. Esimerkiksi Järvelän kirjastosta saa lainaksi työkaluja, suksia ja jopa kitaroita.",
+    "question": "Mistä ajatus lainata työkaluja tuli?",
+    "options": ["Kaupungin päättäjiltä.", "Kirjaston asiakkailta.", "Toisesta kirjastosta."],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The test",
+      "heading": "What the intermediate test asks",
+      "intro": "YKI is run by the Finnish National Agency for Education (<span lang=\"fi\">Opetushallitus</span>). You choose a level when you register and take all four subtests at that level on one day; at the intermediate level (<span lang=\"fi\">keskitaso</span>) the day takes about five hours with breaks.",
+      "columns": ["Subtest", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Reading <span lang=\"fi\">(tekstin ymmärtäminen)</span>", "News, articles, opinion pieces, notices and advertisements, with multiple-choice, true/false and open questions answered in Finnish.", "The same task types, with fewer texts. 40 minutes, a time Glossa sets because the board does not publish one."],
+        ["Listening <span lang=\"fi\">(puheen ymmärtäminen)</span>", "Interviews, conversations, news and short everyday situations, each played twice, with the same question types.", "The same task types, with fewer recordings. 25 minutes."],
+        ["Writing <span lang=\"fi\">(kirjoittaminen)</span>", "Three guided texts of different kinds, such as a formal email and an opinion for an online forum.", "All three tasks and the full 55 minutes, rated by AI against the published YKI writing criteria."],
+        ["Speaking <span lang=\"fi\">(puhuminen)</span>", "Tasks recorded in a language studio.", "Not included: Glossa cannot assess free speech the way YKI's raters do. The course's conversation practice covers the same everyday situations."]
+      ],
+      "note": "Based on the Finnish National Agency for Education's and the University of Jyväskylä's published test descriptions, checked in October 2026. From 2027 the Finnish and Swedish tests are to be taken on a computer at the test centre."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Finnish citizenship",
+      "heading": "What citizenship asks of the test",
+      "intro": "For Finnish citizenship you take the intermediate test in Finnish or Swedish and need at least grade 3 (B1) in two subtests, in one of these pairs:",
+      "items": [
+        "<b>speaking and writing</b>,",
+        "<b>listening and writing</b>, or",
+        "<b>reading and speaking</b>."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers at each level", "text": "Basic (A1–A2), intermediate (B1–B2) and advanced (C1–C2), with original texts and recordings on YKI's topic areas: housing, work, health, services, the environment and society." },
+        { "title": "Writing rated against the criteria", "text": "Your three texts are rated by AI against the published YKI writing criteria, with what to improve. It is an estimate, not a rater's grade." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, with the cases, consonant gradation, the passive and spoken Finnish explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Finnish word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real test",
+      "items": [
+        "<b>No grade is given.</b> YKI turns points into levels with its own scale, which Glossa does not know, so a paper shows the share of points only and cannot tell you whether you would reach grade 3.",
+        "<b>Reading and listening are shorter</b> than the real subtests, in the same task types.",
+        "<b>There is no speaking subtest.</b>",
+        "<b>Recordings can be replayed.</b> In the test you hear each one twice, so play it twice and then answer.",
+        "<b>Words can be tapped</b> for their meaning while you practise; the real test allows no dictionary."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official YKI preparation course?", "answer": "No. Glossa is not connected with the Finnish National Agency for Education or the University of Jyväskylä. The papers follow their published test descriptions, with original content." },
+        { "question": "Which level do I need for citizenship?", "answer": "The intermediate level (<span lang=\"fi\">keskitaso</span>), with at least grade 3 in one of the pairs above. The Finnish Immigration Service decides on citizenship and sets the other conditions." },
+        { "question": "What is free?", "answer": "The whole Finnish course from A1 to C1, the grammar reference and word practice are free. The YKI practice papers, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "I speak Russian. Is there a course for me?", "answer": "Yes. Finnish for Russian speakers has the same YKI papers, with the instructions and explanations in Russian." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Finnish, and open the first module or the YKI papers."
+  },
+  "trademark": "YKI (Yleiset kielitutkinnot, the National Certificates of Language Proficiency) is administered by the Finnish National Agency for Education. Glossa is not affiliated with or endorsed by it."
+}

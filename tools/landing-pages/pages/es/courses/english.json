@@ -1,0 +1,109 @@
+{
+  "title": "Curso de inglés para hispanohablantes, A1 a C1 · Glossa",
+  "description": "Curso gratuito de inglés estadounidense explicado en español y comparado con él, del A1 al C1 en 76 módulos. Exámenes de práctica IELTS, TOEFL y Cambridge.",
+  "card": { "title": "Inglés", "text": "Inglés de Estados Unidos del A1 al C1 explicado en español, con la gramática comparada con el español y exámenes de práctica IELTS, TOEFL y Cambridge." },
+  "eyebrow": "Curso · Inglés para hispanohablantes",
+  "heading": "Inglés explicado <em>en español</em>, del A1 al C1.",
+  "lead": "Un curso de inglés de Estados Unidos escrito para hispanohablantes, en un español latinoamericano neutro, con la palabra de España al lado cuando es distinta. Las explicaciones no están traducidas del curso en inglés: comparan con el español y nombran el error típico, desde el sujeto que no se puede omitir (<span lang=\"en\">It is raining</span>) hasta <span lang=\"en\">I want you to come</span> en lugar de un subjuntivo.",
+  "fineprint": "El curso completo, la gramática de referencia, la práctica de vocabulario y la prueba de nivel son gratuitos. Los exámenes de práctica, los cursos de especialización y los demás extras forman parte de Premium, por 8,99 € al mes o 69,99 € al año.",
+  "panel": {
+    "label": "El curso: 8 fases, 76 módulos",
+    "lang": "es",
+    "items": [
+      { "title": "Fase 1 · A1 · Sonidos y primeras palabras", "text": "El alfabeto y los sonidos, saludos, el verbo <span lang=\"en\">be</span>, los artículos y los números." },
+      { "title": "Fase 2 · A1 · Bases del habla cotidiana", "text": "<span lang=\"en\">Present Simple</span>, preguntas, <span lang=\"en\">there is</span> y <span lang=\"en\">there are</span>, la familia y la hora." },
+      { "title": "Fase 3 · A1–A2 · La vida diaria", "text": "<span lang=\"en\">Can</span>, <span lang=\"en\">Present Continuous</span>, <span lang=\"en\">going to</span>, contables e incontables, las compras." },
+      { "title": "Fase 4 · A2 · Pasado y futuro", "text": "<span lang=\"en\">Past Simple</span>, <span lang=\"en\">Present Perfect</span>, <span lang=\"en\">will</span>, comparativos, los viajes y la salud." },
+      { "title": "Fase 5 · B1 · Fluidez", "text": "<span lang=\"en\">Past Perfect</span>, el primer condicional, oraciones de relativo, las vocales estadounidenses, el trabajo." },
+      { "title": "Fase 6 · B1–B2 · Nivel intermedio", "text": "El segundo condicional, la voz pasiva, el estilo indirecto, los <span lang=\"en\">phrasal verbs</span>." },
+      { "title": "Fase 7 · B2 · Intermedio alto", "text": "El tercer condicional, los modales en pasado, los conectores, el acento y la entonación." },
+      { "title": "Fase 8 · C1 · Nivel avanzado", "text": "La inversión, el registro, los modismos, las variedades del inglés, el inglés académico y de negocios." }
+    ],
+    "note": "Las ocho fases son gratuitas. La prueba de nivel te indica por cuál empezar."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Cómo enseña",
+      "heading": "Lo que enseña el curso, y cómo",
+      "items": [
+        { "title": "Escrito para quien habla español", "text": "Las explicaciones comparan con el español: <span lang=\"en\">be</span> donde el español dice <span lang=\"es\">tener</span> (<span lang=\"en\">I am hungry</span>), <span lang=\"en\">for</span> y <span lang=\"en\">since</span> donde el español dice <span lang=\"es\">hace … que</span>, el presente después de <span lang=\"en\">when</span> donde el español pone subjuntivo." },
+        { "title": "Correcciones que explican el porqué", "text": "Cada respuesta recibe una explicación y un enlace a la regla gramatical. El progreso se mide en la parte del curso que has completado y en tu nivel de vocabulario." },
+        { "title": "Cada palabra inglesa se puede tocar", "text": "Toca cualquier palabra de una lección, un ejercicio o un texto para ver su significado, sus formas y su audio." },
+        { "title": "Traducción en los dos sentidos", "text": "Además de ejercicios de huecos, de comprensión auditiva y de expresión oral, traduces del español al inglés y del inglés al español. Los ejercicios orales revisan tu pronunciación." },
+        { "title": "Falsos amigos y errores típicos", "text": "Trece unidades de errores típicos, entre ellas falsos amigos como <span lang=\"en\">actually</span>, <span lang=\"en\">embarrassed</span> o <span lang=\"en\">library</span>, <span lang=\"en\">make</span> o <span lang=\"en\">do</span> y las preposiciones." },
+        { "title": "Inglés de Estados Unidos", "text": "El curso enseña el inglés estadounidense, con audio en voz estadounidense, y en la última fase tiene un módulo sobre las diferencias con el inglés británico y otro sobre las variedades del inglés." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Planes",
+      "heading": "Qué es gratuito y qué es Premium",
+      "columns": ["", "Gratis", "Premium"],
+      "rows": [
+        ["El curso", "Los 76 módulos en ocho fases, del A1 al C1", "Lo mismo"],
+        ["Gramática de referencia, práctica de vocabulario, prueba de nivel", "Incluido", "Incluido"],
+        ["Preguntar a la IA sobre una palabra, frase o respuesta", "5 preguntas al día", "50 preguntas al día"],
+        ["Cursos de especialización", "No", "13 cursos con 117 módulos en total"],
+        ["Historias y conversación", "No", "6 historias con comentarios de la IA sobre lo que vuelves a contar y 36 conversaciones con un personaje de IA"],
+        ["Exámenes de práctica IELTS, TOEFL y Cambridge", "No", "Con tiempo, expresión escrita calificada por IA"],
+        ["Textos sobre cómo funcionan Estados Unidos y el Reino Unido, expresiones idiomáticas", "No", "Incluido"],
+        ["Lecciones sobre un tema que tú eliges", "No", "Incluido"],
+        ["Práctica de pronunciación con frases que escribes tú, descarga para usar sin conexión", "No", "Incluido"]
+      ],
+      "note": "Premium cuesta 8,99 € al mes o 69,99 € al año. Puedes cancelar cuando quieras; sigue activo hasta el final del período pagado."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exámenes",
+      "heading": "Exámenes de práctica para IELTS, TOEFL y Cambridge",
+      "intro": [
+        "Hay dos exámenes de práctica con tiempo para cada uno de siete exámenes de inglés, con el formato de sus tareas, contenido original y las instrucciones en español: 14 en total. La expresión escrita la califica una IA con los criterios de cada examen; es una estimación, no la nota de un examinador. Formato de los exámenes según sus descripciones publicadas, revisado en octubre de 2026.",
+        "En qué se diferencian de los exámenes reales: son más cortos, con menos preguntas de comprensión lectora y auditiva y el tiempo reducido en proporción; los de IELTS y Cambridge no tienen prueba oral, y los del TOEFL incluyen <span lang=\"en\">Listen and Repeat</span> pero no la entrevista; en los de IELTS y Cambridge las grabaciones se pueden volver a escuchar. El resultado es la proporción de puntos obtenidos: Glossa no lo convierte en bandas del IELTS, en la Cambridge English Scale ni en la escala del TOEFL, así que no te dice qué nota sacarías ni si aprobarías."
+      ],
+      "items": [
+        "<b>Cambridge English:</b> <span lang=\"en\">B1 Preliminary</span>, <span lang=\"en\">B2 First</span>, <span lang=\"en\">C1 Advanced</span> y <span lang=\"en\">C2 Proficiency</span>",
+        "<b>IELTS:</b> <span lang=\"en\">Academic</span> y <span lang=\"en\">General Training</span>",
+        "<b>TOEFL iBT</b>, con las tareas que ETS introdujo en enero de 2026"
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Especializaciones",
+      "heading": "13 cursos de inglés profesional",
+      "intro": "Cada curso de especialización tiene nueve módulos en tres etapas, escritas para el nivel de las fases 4, 6 y 8 del curso principal: fundamentos, vocabulario de trabajo y nivel profesional.",
+      "items": [
+        "Política y gobierno",
+        "Derecho y práctica jurídica",
+        "Medio ambiente y sostenibilidad",
+        "Negocios y gestión",
+        "Finanzas, banca y economía",
+        "Medicina y salud",
+        "Software y TI",
+        "Ciencia y mundo académico",
+        "Ingeniería, industria y energía",
+        "Periodismo y medios",
+        "Diplomacia y relaciones internacionales",
+        "Turismo y hotelería",
+        "Deporte y fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Preguntas",
+      "heading": "Preguntas frecuentes",
+      "items": [
+        { "question": "¿El curso de inglés es gratis de verdad?", "answer": "Sí. Los 76 módulos del A1 al C1, la gramática de referencia, la práctica de vocabulario y la prueba de nivel son gratuitos, sin límite de lecciones. Premium añade los extras de la tabla." },
+        { "question": "¿Qué inglés enseña, el estadounidense o el británico?", "answer": "El inglés de Estados Unidos, en ortografía, vocabulario y pronunciación. Un módulo de la última fase trata las diferencias con el inglés británico, y los textos sobre el Reino Unido están escritos en inglés británico y leídos con voz británica." },
+        { "question": "Ya sé algo de inglés. ¿Tengo que empezar desde cero?", "answer": "No. La prueba de nivel te indica por qué fase empezar." },
+        { "question": "¿Sirve para preparar el IELTS, el TOEFL o un examen de Cambridge?", "answer": "El curso cubre la gramática y el vocabulario del A1 al C1, y Premium añade dos exámenes de práctica con tiempo para cada uno de los siete exámenes de la lista. No incluyen la prueba oral completa ni dan una banda o una puntuación de escala, así que son práctica, no una predicción de tu resultado." },
+        { "question": "¿Glossa tiene relación con Cambridge, el IELTS o ETS?", "answer": "No. Los exámenes de práctica siguen las descripciones que publican los organizadores, con contenido propio de Glossa." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Empieza por el primer módulo o busca tu nivel.",
+    "text": "Entra con Google, haz la prueba de nivel si ya sabes algo de inglés y abre el módulo que te sugiere."
+  },
+  "trademark": "Los Cambridge English Qualifications los organiza Cambridge University Press &amp; Assessment; el IELTS, el British Council, IDP y Cambridge University Press &amp; Assessment; el TOEFL iBT, ETS. Glossa no está afiliada a ninguno de ellos ni cuenta con su respaldo."
+}

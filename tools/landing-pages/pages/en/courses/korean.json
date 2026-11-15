@@ -1,0 +1,196 @@
+{
+  "title": "Learn Korean: a full course from Hangul to TOPIK 6 · Glossa",
+  "description": "A free Korean course for English speakers from Hangul to advanced: 80 modules that follow TOPIK 1 to 6, with speech levels and honorifics taught in order.",
+  "card": {
+    "title": "Korean",
+    "text": "From Hangul to advanced Korean in 80 modules that follow TOPIK 1 to 6, with 13 professional specializations and TOPIK papers."
+  },
+  "eyebrow": "Course · Korean for English speakers",
+  "heading": "Learn <em>Korean</em>, from Hangul to TOPIK 6.",
+  "lead": "A complete course in standard South Korean for English speakers, from the alphabet to advanced Korean: 80 modules in eight tiers that follow the grammar of TOPIK 1 to 6. The speech levels and honorifics are taught in order, the grammar is explained directly, and every exercise tells you why an answer is right or wrong.",
+  "fineprint": "The whole course, the grammar reference and word practice are free. Specializations, TOPIK practice papers, conversation practice and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "lang": "en",
+    "items": [
+      {
+        "title": "1 · Hangul and sounds",
+        "text": "The alphabet, syllable blocks, final consonants, sound changes, typing Hangul."
+      },
+      {
+        "title": "2 · Everyday basics",
+        "text": "Both number systems and counters, polite verbs, the past tense, adjectives."
+      },
+      {
+        "title": "3 · Daily life",
+        "text": "Requests and suggestions, negation, joining clauses, the future, shopping."
+      },
+      {
+        "title": "4 · Building sentences",
+        "text": "The formal polite style, honorifics, casual speech, noun-modifying clauses."
+      },
+      {
+        "title": "5 · Building fluency",
+        "text": "Nominalisation, conjecture, reported speech, the written style, conditions."
+      },
+      {
+        "title": "6 · Intermediate",
+        "text": "The passive and causative, the retrospective, concession, hypothesis and regret."
+      },
+      {
+        "title": "7 · Upper intermediate",
+        "text": "Business Korean, formal connectives, Sino-Korean words, the news, official Korean."
+      },
+      {
+        "title": "8 · Advanced",
+        "text": "Literary grammar, older speech levels, idioms, spoken Korean, dialects, literature."
+      }
+    ],
+    "note": "80 modules in eight tiers that follow TOPIK 1 to 6, plus 13 professional specializations with 117 more modules."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "What the course teaches, and how",
+      "items": [
+        {
+          "title": "Hangul first",
+          "text": "The first tier teaches the alphabet, syllable blocks, final consonants (<span lang=\"ko\">받침</span>) and the sound changes, and you type on the standard two-set keyboard from the start, with an on-screen jamo keyboard."
+        },
+        {
+          "title": "Speech levels in order",
+          "text": "The polite <span lang=\"ko\">해요체</span> comes first, then the formal <span lang=\"ko\">합니다체</span>, honorifics and casual speech in Tier 4, the written <span lang=\"ko\">한다체</span> in Tier 5, and older and literary forms in Tier 8, so you know which ending fits whom."
+        },
+        {
+          "title": "The grammar taught directly",
+          "text": "Particles, connectives, noun-modifying clauses, reported speech, the passive and causative and the endings of conjecture each have their own modules, explained in plain English with examples."
+        },
+        {
+          "title": "Feedback that says why",
+          "text": "Every answer gets feedback with a reason and a link to the grammar rule behind it. Every Korean word can be tapped for its meaning, forms, an example and audio."
+        },
+        {
+          "title": "Pronunciation feedback",
+          "text": "Speaking exercises assess your pronunciation of Korean sentences word by word."
+        },
+        {
+          "title": "Common traps",
+          "text": "Twelve short sets on the mistakes English speakers make, such as <span lang=\"ko\">은/는</span> against <span lang=\"ko\">이/가</span>, <span lang=\"ko\">안</span> against <span lang=\"ko\">못</span>, the two number systems, word spacing and Konglish."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free, all 80 modules. Premium adds practice beyond the course.",
+      "columns": [
+        "",
+        "Free",
+        "Premium"
+      ],
+      "rows": [
+        [
+          "The course",
+          "All 80 modules, from Hangul to advanced, with the grammar reference, word practice, common traps and the placement test",
+          "Everything in Free"
+        ],
+        [
+          "Ask AI",
+          "5 questions a day about any word, sentence or answer",
+          "50 questions a day"
+        ],
+        [
+          "Pronunciation",
+          "Pronunciation feedback in the course's speaking exercises",
+          "Also practice on sentences you type yourself"
+        ],
+        [
+          "Specializations",
+          "—",
+          "13 professional courses, 117 modules"
+        ],
+        [
+          "Exam practice",
+          "—",
+          "Two timed practice papers each for TOPIK I and TOPIK II"
+        ],
+        [
+          "Reading and speaking",
+          "—",
+          "Six stories with AI feedback on your retellings, 38 conversation scenarios with an AI character, lessons on a topic you choose"
+        ],
+        [
+          "More",
+          "—",
+          "19 texts on how South Korea works, six sets of idioms and proverbs, offline download"
+        ]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for TOPIK",
+      "intro": "The course has timed practice papers for both tests of the Test of Proficiency in Korean (<span lang=\"ko\">한국어능력시험</span>), in the paper-based test's task types and with original content. Neither covers the separate speaking test. <a href=\"/exams/topik.html\">What the papers cover and how they differ from the real test</a>.",
+      "items": [
+        "<b>TOPIK I</b>, levels 1 and 2: two full-length papers of listening and reading, for learners who have finished Tier 4.",
+        "<b>TOPIK II</b>, levels 3 to 6: two papers of listening, writing and reading, for learners who have finished Tier 6; the hardest items assume Tier 8."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Korean for your field",
+      "intro": "Thirteen specialization courses, nine modules each, in three stages: Foundations after Tier 3, Working vocabulary after Tier 5 and Professional after Tier 7. Each teaches the vocabulary and register of one field.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        {
+          "question": "Do I need to know Hangul before I start?",
+          "answer": "No. The first tier starts with the vowels and the first consonants, then syllable blocks, final consonants and the sound changes, and you learn to type Hangul as you go."
+        },
+        {
+          "question": "Which Korean does the course teach?",
+          "answer": "Standard South Korean, based on the speech of Seoul. Tier 8 also has a module on the dialects and on North Korean usage."
+        },
+        {
+          "question": "Does the course prepare me for TOPIK?",
+          "answer": "The tiers follow the grammar of TOPIK 1 to 6, and Premium has two timed practice papers each for TOPIK I and TOPIK II. The papers show the share of points you got, not a TOPIK level, and no course can promise a result."
+        },
+        {
+          "question": "Is the Korean course really free?",
+          "answer": "Yes. All 80 modules, the grammar reference, word practice, the placement test and 5 Ask AI questions a day are free. The TOPIK papers, specializations, stories, conversation practice and the other extras are part of Premium."
+        },
+        {
+          "question": "Can I practise speaking?",
+          "answer": "The course's speaking exercises give feedback on your pronunciation word by word. With Premium you can also hold typed or spoken conversations with an AI character in 38 situations, and practise pronunciation on sentences you type."
+        }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with Hangul, or wherever you are.",
+    "text": "Sign in with Google, take the placement test if you already know some Korean, and open the first module."
+  },
+  "trademark": "TOPIK (Test of Proficiency in Korean, <span lang=\"ko\">한국어능력시험</span>) is administered by the National Institute for International Education of South Korea's Ministry of Education. Glossa is not affiliated with or endorsed by it."
+}

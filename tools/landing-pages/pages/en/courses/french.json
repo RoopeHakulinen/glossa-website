@@ -1,0 +1,110 @@
+{
+  "title": "Learn French from A1 to C1: a full course · Glossa",
+  "description": "A French course for English speakers: 76 modules from first words to C1, grammar explained directly, feedback that says why, 13 specializations and DELF papers.",
+  "card": { "title": "French", "text": "The French of France, from first words to C1, with DELF, DALF and TCF papers and 13 professional specializations." },
+  "eyebrow": "Course · French for English speakers",
+  "heading": "Learn <em>French</em> from first words to C1.",
+  "lead": "A complete course in the French of France: 76 modules in eight tiers, with the grammar explained directly, from <span lang=\"fr\">être</span> and the articles to the subjunctive, the passive and the literary tenses. Every answer gets feedback that says why, and every French word can be tapped for its meaning, forms and audio.",
+  "fineprint": "The whole course is free, with the grammar reference, word practice and the placement test. Specializations, DELF, DALF and TCF practice papers, stories, conversation practice and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "items": [
+      { "title": "1 · Sounds and first words", "text": "Pronunciation and spelling, greetings, nouns and articles, <span lang=\"fr\">être</span> and numbers." },
+      { "title": "2 · Everyday basics", "text": "<span lang=\"fr\">-er</span> verbs, <span lang=\"fr\">avoir</span>, adjectives, negation, questions, family and time." },
+      { "title": "3 · Daily life", "text": "Irregular, modal and pronominal verbs, the partitive, food, the city and shopping." },
+      { "title": "4 · The past", "text": "The <span lang=\"fr\">passé composé</span> and the imperfect, object pronouns, travel, health and the home." },
+      { "title": "5 · Building fluency", "text": "<span lang=\"fr\">Y</span> and <span lang=\"fr\">en</span>, the future, the conditional, the imperative and a first look at the subjunctive." },
+      { "title": "6 · Intermediate", "text": "More subjunctive, the pluperfect, the past conditional, reported speech and the gerund." },
+      { "title": "7 · Upper intermediate", "text": "The passive, conjunctions with the subjunctive, connectors, nominal style and society." },
+      { "title": "8 · Advanced", "text": "Literary tenses, emphasis, style, idioms, spoken French and the French spoken around the world." }
+    ],
+    "note": "76 modules from A1 to C1. The placement test suggests where to start if you already know some French."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "Grammar explained, practice that says why",
+      "items": [
+        { "title": "Grammar taught directly", "text": "Modules explain the grammar before you practise it: when the <span lang=\"fr\">passé composé</span> takes <span lang=\"fr\">être</span>, how it differs from the imperfect, what triggers the subjunctive, where <span lang=\"fr\">y</span> and <span lang=\"fr\">en</span> go. The grammar reference keeps every explanation in one place." },
+        { "title": "Feedback with a reason", "text": "A wrong answer gets an explanation of what was wrong and a link to the rule, not just a red mark. A translation worded differently from the expected answer can still be accepted." },
+        { "title": "Every word inspectable", "text": "Tap any French word in an exercise, text or explanation for its meaning, its full table of forms and its audio, and add it to word practice." },
+        { "title": "Listening, writing and speaking", "text": "Exercises include dictation, listening, translation both ways, gap fills, reading texts and free writing, and speaking exercises with pronunciation feedback." },
+        { "title": "The French people actually use", "text": "The French of France, with modules on spoken French, register and style, and the French spoken in other countries. Twelve sets of common traps cover false friends and the mistakes English speakers tend to make." },
+        { "title": "No gamification", "text": "No streaks, points or mascots. Progress is the share of the course you have finished, and the vocabulary page shows how many words you know." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free in full. Premium adds the extras around it.",
+      "columns": ["", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 76 modules, A1 to C1", "The same"],
+        ["Grammar reference, word practice, placement test, common traps", "Included", "Included"],
+        ["Speaking exercises with pronunciation feedback", "Included", "Included"],
+        ["Ask AI about anything in a lesson", "5 questions a day", "50 questions a day"],
+        ["Specialization courses", "No", "13 fields, 117 modules"],
+        ["Stories, with AI feedback on your retellings", "No", "6 stories"],
+        ["Conversation practice with an AI character", "No", "36 scenarios, from the <span lang=\"fr\">boulangerie</span> to the notary"],
+        ["DELF, DALF and TCF practice papers", "No", "Two timed papers for each of the seven exams"],
+        ["Texts on how France works, idioms, lessons on a topic you choose", "No", "Included"],
+        ["Pronunciation practice on sentences you type", "No", "Included"],
+        ["Download modules and stories for offline use", "No", "Included"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for DELF, DALF and TCF",
+      "intro": "The course has two timed practice papers for each of these exams, in their task formats and with original content. Listening and reading are shorter than in the real exams, the writing is full length, and none of them has a speaking test.",
+      "items": [
+        "<b>DELF A1, A2, B1 and B2</b>: listening, reading and writing.",
+        "<b>DALF C1</b>: listening, reading and the full 2 hours 30 minutes of writing.",
+        "<b>DALF C2</b>: the reading-and-writing test, at full length.",
+        "<b>TCF tout public</b>: listening, language structures, reading and writing.",
+        "What the exams ask and where the papers differ from them: <a href=\"/exams/french.html\">DELF, DALF and TCF practice</a>."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "French for your field",
+      "intro": "Thirteen specialization courses of nine modules each, in three stages written for A2, B1–B2 and C1 texts: Foundations, Working vocabulary and Professional.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the French course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice, the placement test, the common traps and 5 Ask AI questions a day are free. Premium adds the specializations, exam papers, stories, conversations and other extras." },
+        { "question": "Which French does the course teach?", "answer": "The French of France. The advanced tier has modules on spoken French and on the French spoken in other countries." },
+        { "question": "I already know some French. Do I have to start at the beginning?", "answer": "No. The placement test suggests where to start." },
+        { "question": "Does it prepare me for the DELF or the TCF?", "answer": "The course goes from A1 to C1, and Premium has practice papers for DELF A1 to B2, DALF C1 and C2 and the TCF. The papers do not cover speaking and do not convert your result into a grade or a level; the <a href=\"/exams/french.html\">exam page</a> explains what they cover." },
+        { "question": "I speak Finnish or German. Is there a course for me?", "answer": "Yes. French is also taught with explanations in Finnish, <a href=\"/fi/courses/french.html\">Ranska suomenkielisille</a>, and in German, <a href=\"/de/courses/french.html\">Französisch für Deutschsprachige</a>, with the grammar compared with your language." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the first module, or with the placement test.",
+    "text": "Sign in with Google, take the placement test if you already know some French, and open the first module."
+  },
+  "trademark": "DELF and DALF are diplomas of the French Ministry of Education, made by France Éducation international, which also makes the TCF. Glossa is not affiliated with or endorsed by either."
+}

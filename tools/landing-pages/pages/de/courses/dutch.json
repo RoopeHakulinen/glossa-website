@@ -1,0 +1,85 @@
+{
+  "title": "Niederländisch lernen von A1 bis C1, auf Deutsch erklärt · Glossa",
+  "description": "Niederländisch für Deutschsprachige: 40 Module von A1 bis C1, auf Deutsch erklärt, mit Blick auf das, was anders ist. Mit falschen Freunden und NT2-Übungen.",
+  "card": { "title": "Niederländisch", "text": "Niederländisch von A1 bis C1, auf Deutsch erklärt und auf das ausgerichtet, was anders ist als im Deutschen." },
+  "eyebrow": "Kurs · Niederländisch für Deutschsprachige",
+  "heading": "<em>Niederländisch</em> lernen, vom Deutschen aus.",
+  "lead": "Wer Deutsch spricht, versteht im Niederländischen vieles sofort und macht gerade deshalb typische Fehler. Dieser Kurs führt in 40 Modulen von A1 bis C1 und konzentriert sich auf das, was anders ist: das niederländische <span lang=\"nl\">g</span>, <span lang=\"nl\">de</span> und <span lang=\"nl\">het</span> ohne Fälle, <span lang=\"nl\">er</span>, die Verben am Satzende, das Passiv ohne <span lang=\"nl\">geworden</span> und die falschen Freunde.",
+  "fineprint": "Der ganze Kurs ist kostenlos, mit Grammatikübersicht, Wortschatztraining und Einstufungstest. Die NT2-Übungsprüfungen, Redewendungen und die anderen Extras gehören zu Premium, 8,99 € im Monat oder 69,99 € im Jahr.",
+  "panel": {
+    "label": "Der Kurs, Stufe für Stufe",
+    "items": [
+      { "title": "1 · Laute, Schreibung und erste Sätze", "text": "A1: das <span lang=\"nl\">g</span>, die Vokale, <span lang=\"nl\">jij</span>, <span lang=\"nl\">u</span> und <span lang=\"nl\">jullie</span>, <span lang=\"nl\">de</span> und <span lang=\"nl\">het</span>, die Zahlen." },
+      { "title": "2 · Das Präsens und der Alltag", "text": "A1: drei Verbformen, Wortstellung, <span lang=\"nl\">niet</span> und <span lang=\"nl\">geen</span>, <span lang=\"nl\">wel</span> statt doch." },
+      { "title": "3 · Adjektive, Perfekt und Pronomen", "text": "A2: Adjektivendungen, Verkleinerungsformen, das Perfekt und wo die Hilfsverben abweichen." },
+      { "title": "4 · Imperfectum, <span lang=\"nl\">er</span> und unterwegs", "text": "A2: Imperfectum, <span lang=\"nl\">toen</span>, <span lang=\"nl\">als</span> und <span lang=\"nl\">wanneer</span>, die vier Verwendungen von <span lang=\"nl\">er</span>." },
+      { "title": "5 · Modalverben, Verbcluster und Infinitive", "text": "B1: <span lang=\"nl\">hoeven</span> und <span lang=\"nl\">durven</span>, die Verben am Satzende, <span lang=\"nl\">om … te</span>, Wohnen und Arbeit." },
+      { "title": "6 · Ämter, Relativsätze und Passiv", "text": "B1: Gemeinde, BSN und DigiD, Relativsätze, das Passiv mit <span lang=\"nl\">worden</span>." },
+      { "title": "7 · Indirekte Rede, Bedingungen und Satzverbindungen", "text": "B2: indirekte Rede ohne Konjunktiv, <span lang=\"nl\">zou</span>, Konnektoren, deutsche Gewohnheiten im Niederländischen." },
+      { "title": "8 · Feinheiten, Varietäten und Schreiben", "text": "C1: Modalpartikeln, Redewendungen, das Niederländische in Flandern, Übersetzen aus dem Deutschen." }
+    ],
+    "note": "40 Module von A1 bis C1. Mit dem Einstufungstest steigst du auf deinem Niveau ein."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Wie der Kurs unterrichtet",
+      "heading": "Kürzer, weil du vom Deutschen kommst",
+      "items": [
+        { "title": "Vergleich mit dem Deutschen", "text": "Was im Deutschen genauso funktioniert, geht schnell. Die Zeit fließt in das, was abweicht: Artikel ohne Fälle, <span lang=\"nl\">hebben</span> oder <span lang=\"nl\">zijn</span> im Perfekt, die Reihenfolge der Verben im Nebensatz." },
+        { "title": "Falsche Freunde und deutsche Gewohnheiten", "text": "Drei Module zu falschen Freunden, eines zu den typischen deutschen Gewohnheiten im Niederländischen und eines zum Übersetzen aus dem Deutschen. Dazu zwölf Sets zu häufigen Stolperfallen, von <span lang=\"nl\">d</span> und <span lang=\"nl\">t</span> bis <span lang=\"nl\">toen</span>, <span lang=\"nl\">als</span> und <span lang=\"nl\">wanneer</span>." },
+        { "title": "Grammatik wird erklärt", "text": "Jedes Modul erklärt seine Regel auf Deutsch, bevor du übst. Die Grammatikübersicht hält alle Erklärungen an einem Ort." },
+        { "title": "Rückmeldung mit Begründung", "text": "Zu jeder falschen Antwort steht, was falsch war und warum, mit einem Link zur Regel." },
+        { "title": "Jedes Wort lässt sich antippen", "text": "Jedes niederländische Wort in Übungen, Texten und Erklärungen zeigt beim Antippen Bedeutung, Formen und Aussprache." },
+        { "title": "Hören, Schreiben und Sprechen", "text": "Diktate, Hörübungen, Übersetzungen, Lückentexte, Lesetexte und kurze Aufsätze, dazu Sprechübungen mit Rückmeldung zur Aussprache." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Tarife",
+      "heading": "Was kostenlos ist und was zu Premium gehört",
+      "intro": "Der Kurs selbst ist vollständig kostenlos. Premium ergänzt ihn um Extras.",
+      "columns": ["", "Kostenlos", "Premium"],
+      "rows": [
+        ["Der Kurs", "Alle 40 Module, A1 bis C1", "Ebenso"],
+        ["Grammatikübersicht, Wortschatztraining, Einstufungstest", "Enthalten", "Enthalten"],
+        ["Stolperfallen-Sets", "12 Sets", "12 Sets"],
+        ["KI fragen, der KI-Tutor für deine Fragen zum Niederländischen", "5 Fragen am Tag", "50 Fragen am Tag"],
+        ["Übungsprüfungen für das Staatsexamen NT2", "Nein", "Je zwei für Programma I und II"],
+        ["Redewendungen mit ihren Entsprechungen", "Nein", "Enthalten"],
+        ["Lektionen zu einem Thema deiner Wahl", "Nein", "Enthalten"],
+        ["Aussprachetraining mit selbst getippten Sätzen", "Nein", "Enthalten"],
+        ["Module offline herunterladen", "Nein", "Enthalten"]
+      ],
+      "note": "Premium kostet 8,99 € im Monat oder 69,99 € im Jahr. Fachkurse, Geschichten, Gespräche mit einer KI-Figur und Texte darüber, wie die Niederlande funktionieren, gibt es in diesem Kurs nicht; der englischsprachige Niederländischkurs hat sie."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Prüfungsvorbereitung",
+      "heading": "Übungsprüfungen für das Staatsexamen NT2",
+      "intro": "Der Kurs hat Übungsprüfungen mit Zeitlimit für beide Programme der niederländischen Staatsprüfung für Niederländisch als Zweitsprache, in ihren Aufgabenformaten und mit eigenen Inhalten. Anleitungen und Erklärungen sind auf Deutsch.",
+      "items": [
+        "<b><span lang=\"nl\">Programma I</span> (B1)</b>: zwei Übungsprüfungen mit Lesen, Hören und Schreiben.",
+        "<b><span lang=\"nl\">Programma II</span> (B2)</b>: zwei Übungsprüfungen mit Lesen, Hören und Schreiben.",
+        "Was die Prüfung verlangt und worin sich die Übungsprüfungen unterscheiden: <a href=\"/de/exams/nt2.html\">Staatsexamen NT2 üben</a>."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Fragen",
+      "heading": "Häufige Fragen",
+      "items": [
+        { "question": "Ist der Kurs wirklich kostenlos?", "answer": "Ja. Alle 40 Module von A1 bis C1, die Grammatikübersicht, das Wortschatztraining, der Einstufungstest und 5 Fragen am Tag an den KI-Tutor (KI fragen) sind kostenlos. Premium ergänzt die NT2-Übungsprüfungen, Redewendungen und weitere Extras." },
+        { "question": "Warum hat der Kurs nur 40 Module?", "answer": "Weil er voraussetzt, dass du Deutsch sprichst. Was im Niederländischen wie im Deutschen funktioniert, braucht kein eigenes Modul; der Platz geht an das, was anders ist." },
+        { "question": "Welches Niederländisch lerne ich?", "answer": "Das Standardniederländisch der Niederlande. Ein Modul der letzten Stufe behandelt das Niederländische in Flandern." },
+        { "question": "Hilft der Kurs bei der <span lang=\"nl\">inburgering</span> oder beim NT2?", "answer": "Der Kurs reicht von A1 bis C1, also über die Stufen B1 und B2 des Staatsexamens NT2 hinaus, und Premium enthält Übungsprüfungen für beide Programme. Sie decken das Sprechen nicht ab und zeigen keine Bestehensgrenze; die <a href=\"/de/exams/nt2.html\">NT2-Seite</a> erklärt, was sie abdecken." },
+        { "question": "Gibt es Fachwortschatz, etwa für Medizin oder Recht?", "answer": "In diesem Kurs nicht. Der Kurs Niederländisch für Englischsprachige hat 13 Fachkurse, falls du gut genug Englisch sprichst: <a href=\"/courses/dutch.html\">Dutch for English speakers</a>." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Mit dem ersten Modul beginnen oder mit dem Einstufungstest.",
+    "text": "Melde dich mit Google an, mach den Einstufungstest, wenn du schon etwas Niederländisch kannst, und öffne das erste Modul."
+  },
+  "trademark": "Für das Staatsexamen NT2 ist das College voor Toetsen en Examens (CvTE) zuständig. Glossa ist nicht mit ihm verbunden und wird nicht von ihm empfohlen."
+}

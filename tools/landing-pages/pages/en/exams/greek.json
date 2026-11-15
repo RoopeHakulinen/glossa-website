@@ -1,0 +1,103 @@
+{
+  "title": "Ellinomatheia B1 and B2 practice papers in Greek · Glossa",
+  "description": "Timed practice papers for the Certificate of Attainment in Greek (Ellinomatheia) at B1 and B2, a full Greek course to C1, and what the papers leave out.",
+  "card": { "title": "Ellinomatheia (Greek)", "text": "Practice papers for the Certificate of Attainment in Greek at B1 and B2, in reading, listening and writing." },
+  "eyebrow": "Exam preparation · Greek",
+  "heading": "Practise for the <em>Certificate of Attainment in Greek</em>.",
+  "lead": "Timed practice papers for the written part of the Greek state certificate (<span lang=\"el\">Πιστοποίηση Επάρκειας της Ελληνομάθειας</span>) at levels B1 and B2: reading, listening and writing, and at B2 also use of language. Behind them is a complete Greek course from the alphabet to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Greek course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From B1 practice paper 1, reading",
+    "lang": "el",
+    "title": "Ο πρώτος μου χειμώνας στη Νάξο",
+    "text": "Όταν διορίστηκα σε ένα δημοτικό σχολείο της Νάξου, ήμουν είκοσι πέντε χρονών και δεν είχα ζήσει ποτέ μακριά από τη Θεσσαλονίκη. Έφτασα στο νησί στις αρχές Σεπτεμβρίου με το πλοίο από τον Πειραιά, κρατώντας μια βαλίτσα γεμάτη βιβλία.",
+    "question": "Η αφηγήτρια είχε ζήσει σε άλλα νησιά πριν από τη Νάξο.",
+    "options": ["Σωστό", "Λάθος"],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exam at B1",
+      "heading": "What the B1 exam asks",
+      "intro": [
+        "The certificate is Greece's state certificate in Greek as a foreign or second language. It is awarded by the Centre for the Greek Language (<span lang=\"el\">Κέντρο Ελληνικής Γλώσσας</span>) in Thessaloniki, under the Ministry of Education, and the exams are held at centres it approves in Greece and abroad. There are six levels matched to the CEFR, written with Greek letters: <span lang=\"el\">Α1, Α2, Β1, Β2, Γ1</span> and <span lang=\"el\">Γ2</span>.",
+        "At B1 (<span lang=\"el\">Μέτρια Γνώση</span>) four skills are worth 25 points each. The written exam takes 2 hours without a break; speaking is examined in pairs."
+      ],
+      "columns": ["Skill", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Reading <span lang=\"el\">(Κατανόηση γραπτού λόγου)</span>", "Four tasks in 40 minutes: matching sentence beginnings to endings, comparing short texts such as adverts, true or false statements on a story, and a gapped article filled from a box of words.", "All four tasks with the item counts of the answer sheet, in 40 minutes, without the worked examples."],
+        ["Listening <span lang=\"el\">(Κατανόηση προφορικού λόγου)</span>", "Two tasks in 25 minutes, each recording heard twice: short notes on a monologue, and comparing what a conversation says about two people, places or things.", "Both tasks in 25 minutes. Notes are typed, and one that differs from the expected answer is checked by AI."],
+        ["Writing <span lang=\"el\">(Παραγωγή γραπτού λόγου)</span>", "Two texts of about 150 words in 55 minutes: a friendly letter, announcement or advert, and a formal text such as a request for leave or a complaint.", "Both tasks and the full 55 minutes, rated by AI against the Centre's published writing criteria."],
+        ["Speaking <span lang=\"el\">(Παραγωγή προφορικού λόγου)</span>", "12 minutes per pair with two examiners: questions about yourself, a short monologue and a role play with the other candidate.", "Not included: Glossa has no speech assessment for Greek. The course's conversation practice covers everyday situations."]
+      ],
+      "note": "Based on the Centre for the Greek Language's published exam descriptions, sample papers and answer sheet, checked in November 2026. Check greek-language.gr for the current format and dates before you register."
+    },
+    {
+      "type": "table",
+      "eyebrow": "The exam at B2",
+      "heading": "What the B2 exam asks",
+      "intro": "At B2 (<span lang=\"el\">καλή γνώση</span>) there are five skills of 20 points each: four written papers taking 3 hours 10 minutes in all, and a speaking test. B2 is held once a year, in May.",
+      "columns": ["Skill", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Reading <span lang=\"el\">(Κατανόηση γραπτού λόγου)</span>", "Three tasks in 45 minutes: a formal text with gaps filled from a list of phrases, multiple-choice questions on a longer text, and a summary of that text to complete.", "All three task types with fewer items and shorter texts, in 33 minutes."],
+        ["Use of language <span lang=\"el\">(Χρήση γλώσσας)</span>", "Three tasks in 30 minutes: finding the word that does not belong, choosing the right derivative or compound, and filling gaps from words given.", "All three task types, shorter, in 28 minutes. Words are typed rather than picked."],
+        ["Listening <span lang=\"el\">(Κατανόηση προφορικού λόγου)</span>", "Two tasks in 30 minutes, each recording heard twice: notes on a monologue, and a table comparing three speakers in a discussion.", "Both task types, shorter, in 25 minutes. Two of the three speakers share a voice, and each line starts with the speaker's name."],
+        ["Writing <span lang=\"el\">(Παραγωγή γραπτού λόγου)</span>", "Two texts of about 200 words in 85 minutes: a friendly letter, and a formal text such as a request for leave or a complaint.", "Both tasks and the full 85 minutes, rated by AI against the Centre's published B2 scale."],
+        ["Speaking <span lang=\"el\">(Παραγωγή προφορικού λόγου)</span>", "15 minutes per pair with two examiners: warm-up questions, a monologue on your views and a discussion with the other candidate.", "Not included: Glossa has no speech assessment for Greek."]
+      ],
+      "note": "Based on the Centre for the Greek Language's B2 structure sheet, guides and published criteria, checked in November 2026."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Passing",
+      "heading": "What a pass needs",
+      "intro": "At both levels you must pass <b>every skill with at least 60% of its points</b>, speaking included. Failing one skill fails the whole exam. Results say pass or fail for each skill, and the certificate grades a pass in words, not numbers.",
+      "items": [
+        "<b>Residence:</b> the Centre states that the B1 certificate proves the knowledge of Greek, and of elements of Greek history and culture, needed for long-term resident status. The Greek authorities that grant residence decide and set the other conditions.",
+        "<b>Study:</b> B2 is the level that lets a foreign national enrol at a Greek university without a Greek secondary school certificate.",
+        "<b>Work:</b> the certificate is required for some professions in Greece, and the body for each profession sets the level."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers at each level", "text": "Four papers in all, with original texts and recordings on everyday Greece: ferries to the islands, a teacher's first winter on Naxos, guesthouses in Nafplio, an olive grove in Messinia, the Thessaloniki metro and two flats in Thessaloniki." },
+        { "title": "The real pass rule", "text": "The sections of a paper are passed together, each with at least 60% of its points, as in the exam. Glossa reports the share of points." },
+        { "title": "Writing rated against the criteria", "text": "Your texts are rated by AI against the Centre's published writing criteria, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from the alphabet to C1, with the cases, the two verb stems and aspect explained directly, so a weak spot in a paper has a module to go back to. Every Greek word can be tapped for its forms, meaning and audio. <a href=\"/courses/greek.html\">About the Greek course</a>." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exam",
+      "items": [
+        "<b>No grade in words.</b> Glossa reports the share of points and does not convert it into <span lang=\"el\">Καλώς, Λίαν καλώς</span> or <span lang=\"el\">Άριστα</span>, since the Centre does not publish how it awards them.",
+        "<b>There is no speaking test</b>, with its 25 points at B1 and 20 at B2. It is free conversation and a role play with a partner, which Glossa cannot assess.",
+        "<b>B2 reading, use of language and listening are shorter</b> than the real papers, in the same task types. B1 and both writing papers are full length.",
+        "<b>You choose or type instead of marking an answer sheet</b>, and the worked examples are left out.",
+        "<b>Recordings can be replayed.</b> In the exam you hear each one twice, so play it twice and then answer.",
+        "<b>Words can be tapped</b> for their meaning while you practise, which the real exam does not offer."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official Ellinomatheia preparation course?", "answer": "No. Glossa is not connected with the Centre for the Greek Language. The papers follow its published exam descriptions, with original content. The Centre also publishes sample papers for every level on greek-language.gr; work through them as well." },
+        { "question": "Which level do I need for long-term residence?", "answer": "The Centre states that B1 proves the knowledge of Greek needed for long-term resident status. The Greek authorities that grant residence decide on it and set the other conditions." },
+        { "question": "When is the exam?", "answer": "The main session is in May, at the same dates at every centre. For May 2027 the B1 written exam is on 13 May, with registration from 1 February to 14 March 2027, as the Centre stated in November 2026. The Centre also held an October 2026 session for B1, only at centres in Greece." },
+        { "question": "What is free?", "answer": "The whole Greek course from A1 to C1, the grammar reference and word practice are free. The practice papers, conversation practice, stories and the other extras are part of Premium." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Greek, and open the first module or the exam papers."
+  },
+  "trademark": "The Certificate of Attainment in Greek (<span lang=\"el\">Πιστοποίηση Επάρκειας της Ελληνομάθειας</span>) is awarded by the Centre for the Greek Language. Glossa is not affiliated with or endorsed by it."
+}

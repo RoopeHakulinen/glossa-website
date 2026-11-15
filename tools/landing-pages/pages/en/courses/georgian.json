@@ -1,0 +1,104 @@
+{
+  "title": "Learn Georgian: a full course from the script to C1 · Glossa",
+  "description": "A complete Georgian course for English speakers, from the Mkhedruli script to C1: 76 modules, the ergative, screeves and preverbs explained directly. Free.",
+  "card": { "title": "Georgian", "text": "A full course from the Mkhedruli script to C1 in 76 modules, with 13 professional specializations and State Language Exam papers." },
+  "eyebrow": "Course · Georgian for English speakers",
+  "heading": "Learn <em>Georgian</em>, from the script to C1.",
+  "lead": "A complete course in the standard literary Georgian of Georgia, written for English speakers. It starts with the Mkhedruli script and a phonetic Georgian keyboard, then takes the ergative and dative subjects, the screeves, preverbs and object marking one step at a time. Every answer gets feedback that says why, and every Georgian word can be tapped for its forms and meaning.",
+  "fineprint": "The whole course, the grammar reference and word practice are free. Specializations, stories, conversation practice, exam papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "lang": "en",
+    "items": [
+      { "title": "1 · Script and first words", "text": "Mkhedruli, ejective and aspirated consonants, greetings, numbers counted in twenties." },
+      { "title": "2 · First sentences", "text": "The present tense, plurals, the dative and genitive, having and liking." },
+      { "title": "3 · Cases and the future", "text": "Instrumental and adverbial cases, postpositions, motion verbs, the future with preverbs." },
+      { "title": "4 · The aorist and the ergative", "text": "The ergative subject, verb classes and series, the imperfect, object markers." },
+      { "title": "5 · Everyday fluency", "text": "Indirect verbs, version vowels, the optative, relative clauses, the passive." },
+      { "title": "6 · Intermediate", "text": "The perfect and the evidential, participles, the masdar, reported speech." },
+      { "title": "7 · Upper intermediate", "text": "Complex sentences, word formation, the whole verb system, official Georgian." },
+      { "title": "8 · Advanced", "text": "Aspect through preverbs, word order, style, spoken Georgian and the dialects." }
+    ],
+    "note": "76 modules in eight tiers, plus 13 professional specializations with 117 more modules."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "Grammar explained, not guessed at",
+      "items": [
+        { "title": "The script first", "text": "The first two modules teach Mkhedruli, which has no capital letters, one letter per sound, and the ejective consonants English does not have. You type on a phonetic Georgian keyboard from the start." },
+        { "title": "The verb, in stages", "text": "The present comes in tier 2, the future with preverbs in tier 3, the aorist with the ergative subject in tier 4, indirect verbs and version vowels in tier 5, the perfect and the evidential in tier 6, and the whole verb system in tier 7, so the hardest part of Georgian gets more than one pass." },
+        { "title": "Feedback that says why", "text": "Every answer gets feedback with the reason and a link to the grammar rule. The grammar reference has one page per rule, linked to the lessons that teach it." },
+        { "title": "Every word inspectable", "text": "Tap any Georgian word for its form, meaning, an example, its table of forms and audio." },
+        { "title": "Common traps", "text": "Twelve short sets on the mistakes English speakers make, from sounds and letters and false friends to the ergative, preverbs that change the meaning, version vowels, indirect verbs and the perfect." },
+        { "title": "No pronunciation scoring", "text": "Speech assessment does not cover Georgian, so the course has no pronunciation practice with feedback. Reading and listening texts have audio." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "columns": ["", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 76 modules in eight tiers, from the script to C1", "The same"],
+        ["Grammar and words", "The grammar reference, word practice, common traps and a placement test", "The same"],
+        ["Ask AI", "5 questions a day", "50 questions a day"],
+        ["Specializations", "—", "13 professional courses, 117 modules"],
+        ["Stories", "—", "Six stories, with AI feedback on your retellings"],
+        ["Conversation practice", "—", "36 scenarios with an AI character, and lessons on a topic you choose"],
+        ["Exam preparation", "—", "Timed practice papers for Georgia's State Language Exam, tests A and B"],
+        ["Country and idioms", "—", "19 texts on how the country works, and six sets of idioms"],
+        ["Offline", "—", "Download modules and stories for use without a connection"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for the State Language Exam",
+      "intro": "Two timed papers for each of the two tests of Georgia's State Language Exam, run by the National Assessment and Examinations Center (NAEC), in listening, reading and writing, with original texts. Neither includes speaking. <a href=\"/exams/georgian.html\">What the exam asks and how the papers differ</a>.",
+      "items": [
+        "<b>Test A</b>, which decides levels A1 and A2.",
+        "<b>Test B</b>, which decides levels B1 and B2."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Georgian for your field",
+      "intro": "Thirteen professional courses of nine modules each, in three stages: foundations, working vocabulary and professional. Each stage opens when you reach tier 4, 6 or 8 of the main course.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Georgian course free?", "answer": "Yes. All 76 modules, the grammar reference, word practice, the common traps and the placement test are free. Premium adds the specializations, stories, conversation practice, exam papers and the other extras." },
+        { "question": "Do I need to know the Georgian alphabet first?", "answer": "No. Tier 1 starts with Mkhedruli, letter by letter, and with typing on a phonetic Georgian keyboard. The course writes Georgian in the script throughout." },
+        { "question": "Which Georgian does it teach?", "answer": "The standard literary Georgian of Georgia. Tier 8 adds spelling and punctuation, registers and style, spoken Georgian and the dialects." },
+        { "question": "Can I practise speaking?", "answer": "Not with pronunciation feedback: speech assessment does not cover Georgian. Premium has conversation practice with an AI character in everyday and work situations, and the reading and listening texts in the course have audio." },
+        { "question": "I already know some Georgian. Do I have to start at the beginning?", "answer": "No. Take the placement test and start at the tier it suggests." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the script, or with the placement test.",
+    "text": "Sign in with Google, take the placement test if you already know some Georgian, and open the first module."
+  }
+}

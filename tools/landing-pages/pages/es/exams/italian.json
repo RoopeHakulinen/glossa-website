@@ -1,0 +1,93 @@
+{
+  "title": "Exámenes de práctica CILS, CELI y PLIDA de italiano · Glossa",
+  "description": "Exámenes de práctica con tiempo para todos los niveles de CILS, CELI y PLIDA, también el B1, con un curso de italiano en español. Qué piden y qué no cubren.",
+  "card": { "title": "CILS, CELI y PLIDA (italiano)", "text": "Exámenes de práctica de los tres certificados de italiano en todos los niveles, incluido el PLIDA B1 para solicitar la ciudadanía." },
+  "eyebrow": "Preparación de exámenes · Italiano",
+  "heading": "Prepárate para el <em>CILS, el CELI y el PLIDA</em> de italiano.",
+  "lead": "Exámenes de práctica con tiempo de las pruebas de comprensión auditiva, comprensión lectora, estructuras de la lengua y expresión escrita de los tres certificados de italiano, en todos los niveles del A1 al C2. Entre ellos están los exámenes B1, incluido el PLIDA B1, que según la Società Dante Alighieri el Estado italiano reconoce para las solicitudes de ciudadanía. Detrás hay un curso de italiano explicado en español, del A1 al C1, para trabajar lo que los exámenes te muestren que te falta.",
+  "fineprint": "El curso de italiano es gratuito. Los exámenes de práctica forman parte de Premium, por 8,99 € al mes o 69,99 € al año.",
+  "panel": {
+    "label": "Del examen de práctica 1 del PLIDA B1, comprensión lectora",
+    "lang": "it",
+    "title": "Una lettera alla rivista",
+    "text": "Mi chiamo Teresa e ho sessantasette anni. Fino all'anno scorso non avevo neanche il computer: per me la tecnologia era una cosa per i giovani. Poi mia figlia si è trasferita in Germania per lavoro e ho capito che dovevo imparare, se volevo vedere i miei nipoti più spesso che a Natale.",
+    "question": "Teresa ha deciso di imparare a usare la tecnologia perché…",
+    "options": ["voleva leggere il giornale su internet.", "il corso del Comune non costava niente.", "voleva sentire e vedere più spesso la famiglia lontana.", "sua figlia le aveva regalato un tablet."],
+    "note": "Mientras practicas, puedes tocar cada palabra del examen para ver su significado y sus formas."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "Los exámenes",
+      "heading": "Qué piden los tres exámenes B1",
+      "intro": "Cada certificado tiene seis niveles alineados con el MCER, y cada nivel es un examen independiente. En el B1 los tres evalúan las mismas cuatro destrezas, pero las reparten de otra manera y se aprueban con reglas distintas.",
+      "columns": ["", "CILS UNO-B1", "CELI 2", "PLIDA B1"],
+      "rows": [
+        ["Lo otorga", "Università per Stranieri di Siena (Centro CILS)", "Università per Stranieri di Perugia (CVCL)", "Società Dante Alighieri"],
+        ["Comprensión auditiva", "3 partes, 30 minutos", "3 tareas, 33 ítems, 20 minutos", "4 partes, 20 preguntas, unos 40 minutos"],
+        ["Comprensión lectora", "3 partes, 50 minutos", "5 tareas, 37 ítems, que incluyen gramática", "4 partes, 18 preguntas, 40 minutos"],
+        ["Estructuras de la lengua", "Prueba propia: 4 partes, 60 minutos", "Dentro de la comprensión lectora", "No hay prueba aparte"],
+        ["Expresión escrita", "Una descripción de 100 a 120 palabras y un correo informal de 50 a 80, 70 minutos", "Un formulario, un anuncio breve y una carta de 90 a 100 palabras; lectura y escritura comparten 2 horas", "Dos textos guiados de 110 a 150 y de 70 a 100 palabras, 60 minutos"],
+        ["Expresión oral", "2 tareas, 10 minutos", "3 tareas, de 10 a 12 minutos tras unos 12 de preparación", "3 partes, unos 15 minutos"],
+        ["Para aprobar", "11 de 20 en cada una de las cinco pruebas", "72 de 120 puntos en la parte escrita y 22 de 40 en la oral", "18 de 30 en cada una de las cuatro pruebas"],
+        ["Si suspendes una parte", "Repites solo las pruebas suspendidas en un plazo de 18 meses", "Conservas la parte aprobada durante un año y repites la otra", "Conservas las pruebas aprobadas durante 18 meses y repites las demás"],
+        ["Exámenes de práctica de Glossa", "Comprensión auditiva 16, lectora 27, uso de la lengua 30 y expresión escrita 70 minutos", "Comprensión lectora 38, expresión escrita 50 y auditiva 10 minutos", "Comprensión auditiva 22, lectora 22 y expresión escrita 60 minutos"]
+      ],
+      "note": "Según las descripciones publicadas por la Università per Stranieri di Siena, la Università per Stranieri di Perugia y la Società Dante Alighieri, revisadas en octubre de 2026. Consulta sus páginas para conocer el formato vigente."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Ciudadanía y residencia",
+      "heading": "Qué examen siguen los exámenes de práctica",
+      "intro": "La Società Dante Alighieri afirma que el Estado italiano reconoce el PLIDA B1 para las solicitudes de ciudadanía e indica el A2 como el nivel para el permiso de residencia de la UE. Los otros dos organismos tienen versiones aparte para grupos concretos, que los exámenes de práctica de Glossa no siguen:",
+      "items": [
+        "<b>PLIDA B1</b>: los exámenes de práctica siguen el examen B1 ordinario.",
+        "<b>PLIDA A2</b>: siguen el A2 ordinario que se hace en el extranjero. En Italia se hace el PLIDA A2 <span lang=\"it\">inItalia</span>, con las mismas cuatro pruebas y la misma regla de aprobado, pero con 45 minutos para la expresión escrita y unos 12 para la oral.",
+        "<b>CILS</b>: la versión para la ciudadanía (<span lang=\"it\">B1 cittadinanza</span>) es un examen distinto. Los exámenes de práctica siguen el UNO-B1 estándar.",
+        "<b>CELI</b>: el CVCL ofrece además CELI específicos para inmigrantes adultos. Los exámenes de práctica siguen el CELI general.",
+        "Las autoridades italianas que tramitan tu solicitud deciden qué certificados aceptan y fijan las demás condiciones."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "Qué incluye",
+      "heading": "Exámenes para practicar y un curso para aprender",
+      "items": [
+        { "title": "Dos exámenes de práctica por nivel", "text": "Del CILS A1 al QUATTRO-C2, del CELI Impatto al CELI 5 y del PLIDA A1 al C2: 36 exámenes de práctica para 18 exámenes, con el formato de cada uno, textos y grabaciones originales e instrucciones en español." },
+        { "title": "Expresión escrita calificada según los criterios", "text": "Una IA califica tus textos según los criterios publicados por cada organismo y te dice qué mejorar. Es una estimación, no la nota de un examinador." },
+        { "title": "Un curso pensado para hispanohablantes", "text": "40 módulos en ocho fases, del A1 al C1, centrados en lo que el italiano hace distinto del español: las consonantes dobles, el partitivo, <span lang=\"it\">essere</span> o <span lang=\"it\">avere</span> en el <span lang=\"it\">passato prossimo</span>, <span lang=\"it\">ne</span> y <span lang=\"it\">ci</span>, el <span lang=\"it\">congiuntivo</span> y los falsos amigos." },
+        { "title": "Correcciones que explican el porqué", "text": "Cada respuesta del curso recibe una explicación y un enlace a la regla gramatical. Cada palabra italiana se puede tocar para ver sus formas, su significado y su audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Límites, sin rodeos",
+      "heading": "En qué se diferencian de los exámenes reales",
+      "items": [
+        "<b>Sin nota y sin conversión de puntos.</b> Cada examen de práctica muestra el porcentaje de puntos de cada sección. No usa las tablas de conversión de los organismos, no puede darte una calificación del CELI de la A a la E y nunca convierte la expresión escrita en la nota sobre 30 del PLIDA. El PLIDA pondera las preguntas según su dificultad; aquí todas valen lo mismo.",
+        "<b>La comprensión auditiva y la lectora son más cortas</b> que en el examen real, con más o menos la mitad de las preguntas en los mismos tipos de tarea y el tiempo reducido en proporción. En el B1, la expresión escrita está completa.",
+        "<b>No hay prueba oral.</b> Los tres certificados la exigen, así que aprobar las secciones de un examen de práctica no cubre el examen entero.",
+        "<b>Algunas tareas están adaptadas.</b> En el CILS B1, las afirmaciones que se eligen de una lista se marcan como verdaderas o falsas una a una; en el PLIDA B1, las opciones que el examen muestra con imágenes son frases breves; en el CELI 2, la comprensión lectora y la expresión escrita tienen cada una su tiempo, en lugar de un bloque de 2 horas.",
+        "<b>Las grabaciones se pueden repetir, con una sola voz.</b> En el CILS y el PLIDA cada grabación se oye dos veces. La descripción del CELI 2 no dice cuántas, pero en los modelos de examen del CELI 1 y del CELI 3 cada grabación se oye dos veces. Ponla dos veces y luego responde. En los diálogos, una misma voz lee a los dos hablantes.",
+        "<b>Puedes tocar las palabras</b> para ver su significado mientras practicas; en los exámenes reales no se permite el diccionario."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Preguntas",
+      "heading": "Preguntas frecuentes",
+      "items": [
+        { "question": "¿Glossa es un curso oficial de preparación para el CILS, el CELI o el PLIDA?", "answer": "No. Glossa no tiene relación con la Università per Stranieri di Siena, la Università per Stranieri di Perugia ni la Società Dante Alighieri. Los exámenes de práctica siguen sus descripciones publicadas, con contenido original." },
+        { "question": "¿Qué examen necesito para la ciudadanía italiana?", "answer": "La Società Dante Alighieri afirma que el Estado italiano reconoce el PLIDA B1 para las solicitudes de ciudadanía, y el CILS tiene una versión de su B1 para la ciudadanía. Las autoridades italianas que tramitan tu solicitud deciden qué certificados aceptan y fijan las demás condiciones." },
+        { "question": "¿CILS, CELI o PLIDA: cuál me conviene?", "answer": "Depende de para qué necesitas el certificado y de dónde puedes presentarlo. Su estructura es distinta: el CILS tiene una prueba propia de estructuras de la lengua y exige aprobar cada prueba, el CELI suma las pruebas escritas y califica de la A a la E, y el PLIDA pide 18 de 30 en cada una de sus cuatro pruebas." },
+        { "question": "¿Qué es gratis?", "answer": "El curso completo de italiano del A1 al C1, la gramática de referencia y la práctica de vocabulario son gratuitos. Los exámenes de práctica y los demás extras forman parte de Premium." },
+        { "question": "¿Están las instrucciones en español?", "answer": "Sí. Las instrucciones y los títulos de los exámenes de práctica están en español; los textos, las grabaciones y las preguntas están en italiano, como en el examen real." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Empieza con el curso y practica con los exámenes.",
+    "text": "Entra con Google, haz la prueba de nivel si ya sabes algo de italiano y abre el primer módulo o los exámenes de práctica. <a href=\"/es/courses/italian.html\">Más sobre el curso de italiano para hispanohablantes</a>."
+  },
+  "trademark": "El CILS (Certificazione di Italiano come Lingua Straniera) lo otorga la Università per Stranieri di Siena, el CELI (Certificati di Lingua Italiana) la Università per Stranieri di Perugia y el PLIDA (Progetto Lingua Italiana Dante Alighieri) la Società Dante Alighieri. Glossa no está afiliada a ninguna de ellas ni cuenta con su respaldo."
+}

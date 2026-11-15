@@ -1,0 +1,91 @@
+{
+  "title": "Polish B1 and B2 certificate exam practice papers · Glossa",
+  "description": "Timed practice papers for the Polish B1 and B2 state certificate and a full course. What each module asks, what citizenship requires, what the papers leave out.",
+  "card": { "title": "Polish certificate (B1, B2)", "text": "Practice papers for the state certificate exam, including B1 for recognition as a Polish citizen." },
+  "eyebrow": "Exam preparation · Polish",
+  "heading": "Practise for the <em>Polish certificate</em> exam at B1 and B2.",
+  "lead": "Timed practice papers for the written part of the <span lang=\"pl\">egzamin certyfikatowy z języka polskiego jako obcego</span>, Poland's state exam in Polish as a foreign language: listening, reading, grammar and writing, in the exam's task formats. Behind them is a complete Polish course from first words to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Polish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Ukrainian speakers.",
+  "panel": {
+    "label": "From B1 practice paper 1, reading",
+    "lang": "pl",
+    "title": "Hiszpan z piekarni na Jeżycach",
+    "text": "Javier przyjechał do Poznania osiem lat temu na wymianę studencką. Planował zostać tylko jeden semestr, ale poznał tu swoją przyszłą żonę i postanowił nie wracać do Hiszpanii.",
+    "question": "Javier od początku planował zamieszkać w Polsce.",
+    "options": ["TAK", "NIE"],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exam",
+      "heading": "What the written part asks at B1 and B2",
+      "intro": [
+        "The exams are set by the State Commission for the Certification of Proficiency in Polish as a Foreign Language and held by authorised exam centres, which take registration and set the fee. The adult exam is for people who are 18 or older on the exam day.",
+        "The written part has four modules, each with its own time and its own score: at most 190 minutes at B1 and 250 at B2. An oral part of up to 15 minutes, worth 40 points, follows. To pass, you need at least half the points in every module and in the oral part at B1, and at least 60% at B2. No module can make up for another."
+      ],
+      "columns": ["Module", "B1 (<span lang=\"pl\">poziom progowy</span>)", "B2 (<span lang=\"pl\">poziom średni ogólny</span>)", "In Glossa's papers"],
+      "rows": [
+        ["Listening <span lang=\"pl\">(rozumienie ze słuchu)</span>", "Up to 30 minutes, 5 tasks, 30 points. Short utterances, dialogues, an interview or talk, <span lang=\"pl\">TAK</span> / <span lang=\"pl\">NIE</span> statements and matching speakers to opinions. Recordings are played once or twice.", "Up to 40 minutes, 5 tasks, 40 points. News items, a radio programme, matching descriptions, a report, and a talk answered in a few words. Every recording is played twice.", "All task types with fewer items: 15 minutes at B1, 28 at B2. At B2 each description in the matching task fits exactly one place."],
+        ["Reading <span lang=\"pl\">(rozumienie tekstów pisanych)</span>", "40 minutes, 5 tasks, 30 points. Notices and ads, a longer text with <span lang=\"pl\">TAK</span> / <span lang=\"pl\">NIE</span> statements, removed fragments, titles and a cloze.", "60 minutes, 5 tasks, 40 points. Short texts, a longer text with <span lang=\"pl\">TAK</span> / <span lang=\"pl\">NIE</span> / <span lang=\"pl\">BI</span> statements, removed fragments, matching and a cloze.", "All task types with fewer items: 20 minutes at B1, 36 at B2."],
+        ["Grammar <span lang=\"pl\">(poprawność gramatyczna)</span>", "45 minutes, 8 tasks, 30 points. Endings, linking words, comparison, verb forms, aspect and moods, prepositions, rewriting a sentence with a given word.", "60 minutes, 8 tasks, 40 points. Participles, numerals with nouns, impersonal forms and the passive, aspect, endings, turning a compound sentence into a simple one.", "All task types with fewer items: 23 minutes at B1, 30 at B2. You choose an option or type the form."],
+        ["Writing <span lang=\"pl\">(pisanie)</span>", "75 minutes. Choose one of three sets and write both its texts, a short one and a longer one, about 200 words together. Marked on task completion, range and accuracy, 10 points each.", "90 minutes. Choose one of three sets and write both its texts, 300 words together, such as a review or an argumentative essay. Marked on task completion (10), range (16) and accuracy (14).", "Full length: one set of two tasks in 75 or 90 minutes, rated by AI against the three published criteria."],
+        ["Speaking <span lang=\"pl\">(mówienie)</span>", "Up to 15 minutes, three tasks in front of the exam board, 40 points.", "Up to 15 minutes, tasks based on texts and pictures, 40 points.", "Not included: the tasks are free speech, which Glossa cannot assess."]
+      ],
+      "note": "Based on the Commission's published exam structure and the papers of the 2024 sessions on certyfikatpolski.pl, checked in October 2026. An amendment to the Polish Language Act takes effect on 1 January 2027 and leaves the modules of each level to a new regulation, so the format and the pass rule may change from 2027."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Polish citizenship",
+      "heading": "What citizenship asks of the certificate",
+      "intro": "Recognition as a Polish citizen (<span lang=\"pl\">uznanie za obywatela polskiego</span>) requires knowledge of Polish confirmed by this certificate at B1 or higher, unless you have:",
+      "items": [
+        "a Polish school certificate, or",
+        "a certificate from a school abroad that taught in Polish."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers at each level", "text": "Two B1 and two B2 papers with original texts and recordings on everyday topics: housing, work, libraries, volunteering, commuting and job interviews." },
+        { "title": "The exam's pass rule", "text": "The four sections are passed together, as in the real exam: each needs at least half its points at B1 and 60% at B2. A paper shows the share of points in each section." },
+        { "title": "Writing rated against the criteria", "text": "Your two texts are rated by AI against the three published criteria, with what to improve. It is an estimate, not the mark of the exam board." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, with the seven cases, aspect, participles and official Polish explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Conversation practice and pronunciation practice train speaking." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exam",
+      "items": [
+        "<b>Shorter, except writing.</b> Listening, reading and grammar keep all their task types with fewer items, and their time is cut to match. Writing is full length.",
+        "<b>No other scale.</b> The Commission publishes no scale beyond the share of points, so a paper shows that share and nothing else.",
+        "<b>There is no oral part</b>, so the papers leave out its 40 points.",
+        "<b>Only one writing set</b> is offered in each paper, so you do not choose between three.",
+        "<b>Choosing and typing.</b> Where the real paper asks you to underline a word or mark a letter, you choose an option or type the word.",
+        "<b>Recordings can be replayed.</b> Play each one as many times as the instructions say the real exam does.",
+        "<b>Words can be tapped</b> for their meaning and forms while you practise, which the real exam does not offer."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official preparation course for the certificate?", "answer": "No. Glossa is not connected with the State Commission or the exam centres. The papers follow the Commission's published exam structure, with original content. The Commission publishes sample tests and past papers on certyfikatpolski.pl; work through them as well." },
+        { "question": "Which level do I need for citizenship?", "answer": "B1 or higher. The voivode decides on recognition as a Polish citizen and there are other conditions besides the certificate; the voivodeship office (<span lang=\"pl\">urząd wojewódzki</span>) answers questions about them." },
+        { "question": "Does the certificate expire?", "answer": "No. It states the level passed and does not expire. After a failed exam you can sit it again at the next session." },
+        { "question": "What is free?", "answer": "The whole Polish course from A1 to C1, the grammar reference and word practice are free. The practice papers, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "I speak Ukrainian. Is there a course for me?", "answer": "Yes. <a href=\"/uk/courses/polish.html\">Polish for Ukrainian speakers</a> has the same B1 and B2 papers, with the instructions and explanations in Ukrainian." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Polish, and open the first module or the certificate papers."
+  },
+  "trademark": "The egzamin certyfikatowy z języka polskiego jako obcego is set by the State Commission for the Certification of Proficiency in Polish as a Foreign Language (Państwowa Komisja do spraw Poświadczania Znajomości Języka Polskiego jako Obcego). Glossa is not affiliated with or endorsed by it."
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Staatsexamen NT2 practice: B1 and B2 Dutch papers · Glossa",
+  "description": "Timed practice papers for the Dutch Staatsexamen NT2, Programma I (B1) and II (B2), with a full Dutch course. What each part asks and what the papers leave out.",
+  "card": { "title": "Staatsexamen NT2 (Dutch)", "text": "Practice papers for Programma I and II, the Dutch state exam at B1 and B2." },
+  "eyebrow": "Exam preparation · Dutch",
+  "heading": "Practise for the <em>Staatsexamen NT2</em>.",
+  "lead": "Timed practice papers for the reading, listening and writing parts of the Dutch state exam in Dutch as a second language, for Programma I (B1) and Programma II (B2). Behind them is a complete Dutch course from first words to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Dutch course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for German speakers.",
+  "panel": {
+    "label": "From practice paper 1, Programma I reading",
+    "lang": "nl",
+    "title": "Je stage vanaf februari",
+    "text": "Je geeft je stageplaats uiterlijk 15 december door aan je stagebegeleider. Studenten die dan nog geen plaats hebben, krijgen een gesprek met hun mentor.",
+    "question": "Wat gebeurt er als een student op 15 december nog geen stageplaats heeft?",
+    "options": ["Hij moet zelf bedrijven bellen.", "Hij begint later met zijn stage.", "Hij krijgt een gesprek met zijn mentor."],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exam",
+      "heading": "What the four parts ask",
+      "intro": "The College voor Toetsen en Examens (CvTE) is responsible for the exam's content, and DUO runs registration and results. Each programme has four parts (<span lang=\"nl\">onderdelen</span>), all taken on a computer at an exam location in the Netherlands, and you register for each part separately. Most tasks are about work or study, some about daily life. You do not have to take Programma I before Programma II.",
+      "columns": ["Part", "Programma I (B1)", "Programma II (B2)", "In Glossa's papers"],
+      "rows": [
+        ["Reading <span lang=\"nl\">(Lezen)</span>", "6 texts, 36 multiple-choice questions, 110 minutes. Texts in a paper booklet, questions on screen.", "6 texts, 36 multiple-choice questions, 100 minutes.", "3 texts with 18 questions, on screen and without a dictionary. 55 minutes for Programma I, 50 for Programma II."],
+        ["Listening <span lang=\"nl\">(Luisteren)</span>", "About 40 multiple-choice questions on 5 or more recordings, including 1–3 video clips, 90 minutes. Each recording plays once.", "The same format, 90 minutes.", "20 questions in 45 minutes, without video clips, one voice per recording."],
+        ["Writing <span lang=\"nl\">(Schrijven)</span>", "8 sentence tasks, 2 short message or form tasks and 2 short texts, 100 minutes.", "7 or 8 sentence tasks, 1 or 2 short and 1 or 2 medium-length writing tasks, 100 minutes.", "Programma I: 6 tasks in 50 minutes. Programma II: 4 sentence tasks, one short and one medium-length task in 55 minutes. Rated by AI."],
+        ["Speaking <span lang=\"nl\">(Spreken)</span>", "8 short and 8 medium tasks answered into a microphone, about 25 minutes.", "4 short, 8 medium and 1 long task of two minutes, about 25 minutes.", "Not included: Glossa cannot assess free answers yet."]
+      ],
+      "note": "Based on the descriptions on staatsexamensnt2.nl and duo.nl, checked in October 2026. The only aid allowed is the paper Van Dale pocket dictionary for Dutch as a second language, in reading and writing."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Scores and passing",
+      "heading": "How a part is passed",
+      "intro": "Reading and listening are scored by computer, writing and speaking by two trained raters. The raw points of each part are converted into a scale score, and a part passes at a scale score of 500.",
+      "items": [
+        "<b>Each part passes on its own.</b> You get a certificate for each part you pass and can retake a part you failed.",
+        "<b>The diploma</b> follows once all four parts are passed. Certificates and the diploma do not expire.",
+        "<b>The conversion is not published</b>, so there is no raw pass mark to practise against."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Inburgering and naturalisation",
+      "heading": "Which programme you need",
+      "intro": "According to the exam's descriptions:",
+      "items": [
+        "<b>Programma I</b> meets the B1 language requirement for <span lang=\"nl\">inburgering</span> and for naturalisation, and shows enough Dutch to work or study at mbo level 3 or 4.",
+        "<b>Programma II</b> shows enough Dutch to work or study at hbo or university level.",
+        "Under the Wet inburgering 2021, the language part of the B1 route is Programma I or Programma II, whichever your municipality's <span lang=\"nl\">Plan Inburgering en Participatie</span> names.",
+        "The authorities that decide on <span lang=\"nl\">inburgering</span> and naturalisation set the other conditions, so check what applies to you with them."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers for each programme", "text": "Original texts and recordings in the exam's task formats, mostly about work and study: internships, job interviews, working from home, safety at work." },
+        { "title": "Writing rated by AI", "text": "Your texts are rated by AI, in Programma II on whether each task is done, how understandable the text is, grammar, spelling, word choice, coherence and structure. It is an estimate, not the mark of two raters." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, with word order, <span lang=\"nl\">er</span>, verb clusters and the passive explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Dutch word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exam",
+      "items": [
+        "<b>No pass mark.</b> A section's result is the share of its points. The board publishes no conversion into scale scores, so a paper cannot tell you whether you would reach 500.",
+        "<b>Shorter</b> than the real parts, in the same task types: about half the tasks, with the time cut to match.",
+        "<b>There is no speaking section.</b> Pronunciation practice (Premium) trains how you say things, not the exam's free answers.",
+        "<b>Reading is on screen</b> and no dictionary is offered.",
+        "<b>Recordings can be replayed, and there are no video clips.</b> In the exam you read the question first and hear the recording once, so do the same here. In Programma II papers each recording has four questions instead of one.",
+        "<b>One voice per recording.</b> In conversations all speakers are read by one voice, with their names.",
+        "<b>The word ranges in the writing tasks are Glossa's guide</b>; the board publishes no word limits."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official NT2 preparation course?", "answer": "No. Glossa is not connected with the CvTE or DUO. The papers follow the published descriptions of the exam, with original content. The CvTE's own practice environment (<span lang=\"nl\">oefenexamens</span>) on staatsexamensnt2.nl shows the current format." },
+        { "question": "Programma I or Programma II?", "answer": "Programma I is at B1 and Programma II at B2. For <span lang=\"nl\">inburgering</span>, your municipality's plan names which one you take. The authorities that decide on <span lang=\"nl\">inburgering</span> and naturalisation set the other conditions." },
+        { "question": "What is free?", "answer": "The whole Dutch course from A1 to C1, the grammar reference, word practice and the placement test are free. The NT2 practice papers, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "Does Glossa prepare me for the speaking part?", "answer": "Not with a practice paper. The course's speaking exercises give pronunciation feedback, and the conversation practice in Premium is practice in answering freely, but neither is rated like the exam." },
+        { "question": "I speak German. Is there a course for me?", "answer": "Yes. Dutch for German speakers has the same NT2 papers, with the instructions and explanations in German: <a href=\"/de/exams/nt2.html\">NT2 auf Deutsch</a>." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Dutch, and open the first module or the NT2 papers."
+  },
+  "trademark": "The Staatsexamen Nederlands als tweede taal (NT2) is the responsibility of the College voor Toetsen en Examens (CvTE), with registration and results run by DUO. Glossa is not affiliated with or endorsed by either."
+}

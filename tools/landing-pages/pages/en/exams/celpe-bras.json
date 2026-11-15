@@ -1,0 +1,94 @@
+{
+  "title": "Celpe-Bras practice papers for the written part · Glossa",
+  "description": "Timed practice papers for the Celpe-Bras written part, with a full Brazilian Portuguese course from A1 to C1. What the exam asks and what the papers leave out.",
+  "card": { "title": "Celpe-Bras (Portuguese)", "text": "Four practice papers for the written part of Brazil's Portuguese proficiency exam." },
+  "eyebrow": "Exam preparation · Brazilian Portuguese",
+  "heading": "Practise for the <em>Celpe-Bras</em> written part.",
+  "lead": "Timed practice papers with the four integrated tasks of the Celpe-Bras written part: a TV report, a recording and two written texts, each followed by a text you write in Portuguese. Behind them is a complete Brazilian Portuguese course from first words to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Brazilian Portuguese course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Spanish speakers.",
+  "panel": {
+    "label": "From practice paper 1, Tarefa 1 (the report's soundtrack, shown as text)",
+    "lang": "pt-BR",
+    "title": "Reportagem sobre ciclovias",
+    "text": "São sete da manhã, e a avenida Central já está cheia de carros. Mas, ao lado dos carros parados, cada vez mais gente passa de bicicleta.",
+    "question": "Quanto tempo a Luciana leva hoje para chegar ao hospital?",
+    "options": ["Quase uma hora.", "Vinte e cinco minutos.", "Quarenta e cinco minutos."],
+    "note": "After the questions you write a blog post about the city's cycling programme. Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exam",
+      "heading": "What the Celpe-Bras asks",
+      "intro": [
+        "The Celpe-Bras (<span lang=\"pt-BR\">Certificado de Proficiência em Língua Portuguesa para Estrangeiros</span>) is run by Inep with Brazil's Ministry of Education and Ministry of Foreign Affairs, twice a year, in Brazil and abroad. It certifies Portuguese in its Brazilian variety.",
+        "There is one exam for everyone, not one per level: your grade decides which level you are certified at, if any. It has a written part and an oral part, and you need both in the same sitting. Every written task joins comprehension with writing; there are no comprehension questions, and choosing the right information is part of the task."
+      ],
+      "columns": ["Task", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Tarefa 1 <span lang=\"pt-BR\">(vídeo)</span>", "Watch a video twice in a row, then write a text that uses it. 30 minutes, including both showings.", "The soundtrack of a TV report, played as audio, with two or three comprehension questions before you write. The real 30 minutes."],
+        ["Tarefa 2 <span lang=\"pt-BR\">(áudio)</span>", "Hear a recording twice in a row, then write a text that uses it.", "The same, with two or three comprehension questions first. 50 minutes."],
+        ["Tarefas 3 and 4 <span lang=\"pt-BR\">(textos escritos)</span>", "Read a text, then write a text that uses it. Tarefas 2 to 4 share 2 hours 30, in any order.", "The same tasks. 50 minutes each, one after the other, a split Glossa sets."],
+        ["Oral part <span lang=\"pt-BR\">(parte oral)</span>", "20 minutes face to face: 5 minutes on your interests, then 15 on everyday and general topics prompted by magazine covers, cartoons or photos.", "Not included: Glossa cannot yet assess free speech."]
+      ],
+      "note": "Based on Inep's published exam pages, notices and the <span lang=\"pt-BR\">Documento-base do exame Celpe-Bras</span>, checked in October 2026. Check Inep's site for the current format."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Grades and levels",
+      "heading": "How the levels are decided",
+      "intro": [
+        "Each written task gets a holistic grade from 0 to 5 from two examiners, judging how well your text fits the writer, reader, purpose and genre the task sets. The oral part is also graded from 0 to 5. Your final grade is the <b>lower</b> of the two parts, and the level is read from it:"
+      ],
+      "items": [
+        "<b><span lang=\"pt-BR\">Avançado Superior</span></b>: 4.26 to 5.00",
+        "<b><span lang=\"pt-BR\">Avançado</span></b>: 3.51 to 4.25",
+        "<b><span lang=\"pt-BR\">Intermediário Superior</span></b>: 2.76 to 3.50",
+        "<b><span lang=\"pt-BR\">Intermediário</span></b>: 2.00 to 2.75",
+        "<b>No certificate</b>: below 2.00. A certificate needs at least 2.00 in both parts. Inep does not relate these levels to the CEFR, and each institution that asks for the certificate decides how long it accepts it."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Four complete written parts", "text": "Each paper has all four tasks, on original recordings and texts: bike lanes, volunteering, remote work, recycling, a festa junina, a public library, ecotourism in the Pantanal and more." },
+        { "title": "Tasks that set a situation", "text": "Every task says who you are, who you write to, why and in which genre: a blog post, an e-mail, a formal letter, a letter to the newspaper, a magazine article, a notice. Your texts are rated by AI on four criteria, with what to improve. It is an estimate, not Inep's grade." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, with the subjunctive, the future subjunctive, the personal infinitive, connectors, register and style explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Portuguese word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exam",
+      "items": [
+        "<b>Only the written part.</b> The oral part is left out. Since the lower of the two parts decides the level, a paper cannot tell you which level you would be certified at.",
+        "<b>No grade or level is given.</b> A paper shows the share of points, with no pass mark. Glossa never converts its scores into Celpe-Bras grades or levels.",
+        "<b>No video image.</b> Tarefa 1 is the soundtrack of a TV report, so the visual side of the task is not practised.",
+        "<b>A few comprehension questions.</b> Glossa asks two or three about each recording; the real exam has none. They count as much as your text in the section's score.",
+        "<b>Each task has its own time,</b> and Glossa asks for 120 to 300 words per text. Both are Glossa's choices; Inep sets no word count.",
+        "<b>Recordings can be replayed,</b> and where a recording has several speakers, one voice reads them all. In the exam you hear each one twice, so play it twice and then write.",
+        "<b>Words can be tapped</b> for their meaning while you practise; in the exam you write by hand on paper."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa connected with Inep?", "answer": "No. Glossa is not affiliated with Inep or Brazil's ministries. The papers follow Inep's published exam descriptions, with original content. Inep publishes a commented collection of tasks and past papers on its website." },
+        { "question": "Which level will I get?", "answer": "Glossa cannot say. The level depends on the lower of your written and oral grades, and the papers cover only the written part and give no grade." },
+        { "question": "Do the papers cover European Portuguese exams?", "answer": "No. The Celpe-Bras certifies Brazilian Portuguese, and so does the course. The CAPLE certificates of the University of Lisbon test European Portuguese and are not covered." },
+        { "question": "What is free?", "answer": "The whole Brazilian Portuguese course from A1 to C1, the grammar reference, word practice and the placement test are free. The Celpe-Bras papers, conversation practice, stories and the other extras are part of Premium. See the <a href=\"/courses/portuguese.html\">course page</a>." },
+        { "question": "I speak Spanish. Is there a course for me?", "answer": "Yes. Brazilian Portuguese for Spanish speakers has the same four papers, with the instructions in Spanish. See the <a href=\"/es/exams/celpe-bras.html\">page in Spanish</a>." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Portuguese, and open the first module or the Celpe-Bras papers."
+  },
+  "trademark": "Celpe-Bras (Certificado de Proficiência em Língua Portuguesa para Estrangeiros) is administered by Inep with Brazil's Ministry of Education and Ministry of Foreign Affairs. Glossa is not affiliated with or endorsed by them."
+}

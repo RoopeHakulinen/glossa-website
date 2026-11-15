@@ -1,0 +1,88 @@
+{
+  "title": "TOPIK practice papers: TOPIK I and TOPIK II · Glossa",
+  "description": "Timed practice papers for TOPIK I and TOPIK II, with a full Korean course behind them: what each test asks, how levels are awarded, what the papers omit.",
+  "card": { "title": "TOPIK (Korean)", "text": "Two timed practice papers each for TOPIK I and TOPIK II, in the paper-based test's task types." },
+  "eyebrow": "Exam preparation · Korean",
+  "heading": "Practise for <em>TOPIK</em> I and II.",
+  "lead": "Timed practice papers for both tests of the Test of Proficiency in Korean: listening and reading for TOPIK I, and listening, writing and reading for TOPIK II, in the paper-based test's task types and with original content. Behind them is a complete Korean course from Hangul to advanced, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Korean course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From TOPIK I practice paper 1, reading",
+    "lang": "ko",
+    "text": "저는 매일 아침 공원에서 달리기를 해요. 오늘은 비가 와서 집에서 요가를 했어요. 내일 날씨가 좋으면 다시 공원에 갈 거예요.",
+    "question": "<span lang=\"en\">Which statement matches the text?</span>",
+    "options": ["저는 오늘 공원에서 달렸어요.", "저는 매일 요가를 해요.", "오늘은 날씨가 나빴어요.", "내일은 비가 올 거예요."],
+    "note": "The question is in English and the options in Korean. Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The test",
+      "heading": "What the two tests ask",
+      "intro": "TOPIK (<span lang=\"ko\">한국어능력시험</span>) is run by the National Institute for International Education (NIIED, <span lang=\"ko\">국립국제교육원</span>) of South Korea's Ministry of Education. Since 2014 it has had two tests: TOPIK I awards level 1 or 2, and TOPIK II awards level 3, 4, 5 or 6. Each is one paper for all its levels, and the total score decides the level, with no minimum for any section. You can register for either test or both. A result is valid for two years from the day results are announced.",
+      "columns": ["Test", "The real paper-based test", "In Glossa's papers"],
+      "rows": [
+        ["TOPIK I", "Listening, 30 questions in 40 minutes, and reading, 40 questions in 60 minutes, all multiple choice: 200 points. 80–139 is level 1, 140–200 level 2.", "Full length: all 70 questions in the real order, with the same 40 and 60 minutes. Written for learners who have finished Tier 4."],
+        ["TOPIK II listening and reading", "Listening, 50 questions in 60 minutes, and reading, 50 questions in 70 minutes, multiple choice, 100 points each.", "Half length: 25 listening questions in 30 minutes and 25 reading questions in 35 minutes, with every kind of task kept in the real order."],
+        ["TOPIK II writing", "Four items in 50 minutes, written by hand: two sentence-completion items, a paragraph describing data (200–300 characters) and an essay on a social question (600–700 characters). 100 points.", "Full length, items 51–54 in 50 minutes, rated by AI. TOPIK II papers are written for learners who have finished Tier 6; the hardest items assume Tier 8."],
+        ["TOPIK II levels", "Out of 300: level 3 from 120, level 4 from 150, level 5 from 190, level 6 from 230. Below 120 no level is awarded.", "The papers show the share of points in each section, not a level."],
+        ["Speaking", "A separate test, held in Korea only.", "Not included: Glossa cannot assess free speech. The course has speaking exercises with pronunciation feedback."]
+      ],
+      "note": "Based on NIIED's published test information and released past papers on topik.go.kr, checked in November 2026. The internet-based test (IBT) has fewer questions and its own scale; Glossa's papers follow the paper-based test. In Korea the 2026 fee is 40,000 won for TOPIK I and 55,000 won for TOPIK II; fees abroad are set by country. NIIED gives no equivalence between TOPIK levels and the CEFR."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Study, work and residence",
+      "heading": "What TOPIK results are used for",
+      "intro": "According to NIIED, TOPIK results are used for:",
+      "items": [
+        "<b>admission to and graduation from</b> Korean universities,",
+        "<b>jobs</b> in Korea,",
+        "<b>visas and permanent residence</b>, and",
+        "the <b>Global Korea Scholarship</b>."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers for each test", "text": "Four timed papers in all, with original texts and recordings in the task types of the released past papers: replies and conversations, notices and messages, sentence order, blanks, main ideas, headlines, explanatory and literary texts." },
+        { "title": "Writing rated by AI", "text": "In the TOPIK II papers your sentences, data paragraph and essay are rated by AI on content and task, organisation and language use, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "80 modules in eight tiers that follow the grammar of TOPIK 1 to 6, with every speech level and the honorifics taught in order and the written <span lang=\"ko\">한다체</span> used in TOPIK II essays, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Korean word can be tapped for its meaning, forms and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real test",
+      "items": [
+        "<b>No TOPIK level is given.</b> The real points differ from question to question, and the TOPIK II papers are shortened, so a paper shows the share of points only. It applies the lowest cut-off of each test as a 40% pass mark, and cannot tell you which level you would reach.",
+        "<b>TOPIK II listening and reading are half length</b>, with every kind of task kept and the time cut to match. TOPIK I papers are full length.",
+        "<b>Writing is counted in words, not characters.</b> The 200–300 characters of item 53 are about 50–75 words here, and the 600–700 characters of item 54 about 140–175. Within the writing section, the items are not weighted as in the real test.",
+        "<b>Pictures and graphs are described in words</b>, and the tickets, notices and messages of TOPIK I reading are given as text.",
+        "<b>Questions are in English</b> in the TOPIK I papers, with the options in Korean; the real test prints its questions in Korean.",
+        "<b>Recordings can be replayed</b>, and the TOPIK I papers show the text of each recording after you answer. For TOPIK II, play each recording once, then answer.",
+        "<b>There is no speaking test</b>, and the internet-based test's own formats are not covered.",
+        "<b>Words can be tapped</b> for their meaning while you practise; the real test allows no dictionary."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official TOPIK preparation course?", "answer": "No. Glossa is not connected with NIIED or South Korea's Ministry of Education. The papers follow NIIED's published test information and the task types of its released past papers, with original content. NIIED publishes past papers with their audio and answers on topik.go.kr; check them for the current format." },
+        { "question": "Should I take TOPIK I or TOPIK II?", "answer": "TOPIK I awards levels 1 and 2, and TOPIK II levels 3 to 6. The TOPIK I papers are written for learners who have finished Tier 4 of the course, and the TOPIK II papers for those who have finished Tier 6." },
+        { "question": "Which level do I need for a visa or university?", "answer": "That depends on the visa, the university or the employer. The Korean authorities that grant visas and residence decide which level they ask for and set the other conditions, and each university and employer sets its own requirement." },
+        { "question": "What is free?", "answer": "The whole Korean course, the grammar reference, word practice and the placement test are free. The TOPIK practice papers, specializations, conversation practice, stories and the other extras are part of Premium." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Korean, and open the first module or the TOPIK papers."
+  },
+  "trademark": "TOPIK (Test of Proficiency in Korean, <span lang=\"ko\">한국어능력시험</span>) is administered by the National Institute for International Education of South Korea's Ministry of Education. Glossa is not affiliated with or endorsed by it."
+}

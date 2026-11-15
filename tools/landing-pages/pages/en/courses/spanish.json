@@ -1,0 +1,105 @@
+{
+  "title": "Learn Spanish from A1 to C1, grammar explained · Glossa",
+  "description": "Free Spanish course for English speakers: Castilian Spanish from first words to C1 in 78 modules, grammar explained, feedback that says why an answer is wrong.",
+  "card": { "title": "Spanish", "text": "Castilian Spanish from first words to C1, with DELE practice papers and 13 professional specializations." },
+  "eyebrow": "Course · Spanish for English speakers",
+  "heading": "Learn <em>Spanish</em> with the grammar explained.",
+  "lead": "A complete course in Castilian Spanish for English speakers, from pronunciation and first words to the subjunctive, registers and literature at C1. Each module explains its grammar directly, then practises it with exercises whose feedback says what was wrong and why.",
+  "fineprint": "The whole course, the grammar reference, word practice and the placement test are free. DELE practice papers, specializations, stories, conversation practice and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course: 8 tiers, 78 modules",
+    "items": [
+      { "title": "Tier 1 · A1 · Sounds and first words", "text": "Pronunciation, spelling, greetings, articles, <span lang=\"es\">ser</span>, numbers." },
+      { "title": "Tier 2 · A1 · Everyday basics", "text": "The present tense, adjectives, <span lang=\"es\">estar</span> and <span lang=\"es\">hay</span>, questions." },
+      { "title": "Tier 3 · A1–A2 · Daily life", "text": "Stem-changing and reflexive verbs, <span lang=\"es\">gustar</span>, plans and shopping." },
+      { "title": "Tier 4 · A2 · The past", "text": "The past tenses and object pronouns." },
+      { "title": "Tier 5 · B1 · Building fluency", "text": "<span lang=\"es\">Por</span> and <span lang=\"es\">para</span>, future, conditional, imperative, present subjunctive." },
+      { "title": "Tier 6 · B1–B2 · Intermediate", "text": "Relative clauses, compound tenses, reported speech, <span lang=\"es\">se</span>." },
+      { "title": "Tier 7 · B2 · Upper intermediate", "text": "The imperfect subjunctive, conditional sentences, connectors." },
+      { "title": "Tier 8 · C1 · Advanced", "text": "Fine points of grammar, style, colloquial Spanish, varieties." }
+    ],
+    "note": "All eight tiers are free."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "A course that explains, then checks",
+      "items": [
+        { "title": "Grammar taught directly", "text": "<span lang=\"es\">Ser</span> and <span lang=\"es\">estar</span>, the preterite and the imperfect, <span lang=\"es\">por</span> and <span lang=\"es\">para</span> and the subjunctive each get their own modules, explained in plain English before you practise them." },
+        { "title": "Feedback that says why", "text": "Every answer gets feedback with the reason and a link to the grammar rule, and the exercises you got wrong come back at the end." },
+        { "title": "Every Spanish word can be tapped", "text": "Tap any word in a lesson, exercise or text for its meaning, its forms and audio, and add it to your vocabulary." },
+        { "title": "The Spanish of Spain, and its varieties", "text": "Castilian Spanish with audio from a voice from Spain, notes on Latin American usage, and a module on the varieties of Spanish in the last tier." },
+        { "title": "Speaking with pronunciation feedback", "text": "Pronunciation activities in the modules assess how you read Spanish sentences aloud, with written feedback, and let you compare your recording with the reference audio." },
+        { "title": "Common traps", "text": "Short units on the mistakes English speakers make in Spanish, from false friends to <span lang=\"es\">tener</span> and <span lang=\"es\">hacer</span> where English uses \"to be\"." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "columns": ["", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 78 modules in eight tiers, A1 to C1", "The same"],
+        ["Grammar reference, word practice, placement test", "Included", "Included"],
+        ["Ask AI about any word, sentence or answer", "5 questions a day", "50 questions a day"],
+        ["13 specialization courses", "No", "Included"],
+        ["DELE practice papers, A1 to C2", "No", "Timed papers, writing rated by AI"],
+        ["Stories, with AI feedback on your retellings", "No", "Included"],
+        ["Conversation practice with an AI character", "No", "Typed or spoken"],
+        ["Lessons on a topic you choose", "No", "Included"],
+        ["Texts on how Spain works, idioms", "No", "Included"],
+        ["Pronunciation practice on sentences you type", "No", "Included"],
+        ["Offline download of modules and stories", "No", "Included"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year. You can cancel at any time."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for the DELE",
+      "intro": "The course has two timed practice papers for each of the six DELE levels, A1 to C2, in the exam's task formats with original content. They are part of Premium.",
+      "items": [
+        "<a href=\"/exams/dele.html\">DELE practice papers</a>: what each level asks, what the papers cover and where they differ from the real exam."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Spanish for your field",
+      "intro": "Thirteen specialization courses, each with nine modules in three stages (foundations, working vocabulary and professional), which open as you reach tiers 4, 6 and 8 of the course. They are part of Premium.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Spanish course really free?", "answer": "Yes. All 78 modules from A1 to C1, the grammar reference, word practice and the placement test are free, with no limit on lessons. Premium adds the extras listed above." },
+        { "question": "Which Spanish does Glossa teach?", "answer": "Castilian Spanish, the Spanish of Spain, with notes where Latin American usage differs and a module on the varieties of Spanish." },
+        { "question": "I already know some Spanish. Do I have to start from the beginning?", "answer": "No. The placement test finds the tier to start from, and you can open any module." },
+        { "question": "How far does the course go?", "answer": "To C1: the last tier covers the fine points of the subjunctive, prepositions and verb government, registers and style, colloquial Spanish, history, literature and law." },
+        { "question": "Can it prepare me for the DELE?", "answer": "The course covers the grammar and vocabulary from A1 to C1, and Premium adds timed practice papers for every DELE level. The papers have no speaking test and their results are an estimate, so they are practice, not a prediction of your result." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the first module, or find your level.",
+    "text": "Sign in with Google, take the placement test if you already know some Spanish, and open the module it suggests."
+  },
+  "trademark": "DELE (Diplomas de Español como Lengua Extranjera) are awarded by the Instituto Cervantes on behalf of Spain's Ministry of Education. Glossa is not affiliated with or endorsed by either."
+}

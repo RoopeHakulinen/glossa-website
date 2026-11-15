@@ -1,0 +1,98 @@
+{
+  "title": "Turkish course for English speakers, A1 to C1 · Glossa",
+  "description": "A Turkish course from first words to C1: 76 modules in eight tiers, vowel harmony and the suffixes explained directly, and practice papers for the TYS exam.",
+  "card": { "title": "Turkish", "text": "76 modules from A1 to C1, with vowel harmony, the cases and the suffixes explained step by step." },
+  "eyebrow": "Course · Turkish for English speakers",
+  "heading": "Learn <em>Turkish</em> with the grammar explained.",
+  "lead": "A complete course in the standard Turkish of Türkiye, in the spelling of the Turkish Language Association, from the alphabet to C1. Vowel harmony, the cases, the suffix chains and the tenses are taught directly, one step at a time, and every answer gets feedback that says why it was right or wrong.",
+  "fineprint": "The whole course is free: all 76 modules, the grammar reference, word practice and the placement test. Practice papers, specializations and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course: eight tiers, 76 modules",
+    "items": [
+      { "title": "Tier 1 · Sounds and first words", "text": "The alphabet, vowel harmony, <span lang=\"tr\">sen</span> and <span lang=\"tr\">siz</span>, \"to be\" as suffixes, <span lang=\"tr\">var</span> and <span lang=\"tr\">yok</span>." },
+      { "title": "Tier 2 · First sentences", "text": "The locative, dative, ablative and accusative, possessives, the present continuous." },
+      { "title": "Tier 3 · The cases and the past", "text": "The past and future tenses, compound nouns, postpositions, can and must." },
+      { "title": "Tier 4 · Building fluency", "text": "The imperative, the aorist, the past continuous, comparison, infinitives." },
+      { "title": "Tier 5 · Everyday fluency", "text": "The <span lang=\"tr\">-mIş</span> past, the conditional, relative clauses, converbs, work and education." },
+      { "title": "Tier 6 · Intermediate", "text": "The passive and causative, reported speech, noun clauses, the media." },
+      { "title": "Tier 7 · Upper intermediate", "text": "Verb government, word formation, formal address, law, business and official Turkish." },
+      { "title": "Tier 8 · Advanced", "text": "Modality, word order, style, idioms, spoken Turkish, history and literature." }
+    ],
+    "note": "76 modules in all. A placement test lets you start further up if you already know some Turkish."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "The course",
+      "heading": "What the course teaches, and how",
+      "items": [
+        { "title": "Grammar taught directly", "text": "Each module explains its grammar before you practise it: why it is <span lang=\"tr\">evde</span> but <span lang=\"tr\">parkta</span>, when to use the aorist and when the present continuous, how <span lang=\"tr\">-dI</span> differs from <span lang=\"tr\">-mIş</span>. A searchable grammar reference links each rule to the modules that teach it." },
+        { "title": "Feedback that says why", "text": "A wrong answer shows the correct one, the reason yours was wrong and a link to the rule. There is no limit on how many exercises you do." },
+        { "title": "Every word can be tapped", "text": "Tap any Turkish word, anywhere in the course, for its meanings, its forms, examples and audio, so a long word built from suffixes can be taken apart." },
+        { "title": "Common traps, set out", "text": "13 sets of common traps for English speakers, among them <span lang=\"tr\">i</span> and dotless <span lang=\"tr\">ı</span>, no plural after numbers, the question particle, and <span lang=\"tr\">de/da</span> written joined or apart." },
+        { "title": "From everyday to official Turkish", "text": "The later tiers cover the language of work, the media, law, business and offices, and the last tier spoken Turkish, style, idioms, history and literature." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "columns": ["", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 76 modules from A1 to C1, the grammar reference, word practice, the placement test and 13 sets of common traps.", "Everything in Free."],
+        ["Ask AI", "5 questions a day about any exercise or text.", "50 questions a day."],
+        ["Practice", "Exercises with audio, and review of the words you learn.", "Conversation practice with an AI character in 36 scenarios, and lessons written on a topic you choose."],
+        ["Reading", "The texts in the modules.", "Six stories with AI feedback on your retellings, 19 texts on how Türkiye works (the state, taxes, work, healthcare, renting, residence permits, e-Devlet) and six sets of idioms."],
+        ["Specializations and exams", "Not included.", "13 professional specializations and timed practice papers for the TYS exam."],
+        ["Offline", "Not included.", "Download modules and stories to use offline."]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year. The Turkish course has no pronunciation feedback or pronunciation practice, as the speech assessment Glossa uses does not cover Turkish."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for the TYS",
+      "intro": "The course has two timed practice papers for the <span lang=\"tr\">Türkçe Yeterlik Sınavı</span> (TYS), the Yunus Emre Institute's exam of Turkish as a foreign language, used for university study and work in Türkiye.",
+      "items": [
+        "<a href=\"/exams/turkish.html\">TYS practice papers</a>: what the exam asks, what the papers cover, and where they differ from the real exam."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "13 professional specializations",
+      "intro": "Each specialization has nine modules in three stages, Foundations, Working vocabulary and Professional, which open as you reach tiers 4, 6 and 8 of the course.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Turkish course really free?", "answer": "Yes. All 76 modules, the grammar reference, word practice and the placement test are free, with 5 Ask AI questions a day. Premium adds the extras listed above." },
+        { "question": "How far does the course go?", "answer": "From first words to C1, in eight tiers. The last tiers cover formal and official Turkish, style, spoken Turkish and literature." },
+        { "question": "Which Turkish does it teach?", "answer": "The standard Turkish of Türkiye, spelled by the rules of the Turkish Language Association (<span lang=\"tr\">Türk Dil Kurumu</span>)." },
+        { "question": "Can I practise speaking?", "answer": "The Turkish in the course comes with audio, and Premium has conversation practice with an AI character. There is no rating of your pronunciation, because the speech assessment Glossa uses does not cover Turkish." },
+        { "question": "Does it prepare me for the TYS?", "answer": "The course teaches Turkish up to C1, and Premium adds two timed practice papers for the TYS. The papers have no speaking test and are shorter than the real exam in reading and listening. The <a href=\"/exams/turkish.html\">exam page</a> has the details." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the first module.",
+    "text": "Sign in with Google, take the placement test if you already know some Turkish, and open the first module."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "title": "HSK practice papers, HSK 1 to HSK 7–9 · Glossa",
+  "description": "Timed practice papers for the new HSK at every level, HSK 1 to 7–9, with a full Chinese course behind them: what each level asks and what the papers leave out.",
+  "card": { "title": "HSK (Chinese)", "text": "Two timed practice papers at each level of the new HSK, from HSK 1 to the advanced HSK 7–9 exam." },
+  "eyebrow": "Exam preparation · Chinese",
+  "heading": "Practise for the <em>HSK</em>, from level 1 to 7–9.",
+  "lead": "Timed practice papers for the new format of the HSK (<span lang=\"zh-Hans\">汉语水平考试</span>, the Chinese Proficiency Test), at levels 1 to 6 and the advanced HSK 7–9 exam, in the real test's task types with original content. Behind them is a complete Mandarin course from pinyin to HSK 7–9, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Chinese course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From HSK 4 practice paper 1, reading",
+    "lang": "zh-Hans",
+    "title": "第二部分（1）",
+    "text": "我原来打算大学一毕业就读研究生，但是后来我发现，自己对现在的专业并不感兴趣。所以我决定先工作两年，等找到自己真正喜欢做的事以后，再考虑要不要读研究生。",
+    "question": "★ 说话人现在打算：",
+    "options": ["马上读研究生", "先工作两年", "换一个专业", "出国留学"],
+    "note": "Every word in a paper can be tapped for its pinyin and meaning while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The test",
+      "heading": "What each level asks",
+      "intro": [
+        "The HSK is run by Chinese Testing International (CTI) for the Center for Language Education and Cooperation (<span lang=\"zh-Hans\">中外语言交流合作中心</span>), which writes its papers and syllabus. Its new format, which CTI calls HSK 3.0, has three stages and nine levels: levels 1 to 6 are separate tests, so you can take any of them without the one below, and levels 7 to 9 are one advanced exam that places you at level 7, 8 or 9.",
+        "CTI launches the new levels 1 to 6 worldwide on 13 December 2026. Sittings before then use the format of 2009, which has different parts and timings; Glossa's papers follow the new format only. Levels 3 to 6 have a separate speaking test, and HSK 7–9 has speaking and translation inside the exam."
+      ],
+      "columns": ["Level", "The real test", "In Glossa's papers"],
+      "rows": [
+        ["HSK 1", "Listening 20 items in about 12 minutes, reading 20 items in 20 minutes. No writing. Pinyin over every Chinese word.", "The real section times. Reading has 16 items, because one matching task counts as one item. Pictures are described in words."],
+        ["HSK 2", "Listening 25 questions in about 17 minutes, reading 25 in 25, writing 10 in 10, such as writing a character for its pinyin. Pinyin over all the Chinese text.", "Full length: all 60 questions with the real section times. Characters are typed with a pinyin keyboard instead of written by hand."],
+        ["HSK 3", "Listening 30 items in about 23 minutes, reading 30 in 30, writing 10 in 20. Characters only, apart from the pinyin over the gaps of the first writing task.", "Listening has 15 items in 12 minutes, with every part kept. Reading and writing are full length."],
+        ["HSK 4", "Listening 32 items in about 20 minutes, reading 32 in 30, writing 6 in 25: five sentences about pictures and a short text of at least 80 characters. No pinyin from here on.", "Listening has 16 questions in 10 minutes and reading 16 in 15. Writing is full length."],
+        ["HSK 5", "Listening 35 items in about 25 minutes, reading 35 in 35, writing 2 in 40: a picture story of at least 100 characters and an essay of at least 200.", "Listening has 18 questions in 13 minutes and reading 16 in 20. Writing is full length."],
+        ["HSK 6", "Listening 40 items in about 30 minutes, reading 40 in 40, writing 2 in 45: a practical text of at least 150 characters and an essay of at least 300.", "Listening and reading have 20 questions each, in 15 and 20 minutes. Writing is full length."],
+        ["HSK 7–9", "Listening 40 items in about 33 minutes, reading 40 in 50, writing 2 in 55, translation 4 in 42, speaking 5 in about 20. About 200 minutes, on a computer only.", "Listening has 22 questions in 18 minutes and reading 22 in 28. Writing and the written translation are full length. No spoken translation and no speaking."]
+      ],
+      "note": "Based on Chinese Testing International's sample papers, test pages and the HSK syllabus of the Center for Language Education and Cooperation, checked in October 2026. Times leave out the minutes for personal details and the answer sheet. Check chinesetest.cn for the current format when you register."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Scores",
+      "heading": "How the new HSK is scored",
+      "intro": "The scoring of the new format is only partly published.",
+      "items": [
+        "<b>HSK 1 to 6:</b> CTI and the Center for Language Education and Cooperation have not published section maximums, totals or pass marks for the new format. The figures of the 2009 format do not apply to it.",
+        "<b>HSK 7–9:</b> each of the five sections gets a report score from 0 to 100, and the result is given as level 7, 8 or 9, or as below level 7. CTI publishes no cut scores for the three levels and no pass mark.",
+        "Score reports of HSK 6 and HSK 7–9 are valid for two years, CTI states."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Vocabulary",
+      "heading": "How many words each level asks for",
+      "intro": "The HSK syllabus published in November 2025, in force from July 2026, lists these vocabularies, counting the words of the levels below:",
+      "items": [
+        "<b>HSK 1:</b> 300 words",
+        "<b>HSK 2:</b> 500 words",
+        "<b>HSK 3:</b> 1,000 words",
+        "<b>HSK 4:</b> 2,000 words",
+        "<b>HSK 5:</b> 3,600 words",
+        "<b>HSK 6:</b> 5,400 words",
+        "<b>HSK 7–9:</b> 11,000 words"
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers at each level", "text": "Fourteen papers in all, from HSK 1 to HSK 7–9, with original texts and recordings in the new format's task types, from matching sentences to pictures to paragraph order, chart descriptions and translation." },
+        { "title": "Writing rated by AI", "text": "From HSK 3 on, sentences that match no model answer, short texts, essays and translations are rated by AI against what each task asks, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "80 modules in eight tiers that follow HSK 1 to HSK 7–9, and each level's papers are written for learners who have finished the matching tier, so a weak spot in a paper has a module to go back to." },
+        { "title": "Pinyin when you want it", "text": "At HSK 1 and 2 pinyin is over every word, as in the real paper, and you can hide it to practise reading the characters alone. Every word can be tapped for its pinyin, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real test",
+      "items": [
+        "<b>No HSK score is given.</b> A section's result is the share of points you got. Glossa does not convert it into an HSK score or a level, or say whether you would pass.",
+        "<b>Listening and reading are shorter from HSK 4 on.</b> They have about half the questions of the real test, and at HSK 3 listening does, with every part kept and the time cut to match. HSK 2 is full length, and writing is full length at every level that has it.",
+        "<b>There is no speaking.</b> The papers leave out the separate speaking tests of HSK 3 to 6, and the speaking and spoken translation of HSK 7–9.",
+        "<b>Pictures and charts are described in words.</b> Where the real paper shows pictures, the options or prompts describe them; at HSK 7–9 the chart is a table.",
+        "<b>Characters are typed</b>, not written by hand, so the papers test choosing the right character rather than writing its strokes.",
+        "<b>Recordings can be replayed</b>, which the real test does not allow, so play each one once and then answer.",
+        "<b>Words can be tapped</b> for their meaning while you practise; the real test allows no dictionary."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa connected with the HSK?", "answer": "No. Glossa is not connected with Chinese Testing International or the Center for Language Education and Cooperation. The papers follow their published sample papers and syllabus, with original content." },
+        { "question": "Do the papers follow the old HSK or the new one?", "answer": "The new format (HSK 3.0), which CTI launches for levels 1 to 6 on 13 December 2026. The 2009 format used before then has different parts, timings and scores, and Glossa's papers do not model it. HSK 7–9 has had the same structure since 2022." },
+        { "question": "Which level should I practise for?", "answer": "Each level's papers are written for learners who have finished the matching tier of the course: HSK 1 after Tier 2, HSK 2 after Tier 3, and so on up to HSK 7–9 after Tier 8. The placement test shows where you are." },
+        { "question": "What is free?", "answer": "The whole Chinese course from pinyin to HSK 7–9, the grammar reference and word practice are free. The HSK practice papers, conversation practice, stories and the other extras are part of Premium." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Chinese, and open the first module or the HSK papers."
+  },
+  "trademark": "The HSK (<span lang=\"zh-Hans\">汉语水平考试</span>, the Chinese Proficiency Test) is run by Chinese Testing International for the Center for Language Education and Cooperation. Glossa is not affiliated with or endorsed by either."
+}

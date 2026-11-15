@@ -1,0 +1,87 @@
+{
+  "title": "Tisus practice: Swedish reading and writing papers · Glossa",
+  "description": "Timed practice papers for Tisus, the Swedish test for university studies in Sweden, plus a Swedish course to C1. What the test asks and what papers leave out.",
+  "card": { "title": "Tisus (Swedish)", "text": "Reading and full-length writing papers for the Swedish test for university studies." },
+  "eyebrow": "Exam preparation · Swedish",
+  "heading": "Practise for <em>Tisus</em> in Swedish.",
+  "lead": "Two timed practice papers for the reading and writing parts of Tisus, the test that shows your Swedish is good enough for studies at a Swedish university. Behind them is a complete Swedish course to C1, with the academic and formal Swedish the test is built on.",
+  "fineprint": "The Swedish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Finnish speakers.",
+  "panel": {
+    "label": "From practice paper 1, reading",
+    "lang": "sv",
+    "title": "Föreläsningssalen behövs fortfarande",
+    "text": "Under pandemiåren lärde sig svenska lärosäten att undervisa på distans på rekordtid. Föreläsningar spelades in, seminarier flyttade till videomöten och tentamina skrevs hemma vid köksbordet.",
+    "question": "Vilken är författarens huvudsakliga ståndpunkt?",
+    "options": [
+      "Inspelade föreläsningar bör inte längre få användas vid universiteten.",
+      "Undervisning där studenterna möts bör inte helt ersättas av inspelningar.",
+      "Lärosätena bör återgå till den undervisning som fanns före pandemin."
+    ],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The test",
+      "heading": "What Tisus asks",
+      "intro": "Tisus (<span lang=\"sv\">Test i svenska för universitets- och högskolestudier</span>) is run by Stockholm University. Its level matches the upper-secondary courses <span lang=\"sv\">Svenska 3</span> and <span lang=\"sv\">Svenska som andraspråk 3</span>; Stockholm University does not tie it to a CEFR level, although others often describe it as C1. There is no listening part. Reading and writing are taken on the same morning, and speaking the same or the next day.",
+      "columns": ["Part", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Reading <span lang=\"sv\">(Läsförståelse)</span>", "75 minutes. First 30 questions on five texts of 500 to 900 words, such as opinion pieces, editorials and popular science: multiple choice with three options, statements that are or are not supported by the text, and a few short answers. Then 15 search questions on one long text, such as a report, answered in a few words from the text. No aids.", "The same task types, with three texts of five questions each and one long text to search. 40 minutes."],
+        ["Writing <span lang=\"sv\">(Skriftlig färdighet)</span>", "2 hours 30 minutes. One argumentative text (<span lang=\"sv\">resonerande text</span>) of about 400 words with a given title, for an educated general reader, with a short background text and optional quotations. A Swedish–Swedish dictionary is allowed.", "The full task and the full 2 hours 30 minutes, rated by AI against the Tisus criteria."],
+        ["Speaking <span lang=\"sv\">(Muntlig färdighet)</span>", "About 30 minutes. In Sweden, a group discussion of about 20 minutes on a topic sent a week before and a short individual talk; abroad, a recorded monologue of 10 to 15 minutes.", "Not included: Glossa cannot yet assess free speech."]
+      ],
+      "note": "Based on Stockholm University's published descriptions of Tisus, checked in October 2026."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Passing",
+      "heading": "How Tisus is graded",
+      "intro": "Each part is graded <span lang=\"sv\">godkänd</span> (pass) or <span lang=\"sv\">underkänd</span> (fail), and you need a pass in all three.",
+      "items": [
+        "The <b>reading pass mark</b> is set after each test and is usually around 24 to 30 of 45 points.",
+        "If you fail <b>one part</b>, you retake only that part within a year; if you fail two or three, you retake the whole test.",
+        "A pass <b>does not expire</b>."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two practice papers", "text": "Original texts on topics such as recorded lectures, closing village schools, a shorter working week and disappearing cash, each with a full writing task." },
+        { "title": "Writing rated against the criteria", "text": "Your argumentative text is rated by AI against the Tisus criteria, with what to improve. It is an estimate, not an assessor's grade." },
+        { "title": "A full course behind the papers", "text": "75 modules in eight tiers to C1. Tiers 7 and 8 cover nominal style, connectors, word formation, the Swedish of the authorities, register and style, and academic Swedish, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Swedish word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real test",
+      "items": [
+        "<b>Reading is shorter</b>, with fewer texts and questions than the real test and the time cut to match. Writing is full length.",
+        "<b>There is no speaking part.</b>",
+        "<b>No pass mark is shown.</b> The real reading pass mark changes from test to test and the writing is judged as a whole, so a paper shows the share of points only and cannot tell you whether you would pass.",
+        "<b>The writing score is an AI estimate</b> against the Tisus criteria, not an assessor's grade.",
+        "<b>Words can be tapped</b> for their meaning and forms; the real test allows only a Swedish–Swedish dictionary, and only in writing."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official Tisus preparation course?", "answer": "No. Glossa is not connected with Stockholm University. The papers follow its published descriptions of the test, with original content." },
+        { "question": "Is there a listening part?", "answer": "No. Tisus has reading, writing and speaking. Glossa's papers cover reading and writing." },
+        { "question": "What is free?", "answer": "The whole Swedish course from A1 to C1, the grammar reference and word practice are free. The Tisus practice papers, the specializations, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "I speak Finnish. Is there a course for me?", "answer": "Yes. <a href=\"/fi/courses/swedish.html\">Swedish for Finnish speakers</a> has the same Tisus papers with the instructions in Finnish, and also papers for the Swedish YKI test at the intermediate level." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Swedish, and open the first module or the Tisus papers."
+  },
+  "trademark": "Tisus (Test i svenska för universitets- och högskolestudier) is run by Stockholm University. Glossa is not affiliated with or endorsed by it."
+}

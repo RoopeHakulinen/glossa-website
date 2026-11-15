@@ -1,0 +1,94 @@
+{
+  "title": "Preparación del Celpe-Bras: exámenes de práctica · Glossa",
+  "description": "Exámenes de práctica de la parte escrita del Celpe-Bras, con un curso de portugués de Brasil del A1 al C1 para hispanohablantes. Qué pide el examen y qué falta.",
+  "card": { "title": "Celpe-Bras (portugués)", "text": "Cuatro exámenes de práctica de la parte escrita del examen de portugués de Brasil." },
+  "eyebrow": "Preparación de exámenes · Portugués de Brasil",
+  "heading": "Prepara la parte escrita del <em>Celpe-Bras</em>.",
+  "lead": "Exámenes de práctica cronometrados con las cuatro tareas integradas de la parte escrita del Celpe-Bras: un reportaje, una grabación y dos textos escritos, cada uno seguido de un texto que escribes en portugués. Detrás hay un curso completo de portugués de Brasil para hispanohablantes, del A1 al C1, para trabajar lo que los exámenes muestran que te falta.",
+  "fineprint": "El curso de portugués de Brasil es gratis. Los exámenes de práctica forman parte de Premium, que cuesta 8,99 € al mes o 69,99 € al año. También disponible para angloparlantes.",
+  "panel": {
+    "label": "Del examen de práctica 1, tarea 1 (el audio del reportaje, aquí como texto)",
+    "lang": "pt-BR",
+    "title": "Reportagem sobre ciclovias",
+    "text": "São sete da manhã, e a avenida Central já está cheia de carros. Mas, ao lado dos carros parados, cada vez mais gente passa de bicicleta.",
+    "question": "Quanto tempo a Luciana leva hoje para chegar ao hospital?",
+    "options": ["Quase uma hora.", "Vinte e cinco minutos.", "Quarenta e cinco minutos."],
+    "note": "Después de las preguntas escribes una entrada de blog sobre el programa de bicicletas de la ciudad. Cada palabra del examen se puede tocar para ver su significado y sus formas mientras practicas."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "El examen",
+      "heading": "Qué pide el Celpe-Bras",
+      "intro": [
+        "El Celpe-Bras (<span lang=\"pt-BR\">Certificado de Proficiência em Língua Portuguesa para Estrangeiros</span>) lo organiza el Inep junto con el Ministerio de Educación y el Ministerio de Relaciones Exteriores de Brasil, dos veces al año, en Brasil y en el extranjero. Certifica el portugués en su variedad brasileña.",
+        "Hay un solo examen para todos, no uno por nivel: tu nota decide en qué nivel te certifican, si te certifican. Tiene una parte escrita y una parte oral, y necesitas las dos en la misma convocatoria. Cada tarea escrita une comprensión y escritura: no hay preguntas de comprensión, y elegir la información adecuada es parte de la tarea."
+      ],
+      "columns": ["Tarea", "Qué haces", "En los exámenes de Glossa"],
+      "rows": [
+        ["Tarea 1 <span lang=\"pt-BR\">(vídeo)</span>", "Ves un video dos veces seguidas y luego escribes un texto que lo usa. 30 minutos, con las dos proyecciones.", "El audio de un reportaje de televisión, sin imagen, con dos o tres preguntas de comprensión antes de escribir. Los 30 minutos reales."],
+        ["Tarea 2 <span lang=\"pt-BR\">(áudio)</span>", "Escuchas una grabación dos veces seguidas y luego escribes un texto que la usa.", "Lo mismo, con dos o tres preguntas de comprensión antes. 50 minutos."],
+        ["Tareas 3 y 4 <span lang=\"pt-BR\">(textos escritos)</span>", "Lees un texto y luego escribes un texto que lo usa. Las tareas 2 a 4 comparten 2 horas 30, en el orden que quieras.", "Las mismas tareas. 50 minutos cada una, una tras otra; esa división la fija Glossa."],
+        ["Parte oral", "20 minutos cara a cara: 5 sobre tus intereses y 15 sobre temas cotidianos y generales, a partir de portadas de revistas, caricaturas o fotos.", "No incluida: Glossa todavía no puede evaluar el habla libre."]
+      ],
+      "note": "Según las páginas del examen, los editales y el <span lang=\"pt-BR\">Documento-base do exame Celpe-Bras</span> que publica el Inep, consultados en octubre de 2026. Consulta el sitio del Inep para conocer el formato vigente."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Notas y niveles",
+      "heading": "Cómo se decide el nivel",
+      "intro": [
+        "Dos examinadores ponen a cada tarea escrita una nota global de 0 a 5, según qué tan bien tu texto se ajusta al autor, el lector, el propósito y el género que pide la tarea. La parte oral también se califica de 0 a 5. Tu nota final es la <b>más baja</b> de las dos partes, y el nivel se lee a partir de ella:"
+      ],
+      "items": [
+        "<b><span lang=\"pt-BR\">Avançado Superior</span></b>: de 4,26 a 5,00",
+        "<b><span lang=\"pt-BR\">Avançado</span></b>: de 3,51 a 4,25",
+        "<b><span lang=\"pt-BR\">Intermediário Superior</span></b>: de 2,76 a 3,50",
+        "<b><span lang=\"pt-BR\">Intermediário</span></b>: de 2,00 a 2,75",
+        "<b>Sin certificado</b>: menos de 2,00. Para obtener un certificado necesitas al menos 2,00 en las dos partes. El Inep no relaciona estos niveles con el MCER, y cada institución que pide el certificado decide por cuánto tiempo lo acepta."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "Qué incluye",
+      "heading": "Exámenes para practicar y un curso para aprender",
+      "items": [
+        { "title": "Cuatro partes escritas completas", "text": "Cada examen tiene las cuatro tareas, con grabaciones y textos originales: ciclovías, voluntariado, trabajo remoto, reciclaje, una festa junina, una biblioteca pública, el ecoturismo en el Pantanal y más." },
+        { "title": "Tareas que plantean una situación", "text": "Cada tarea dice quién eres, a quién escribes, para qué y en qué género: una entrada de blog, un correo electrónico, una carta formal, una carta al periódico, un artículo de revista, un comunicado. Una IA califica tus textos según cuatro criterios y te dice qué mejorar. Es una estimación, no la nota del Inep." },
+        { "title": "Un curso completo detrás", "text": "40 módulos en ocho fases del A1 al C1, centrados en lo que el portugués hace distinto del español: el futuro de subjuntivo, el infinitivo personal, los conectores, el registro y la escritura, los falsos amigos y el portuñol." },
+        { "title": "Correcciones que dicen por qué", "text": "Cada respuesta del curso se corrige con una explicación en español y un enlace a la regla gramatical. Cada palabra en portugués se puede tocar para ver sus formas, su significado y su audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Límites, con franqueza",
+      "heading": "En qué se diferencian los exámenes de práctica del examen real",
+      "items": [
+        "<b>Solo la parte escrita.</b> La parte oral queda fuera. Como la más baja de las dos partes decide el nivel, un examen de práctica no puede decirte en qué nivel te certificarían.",
+        "<b>No se da nota ni nivel.</b> El examen muestra el porcentaje de puntos, sin nota de aprobación. Glossa nunca convierte sus puntuaciones en notas o niveles del Celpe-Bras.",
+        "<b>Sin imagen de video.</b> La tarea 1 es el audio de un reportaje de televisión, así que no se practica el lado visual de la tarea.",
+        "<b>Algunas preguntas de comprensión.</b> Glossa hace dos o tres sobre cada grabación; el examen real no tiene ninguna. Cuentan lo mismo que tu texto en la puntuación de la sección.",
+        "<b>Cada tarea tiene su propio tiempo,</b> y Glossa pide de 120 a 300 palabras por texto. Las dos cosas son decisión de Glossa; el Inep no fija un número de palabras.",
+        "<b>Las grabaciones se pueden volver a escuchar,</b> y cuando una tiene varios hablantes, una sola voz los lee a todos. En el examen escuchas cada una dos veces, así que escúchala dos veces y luego escribe.",
+        "<b>Las palabras se pueden tocar</b> para ver su significado mientras practicas; en el examen escribes a mano, en papel."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Preguntas",
+      "heading": "Preguntas frecuentes",
+      "items": [
+        { "question": "¿Glossa tiene relación con el Inep?", "answer": "No. Glossa no está afiliada al Inep ni a los ministerios de Brasil. Los exámenes siguen las descripciones que publica el Inep, con contenido original. El Inep publica en su sitio una colección comentada de tareas y exámenes anteriores." },
+        { "question": "¿Qué nivel voy a obtener?", "answer": "Glossa no puede decirlo. El nivel depende de la más baja de tus notas escrita y oral, y los exámenes de práctica cubren solo la parte escrita y no dan nota." },
+        { "question": "Hablo español. ¿Me sirve escribir en portuñol?", "answer": "No. Las tareas se escriben en portugués de Brasil, y la IA las califica según la norma brasileña. El curso dedica módulos y series de trampas justamente a los errores típicos del hispanohablante." },
+        { "question": "¿Sirve para exámenes de portugués de Portugal?", "answer": "No. El Celpe-Bras certifica el portugués de Brasil, igual que el curso. Los certificados CAPLE de la Universidad de Lisboa evalúan el portugués europeo y no se incluyen." },
+        { "question": "¿Qué es gratis?", "answer": "Todo el curso de portugués de Brasil del A1 al C1, la referencia gramatical, la práctica de vocabulario y la prueba de nivel son gratis. Los exámenes de práctica del Celpe-Bras forman parte de Premium. Consulta la <a href=\"/es/courses/portuguese.html\">página del curso</a>." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Empieza con el curso y practica con los exámenes.",
+    "text": "Inicia sesión con Google, haz la prueba de nivel si ya sabes algo de portugués y abre el primer módulo o los exámenes del Celpe-Bras."
+  },
+  "trademark": "El Celpe-Bras (Certificado de Proficiência em Língua Portuguesa para Estrangeiros) lo organiza el Inep junto con el Ministerio de Educación y el Ministerio de Relaciones Exteriores de Brasil. Glossa no está afiliada a ellos ni cuenta con su respaldo."
+}

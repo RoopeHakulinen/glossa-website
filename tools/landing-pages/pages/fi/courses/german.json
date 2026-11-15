@@ -1,0 +1,109 @@
+{
+  "title": "Saksan kurssi suomenkielisille, A1–C1 · Glossa",
+  "description": "Saksaa suomeksi alkeista C1-tasolle: 76 moduulia, kielioppi suomeen verraten ja harjoituskokeet Goethe-, telc- ja TestDaF-kokeisiin. Kurssi on maksuton.",
+  "card": { "title": "Saksa", "text": "Saksan yleiskieltä alkeista C1-tasolle, selitykset suomeksi ja kielioppi suomeen verraten." },
+  "eyebrow": "Kurssi · Saksa suomenkielisille",
+  "heading": "Opi <em>saksaa</em> suomeksi, alkeista C1-tasolle.",
+  "lead": "Kokonainen kurssi, joka opettaa saksan yleiskieltä sellaisena kuin sitä käytetään Saksassa. Selitykset on kirjoitettu suomenkielisille eikä käännetty englannista: sijamuodot ovat sinulle jo tuttu ajatus, joten kurssi keskittyy siihen, mitä suomessa ei ole, kuten sukuun ja artikkeleihin, sanajärjestykseen ja prepositioihin.",
+  "fineprint": "Koko kurssi on maksuton: kaikki 76 moduulia, kielioppiopas, sanaharjoittelu ja tasotesti. Ammatilliset erikoisalat, tarinat, keskusteluharjoitukset, Goethe-, telc- ja TestDaF-harjoituskokeet ja muut lisät kuuluvat Premiumiin, joka maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa.",
+  "panel": {
+    "label": "Kurssi: kahdeksan tasoa, 76 moduulia",
+    "items": [
+      { "title": "Taso 1 · Äänteet ja ensimmäiset sanat", "text": "Ääntäminen ja oikeinkirjoitus, tervehdykset, artikkelit, <span lang=\"de\">sein</span>, numerot." },
+      { "title": "Taso 2 · Arkipuheen perusta", "text": "Preesens, <span lang=\"de\">haben</span>, monikko, sanajärjestys, kielto." },
+      { "title": "Taso 3 · Arkielämä", "text": "Modaaliverbit, erotettavat verbit, akkusatiivi ja datiivi, prepositiot." },
+      { "title": "Taso 4 · Menneisyys", "text": "Perfekti, vaihtoprepositiot, imperatiivi, refleksiiviverbit." },
+      { "title": "Taso 5 · Sujuvuus", "text": "Sivulauseet, adjektiivin taivutus, imperfekti, futuuri, genetiivi." },
+      { "title": "Taso 6 · Keskitaso", "text": "Konjunktiivi II, ehto- ja relatiivilauseet, passiivi." },
+      { "title": "Taso 7 · Ylempi keskitaso", "text": "Passiivi kaikissa aikamuodoissa, epäsuora esitys, sidossanat, sananmuodostus." },
+      { "title": "Taso 8 · Edistynyt taso", "text": "Nominaalityyli, modaalipartikkelit, tyylitasot, puhuttu saksa, kielen varieteetit." }
+    ],
+    "note": "Tasot 1–2 ovat A1-tasoa, taso 3 A1–A2, taso 4 A2, taso 5 B1, taso 6 B1–B2, taso 7 B2 ja taso 8 C1."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Miten kurssi opettaa",
+      "heading": "Saksan kielioppi suomen kautta",
+      "items": [
+        { "title": "Tutusta liikkeelle", "text": "Vaihtoprepositiot vastaavat suomen paikallissijoja: <span lang=\"de\">in der Stadt</span> on ”kaupungissa”, <span lang=\"de\">in die Stadt</span> ”kaupunkiin”. Yhdyssanat muodostetaan kuten suomessa, ja vokaalin pituus erottaa sanoja kuten suomessa (<span lang=\"de\">Staat</span> ja <span lang=\"de\">Stadt</span>)." },
+        { "title": "Se, mitä suomessa ei ole", "text": "Suku ja artikkelit, verbi toisella paikalla ja sivulauseen lopussa, pakollinen subjekti ja <span lang=\"de\">es</span> lauseessa <span lang=\"de\">Es regnet</span>. Kurssi kertoo myös, miksi saksan objekti ei muutu kiellossa: partitiivia ei ole." },
+        { "title": "Käännöksiä molempiin suuntiin", "text": "Moduuleissa käännetään saksasta suomeen ja suomesta saksaan. Toisin muotoiltu käännös voidaan hyväksyä, vaikka se ei ole sama kuin odotettu vastaus." },
+        { "title": "Palaute, joka kertoo syyn", "text": "Jokainen vastaus saa palautteen, jossa on syy ja linkki kielioppisääntöön. Yleiset sudenkuopat -osion 12 kokonaisuutta käsittelevät vääriä ystäviä sekä sanajärjestyksen ja prepositioiden tavallisimpia virheitä." },
+        { "title": "Jokaisen sanan voi avata", "text": "Napauta mitä tahansa saksan sanaa moduulissa, tarinassa tai harjoituskokeessa, niin näet sen suvun, merkityksen ja taivutusmuodot ja kuulet ääntämisen." },
+        { "title": "Ääntämispalaute", "text": "Moduulien puheharjoituksista saat palautteen ääntämisestä." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Tilaukset",
+      "heading": "Mikä on maksutonta ja mikä kuuluu Premiumiin",
+      "intro": "Kurssi on maksuton ensimmäisestä moduulista viimeiseen. Premium tuo kurssin ympärille lisäosia.",
+      "columns": ["Sisältö", "Maksuton", "Premium"],
+      "rows": [
+        ["Kurssi", "Kaikki 76 moduulia kahdeksalla tasolla, A1–C1", "Sisältyy"],
+        ["Kielioppiopas, sanaharjoittelu, tasotesti", "Sisältyy", "Sisältyy"],
+        ["Yleiset sudenkuopat suomenkielisille", "12 kokonaisuutta", "Sisältyy"],
+        ["Kysy tekoälyltä", "5 kysymystä päivässä", "50 kysymystä päivässä"],
+        ["Ammatilliset erikoisalat", "—", "13 erikoisalaa, 117 moduulia"],
+        ["Tarinat", "—", "6 tarinaa; kerro tarina omin sanoin ja saat tekoälyltä palautteen"],
+        ["Keskusteluharjoitukset", "—", "36 tilannetta tekoälyhahmon kanssa, kirjoittaen tai puhuen"],
+        ["Oppitunnit itse valitsemastasi aiheesta", "—", "Sisältyy"],
+        ["Harjoituskokeet", "—", "Kaksi ajastettua koetta 14 Goethe-, telc- ja TestDaF-kokeeseen"],
+        ["Tekstit siitä, miten Saksa toimii", "—", "19 tekstiä valtiosta ja verotuksesta asuinpaikan rekisteröintiin"],
+        ["Idiomit", "—", "6 sarjaa"],
+        ["Ääntämisharjoitus itse kirjoittamillasi lauseilla", "—", "Sisältyy"],
+        ["Moduulien ja tarinoiden lataus käyttöön ilman verkkoyhteyttä", "—", "Sisältyy"]
+      ],
+      "note": "Premium maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Kokeisiin valmistautuminen",
+      "heading": "Harjoituskokeet Goethe-, telc- ja TestDaF-kokeisiin",
+      "intro": "Kurssissa on kaksi ajastettua harjoituskoetta kuhunkin näistä kokeista, omilla teksteillä ja äänitteillä: luetun ymmärtäminen, kuullun ymmärtäminen ja kirjoittaminen. Suullista osaa niissä ei ole, eivätkä ne kerro, minkä tuloksen saisit oikeassa kokeessa: luetun ja kuullun ymmärtämisen osat ovat lyhyempiä, ja tekoäly arvioi kirjoitustehtävät.",
+      "items": [
+        "<b>Goethe-Zertifikat</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2, B1, B2, C1 ja C2 (<span lang=\"de\">Großes Deutsches Sprachdiplom</span>).",
+        "<b>telc Deutsch</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2 (<span lang=\"de\">Start Deutsch 2</span>), B1 (<span lang=\"de\">Zertifikat Deutsch</span>), B2, C1, C1 Hochschule ja C2.",
+        "<b>TestDaF</b>, saksan kielen testi saksalaisiin korkeakouluihin pyrkiville."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Ammatilliset erikoisalat",
+      "heading": "Saksaa oman alasi tarpeisiin",
+      "intro": "Kolmetoista ammatillista erikoisalaa, joissa kussakin on yhdeksän moduulia kolmessa vaiheessa: perusteet on kirjoitettu pääkurssin tason 4 osaajille, työelämän sanasto tason 6 ja ammattitaso tason 8 osaajille. Premiumilla jokainen vaihe on auki alusta asti.",
+      "items": [
+        "Politiikka ja hallinto",
+        "Juridiikka ja lakityö",
+        "Ympäristö ja kestävä kehitys",
+        "Liiketoiminta ja johtaminen",
+        "Rahoitus, pankkiala ja talous",
+        "Lääketiede ja terveys",
+        "Ohjelmistot ja IT",
+        "Tiede ja akateeminen maailma",
+        "Tekniikka, teollisuus ja energia",
+        "Journalismi ja media",
+        "Diplomatia ja kansainväliset suhteet",
+        "Matkailu ja hotelliala",
+        "Urheilu ja kuntoilu"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Kysymyksiä",
+      "heading": "Usein kysyttyä",
+      "items": [
+        { "question": "Onko kurssi todella maksuton?", "answer": "On. Kaikki 76 moduulia A1-tasolta C1-tasolle, kielioppiopas, sanaharjoittelu, yleiset sudenkuopat ja tasotesti ovat maksuttomia, ja tekoälyltä voi kysyä viisi kysymystä päivässä. Premium tuo yllä luetellut lisät." },
+        { "question": "Luin saksaa koulussa. Pitääkö aloittaa alusta?", "answer": "Ei tarvitse. Tasotesti ehdottaa, mistä kohtaa kurssia kannattaa aloittaa." },
+        { "question": "Mitä saksaa kurssi opettaa?", "answer": "Saksassa puhuttua yleissaksaa. Tasolla 8 on moduuli Itävallan ja Sveitsin saksasta: <span lang=\"de\">Grüß Gott</span>, <span lang=\"de\">Jänner</span> ja sveitsiläinen kirjoitustapa ilman <span lang=\"de\">ß</span>-kirjainta." },
+        { "question": "Valmistaako kurssi Goethe-, telc- tai TestDaF-kokeeseen?", "answer": "Kurssi etenee C1-tasolle, ja Premiumissa on ajastetut harjoituskokeet 14 Goethe-, telc- ja TestDaF-kokeeseen: luetun ja kuullun ymmärtäminen sekä kirjoittaminen. Ne eivät takaa koetulosta eivätkä ennusta arvosanaa. Glossa ei ole yhteydessä Goethe-Institutiin, telc gGmbH:hon eikä TestDaF-Institutiin." },
+        { "question": "Miten kurssi eroaa englanninkielisille tehdystä saksan kurssista?", "answer": "Saksankielinen aineisto ja harjoituskokeet ovat samat, mutta selitykset on kirjoitettu suomeksi ja kielioppia verrataan suomeen. Englantia ei tarvitse osata." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Avaa ensimmäinen moduuli.",
+    "text": "Kirjaudu sisään Google-tilillä, tee tasotesti, jos osaat jo vähän saksaa, ja aloita siitä, mitä se ehdottaa."
+  }
+}

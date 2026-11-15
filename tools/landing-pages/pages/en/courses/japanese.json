@@ -1,0 +1,105 @@
+{
+  "title": "Japanese course from hiragana to JLPT N1 · Glossa",
+  "description": "A free Japanese course from hiragana to advanced: 80 modules that follow the grammar of JLPT N5 to N1 and teach about 1,000 kanji, with feedback that explains.",
+  "card": { "title": "Japanese", "text": "From hiragana and katakana to advanced Japanese, with about 1,000 kanji and the grammar of JLPT N5 to N1." },
+  "eyebrow": "Course · Japanese for English speakers",
+  "heading": "Learn Japanese with the <em>grammar</em> explained.",
+  "lead": "A complete Japanese course for English speakers, from your first hiragana to advanced Japanese: 80 modules in eight tiers that follow the grammar of JLPT N5 to N1. About 1,000 kanji are taught step by step, particles, verb forms and keigo are explained directly, and every exercise tells you why an answer is right or wrong.",
+  "fineprint": "The whole course is free. Specialization courses, JLPT practice papers, conversation practice and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "items": [
+      { "title": "Scripts and sounds", "text": "Hiragana, katakana, typing kana, pitch, the first sentences with <span lang=\"ja\">です</span>." },
+      { "title": "First kanji and everyday basics", "text": "First kanji and numbers, polite verbs, both kinds of adjective." },
+      { "title": "Daily life", "text": "The te-form, requests and permission, counters, comparison." },
+      { "title": "Plain forms", "text": "<span lang=\"ja\">は</span> and <span lang=\"ja\">が</span>, plain forms and casual speech, giving and receiving." },
+      { "title": "Building fluency", "text": "Noun-modifying clauses, conditionals, the passive, the first keigo." },
+      { "title": "Intermediate", "text": "The causative, transitive and intransitive pairs, the written style." },
+      { "title": "Upper intermediate", "text": "Business keigo, N2 grammar, kanji compounds, the news." },
+      { "title": "Advanced", "text": "Classical forms, N1 expressions, register, spoken and regional Japanese." }
+    ],
+    "note": "80 modules. The tiers follow JLPT N5 to N1. The last tiers also cover topics such as politics, the economy, science, history, literature and law."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "What the course teaches, and how",
+      "items": [
+        { "title": "The scripts first", "text": "The first tier teaches hiragana, katakana and typing kana, the rhythm and pitch of Japanese, and the first sentences, before the kanji begin." },
+        { "title": "About 1,000 kanji, step by step", "text": "Kanji are taught from the second tier on, with furigana you can hide when you want to read without them." },
+        { "title": "The grammar taught directly", "text": "Particles such as <span lang=\"ja\">は</span> and <span lang=\"ja\">が</span>, the te-form, plain forms, conditionals, the passive and causative, and keigo each have their own modules, explained in plain English with examples." },
+        { "title": "Feedback that says why", "text": "Every answer gets feedback with a reason and a link to the grammar rule behind it. Every Japanese word can be tapped for its reading, meaning, forms and audio." },
+        { "title": "Pronunciation feedback", "text": "Speaking exercises assess your pronunciation of Japanese sentences word by word." },
+        { "title": "A placement test", "text": "If you already know some Japanese, the placement test shows where to start, so you do not have to work through what you know." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free, all 80 modules. Premium adds practice beyond the course.",
+      "columns": ["", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 80 modules, from hiragana to advanced, with the grammar reference, word practice and the placement test", "Everything in Free"],
+        ["Ask AI", "5 questions a day about any word, sentence or answer", "50 questions a day"],
+        ["Pronunciation", "Pronunciation feedback in the course's speaking exercises", "Also practice on sentences you type yourself"],
+        ["Specializations", "", "13 professional courses, from law to medicine"],
+        ["Exam practice", "", "Two timed JLPT practice papers at each of the five levels, N5 to N1"],
+        ["Reading and speaking", "", "Stories with AI feedback on your retellings, 38 conversation scenarios with an AI character, lessons on a topic you choose"],
+        ["More", "", "Texts on how Japan works, idioms, offline download"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for the JLPT",
+      "intro": "The course has timed practice papers for the Japanese-Language Proficiency Test (<span lang=\"ja\">日本語能力試験</span>), two papers at each of its five levels. Like the real test, they cover language knowledge, reading and listening; the JLPT has no writing or speaking test. <a href=\"/exams/jlpt.html\">What the papers cover and how they differ from the real test</a>.",
+      "items": [
+        "<b>N5</b>, the first level",
+        "<b>N4</b>",
+        "<b>N3</b>, the middle level",
+        "<b>N2</b>",
+        "<b>N1</b>, the highest level"
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Japanese for your field",
+      "intro": "Thirteen specialization courses, nine modules each, in three stages: Foundations after Tier 3, Working vocabulary after Tier 5 and Professional after Tier 7. Each teaches the vocabulary and register of one field.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Do I need to know hiragana before I start?", "answer": "No. The first tier starts with hiragana, then katakana and typing kana on a phone or computer, before any kanji." },
+        { "question": "How many kanji does the course teach?", "answer": "About 1,000, step by step from the second tier on, with furigana you can hide. The JLPT's earlier specifications expected about 2,000 kanji at the level N1 replaced, so learning the rest, mostly for reading, is part of preparing for N1." },
+        { "question": "Does the course prepare me for the JLPT?", "answer": "The tiers follow the grammar of N5 to N1, and Premium has two timed practice papers at each level. The papers show the share of points you got, not a JLPT score, and no course can promise a pass." },
+        { "question": "Is the Japanese course really free?", "answer": "Yes. All 80 modules, the grammar reference, word practice, the placement test and 5 Ask AI questions a day are free. The JLPT papers, specializations, stories, conversation practice and the other extras are part of Premium." },
+        { "question": "Can I practise speaking?", "answer": "The course's speaking exercises give feedback on your pronunciation word by word. With Premium you can also hold typed or spoken conversations with an AI character in 38 situations, and practise pronunciation on sentences you type." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with hiragana, or wherever you are.",
+    "text": "Sign in with Google, take the placement test if you already know some Japanese, and open the first module."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "TYS practice: Turkish proficiency exam papers · Glossa",
+  "description": "Timed practice papers for the Türkçe Yeterlik Sınavı (TYS), with a full Turkish course from A1 to C1. What the exam asks and what the papers leave out.",
+  "card": { "title": "TYS (Turkish)", "text": "Practice papers for the Yunus Emre Institute's Turkish proficiency exam, used for study and work in Türkiye." },
+  "eyebrow": "Exam preparation · Turkish",
+  "heading": "Practise for the <em>TYS</em> in Turkish.",
+  "lead": "Timed practice papers for the reading, listening and writing parts of the <span lang=\"tr\">Türkçe Yeterlik Sınavı</span>, the Turkish proficiency exam that universities in Türkiye accept. Behind them is a complete Turkish course from first words to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Turkish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From practice paper 1, reading",
+    "lang": "tr",
+    "title": "Şehirler neden daha sıcak?",
+    "text": "Yaz aylarında İstanbul’un merkezindeki bir caddede ölçülen sıcaklık, şehrin kuzeyindeki ormanlık bir bölgeden altı yedi derece yüksek olabilir. Bilim insanları bu farka “kentsel ısı adası” adını veriyor.",
+    "question": "Metne göre şehirler geceleri neden çevrelerinden daha sıcaktır?",
+    "options": [
+      "Geceleri daha çok klima kullanıldığı için.",
+      "Gündüz emilen ısı geceleri yavaş yavaş geri verildiği için.",
+      "Şehirlerde rüzgâr hiç esmediği için.",
+      "Ormanlık bölgeler geceleri çok soğuk olduğu için."
+    ],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exam",
+      "heading": "What the TYS asks",
+      "intro": "The TYS is developed by the Yunus Emre Institute (<span lang=\"tr\">Yunus Emre Enstitüsü</span>) on the basis of the Common European Framework of Reference. It is held several times a year, at the same time, in Türkiye and in the countries where the institute has centres. Reading and listening are taken in the first session, writing in the second and speaking in the third; the whole exam takes 180 minutes. Successful candidates receive a <span lang=\"tr\">Türkçe Yeterlik Belgesi</span> at level B2, C1 or C2.",
+      "columns": ["Part", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Reading <span lang=\"tr\">(Okuma)</span>", "Six texts of different kinds, such as academic, literary and newspaper texts, reports, interviews and advertisements, with 40 gap-filling, true/false, multiple-choice and matching questions. 25 points, 60 minutes.", "Four texts with 18 questions, in 27 minutes. Matching is given as multiple choice."],
+        ["Listening <span lang=\"tr\">(Dinleme)</span>", "Six recordings, such as announcements, conversations and promotional texts, with 30 questions of the same kinds. 25 points, 45 minutes.", "Four recordings with 16 questions, in 24 minutes."],
+        ["Writing <span lang=\"tr\">(Yazma)</span>", "A guided task, such as a petition, a form, a summary or a comment on a table or graph (10 points, 20 minutes), then a composition on a given topic (15 points, 40 minutes).", "Both tasks at full length in 60 minutes, rated by AI with what to improve. The institute publishes no word counts, so Glossa suggests a range for each task."],
+        ["Speaking <span lang=\"tr\">(Konuşma)</span>", "A short talk on a given topic after one to three minutes of preparation, and a conversation with the examiner on one topic. 25 points, 15 minutes.", "Not included: Glossa cannot assess free speech in Turkish."]
+      ],
+      "note": "Based on the Yunus Emre Institute's published exam pages, checked in November 2026. Writing and speaking are each rated by at least two examiners against rating scales."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Scores",
+      "heading": "How the TYS is scored",
+      "intro": "The four parts together are worth 100 points, and since January 2022 the scores are calculated with modern test theory. The institute's pages state the levels awarded but give no fixed pass mark.",
+      "items": [
+        "Levels awarded: <b>B2</b>, <b>C1</b> or <b>C2</b>.",
+        "Universities in Türkiye accept the certificate for exemption from the Turkish preparatory year. Each university decides what it requires."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two practice papers", "text": "Original texts and recordings on topics such as urban heat islands, the history of the <span lang=\"tr\">simit</span>, a ferry announcement, Göbeklitepe and a radio talk on sleep. Each paper has a guided writing task, a petition in one and a report on a table in the other, and a composition." },
+        { "title": "Writing rated by AI", "text": "Your two texts are rated by AI on task completion, organisation, accuracy and range, with what to improve. The institute does not publish its rating scale, so it is an estimate, not an examiner's grade." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, with vowel harmony, the cases, relative clauses, converbs and official Turkish explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Turkish word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exam",
+      "items": [
+        "<b>No level is given.</b> The TYS calculates its scores with modern test theory and publishes no fixed pass mark, so a paper shows the share of points only, without a pass or fail verdict or a level.",
+        "<b>Reading and listening are shorter</b> than the real exam, with fewer texts and questions and the time cut to match. Matching tasks are given as multiple choice.",
+        "<b>There is no speaking test.</b>",
+        "<b>Recordings can be replayed</b> while you practise.",
+        "<b>Words can be tapped</b> for their meaning and forms while you practise."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa connected with the Yunus Emre Institute?", "answer": "No. Glossa is not affiliated with or endorsed by the Yunus Emre Institute. The papers follow its published exam description, with original content." },
+        { "question": "Will the papers tell me which level I would get?", "answer": "No. The institute gives no fixed pass mark and calculates scores with modern test theory, so Glossa shows the share of points you scored and nothing more." },
+        { "question": "What is free?", "answer": "The whole Turkish course from A1 to C1, the grammar reference and word practice are free. The TYS practice papers, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "Is the TYS the right exam for me?", "answer": "The institute describes it as an exam for university study and work in Türkiye. Check with the university or employer you are applying to which certificate and level they ask for." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Turkish, and open the first module or the TYS papers."
+  },
+  "trademark": "The Türkçe Yeterlik Sınavı (TYS) is developed and administered by the Yunus Emre Institute (Yunus Emre Enstitüsü). Glossa is not affiliated with or endorsed by it."
+}

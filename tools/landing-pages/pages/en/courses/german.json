@@ -1,0 +1,109 @@
+{
+  "title": "German course for English speakers, A1 to C1 · Glossa",
+  "description": "A German course from first words to C1: 76 modules in eight tiers, cases, adjective endings and word order explained, with Goethe, telc and TestDaF papers.",
+  "card": { "title": "German", "text": "The standard German of Germany from first words to C1, with practice papers for Goethe, telc and TestDaF." },
+  "eyebrow": "Course · German for English speakers",
+  "heading": "Learn <em>German</em>, from first words to C1.",
+  "lead": "A complete course in the standard German of Germany. Articles and gender, the four cases, adjective endings, verb-second and verb-last word order, Konjunktiv II and the passive are each explained directly before you practise them, and the last tier covers nominal style, modal particles, spoken German and German in Austria and Switzerland.",
+  "fineprint": "The whole course is free: all 76 modules, the grammar reference, word practice and the placement test. Specializations, stories, conversation practice, Goethe, telc and TestDaF practice papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course: eight tiers, 76 modules",
+    "items": [
+      { "title": "Tier 1 · Sounds and first words", "text": "Pronunciation and spelling, greetings, nouns and articles, <span lang=\"de\">sein</span>, numbers." },
+      { "title": "Tier 2 · Everyday basics", "text": "The present tense, <span lang=\"de\">haben</span>, plurals, word order, negation." },
+      { "title": "Tier 3 · Daily life", "text": "Modal and separable verbs, the accusative and dative, prepositions." },
+      { "title": "Tier 4 · The past", "text": "The perfect tense, two-way prepositions, the imperative, reflexive verbs." },
+      { "title": "Tier 5 · Building fluency", "text": "Subordinate clauses, adjective endings, the preterite, the future, the genitive." },
+      { "title": "Tier 6 · Intermediate", "text": "Konjunktiv II, conditions, relative and infinitive clauses, the passive." },
+      { "title": "Tier 7 · Upper intermediate", "text": "The passive in all tenses, reported speech, connectors, word formation." },
+      { "title": "Tier 8 · Advanced", "text": "Nominal style, modal particles, register, spoken German, varieties of German." }
+    ],
+    "note": "Tiers 1–2 are A1, Tier 3 A1–A2, Tier 4 A2, Tier 5 B1, Tier 6 B1–B2, Tier 7 B2 and Tier 8 C1."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "German grammar explained, not guessed at",
+      "items": [
+        { "title": "Cases and endings one step at a time", "text": "The accusative, the dative, the genitive and the prepositions that take them each have their own module, and adjective endings are split in two: after the definite article, then after the indefinite article and with no article." },
+        { "title": "Word order as a rule", "text": "The verb in second place, the verb at the end of a subordinate clause and separable prefixes at the end of the sentence are taught as rules with examples, so a sentence like <span lang=\"de\">Ich rufe dich morgen an</span> has a reason behind it." },
+        { "title": "Up to the German of real texts", "text": "Tiers 7 and 8 cover reported speech, <span lang=\"de\">Amtsdeutsch</span> (the German of forms and authorities), nominal style, participle phrases and modal particles such as <span lang=\"de\">doch</span> and <span lang=\"de\">mal</span>, and a module on German in Austria and Switzerland." },
+        { "title": "Feedback that says why", "text": "Every answer gets feedback with a reason and a link to the grammar rule. A translation worded differently from the expected answer can still be accepted." },
+        { "title": "Every word inspectable", "text": "Tap any German word in a module, a story or a practice paper for its gender, meaning, forms and audio." },
+        { "title": "Speaking with pronunciation feedback", "text": "Speaking exercises in the modules are assessed for pronunciation, and 12 sets of common traps cover false friends and the mistakes English speakers make with word order and prepositions." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free from the first module to the last. Premium adds the extras around it.",
+      "columns": ["Feature", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 76 modules in eight tiers, A1 to C1", "Included"],
+        ["Grammar reference, word practice, placement test", "Included", "Included"],
+        ["Common traps for English speakers", "12 sets", "Included"],
+        ["Ask AI questions", "5 a day", "50 a day"],
+        ["Specialization courses", "—", "13 courses with 117 modules"],
+        ["Stories", "—", "6 stories, with AI feedback on your retellings"],
+        ["Conversation practice", "—", "36 scenarios with an AI character, typed or spoken"],
+        ["Lessons on a topic you choose", "—", "Included"],
+        ["Exam practice papers", "—", "Two timed papers for each of 14 Goethe, telc and TestDaF exams"],
+        ["Texts on how Germany works", "—", "19 texts, from the state and taxes to registering an address"],
+        ["Idioms", "—", "6 idiom sets"],
+        ["Pronunciation practice on sentences you type", "—", "Included"],
+        ["Offline download of modules and stories", "—", "Included"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for Goethe, telc and TestDaF",
+      "intro": "The course has two timed practice papers for each of these exams, with original texts and recordings, covering reading, listening and writing. They have no speaking part and cannot tell you which result you would get; the <a href=\"/exams/german.html\">German exams page</a> says what they cover and where they differ from the real exams.",
+      "items": [
+        "<b>Goethe-Zertifikat</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2, B1, B2, C1 and C2 (<span lang=\"de\">Großes Deutsches Sprachdiplom</span>).",
+        "<b>telc Deutsch</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2 (<span lang=\"de\">Start Deutsch 2</span>), B1 (<span lang=\"de\">Zertifikat Deutsch</span>), B2, C1, C1 Hochschule and C2.",
+        "<b>TestDaF</b>, the test for studying at a German university."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "German for your field",
+      "intro": "Thirteen specialization courses, each with nine modules in three stages: Foundations written for learners at Tier 4, Working vocabulary at Tier 6, and Professional at Tier 8.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the German course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice, the common traps and the placement test are free, with 5 Ask AI questions a day. Premium adds the extras listed above." },
+        { "question": "I already know some German. Do I have to start at the beginning?", "answer": "No. The placement test suggests where in the course to start." },
+        { "question": "Which German does it teach?", "answer": "The standard German of Germany. A Tier 8 module covers German in Austria and Switzerland, such as <span lang=\"de\">Grüß Gott</span>, <span lang=\"de\">Jänner</span> and the Swiss spelling without <span lang=\"de\">ß</span>." },
+        { "question": "Can it prepare me for the Goethe, telc or TestDaF exam?", "answer": "The course goes up to C1, and Premium adds timed practice papers for 14 Goethe, telc and TestDaF exams, for reading, listening and writing. They cannot tell you whether you would pass or which result you would get. See the <a href=\"/exams/german.html\">German exams page</a>." },
+        { "question": "Is there a version for Russian or Finnish speakers?", "answer": "Yes. <a href=\"/ru/courses/german.html\">German for Russian speakers</a> and <a href=\"/fi/courses/german.html\">German for Finnish speakers</a> have the same tiers and exam papers, with explanations in Russian or Finnish and grammar compared with that language." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Open the first module.",
+    "text": "Sign in with Google, take the placement test if you already know some German, and start where it suggests."
+  }
+}

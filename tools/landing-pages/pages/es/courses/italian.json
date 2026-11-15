@@ -1,0 +1,94 @@
+{
+  "title": "Curso de italiano para hispanohablantes, A1 a C1 · Glossa",
+  "description": "Curso gratuito de italiano explicado en español, del A1 al C1 en 40 módulos, centrado en lo que cambia respecto al español: consonantes dobles, falsos amigos.",
+  "card": { "title": "Italiano", "text": "Italiano estándar del A1 al C1 explicado en español, centrado en lo que cambia respecto al español, con exámenes de práctica CILS, CELI y PLIDA." },
+  "eyebrow": "Curso · Italiano para hispanohablantes",
+  "heading": "Aprende <em>italiano</em> a partir de tu español.",
+  "lead": "Un curso de italiano estándar de Italia, del A1 al C1, escrito en español para hispanohablantes. Lo que ya funciona igual que en español se dice en una frase; el curso dedica su tiempo a lo que cambia: las consonantes dobles, los artículos <span lang=\"it\">lo</span> y <span lang=\"it\">gli</span>, el partitivo, <span lang=\"it\">essere</span> donde el español dice <span lang=\"es\">estar</span>, <span lang=\"it\">ne</span> y <span lang=\"it\">ci</span>, los falsos amigos y el itañol.",
+  "fineprint": "El curso completo, la gramática de referencia, la práctica de vocabulario y la prueba de nivel son gratuitos. Los exámenes de práctica CILS, CELI y PLIDA y los demás extras forman parte de Premium, por 8,99 € al mes o 69,99 € al año.",
+  "panel": {
+    "label": "El curso: 8 fases, 40 módulos",
+    "items": [
+      { "title": "Fase 1 · A1 · Sonidos y primeras palabras", "text": "Consonantes dobles, ortografía y acentos, <span lang=\"it\">tu</span>, <span lang=\"it\">Lei</span> y <span lang=\"it\">voi</span>, artículos, <span lang=\"it\">essere</span> y <span lang=\"it\">c'è</span>." },
+      { "title": "Fase 2 · A1 · El presente y la vida diaria", "text": "El presente sin cambios de raíz, verbos irregulares y modales, <span lang=\"it\">piacere</span> y <span lang=\"it\">molto</span>." },
+      { "title": "Fase 3 · A2 · Posesivos, compras y el <span lang=\"it\">passato prossimo</span>", "text": "Posesivos con artículo, el partitivo, el <span lang=\"it\">passato prossimo</span> con <span lang=\"it\">avere</span> y <span lang=\"it\">essere</span>." },
+      { "title": "Fase 4 · A2 · El <span lang=\"it\">imperfetto</span>, los pronombres y las preposiciones", "text": "El <span lang=\"it\">imperfetto</span>, los pronombres de complemento, <span lang=\"it\">da</span> y <span lang=\"it\">di</span> sin la a personal." },
+      { "title": "Fase 5 · B1 · <span lang=\"it\">Ne</span>, <span lang=\"it\">ci</span>, el futuro y el <span lang=\"it\">congiuntivo</span>", "text": "El futuro, el condicional, el imperativo, el <span lang=\"it\">congiuntivo</span> después de <span lang=\"it\">credo che</span>." },
+      { "title": "Fase 6 · B1 · Pronombres combinados y tiempos del <span lang=\"it\">congiuntivo</span>", "text": "<span lang=\"it\">Glielo</span>, el indicativo después de <span lang=\"it\">quando</span>, la concordancia de tiempos." },
+      { "title": "Fase 7 · B2 · Discurso y matices", "text": "El estilo indirecto, el <span lang=\"it\">periodo ipotetico</span>, el <span lang=\"it\">si</span> impersonal, el itañol." },
+      { "title": "Fase 8 · C1 · Nivel avanzado", "text": "Conectores, expresiones idiomáticas, italiano regional, registro, traducción del español." }
+    ],
+    "note": "Las ocho fases son gratuitas."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Cómo enseña",
+      "heading": "Un curso pensado para quien ya habla español",
+      "items": [
+        { "title": "No es una traducción del curso en inglés", "text": "Un hispanohablante ya tiene el género y la concordancia, el sujeto que se omite, dos pasados con imperfecto y el subjuntivo. El curso lo dice en una frase y dedica los módulos a lo que es distinto." },
+        { "title": "El error de itañol, con nombre", "text": "Cada módulo de gramática compara con el español, nombra el error típico (<span lang=\"it\">Sto stanco</span>, <span lang=\"it\">il studente</span>, <span lang=\"it\">Ho che lavorare</span>) y te da la forma italiana correcta." },
+        { "title": "Falsos amigos repartidos por el curso", "text": "Tres módulos de falsos amigos y un módulo sobre el itañol, además de los falsos amigos de cada tema, cada par enseñado una sola vez." },
+        { "title": "Correcciones que explican el porqué", "text": "Cada respuesta recibe una explicación y un enlace a la regla gramatical, y los ejercicios que fallaste vuelven al final." },
+        { "title": "Cada palabra italiana se puede tocar", "text": "Toca cualquier palabra de una lección, un ejercicio o un texto para ver su significado, sus formas y su audio, y añadirla a tu vocabulario." },
+        { "title": "Pronunciación con corrección", "text": "Los ejercicios de expresión oral revisan tu pronunciación de frases en italiano, palabra por palabra." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Planes",
+      "heading": "Qué es gratuito y qué es Premium",
+      "columns": ["", "Gratis", "Premium"],
+      "rows": [
+        ["El curso", "Los 40 módulos en ocho fases, del A1 al C1", "Lo mismo"],
+        ["Gramática de referencia, práctica de vocabulario, prueba de nivel", "Incluido", "Incluido"],
+        ["Errores típicos: falsos amigos, artículos, pronombres, registro", "Incluido", "Incluido"],
+        ["Preguntar a la IA sobre una palabra, frase o respuesta", "5 preguntas al día", "50 preguntas al día"],
+        ["Exámenes de práctica CILS, CELI y PLIDA, del A1 al C2", "No", "Con tiempo, expresión escrita calificada por IA"],
+        ["Lecciones sobre un tema que tú eliges", "No", "Incluido"],
+        ["Expresiones idiomáticas", "No", "Incluido"],
+        ["Práctica de pronunciación con frases que escribes tú", "No", "Incluido"],
+        ["Descarga de módulos para usar sin conexión", "No", "Incluido"]
+      ],
+      "note": "Premium cuesta 8,99 € al mes o 69,99 € al año. Puedes cancelar cuando quieras."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exámenes",
+      "heading": "Exámenes de práctica para CILS, CELI y PLIDA",
+      "intro": "El curso incluye dos exámenes de práctica con tiempo para cada nivel de tres certificados de italiano, con el formato de sus tareas y contenido original: el CILS de la Università per Stranieri di Siena (A1 a C2), el CELI de la Università per Stranieri di Perugia (CELI Impatto a CELI 5) y el PLIDA de la Società Dante Alighieri (A1 a C2). En total son 36 exámenes de práctica para 18 exámenes, con las instrucciones en español. Forman parte de Premium.",
+      "items": [
+        "<a href=\"/es/exams/italian.html\">Exámenes de práctica CILS, CELI y PLIDA</a>: qué piden los exámenes B1, qué cubren los exámenes de práctica y en qué se diferencian de los reales."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Lo que no incluye",
+      "heading": "Un curso más breve que el de italiano para anglohablantes",
+      "intro": "Como parte de lo que sabes en español, el curso tiene 40 módulos, frente a los 76 del curso de italiano para anglohablantes. No tiene:",
+      "items": [
+        "cursos de especialización profesional,",
+        "historias para leer y volver a contar,",
+        "práctica de conversación con un personaje de IA,",
+        "textos sobre cómo funciona Italia."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Preguntas",
+      "heading": "Preguntas frecuentes",
+      "items": [
+        { "question": "¿El curso de italiano es gratis de verdad?", "answer": "Sí. Los 40 módulos del A1 al C1, la gramática de referencia, la práctica de vocabulario, la prueba de nivel y las unidades sobre errores típicos son gratuitos, sin límite de lecciones. Premium añade los extras de la tabla." },
+        { "question": "¿Qué italiano enseña?", "answer": "El italiano estándar de Italia, con un módulo sobre el italiano de las regiones en la última fase. Las explicaciones están en un español neutro latinoamericano, con la palabra de España al lado cuando es distinta." },
+        { "question": "Ya entiendo bastante italiano escrito. ¿Tengo que empezar desde cero?", "answer": "No. La prueba de nivel te indica por qué fase empezar." },
+        { "question": "¿Hasta dónde llega?", "answer": "Hasta el C1: la última fase trata los conectores y la concesión, las expresiones idiomáticas, el italiano regional, el registro y la escritura, y la traducción del español." },
+        { "question": "¿Sirve para preparar el PLIDA B1 para la ciudadanía?", "answer": "El curso cubre la gramática y el vocabulario del A1 al C1, y Premium añade exámenes de práctica con tiempo para todos los niveles de CILS, CELI y PLIDA, también los B1. No incluyen la prueba oral ni dan una nota, así que son práctica, no una predicción de tu resultado. Qué certificado sirve para una solicitud lo deciden las autoridades italianas que la tramitan." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Empieza por el primer módulo o busca tu nivel.",
+    "text": "Entra con Google, haz la prueba de nivel si ya sabes algo de italiano y abre el módulo que te sugiere."
+  },
+  "trademark": "El CILS lo otorga la Università per Stranieri di Siena, el CELI la Università per Stranieri di Perugia y el PLIDA la Società Dante Alighieri. Glossa no está afiliada a ninguna de ellas ni cuenta con su respaldo."
+}

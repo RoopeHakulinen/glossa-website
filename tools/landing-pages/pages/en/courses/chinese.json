@@ -1,0 +1,107 @@
+{
+  "title": "Chinese course from pinyin to HSK 7–9 · Glossa",
+  "description": "A free Mandarin Chinese course from pinyin and tones to HSK 7–9: 80 modules in simplified characters, the grammar explained. HSK practice papers in Premium.",
+  "card": { "title": "Chinese", "text": "Mandarin from pinyin and the four tones to HSK 7–9, in simplified characters, with the grammar explained." },
+  "eyebrow": "Course · Chinese for English speakers",
+  "heading": "Learn Mandarin Chinese with the <em>grammar</em> explained.",
+  "lead": "A complete Mandarin Chinese course for English speakers, from pinyin and the four tones to the level of HSK 7–9: 80 modules in eight tiers, in simplified characters as written in mainland China. Pinyin is shown over every word until you no longer need it, measure words, complements, <span lang=\"zh-Hans\">了</span> and <span lang=\"zh-Hans\">把</span> are explained directly, and every exercise tells you why an answer is right or wrong.",
+  "fineprint": "The whole course is free. Specialization courses, HSK practice papers, conversation practice and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "items": [
+      { "title": "Sounds, tones and first sentences", "text": "Pinyin, the four tones and tone changes, how characters work and how to type them, <span lang=\"zh-Hans\">是</span>." },
+      { "title": "Everyday basics", "text": "Numbers and money, questions, measure words, time and dates, family." },
+      { "title": "Daily life", "text": "Location, modal verbs, completed actions with <span lang=\"zh-Hans\">了</span>, food and shopping." },
+      { "title": "Building sentences", "text": "Complements of degree, result and direction, comparison, <span lang=\"zh-Hans\">把</span>." },
+      { "title": "Building fluency", "text": "Potential complements, the <span lang=\"zh-Hans\">被</span> passive, paired conjunctions, work." },
+      { "title": "Intermediate", "text": "Causatives, aspect in depth, written Chinese, <span lang=\"zh-Hans\">成语</span>, cohesion." },
+      { "title": "Upper intermediate", "text": "Formal written Chinese, the news, politics, the economy, law, register." },
+      { "title": "Advanced", "text": "Classical Chinese, academic writing, the varieties of Chinese and traditional characters." }
+    ],
+    "note": "80 modules. The tiers follow HSK 1 to HSK 7–9."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "What the course teaches, and how",
+      "items": [
+        { "title": "Sounds and tones first", "text": "The first tier teaches the initials and finals of pinyin, the four tones and the way tones change next to each other, how characters are built from strokes and how to type them, before the first sentences with <span lang=\"zh-Hans\">是</span>." },
+        { "title": "Pinyin you can take away", "text": "In the early tiers pinyin is shown over every word, and you can hide it whenever you want to read the characters alone. Tap any word for its pinyin, its measure word and its traditional spelling." },
+        { "title": "The grammar taught directly", "text": "Measure words, the aspect markers, <span lang=\"zh-Hans\">了</span> for completed actions and for change, the complements, the <span lang=\"zh-Hans\">把</span> and <span lang=\"zh-Hans\">被</span> constructions and the written register each have their own modules, explained in plain English with examples." },
+        { "title": "Feedback that says why", "text": "Every answer gets feedback with a reason and a link to the grammar rule behind it. Every Chinese word can be tapped for its meaning, pinyin and audio." },
+        { "title": "Pronunciation feedback", "text": "Speaking exercises assess your pronunciation of Chinese sentences word by word." },
+        { "title": "A placement test", "text": "If you already know some Chinese, the placement test shows where to start, so you do not have to work through what you know." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free, all 80 modules. Premium adds practice beyond the course.",
+      "columns": ["", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 80 modules, from pinyin to HSK 7–9, with the grammar reference, word practice and the placement test", "Everything in Free"],
+        ["Ask AI", "5 questions a day about any word, sentence or answer", "50 questions a day"],
+        ["Pronunciation", "Pronunciation feedback in the course's speaking exercises", "Also practice on sentences you type yourself"],
+        ["Specializations", "", "13 professional courses, from law to medicine"],
+        ["Exam practice", "", "Two timed HSK practice papers at each level, from HSK 1 to HSK 7–9"],
+        ["Reading and speaking", "", "Stories with AI feedback on your retellings, 36 conversation scenarios with an AI character, lessons on a topic you choose"],
+        ["More", "", "Texts on how China works, idioms, offline download"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for the HSK",
+      "intro": "The course has timed practice papers for the new HSK (<span lang=\"zh-Hans\">汉语水平考试</span>), whose levels 1 to 6 Chinese Testing International launches worldwide on 13 December 2026, with two papers at each level. Each level's papers are written for learners who have finished the matching tier. <a href=\"/exams/hsk.html\">What the papers cover and how they differ from the real test</a>.",
+      "items": [
+        "<b>HSK 1</b>, after Tier 2",
+        "<b>HSK 2</b>, after Tier 3",
+        "<b>HSK 3</b>, after Tier 4",
+        "<b>HSK 4</b>, after Tier 5",
+        "<b>HSK 5</b>, after Tier 6",
+        "<b>HSK 6</b>, after Tier 7",
+        "<b>HSK 7–9</b>, the advanced exam, after Tier 8"
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Chinese for your field",
+      "intro": "Thirteen specialization courses, nine modules each, in three stages: Foundations after Tier 3, Working vocabulary after Tier 5 and Professional after Tier 7. Each teaches the vocabulary and register of one field.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Do I need to know pinyin or any characters before I start?", "answer": "No. The first tier starts with pinyin and the four tones, then how characters are written and how to type them on a phone or computer, before the first sentences." },
+        { "question": "Simplified or traditional characters?", "answer": "The course teaches Mandarin as written in mainland China, in simplified characters. Tapping a word shows its traditional spelling too, and the last tier has a module on the varieties of Chinese and traditional characters." },
+        { "question": "Does the course prepare me for the HSK?", "answer": "The tiers follow HSK 1 to HSK 7–9, and Premium has two timed practice papers at each level of the new HSK. The papers show the share of points you got, not an HSK score, and no course can promise a pass." },
+        { "question": "Is the Chinese course really free?", "answer": "Yes. All 80 modules, the grammar reference, word practice, the placement test and 5 Ask AI questions a day are free. The HSK papers, specializations, stories, conversation practice and the other extras are part of Premium." },
+        { "question": "Can I practise speaking and tones?", "answer": "The course's speaking exercises give feedback on your pronunciation word by word. With Premium you can also hold typed or spoken conversations with an AI character in 36 everyday and work situations, and practise pronunciation on sentences you type." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with pinyin and the tones, or wherever you are.",
+    "text": "Sign in with Google, take the placement test if you already know some Chinese, and open the first module."
+  }
+}

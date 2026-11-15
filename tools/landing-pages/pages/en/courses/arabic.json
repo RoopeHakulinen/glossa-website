@@ -1,0 +1,106 @@
+{
+  "title": "Arabic course for English speakers, A1 to C1 · Glossa",
+  "description": "A Modern Standard Arabic course from the script to C1: 77 modules in eight tiers, grammar explained directly, feedback that says why. The whole course is free.",
+  "card": { "title": "Arabic", "text": "Modern Standard Arabic from the script to C1, with vowel signs shown at first and left out step by step." },
+  "eyebrow": "Course · Arabic for English speakers",
+  "heading": "Learn <em>Modern Standard Arabic</em>, from the script to C1.",
+  "lead": "A complete course in <span lang=\"ar\">الفصحى</span>, the written and formal spoken standard of the Arab world. It starts with the letters and their joined forms, teaches roots, patterns, the cases and the ten verb forms directly, and ends with media Arabic, registers and literature. Vowel signs are shown at first and left out step by step, as in real print.",
+  "fineprint": "The whole course is free: all 77 modules, the grammar reference, word practice and the placement test. Specializations, stories, conversation practice, CIMA practice papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course: eight tiers, 77 modules",
+    "items": [
+      { "title": "Tier 1 · Script and sounds", "text": "The letters and their joined forms, the sounds English lacks, vowel signs, the article." },
+      { "title": "Tier 2 · First sentences", "text": "Gender, the iḍāfa, attached pronouns, the perfect and the imperfect." },
+      { "title": "Tier 3 · The root and the cases", "text": "Roots and patterns, plurals, the dual, case endings, hollow verbs." },
+      { "title": "Tier 4 · Building fluency", "text": "Verb Forms II–IV, the subjunctive and jussive, comparison, kāna and laysa." },
+      { "title": "Tier 5 · Everyday fluency", "text": "Forms V and VI, relative clauses, inna and its sisters, the maṣdar." },
+      { "title": "Tier 6 · Intermediate", "text": "Forms VII–X, participles, the passive, conditionals, reported speech." },
+      { "title": "Tier 7 · Upper intermediate", "text": "Numbers and counted nouns, formal address, law, business and official Arabic." },
+      { "title": "Tier 8 · Advanced", "text": "Media Arabic, registers, Classical Arabic, the dialects, literature." }
+    ],
+    "note": "Tiers 1–2 are A1, Tiers 3–4 A2, Tier 5 A2–B1, Tier 6 B1, Tier 7 B2 and Tier 8 C1."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "Arabic grammar explained, not guessed at",
+      "items": [
+        { "title": "The script first", "text": "Tier 1 teaches the 28 letters in their isolated, initial, medial and final forms, the emphatic, pharyngeal and uvular sounds, and how to type on an Arabic keyboard. Transliteration is a temporary aid in Tier 1 only; from Tier 2 on, Arabic appears in Arabic script alone." },
+        { "title": "Vowel signs, then real print", "text": "Texts are fully vowelled in Tiers 1–4, partly vowelled in Tiers 5–6, and unvowelled as printed in Tiers 7–8. A setting hides the vowel signs whenever you want to read without them. In the course, every text with a recording is fully vowelled, so the voice reads the right forms." },
+        { "title": "Roots, patterns and the verb forms", "text": "The root and pattern system, sound and broken plurals, the case endings, diptotes, weak verbs and Forms II to X are taught in dedicated modules, with the rule stated plainly and examples in Arabic." },
+        { "title": "Feedback that says why", "text": "Over 5,000 exercises, each answer graded with a reason and a link to the grammar rule. Typed answers are accepted with or without vowel signs." },
+        { "title": "Every word inspectable", "text": "Tap any Arabic word for its meaning, forms and audio. The lookup sees past the conjunctions, one-letter prepositions, article and attached pronouns written onto a word, so <bdi lang=\"ar\">للمدرسة</bdi> finds <bdi lang=\"ar\">مدرسة</bdi>." },
+        { "title": "Speaking with pronunciation feedback", "text": "Every module has speaking exercises, and what you say is assessed for pronunciation." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free from the first module to the last. Premium adds the extras around it.",
+      "columns": ["Feature", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 77 modules in eight tiers, A1 to C1", "Included"],
+        ["Grammar reference, word practice, placement test", "Included", "Included"],
+        ["Ask AI questions", "5 a day", "50 a day"],
+        ["Specialization courses", "—", "13 courses with 117 modules"],
+        ["Stories", "—", "6 stories, with AI feedback on your retellings"],
+        ["Conversation practice", "—", "36 scenarios with an AI character, typed or spoken"],
+        ["Lessons on a topic you choose", "—", "Included"],
+        ["CIMA practice papers", "—", "Two timed papers"],
+        ["Texts on how Arab countries work", "—", "19 texts, from how the state works to residence permits"],
+        ["Common traps for English speakers", "12 sets", "12 sets"],
+        ["Idioms", "—", "6 idiom sets"],
+        ["Pronunciation practice on sentences you type", "—", "Included"],
+        ["Offline download of modules and stories", "—", "Included"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Arabic for your field",
+      "intro": "Thirteen specialization courses, each with nine modules in three stages: Foundations written for learners at Tier 4, Working vocabulary at Tier 6, and Professional at Tier 8.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for the CIMA",
+      "items": [
+        { "title": "<a href=\"/exams/cima.html\">CIMA (Institut du monde arabe)</a>", "text": "Two timed practice papers in the task formats of the CIMA, the test of Modern Standard Arabic that places you on a level from A1 to C2: listening, reading without vowel signs, and the three writing tasks rated by AI against the CIMA criteria. There is no speaking test, and no CIMA level is given." }
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Which Arabic does the course teach?", "answer": "Modern Standard Arabic (<span lang=\"ar\">الفصحى</span>), the standard shared by all Arab countries in writing, news and formal speech. Every exercise, text and recording is in it. The dialects are described in Tier 8 so you can recognise them, but not taught for speaking." },
+        { "question": "I cannot read the Arabic script yet. Can I start?", "answer": "Yes. Tier 1 starts with the letters, how they join, the sounds English lacks and the vowel signs, and shows how to type Arabic on a computer or phone." },
+        { "question": "Do I have to read without vowel signs?", "answer": "Not at first. Tiers 1–4 are fully vowelled, Tiers 5–6 partly, and Tiers 7–8 are printed without vowels, as Arabic is printed. You can hide the vowel signs at any level to practise reading without them." },
+        { "question": "What level does the course reach?", "answer": "C1, over 77 modules in eight tiers. If you already know some Arabic, the placement test tells you where to start." },
+        { "question": "Is the course really free?", "answer": "Yes. All 77 modules, the grammar reference, word practice and the placement test are free, with 5 Ask AI questions a day. Premium (€8.99 a month or €69.99 a year) adds the specializations, stories, conversation practice, CIMA practice papers and the other extras." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the letters, or where you left off.",
+    "text": "Sign in with Google, take the placement test if you already know some Arabic, and open the first module."
+  }
+}

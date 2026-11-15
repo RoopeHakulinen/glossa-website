@@ -1,0 +1,89 @@
+{
+  "title": "CIMA practice papers: Arabic listening, reading, writing · Glossa",
+  "description": "Timed practice papers for the CIMA test of Modern Standard Arabic, with a full Arabic course from A1 to C1. What the tests ask, and what the papers leave out.",
+  "card": { "title": "CIMA (Arabic)", "text": "Two practice papers in the task formats of the Institut du monde arabe's Modern Standard Arabic test." },
+  "eyebrow": "Exam preparation · Arabic",
+  "heading": "Practise for the <em>CIMA</em> in Modern Standard Arabic.",
+  "lead": "Timed practice papers for the listening, reading and writing tests of the CIMA (<i>Certificat international de maîtrise en arabe</i>), the test that places you on a level from A1 to C2. Behind them is a complete Arabic course from the script to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Arabic course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From practice paper 1, reading",
+    "lang": "ar",
+    "text": "<bdi>للإيجار: شقة في الطابق الثالث، فيها غرفتا نوم ومطبخ وحمام، قريبة من محطة المترو. الإيجار 450 دينارا في الشهر مع الماء والكهرباء.</bdi>",
+    "question": "<bdi>ماذا يشمل الإيجار؟</bdi>",
+    "options": ["<bdi>الماء والكهرباء</bdi>", "<bdi>الإنترنت</bdi>", "<bdi>موقف السيارة</bdi>"],
+    "note": "As in the real test, reading texts have no vowel signs. Every word can still be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The test",
+      "heading": "What the CIMA asks",
+      "intro": [
+        "The CIMA is made and run by the Institut du monde arabe (IMA) in Paris. It tests Modern Standard Arabic and has no levels to choose from: one test places you on a level of the Common European Framework from A1 to C2. Anyone aged 15 or over can take it, on paper, at centres approved by the IMA in France, the Arab world and elsewhere.",
+        "All four tests are compulsory. Listening and reading are multiple choice, with one recording or short text per question and three options in Arabic, running from simple to difficult."
+      ],
+      "columns": ["Test", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Listening <i>(compréhension orale)</i>", "44 questions in 60 minutes, from everyday expressions to radio and television. Each recording is played once; some questions are about a picture.", "20 questions in 27 minutes, from A1 to C1, with questions about the recording in place of pictures."],
+        ["Reading <i>(compréhension écrite)</i>", "44 questions in 50 minutes, from small ads and timetables to press articles and specialised journals. The texts are not vowelled.", "20 questions in 23 minutes, from A1 to C1, also without vowel signs."],
+        ["Writing <i>(production écrite)</i>", "Three tasks in 60 minutes: a story from one or two pictures (40–60 words), a reply to a message (50–100 words), and an argued opinion (50–100 words).", "All three tasks and the full 60 minutes, with the pictures of task 1 described in words, rated by AI against the CIMA criteria."],
+        ["Speaking <i>(production orale)</i>", "A guided interview, a role play and a monologue, one to one with an examiner, 11 minutes at most.", "Not included: Glossa cannot yet assess free speech the way the CIMA's examiners do."]
+      ],
+      "note": "Based on the Institut du monde arabe's CIMA page, candidate's guide and sample booklet, checked in October 2026. The IMA's page and sample booklet give the reading test 50 minutes; the candidate's guide gives 60. Check the IMA's CIMA page for the current format."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Results",
+      "heading": "How the CIMA reports a level",
+      "intro": "There is no pass or fail. According to the IMA:",
+      "items": [
+        "each right answer in listening and reading scores one point, and a wrong or blank answer none;",
+        "writing and speaking are marked by two trained markers on standardised grids;",
+        "those who take all four tests and reach at least A1 receive a certificate with an overall level and a level for each skill, valid for three years;",
+        "after a sitting you wait at least 60 days before taking it again."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two full practice papers", "text": "Original texts and recordings on everyday and public topics, from a hotel booking and a flat to rent to water scarcity, desert tourism and Arabic calligraphy, each paper running from A1 to C1." },
+        { "title": "Writing rated against the criteria", "text": "Your three texts are rated by AI against the CIMA writing criteria, with what to improve. It is an estimate, not a marker's level." },
+        { "title": "A full course behind the papers", "text": "77 modules in eight tiers from the script to C1, with roots and patterns, the cases, the ten verb forms and reading without vowel signs taught directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Arabic word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real test",
+      "items": [
+        "<b>No CIMA level is given.</b> A paper shows the share of points only; Glossa does not convert it into a CIMA level. The writing tasks are rated by AI against the CIMA criteria, which is an estimate, not a marker's level.",
+        "<b>Listening and reading are shorter:</b> 20 questions each instead of 44, with the time cut to match.",
+        "<b>There is no speaking test.</b>",
+        "<b>No pictures.</b> Listening questions about a picture are replaced by questions about the recording, and the pictures of writing task 1 are described in words.",
+        "<b>The papers stop at C1,</b> where the course stops; the real test goes up to C2.",
+        "<b>Recordings can be replayed.</b> In the test you hear each one once, so listen once and then answer. Reading texts have a play button too; leave it alone if you are practising reading.",
+        "<b>Words can be tapped</b> for their meaning while you practise; the real test allows no dictionary."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official CIMA preparation course?", "answer": "No. Glossa is not connected with the Institut du monde arabe. The papers follow its published test description and sample booklet, with original content." },
+        { "question": "Which level should I prepare for?", "answer": "There is no level to choose: everyone takes the same test, and the result places you on a level from A1 to C2. Glossa's papers run from A1 to C1 in the order of difficulty the real test uses." },
+        { "question": "Do I need to write vowel signs in the writing test?", "answer": "No. The CIMA does not require vowel signs, and the AI rating of Glossa's papers never counts their absence as an error." },
+        { "question": "What is free?", "answer": "The whole Arabic course from the script to C1, the grammar reference and word practice are free. The CIMA practice papers, conversation practice, stories and the other extras are part of Premium." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Arabic, and open the first module or the CIMA papers."
+  },
+  "trademark": "The CIMA (Certificat international de maîtrise en arabe) is made and run by the Institut du monde arabe. Glossa is not affiliated with or endorsed by it."
+}

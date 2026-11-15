@@ -1,0 +1,107 @@
+{
+  "title": "Swedish course for English speakers, A1 to C1 · Glossa",
+  "description": "A complete Swedish course from first words to C1: 75 modules in eight tiers, grammar explained directly and feedback that says why. Free, with Premium extras.",
+  "card": { "title": "Swedish", "text": "75 modules from first words to C1, with grammar explained and 13 professional specializations." },
+  "eyebrow": "Course · Swedish for English speakers",
+  "heading": "Learn <em>Swedish</em> from first words to C1.",
+  "lead": "Swedish as it is spoken in Sweden, in 75 modules across eight tiers: from pronunciation, <span lang=\"sv\">en</span> and <span lang=\"sv\">ett</span> to the s-passive, nominal style, academic Swedish and the language of law and the housing market. Grammar is explained directly, and every answer gets feedback with a reason.",
+  "fineprint": "The whole course, the grammar reference, word practice and the placement test are free. Specializations, Tisus practice papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "items": [
+      { "title": "1 · Sounds and first words", "text": "Pronunciation, greetings, <span lang=\"sv\">en</span> and <span lang=\"sv\">ett</span>, the present tense, numbers." },
+      { "title": "2 · Everyday basics", "text": "Definite forms, plurals, adjectives, verb-second word order, questions." },
+      { "title": "3 · Daily life", "text": "Verb groups, modal verbs, prepositions, food, the city, shopping." },
+      { "title": "4 · The past", "text": "The past tenses, irregular verbs, the future, reflexives, travel and health." },
+      { "title": "5 · Building fluency", "text": "Subordinate clauses, particle verbs, comparison, the s-passive." },
+      { "title": "6 · Intermediate", "text": "Relative clauses, the conditional, reported speech, participles." },
+      { "title": "7 · Upper intermediate", "text": "Passives, nominal style, connectors, word formation, forms and letters from the authorities." },
+      { "title": "8 · Advanced", "text": "Advanced word order, register and style, spoken Swedish, varieties." }
+    ],
+    "note": "75 modules in all. A placement test lets you start further up if you already know some Swedish."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "A course built for adults who want to understand the language",
+      "items": [
+        { "title": "Grammar explained, not hidden", "text": "Each grammar module states the rule: when a noun takes <span lang=\"sv\">-en</span> or <span lang=\"sv\">-et</span>, why the verb comes second, where <span lang=\"sv\">inte</span> goes in a subordinate clause. The grammar reference keeps every rule in one place." },
+        { "title": "Feedback that says why", "text": "A wrong answer is marked with the correct form and the reason, with a link to the rule. Answers are graded on the server, the same way every time." },
+        { "title": "Every word inspectable", "text": "Tap any Swedish word in an exercise, text or story for its meaning, its forms and audio." },
+        { "title": "Speaking with pronunciation feedback", "text": "Swedish has pronunciation assessment, so the course includes exercises where you say a sentence and get feedback on each word." },
+        { "title": "Word practice", "text": "The words you meet in the modules come back in word practice, and Vocabulary shows how many Swedish words you know against research-based CEFR estimates." },
+        { "title": "Up to real topics", "text": "The upper tiers cover politics and society, the economy, science, literature, history, law, academic Swedish and the Nordic neighbours." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free. Premium adds practice beyond it.",
+      "columns": ["Feature", "Free", "Premium"],
+      "rows": [
+        ["All 75 modules, A1 to C1", "Yes", "Yes"],
+        ["Grammar reference, word practice, placement test", "Yes", "Yes"],
+        ["Ask AI about any exercise", "5 questions a day", "50 questions a day"],
+        ["13 specialization courses", "No", "Yes"],
+        ["Stories with AI feedback on your retellings", "No", "Yes"],
+        ["Conversation practice with an AI character", "No", "Yes"],
+        ["Lessons on a topic you choose", "No", "Yes"],
+        ["Timed Tisus practice papers", "No", "Yes"],
+        ["Texts on how Sweden works, idioms", "No", "Yes"],
+        ["Pronunciation practice on sentences you type", "No", "Yes"],
+        ["Offline download", "No", "Yes"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for Tisus",
+      "intro": "The course has two timed practice papers for <a href=\"/exams/tisus.html\">Tisus</a>, Stockholm University's test of the Swedish needed for university studies in Sweden.",
+      "items": [
+        "<b>Reading</b> in the test's task types, shorter than the real part.",
+        "<b>Writing</b> at full length: one argumentative text in 2 hours 30 minutes, rated by AI against the Tisus criteria.",
+        "<b>No speaking part</b>, and no pass mark: the papers show the share of points only."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Swedish for your field",
+      "intro": "Thirteen specialization courses, each with nine modules in three stages (foundations, working vocabulary, professional) that open as you reach Tiers 4, 6 and 8 of the core course:",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Swedish course really free?", "answer": "Yes. All 75 modules from A1 to C1, the grammar reference, word practice and the placement test are free, with 5 Ask AI questions a day. Premium adds the specializations, Tisus papers, stories, conversations and the other extras." },
+        { "question": "Which Swedish does it teach?", "answer": "The Swedish of Sweden. Tier 8 has modules on spoken Swedish and on varieties such as Finland Swedish and the speech of Skåne and Gothenburg." },
+        { "question": "I already know some Swedish. Do I have to start from the beginning?", "answer": "No. The placement test tells you which tier to start from." },
+        { "question": "Does it prepare for Tisus?", "answer": "It has two timed practice papers for the reading and writing parts of Tisus, and the upper tiers cover the academic and formal Swedish the test asks for. There is no speaking part, and the papers cannot tell you whether you would pass. The <a href=\"/exams/tisus.html\">Tisus page</a> has the details." },
+        { "question": "Is there a version for Finnish speakers?", "answer": "Yes. <a href=\"/fi/courses/swedish.html\" lang=\"fi\">Ruotsi suomenkielisille</a> has the same modules with explanations in Finnish, and also practice papers for the Swedish YKI test at the intermediate level." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Open the first module.",
+    "text": "Sign in with Google, take the placement test if you already know some Swedish, and start where it puts you."
+  }
+}

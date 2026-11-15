@@ -1,0 +1,107 @@
+{
+  "title": "Spanisch lernen für Deutschsprachige, A1 bis C1 · Glossa",
+  "description": "Ein Spanischkurs auf Deutsch von A1 bis C1: 78 Module in acht Stufen, Grammatik im Vergleich zum Deutschen und Feedback mit Begründung. Der Kurs ist kostenlos.",
+  "card": { "title": "Spanisch", "text": "Kastilisches Spanisch von den ersten Wörtern bis C1, auf Deutsch erklärt, mit 13 beruflichen Fachgebieten." },
+  "eyebrow": "Kurs · Spanisch für Deutschsprachige",
+  "heading": "Spanisch lernen, mit der Grammatik <em>auf Deutsch erklärt</em>.",
+  "lead": "Ein vollständiger Kurs im kastilischen Spanisch Spaniens, von der Aussprache bis C1. Die Erklärungen sind auf Deutsch und vergleichen die Grammatik mit dem Deutschen: <span lang=\"es\">ser</span> und <span lang=\"es\">estar</span>, die Vergangenheitszeiten, der <span lang=\"es\">subjuntivo</span>, die Objektpronomen. Übersetzt wird in beide Richtungen.",
+  "fineprint": "Der ganze Kurs ist kostenlos: alle 78 Module, die Grammatikübersicht, das Wortschatztraining und der Einstufungstest. Berufliche Fachgebiete, Geschichten, Gesprächsübungen, DELE-Übungsprüfungen und die anderen Extras gehören zu Premium, 8,99 € im Monat oder 69,99 € im Jahr.",
+  "panel": {
+    "label": "Der Kurs: acht Stufen, 78 Module",
+    "lang": "de",
+    "items": [
+      { "title": "A1 · Laute und erste Wörter", "text": "Aussprache, Rechtschreibung, Begrüßungen, Artikel, <span lang=\"es\">ser</span> und die Zahlen." },
+      { "title": "A1 · Grundlagen des Alltags", "text": "Das Präsens, Adjektive, <span lang=\"es\">estar</span> und <span lang=\"es\">hay</span>, die Familie, Fragen." },
+      { "title": "A1–A2 · Der Alltag", "text": "Stammwechselnde und reflexive Verben, <span lang=\"es\">gustar</span>, Essen, die Stadt, Einkaufen." },
+      { "title": "A2 · Die Vergangenheit", "text": "Die Vergangenheitszeiten, die Objektpronomen, Reisen und Wohnen." },
+      { "title": "B1 · Flüssiger sprechen", "text": "<span lang=\"es\">Por</span> und <span lang=\"es\">para</span>, Futur, Konditional, Imperativ, <span lang=\"es\">subjuntivo</span> im Präsens." },
+      { "title": "B1–B2 · Mittelstufe", "text": "Relativsätze, zusammengesetzte Zeiten, indirekte Rede, Konstruktionen mit <span lang=\"es\">se</span>." },
+      { "title": "B2 · Obere Mittelstufe", "text": "<span lang=\"es\">Subjuntivo</span> im Imperfekt, Bedingungssätze, Konnektoren, Politik bis Kunst." },
+      { "title": "C1 · Fortgeschrittene", "text": "Feinheiten der Grammatik, Stil, Umgangssprache, die Varietäten des Spanischen." }
+    ],
+    "note": "Der Einstufungstest zeigt, auf welcher Stufe du einsteigen kannst."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Der Kurs",
+      "heading": "Was der Kurs lehrt, und wie",
+      "items": [
+        { "title": "Grammatik, die erklärt wird", "text": "Jedes Modul erklärt seine Regeln direkt und auf Deutsch, mit dem Vergleich zum Deutschen, wo er hilft: warum es zwei Verben für „sein“ gibt, wann <span lang=\"es\">pretérito indefinido</span> und wann <span lang=\"es\">imperfecto</span> steht, wann der <span lang=\"es\">subjuntivo</span> folgt." },
+        { "title": "Feedback, das sagt, warum", "text": "Jede Antwort bekommt eine Rückmeldung mit Begründung und einem Link zur passenden Grammatikregel. Als Fortschritt zählt nur, wie viel vom Kurs du abgeschlossen hast." },
+        { "title": "Jedes Wort lässt sich öffnen", "text": "Jedes spanische Wort im Kurs lässt sich antippen: Bedeutung, alle Formen, Aussprache als Audio." },
+        { "title": "Übersetzen in beide Richtungen", "text": "Neben Lücken-, Hör- und Sprechübungen übersetzt du vom Deutschen ins Spanische und zurück. Die Sprechübungen bekommen Feedback zur Aussprache." },
+        { "title": "Spanisch aus Spanien", "text": "Der Kurs lehrt das kastilische Spanisch Spaniens. Die letzte Stufe hat ein Modul zu den Varietäten des Spanischen und eins zur Umgangssprache." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Kostenlos und Premium",
+      "heading": "Was kostenlos ist und was zu Premium gehört",
+      "columns": ["", "Kostenlos", "Premium"],
+      "rows": [
+        ["Hauptkurs", "Alle 78 Module von A1 bis C1, mit Grammatikübersicht, Wortschatztraining und Einstufungstest", "Dasselbe"],
+        ["Fragen an die KI", "5 Fragen am Tag", "50 Fragen am Tag"],
+        ["Berufliche Fachgebiete", "—", "13 Fachgebiete mit zusammen 117 Modulen"],
+        ["Lesen und Sprechen", "—", "6 Geschichten mit KI-Feedback auf deine Nacherzählung, 36 Gespräche mit einer KI-Figur, Lektionen zu einem Thema deiner Wahl"],
+        ["Prüfungen", "—", "DELE-Übungsprüfungen mit Zeitlimit für A1 bis C2"],
+        ["Landeskunde und Redewendungen", "—", "Texte dazu, wie Spanien funktioniert, von Wahlen bis zur Wohnungssuche, und Redewendungen"],
+        ["Aussprache und offline", "—", "Ausspracheübungen mit selbst getippten Sätzen und Download zum Lernen ohne Internet"]
+      ],
+      "note": "Premium kostet 8,99 € im Monat oder 69,99 € im Jahr und lässt sich jederzeit kündigen; es läuft dann bis zum Ende des bezahlten Zeitraums."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Fachgebiete",
+      "heading": "13 Fachgebiete für Spanisch im Beruf",
+      "intro": "Jedes Fachgebiet hat neun Module in drei Etappen, jede für ein Niveau des Hauptkurses geschrieben: Grundlagen für Stufe 4, Arbeitswortschatz für Stufe 6 und Fachniveau für Stufe 8.",
+      "items": [
+        "Politik und Staat",
+        "Recht und juristische Praxis",
+        "Umwelt und Nachhaltigkeit",
+        "Wirtschaft und Management",
+        "Finanzen, Banken und Wirtschaft",
+        "Medizin und Gesundheit",
+        "Software und IT",
+        "Wissenschaft und Hochschule",
+        "Technik, Industrie und Energie",
+        "Journalismus und Medien",
+        "Diplomatie und internationale Beziehungen",
+        "Tourismus und Hotellerie",
+        "Sport und Fitness"
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Prüfungsvorbereitung",
+      "heading": "Übungsprüfungen für das DELE",
+      "intro": [
+        "Für jede der sechs Stufen des DELE (<span lang=\"es\">Diplomas de Español como Lengua Extranjera</span>), A1 bis C2, gibt es zwei Übungsprüfungen in den Aufgabenformaten der Prüfung, mit eigenen Texten und Aufnahmen. Die Schreibaufgaben bewertet eine KI nach den Kriterien des DELE. Aufbau der Prüfung nach den veröffentlichten Beschreibungen, Stand: Oktober 2026.",
+        "Worin sie sich von der echten Prüfung unterscheiden:"
+      ],
+      "items": [
+        "<b>Kein Ergebnis <span lang=\"es\">apto</span> oder <span lang=\"es\">no apto</span>.</b> Eine Übungsprüfung zeigt den Anteil der Punkte; die Bewertung der Texte durch die KI ist eine Schätzung, keine Bewertung durch einen Prüfer.",
+        "<b>Die Teile mit Lese- und Hörverstehen sind kürzer</b>, mit weniger Items pro Aufgabe und entsprechend weniger Zeit. Die Schreibaufgaben sind vollständig.",
+        "<b>Es gibt keine mündliche Prüfung.</b>",
+        "<b>Aufnahmen lassen sich wiederholen.</b> In der Prüfung läuft jede Aufnahme nur eine festgelegte Anzahl von Malen, ab A2 zweimal; hör sie auch hier so oft und antworte dann."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Fragen",
+      "heading": "Häufige Fragen",
+      "items": [
+        { "question": "Ist der Spanischkurs wirklich kostenlos?", "answer": "Ja. Alle 78 Module von A1 bis C1, die Grammatikübersicht, das Wortschatztraining und der Einstufungstest sind kostenlos. Premium bringt die beruflichen Fachgebiete, Geschichten, Gespräche, DELE-Übungsprüfungen und die anderen Extras." },
+        { "question": "Welches Spanisch lerne ich?", "answer": "Das kastilische Spanisch Spaniens, mit <span lang=\"es\">vosotros</span> und Stimmen aus Spanien. Ein Modul der letzten Stufe behandelt die Unterschiede zum Spanischen Lateinamerikas." },
+        { "question": "Ich kann schon etwas Spanisch. Muss ich bei null anfangen?", "answer": "Nein. Mach den Einstufungstest; er zeigt, auf welcher Stufe du einsteigen kannst." },
+        { "question": "Bereitet Glossa auf das DELE vor?", "answer": "Es gibt zwei Übungsprüfungen für jede Stufe von A1 bis C2, mit Lesen, Hören und Schreiben. Die mündliche Prüfung ist nicht dabei, und Glossa sagt nicht voraus, ob du bestehst. Glossa ist nicht mit dem Instituto Cervantes verbunden." },
+        { "question": "Für wen sind die Fachgebiete?", "answer": "Für alle, die Spanisch im Beruf brauchen, etwa in Recht, Medizin, Finanzen, IT oder Tourismus. Sie setzen die Grammatik des Hauptkurses voraus; die erste Etappe ist für Stufe 4 (A2) geschrieben." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Mit dem ersten Modul anfangen.",
+    "text": "Melde dich an, mach den Einstufungstest, wenn du schon etwas Spanisch kannst, und öffne das erste Modul."
+  },
+  "trademark": "Das DELE (Diplomas de Español como Lengua Extranjera) wird vom Instituto Cervantes im Auftrag des spanischen Bildungsministeriums vergeben. Glossa ist nicht mit dem Instituto Cervantes verbunden und wird von ihm weder unterstützt noch empfohlen."
+}

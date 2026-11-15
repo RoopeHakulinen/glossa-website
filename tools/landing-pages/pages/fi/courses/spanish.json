@@ -1,0 +1,107 @@
+{
+  "title": "Espanjan kurssi alusta C1-tasolle, kielioppi selitettynä · Glossa",
+  "description": "Ilmainen espanjan kurssi suomenkielisille: kastilianespanjaa alkeista C1-tasolle 78 moduulissa, kielioppi suomeen verraten ja palaute, joka kertoo miksi.",
+  "card": { "title": "Espanja", "text": "Espanjassa puhuttua espanjaa alkeista C1-tasolle suomeksi selitettynä, DELE-harjoituskokeet ja 13 erikoisalaa." },
+  "eyebrow": "Kurssi · Espanja suomenkielisille",
+  "heading": "Opi <em>espanjaa</em> suomeksi selitettynä.",
+  "lead": "Kokonainen kastilianespanjan kurssi suomenkielisille ääntämisestä ja ensimmäisistä sanoista subjunktiivin hienouksiin, tyyliin ja kirjallisuuteen C1-tasolla. Jokainen moduuli selittää kieliopin suoraan, verraten suomeen siellä, missä vertailu auttaa, ja harjoittaa sen tehtävillä, joiden palaute kertoo, mikä meni väärin ja miksi.",
+  "fineprint": "Koko kurssi, kielioppiopas, sanaharjoittelu ja tasotesti ovat ilmaisia. DELE-harjoituskokeet, erikoisalakurssit, tarinat, keskusteluharjoitukset ja muut lisät kuuluvat Premiumiin, joka maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa.",
+  "panel": {
+    "label": "Kurssi: 8 tasoa, 78 moduulia",
+    "items": [
+      { "title": "Taso 1 · A1 · Äänteet ja ensimmäiset sanat", "text": "Ääntäminen, tervehdykset, artikkelit, <span lang=\"es\">ser</span>, numerot." },
+      { "title": "Taso 2 · A1 · Arkipuheen perusta", "text": "Preesens, adjektiivit, <span lang=\"es\">estar</span> ja <span lang=\"es\">hay</span>, kysymykset." },
+      { "title": "Taso 3 · A1–A2 · Arkielämä", "text": "Refleksiiviverbit, <span lang=\"es\">gustar</span>, suunnitelmat ja ostokset." },
+      { "title": "Taso 4 · A2 · Menneisyys", "text": "Menneen ajan aikamuodot ja objektipronominit." },
+      { "title": "Taso 5 · B1 · Sujuvuus", "text": "<span lang=\"es\">Por</span> ja <span lang=\"es\">para</span>, futuuri, konditionaali, imperatiivi, subjunktiivi." },
+      { "title": "Taso 6 · B1–B2 · Keskitaso", "text": "Relatiivilauseet, liittoaikamuodot, epäsuora esitys." },
+      { "title": "Taso 7 · B2 · Ylempi keskitaso", "text": "Subjunktiivin imperfekti, ehtolauseet, sidossanat." },
+      { "title": "Taso 8 · C1 · Edistynyt taso", "text": "Kieliopin hienoudet, tyyli, puhekieli, espanjan varieteetit." }
+    ],
+    "note": "Kaikki kahdeksan tasoa ovat ilmaisia."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Miten kurssi opettaa",
+      "heading": "Ensin selitys, sitten harjoitus",
+      "items": [
+        { "title": "Selitykset suomesta käsin", "text": "Kurssi on kirjoitettu suomenkielisille, ei käännetty englannista. Se kertoo, mikä on tuttua (puhtaat vokaalit, täryytetty <span lang=\"es\">r</span>, pois jäävä subjektipronomini), ja käy suoraan läpi sen, mitä suomessa ei ole: kieliopillisen suvun, artikkelit ja subjunktiivin." },
+        { "title": "Prepositiot sijapäätteiden tilalla", "text": "<span lang=\"es\">En Madrid</span> on ”Madridissa”, <span lang=\"es\">a Madrid</span> ”Madridiin” ja <span lang=\"es\">de Madrid</span> ”Madridista”. Kurssi näyttää, miten espanja ilmaisee prepositioilla sen, minkä suomi ilmaisee sijoilla." },
+        { "title": "Yksi ”olla”, kolme verbiä", "text": "<span lang=\"es\">Ser</span>, <span lang=\"es\">estar</span> ja <span lang=\"es\">hay</span> tulevat suomen yhden olla-verbin tilalle, ja kaksi mennyttä aikaa, <span lang=\"es\">indefinido</span> ja <span lang=\"es\">imperfecto</span>, suomen imperfektin tilalle. Kummallekin on omat moduulinsa." },
+        { "title": "Palaute, joka kertoo miksi", "text": "Jokainen vastaus saa palautteen, jossa on syy ja linkki kielioppisääntöön, ja väärin menneet tehtävät palaavat harjoituksen lopussa. Käännöstehtävissä käännät kumpaankin suuntaan." },
+        { "title": "Jokaisen espanjan sanan voi avata", "text": "Napauta mitä tahansa sanaa oppitunnissa, tehtävässä tai tekstissä, niin näet merkityksen ja taivutusmuodot ja kuulet ääntämisen." },
+        { "title": "Ääntäminen ja yleiset sudenkuopat", "text": "Ääntämistehtävät arvioivat, miten luet espanjankielisiä lauseita ääneen, ja antavat kirjallisen palautteen. Lyhyet sudenkuoppasarjat käsittelevät virheitä, joihin suomenkielinen helposti erehtyy, kuten vääriä ystäviä ja prepositioita. Ne ovat ilmaisia." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Tilaukset",
+      "heading": "Mikä on ilmaista ja mikä kuuluu Premiumiin",
+      "columns": ["", "Ilmainen", "Premium"],
+      "rows": [
+        ["Kurssi", "Kaikki 78 moduulia kahdeksalla tasolla, A1–C1", "Sama"],
+        ["Kielioppiopas, sanaharjoittelu, tasotesti", "Mukana", "Mukana"],
+        ["Kysy tekoälyltä sanasta, lauseesta tai vastauksesta", "5 kysymystä päivässä", "50 kysymystä päivässä"],
+        ["13 erikoisalakurssia", "Ei", "Mukana"],
+        ["DELE-harjoituskokeet, A1–C2", "Ei", "Ajastettuina, kirjoitustehtävät tekoälyn arvioimina"],
+        ["Tarinat, joiden omin sanoin kertomisen tekoäly tarkistaa", "Ei", "Mukana"],
+        ["Keskusteluharjoitukset tekoälyhahmon kanssa", "Ei", "Kirjoittaen tai puhuen"],
+        ["Oppitunnit valitsemastasi aiheesta", "Ei", "Mukana"],
+        ["Tekstit siitä, miten Espanja toimii, idiomit", "Ei", "Mukana"],
+        ["Ääntämisharjoitukset omista lauseista", "Ei", "Mukana"],
+        ["Moduulien ja tarinoiden lataaminen käytettäviksi ilman yhteyttä", "Ei", "Mukana"]
+      ],
+      "note": "Premium maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa. Tilauksen voi perua milloin tahansa."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Kokeisiin valmistautuminen",
+      "heading": "DELE-kokeen harjoituskokeet",
+      "intro": "Kurssilla on kaksi ajastettua harjoituskoetta jokaiselle kuudelle DELE-tasolle (<span lang=\"es\">Diplomas de Español como Lengua Extranjera</span>) A1:stä C2:een, kokeen tehtävämuodoissa ja omilla teksteillä ja äänitteillä, ohjeet suomeksi. Ne kuuluvat Premiumiin.",
+      "items": [
+        "<b>Luetun ja kuullun ymmärtäminen ovat lyhyempiä</b> kuin oikeassa kokeessa, samoilla tehtävätyypeillä. Kirjoittaminen on täysimittainen, ja tekoäly arvioi sen DELE-kriteerien mukaan. Arvio on suuntaa antava, ei tarkastajan arvosana.",
+        "<b>Suullista osaa ei ole</b>, koska Glossa ei vielä pysty arvioimaan vapaata puhetta.",
+        "<b>Tulos on suuntaa antava.</b> Harjoituskoe näyttää pisteiden osuuden ja sen, ylittyykö 60 prosentin hyväksymisraja jokaisessa osaryhmässä (C2-tasolla jokaisessa osakokeessa), mutta se ei kerro, pääsisitkö kokeesta läpi (<span lang=\"es\">apto</span>): osiot ovat lyhyempiä, tekoäly arvioi kirjoittamisen eikä suullista osaa ole."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Erikoisalat",
+      "heading": "Espanjaa omalle alallesi",
+      "intro": "Kolmetoista erikoisalakurssia, joissa kussakin on yhdeksän moduulia kolmessa vaiheessa: perusteet, työsanasto ja ammattitaso. Vaiheet avautuvat, kun pääset kurssilla tasoille 4, 6 ja 8. Erikoisalakurssit kuuluvat Premiumiin.",
+      "items": [
+        "Politiikka ja hallinto",
+        "Juridiikka ja lakityö",
+        "Ympäristö ja kestävä kehitys",
+        "Liiketoiminta ja johtaminen",
+        "Rahoitus, pankkiala ja talous",
+        "Lääketiede ja terveys",
+        "Ohjelmistot ja IT",
+        "Tiede ja akateeminen maailma",
+        "Tekniikka, teollisuus ja energia",
+        "Journalismi ja media",
+        "Diplomatia ja kansainväliset suhteet",
+        "Matkailu ja hotelliala",
+        "Urheilu ja kuntoilu"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Kysymyksiä",
+      "heading": "Usein kysyttyä",
+      "items": [
+        { "question": "Onko espanjan kurssi todella ilmainen?", "answer": "On. Kaikki 78 moduulia A1:stä C1:een, kielioppiopas, sanaharjoittelu ja tasotesti ovat ilmaisia, eikä oppituntien määrää rajoiteta. Premium tuo yllä luetellut lisät." },
+        { "question": "Mitä espanjaa kurssi opettaa?", "answer": "Espanjassa puhuttua kastilianespanjaa. Viimeisellä tasolla on moduuli espanjan varieteeteista." },
+        { "question": "Osaan jo vähän espanjaa. Pitääkö aloittaa alusta?", "answer": "Ei tarvitse. Tasotesti kertoo, miltä tasolta kannattaa aloittaa, ja voit avata minkä tahansa moduulin." },
+        { "question": "Onko kaikki tosiaan suomeksi?", "answer": "On: selitykset, tehtävänannot ja palaute ovat suomeksi, ja käännöstehtävissä käännetään sekä suomesta espanjaksi että espanjasta suomeksi." },
+        { "question": "Auttaako kurssi DELE-kokeeseen?", "answer": "Kurssi opettaa kieliopin ja sanaston A1:stä C1:een, ja Premiumissa on harjoituskokeet kaikille DELE-tasoille. Ne ovat harjoitusta, eivät ennuste tuloksesta: suullista osaa ei ole, ja tulos on vain suuntaa antava." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Aloita ensimmäisestä moduulista tai selvitä tasosi.",
+    "text": "Kirjaudu Google-tilillä, tee tasotesti, jos osaat jo jonkin verran espanjaa, ja avaa moduuli, jota se ehdottaa."
+  },
+  "trademark": "DELE-tutkinnot (<span lang=\"es\">Diplomas de Español como Lengua Extranjera</span>) myöntää Instituto Cervantes Espanjan opetusministeriön puolesta. Glossa ei ole sidoksissa niihin, eivätkä ne ole hyväksyneet Glossaa."
+}

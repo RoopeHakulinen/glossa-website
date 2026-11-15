@@ -1,0 +1,99 @@
+{
+  "title": "TORFL practice papers: Russian test, A1 to C1 · Glossa",
+  "description": "Timed TORFL (ТРКИ) practice papers at five levels, A1 to C1, with a full Russian course behind them: what each subtest asks and what the papers leave out.",
+  "card": { "title": "TORFL (Russian)", "text": "Practice papers at five levels, from the elementary level to TORFL-3." },
+  "eyebrow": "Exam preparation · Russian",
+  "heading": "Practise for the <em>TORFL</em> in Russian.",
+  "lead": "Timed practice papers for the vocabulary and grammar, reading, listening and writing subtests of the TORFL (<span lang=\"ru\">ТРКИ</span>), the Russian state test of Russian as a foreign language, at five levels from A1 to C1. Behind them is a complete Russian course from the Cyrillic alphabet to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The Russian course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From practice paper 1, TORFL-1 reading",
+    "lang": "ru",
+    "title": "Кни́жное кафе́ на на́бережной",
+    "text": "Три го́да наза́д компа́ния, в кото́рой рабо́тала Ири́на, перее́хала в Москву́. Ири́не предложи́ли пое́хать вме́сте со все́ми, но она́ отказа́лась: в Яросла́вле жила́ её ста́рая ма́ма, и уезжа́ть от неё Ири́на не хоте́ла.",
+    "question": "Почему́ Ири́на не перее́хала в Москву́?",
+    "options": ["Ей не понра́вилась но́вая рабо́та.", "Она́ не хоте́ла оставля́ть ма́му.", "Она́ уже́ откры́ла своё кафе́."],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise, and stress marks are shown throughout."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The test",
+      "heading": "What TORFL-1 asks",
+      "intro": "The TORFL is held by universities and test centres in the Russian state testing system. It has six levels, and every level has the same five subtests, usually spread over two days. TORFL-1 (<span lang=\"ru\">ТРКИ-1</span>, B1) is the level Russian universities ask for when admitting students to bachelor's programmes, and TORFL-2 (B2) the level they ask for when admitting students to master's programmes.",
+      "columns": ["Subtest", "In the real test", "In Glossa's papers"],
+      "rows": [
+        ["Vocabulary and grammar <span lang=\"ru\">(Лекси́ка. Грамма́тика)</span>", "165 sentences with a gap and a few options: case endings, verb forms and aspect, prepositions and word choice. 60 minutes.", "The same task, with 30 sentences in 12 minutes."],
+        ["Reading <span lang=\"ru\">(Чте́ние)</span>", "3 texts of growing length, 20 multiple-choice questions. 50 minutes.", "3 texts of growing length, with 11 questions in 25 minutes."],
+        ["Writing <span lang=\"ru\">(Письмо́)</span>", "2 tasks, such as a letter on an everyday matter and a text based on something you have read. 60 minutes.", "Both tasks and the full 60 minutes, rated by AI against the test's criteria."],
+        ["Listening <span lang=\"ru\">(Аудирова́ние)</span>", "6 parts, 30 multiple-choice questions on dialogues, announcements and longer recordings. 35 minutes.", "Announcements, a dialogue and a radio programme, with 12 questions in 15 minutes."],
+        ["Speaking <span lang=\"ru\">(Говоре́ние)</span>", "4 tasks: dialogues, talking about a topic and discussing a text, recorded and rated by examiners. 45 minutes.", "Not included: Glossa cannot yet assess free speech."]
+      ],
+      "note": "Based on the test descriptions and model tests published by Russian test centres, checked in October 2026. Item counts and times differ at each level; test centres publish model tests (<span lang=\"ru\">типовы́е те́сты</span>) for the current format."
+    },
+    {
+      "type": "table",
+      "eyebrow": "Levels",
+      "heading": "Five levels, two papers each",
+      "intro": "Glossa has papers for five of the test's six levels.",
+      "columns": ["Level", "What it is for"],
+      "rows": [
+        ["Elementary level <span lang=\"ru\">(ТЭУ)</span>, A1", "The first communicative needs in everyday situations. The writing task is a letter about yourself to a new Russian friend."],
+        ["Basic level <span lang=\"ru\">(ТБУ)</span>, A2", "Everyday and study situations."],
+        ["TORFL-1 <span lang=\"ru\">(ТРКИ-1)</span>, B1", "The level Russian universities ask for when admitting students to bachelor's programmes."],
+        ["TORFL-2 <span lang=\"ru\">(ТРКИ-2)</span>, B2", "The level Russian universities ask for when admitting students to master's programmes."],
+        ["TORFL-3 <span lang=\"ru\">(ТРКИ-3)</span>, C1", "Free communication in professional and academic settings, with writing in formal and informal registers."]
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Passing",
+      "heading": "How the test is passed",
+      "intro": "Each subtest is scored on its own. A strong subtest cannot make up for a weak one.",
+      "items": [
+        "To pass you need at least <b>66% of the points in every subtest</b>.",
+        "The result also counts as a pass when <b>one subtest is at least 60%</b>.",
+        "Subtests you fail can be <b>retaken within two years</b>, and the results of the others are kept."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers at each level", "text": "Ten papers in all, from A1 to C1, with original texts and recordings in the test's task formats: gap sentences on cases, aspect and motion verbs, reading texts of growing length, and recordings from announcements to radio programmes." },
+        { "title": "Writing rated against the criteria", "text": "Your writing tasks are full length and rated by AI against the test's criteria, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "78 modules in eight tiers from the Cyrillic alphabet to C1, with the cases, aspect, verbs of motion and participles explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Russian word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real test",
+      "items": [
+        "<b>The subtests are shorter.</b> Each part has fewer items than in the real test, and the time is cut to match. Writing is full length.",
+        "<b>There is no speaking subtest.</b>",
+        "<b>The pass mark shown is 66%</b> for every section; the allowance for one subtest at 60% is not applied. A paper shows your share of points, not a test result.",
+        "<b>Recordings can be replayed.</b> The real test plays each recording a set number of times (twice at A1, once at B2), so listen the same number of times and then answer.",
+        "<b>Words can be tapped</b> for their meaning and forms, which goes beyond the dictionary the real test allows in some subtests."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official TORFL preparation course?", "answer": "No. Glossa is not connected with the Russian state testing system or any test centre. The papers follow the published test descriptions and model tests, with original content." },
+        { "question": "Which level do I need?", "answer": "That depends on who asks for the certificate. Russian universities ask for TORFL-1 (B1) for bachelor's programmes and TORFL-2 (B2) for master's programmes. For any other purpose, check with the institution that asks for it." },
+        { "question": "Will a paper tell me whether I would pass?", "answer": "No. It shows your share of points in each section against 66%, but the papers are shorter than the real subtests, the writing rating is an estimate, and there is no speaking. Use them to find weak spots, not to predict a result." },
+        { "question": "What is free?", "answer": "The whole Russian course from the alphabet to C1, the grammar reference, word practice and the placement test are free. The TORFL practice papers, conversation practice, stories and the other extras are part of Premium." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Russian, and open the first module or the TORFL papers. <a href=\"/courses/russian.html\">More about the Russian course</a>."
+  },
+  "trademark": "TORFL (<span lang=\"ru\">ТРКИ, Тест по русскому языку как иностранному</span>) is held by universities and test centres in the Russian state testing system. Glossa is not affiliated with or endorsed by them."
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Corso di spagnolo per italiani, dall’A1 al C1 · Glossa",
+  "description": "Corso di spagnolo di Spagna spiegato in italiano, dall’A1 al C1: 40 moduli su ciò che è diverso dall’italiano, con correzioni che dicono perché. Gratuito.",
+  "card": { "title": "Spagnolo", "text": "Lo spagnolo di Spagna dall’A1 al C1, a partire da ciò che l’italiano già insegna, con attenzione a ciò che è diverso." },
+  "eyebrow": "Corso · Spagnolo per italiani",
+  "heading": "Lo spagnolo, a partire da ciò che <em>l’italiano già insegna</em>.",
+  "lead": "Un corso di spagnolo di Spagna dall’A1 al C1, spiegato in italiano. Non rispiega ciò che le due lingue hanno in comune: va dritto a ciò che cambia, come una pronuncia senza consonanti doppie, <span lang=\"es\">ser</span> ed <span lang=\"es\">estar</span>, i passati sempre con <span lang=\"es\">haber</span>, <span lang=\"es\">se lo</span> al posto di “glielo”, una lingua senza “ne” e “ci”, i falsi amici e l’itañol.",
+  "fineprint": "Tutto il corso è gratuito: i 40 moduli, la grammatica di riferimento, il ripasso delle parole e il test di posizionamento. Le simulazioni d’esame DELE, i modi di dire e gli altri extra fanno parte di Premium, 8,99 € al mese o 69,99 € all’anno.",
+  "panel": {
+    "label": "Il corso: otto fasi, 40 moduli",
+    "lang": "it",
+    "items": [
+      { "title": "A1 · Suoni e prime parole", "text": "I suoni, l’ortografia e l’accento grafico, le forme di cortesia, articoli e genere, <span lang=\"es\">ser</span>, <span lang=\"es\">estar</span> e <span lang=\"es\">hay</span>." },
+      { "title": "A1 · Il presente e la vita quotidiana", "text": "Il presente e gli irregolari, <span lang=\"es\">ir a</span>, <span lang=\"es\">gustar</span>, <span lang=\"es\">muy</span> e <span lang=\"es\">mucho</span>, la spesa senza partitivo." },
+      { "title": "A2 · I tempi del passato", "text": "Il <span lang=\"es\">pretérito perfecto</span> con <span lang=\"es\">haber</span>, l’<span lang=\"es\">indefinido</span>, l’imperfetto, i primi falsi amici." },
+      { "title": "A2 · Pronomi e preposizioni", "text": "I pronomi atoni, <span lang=\"es\">se lo</span>, niente “ne” e “ci”, la <span lang=\"es\">a</span> personale, <span lang=\"es\">por</span> e <span lang=\"es\">para</span>." },
+      { "title": "B1 · Futuro, condizionale e congiuntivo", "text": "Il congiuntivo presente, l’indicativo dopo <span lang=\"es\">creo que</span>, il congiuntivo dopo <span lang=\"es\">cuando</span>, l’imperativo." },
+      { "title": "B1 · Il congiuntivo passato e la frase complessa", "text": "Il congiuntivo imperfetto, il futuro nel passato, i relativi, le costruzioni con <span lang=\"es\">se</span>." },
+      { "title": "B2 · Discorso e sfumature", "text": "Il discorso indiretto, il periodo ipotetico, i falsi amici astratti e l’itañol." },
+      { "title": "C1 · Livello avanzato", "text": "Connettivi, espressioni idiomatiche, lo spagnolo dell’America Latina, registro, traduzione dall’italiano." }
+    ],
+    "note": "Il test di posizionamento indica da quale fase puoi cominciare."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Il corso",
+      "heading": "Che cosa insegna il corso, e come",
+      "items": [
+        { "title": "Pensato per chi parla italiano", "text": "Un italiano capisce molto spagnolo fin dal primo giorno, e gli errori nascono dalle abitudini dell’italiano. Per questo il corso ha 40 moduli e non il doppio: ognuno parte da ciò che funziona già allo stesso modo e si concentra su ciò che cambia." },
+        { "title": "La grammatica spiegata", "text": "Ogni modulo spiega le sue regole direttamente, a confronto con l’italiano: perché “sono andato” diventa <span lang=\"es\">he ido</span>, perché <span lang=\"es\">se lo digo</span> e non “glielo”, perché dopo <span lang=\"es\">cuando</span> serve il congiuntivo e non il futuro." },
+        { "title": "Correzioni che dicono perché", "text": "Ogni risposta riceve una correzione con il motivo e un link alla regola di grammatica. L’unico progresso mostrato è quanta parte del corso hai completato." },
+        { "title": "Ogni parola si può aprire", "text": "Tocca qualsiasi parola spagnola per vederne il significato, tutte le forme e l’audio della pronuncia." },
+        { "title": "Falsi amici e itañol", "text": "Tre moduli di falsi amici lungo il corso, un modulo sull’itañol e, alla fine, la traduzione dall’italiano allo spagnolo. Gli esercizi di lettura ad alta voce ricevono un riscontro sulla pronuncia." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Gratuito e Premium",
+      "heading": "Che cosa è gratuito e che cosa fa parte di Premium",
+      "columns": ["", "Gratuito", "Premium"],
+      "rows": [
+        ["Corso", "I 40 moduli dall’A1 al C1, con grammatica di riferimento, ripasso delle parole e test di posizionamento", "Lo stesso"],
+        ["Chiedi all’IA", "5 domande al giorno", "50 domande al giorno"],
+        ["Esami", "—", "Simulazioni d’esame DELE a tempo, dall’A1 al C2"],
+        ["Modi di dire", "—", "Modi di dire spagnoli, con i loro equivalenti in italiano"],
+        ["Lezioni su misura", "—", "Lezioni scritte su un argomento che scegli tu"],
+        ["Pronuncia e offline", "—", "Esercizi di pronuncia su frasi che scrivi tu e download dei moduli per studiare senza connessione"]
+      ],
+      "note": "Premium costa 8,99 € al mese o 69,99 € all’anno e si può disdire in qualsiasi momento; resta attivo fino alla fine del periodo pagato. Questo corso non ha specializzazioni professionali, racconti, pratica di conversazione né testi su come funziona il paese."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Esami",
+      "heading": "Simulazioni d’esame DELE",
+      "intro": [
+        "Per ciascuno dei sei livelli del DELE (<span lang=\"es\">Diplomas de Español como Lengua Extranjera</span>), dall’A1 al C2, ci sono due simulazioni nei formati di compito dell’esame, con testi e registrazioni originali. I compiti scritti sono valutati da un’IA secondo i criteri del DELE. Struttura dell’esame secondo le descrizioni pubblicate, verificata a ottobre 2026.",
+        "In che cosa sono diverse dall’esame vero:"
+      ],
+      "items": [
+        "<b>Nessun esito <span lang=\"es\">apto</span> o <span lang=\"es\">no apto</span>.</b> Una simulazione mostra la quota di punti; la valutazione dell’IA è una stima, non il voto di un esaminatore.",
+        "<b>Le prove di comprensione scritta e orale sono più brevi</b>, con meno item per compito e il tempo ridotto di conseguenza. I compiti di scrittura sono completi.",
+        "<b>Non c’è la prova orale.</b>",
+        "<b>Le registrazioni si possono riascoltare.</b> All’esame ognuna si ascolta un numero fisso di volte, due dall’A2 in su; ascoltala altrettante volte e poi rispondi."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Domande",
+      "heading": "Domande frequenti",
+      "items": [
+        { "question": "Il corso di spagnolo è davvero gratuito?", "answer": "Sì. I 40 moduli dall’A1 al C1, la grammatica di riferimento, il ripasso delle parole e il test di posizionamento sono gratuiti. Premium aggiunge le simulazioni d’esame DELE, i modi di dire e gli altri extra." },
+        { "question": "Quale spagnolo imparo?", "answer": "Lo spagnolo di Spagna, con <span lang=\"es\">vosotros</span>, il <span lang=\"es\">pretérito perfecto</span> come si usa in Spagna e voci spagnole. Un modulo del livello C1 tratta lo spagnolo dell’America Latina." },
+        { "question": "Perché solo 40 moduli?", "answer": "Perché il corso non rispiega ciò che l’italiano già dà. Arriva al C1 concentrandosi su ciò che è diverso: suoni, tempi verbali, pronomi, preposizioni, congiuntivo e falsi amici." },
+        { "question": "So già un po’ di spagnolo. Devo ricominciare da zero?", "answer": "No. Fai il test di posizionamento: indica da quale fase puoi cominciare." },
+        { "question": "Glossa prepara al DELE?", "answer": "Ci sono due simulazioni per ogni livello dall’A1 al C2, con comprensione scritta, comprensione orale e produzione scritta. La prova orale non è inclusa, e Glossa non dice se supereresti l’esame. Glossa non ha alcun legame con l’Instituto Cervantes." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Comincia dal primo modulo.",
+    "text": "Accedi, fai il test di posizionamento se sai già un po’ di spagnolo e apri il primo modulo."
+  },
+  "trademark": "I DELE (Diplomas de Español como Lengua Extranjera) sono rilasciati dall’Instituto Cervantes per conto del Ministero dell’Istruzione spagnolo. Glossa non è affiliata all’Instituto Cervantes né da esso approvata."
+}

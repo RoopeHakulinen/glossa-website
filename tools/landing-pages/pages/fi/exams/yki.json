@@ -1,0 +1,85 @@
+{
+  "title": "YKI-testin harjoittelu: suomen harjoituskokeet · Glossa",
+  "description": "Ajastetut harjoituskokeet suomen YKI-testiin perustasolla, keskitasolla ja ylimmällä tasolla sekä koko suomen kurssi C1-tasolle. Mitä keskitasolla tehdään.",
+  "card": { "title": "YKI (suomi)", "text": "Harjoituskokeet kaikilla kolmella tasolla, myös keskitasolla, jota Suomen kansalaisuus edellyttää." },
+  "eyebrow": "Kokeisiin valmistautuminen · Suomi",
+  "heading": "Harjoittele suomen <em>YKI</em>-testiin.",
+  "lead": "Ajastetut harjoituskokeet yleisten kielitutkintojen tekstin ymmärtämisen, puheen ymmärtämisen ja kirjoittamisen osakokeisiin perustasolla, keskitasolla ja ylimmällä tasolla. Kokeiden takana on koko suomen kurssi ensimmäisistä sanoista C1-tasolle, joten voit opiskella sen, mitä harjoituskoe näyttää sinulta vielä puuttuvan. Kurssin ohjeet ja selitykset ovat englanniksi tai venäjäksi.",
+  "fineprint": "Suomen kurssi on maksuton. Harjoituskokeet kuuluvat Premiumiin, joka maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa.",
+  "panel": {
+    "label": "Harjoituskoe 1, keskitaso, tekstin ymmärtäminen",
+    "lang": "fi",
+    "title": "Mielipide: Pyörätiet kuntoon myös talvella",
+    "text": "Asun Jyväskylässä ja pyöräilen töihin ympäri vuoden. Matka on kuusi kilometriä, ja kesällä se on päivän paras hetki. Talvella pyöräily on kuitenkin usein vaikeaa, eikä syy ole pakkanen tai lumi.",
+    "question": "Kirjoittaja pyöräilee töihin vain kesällä.",
+    "options": ["Oikein", "Väärin"],
+    "note": "Harjoitellessa voit napauttaa mitä tahansa kokeen sanaa ja nähdä sen merkityksen ja muodot."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "Testi",
+      "heading": "Mitä keskitason testissä tehdään",
+      "intro": "YKI-testit järjestää Opetushallitus. Valitset tason, kun ilmoittaudut, ja teet kaikki neljä osakoetta samalla tasolla samana päivänä. Keskitasolla testipäivä kestää taukoineen noin viisi tuntia.",
+      "columns": ["Osakoe", "Mitä testissä tehdään", "Glossan harjoituskokeissa"],
+      "rows": [
+        ["Tekstin ymmärtäminen", "Uutisia, artikkeleita, mielipidekirjoituksia, tiedotteita ja mainoksia. Monivalintatehtäviä, oikein/väärin-tehtäviä ja avoimia kysymyksiä, joihin vastataan suomeksi.", "Samat tehtävätyypit, mutta vähemmän tekstejä. Aikaa on 40 minuuttia. Ajan on asettanut Glossa, koska testin järjestäjä ei julkaise sitä."],
+        ["Puheen ymmärtäminen", "Haastatteluja, keskusteluja, uutisia ja lyhyitä arkitilanteita. Jokainen äänite kuullaan kaksi kertaa. Kysymystyypit ovat samat.", "Samat tehtävätyypit, mutta vähemmän äänitteitä. Aikaa on 25 minuuttia."],
+        ["Kirjoittaminen", "Kolme erityyppistä ohjattua tekstiä, esimerkiksi virallinen sähköposti ja mielipide verkon keskustelupalstalle.", "Kaikki kolme tehtävää ja koko 55 minuuttia. Tekoäly arvioi tekstit YKI-testin julkaistujen kirjoittamisen arviointikriteerien mukaan."],
+        ["Puhuminen", "Tehtäviä kielistudiossa. Vastaukset äänitetään arviointia varten.", "Ei mukana: Glossa ei voi arvioida vapaata puhetta niin kuin YKI-arvioijat. Kurssin keskusteluharjoitukset käsittelevät samoja arkitilanteita."]
+      ],
+      "note": "Perustuu Opetushallituksen ja Jyväskylän yliopiston julkaisemiin testikuvauksiin, tarkistettu lokakuussa 2026. Vuodesta 2027 suomen ja ruotsin YKI-testit on tarkoitus tehdä tietokoneella testikeskuksessa."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Suomen kansalaisuus",
+      "heading": "Mitä kansalaisuus edellyttää testiltä",
+      "intro": "Suomen kansalaisuutta varten tehdään keskitason testi suomeksi tai ruotsiksi. Tarvitset vähintään taitotason 3 (B1) kahdessa osakokeessa, jotka muodostavat jonkin näistä pareista:",
+      "items": [
+        "<b>puhuminen ja kirjoittaminen</b>,",
+        "<b>puheen ymmärtäminen ja kirjoittaminen</b> tai",
+        "<b>tekstin ymmärtäminen ja puhuminen</b>."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "Mitä saat",
+      "heading": "Harjoituskokeita ja kurssi, josta oppia",
+      "items": [
+        { "title": "Kaksi harjoituskoetta jokaisella tasolla", "text": "Perustaso (A1–A2), keskitaso (B1–B2) ja ylin taso (C1–C2). Tekstit ja äänitteet ovat Glossan omia, ja ne käsittelevät YKI-testin aihepiirejä: asumista, työtä, terveyttä, palveluja, ympäristöä ja yhteiskuntaa." },
+        { "title": "Kirjoittaminen kriteerien mukaan", "text": "Tekoäly arvioi kolme tekstiäsi YKI-testin julkaistujen kirjoittamisen arviointikriteerien mukaan ja kertoo, mitä voit parantaa. Arvio on suuntaa antava, ei arvioijan antama taitotaso." },
+        { "title": "Koko kurssi kokeiden takana", "text": "76 moduulia kahdeksalla tasolla A1:stä C1:een. Sijamuodot, astevaihtelu, passiivi ja puhekieli selitetään suoraan, joten harjoituskokeessa näkyvälle heikolle kohdalle löytyy moduuli, johon voit palata." },
+        { "title": "Palaute kertoo syyn", "text": "Jokainen kurssin vastaus saa palautteen, jossa on syy ja linkki kielioppisääntöön. Jokaista suomen sanaa voi napauttaa ja nähdä sen muodot, merkityksen ja ääntämisen." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Rehelliset rajat",
+      "heading": "Miten harjoituskokeet eroavat oikeasta testistä",
+      "items": [
+        "<b>Taitotasoa ei anneta.</b> YKI muuttaa pisteet taitotasoiksi omalla asteikollaan, jota Glossa ei tiedä. Siksi harjoituskoe näyttää vain pisteiden osuuden eikä voi kertoa, saisitko taitotason 3.",
+        "<b>Tekstin ymmärtämisen ja puheen ymmärtämisen osat ovat lyhyempiä</b> kuin oikeassa testissä, mutta tehtävätyypit ovat samat.",
+        "<b>Puhumisen osakoetta ei ole.</b>",
+        "<b>Äänitteet voi kuunnella uudelleen.</b> Testissä jokainen äänite kuullaan kaksi kertaa, joten kuuntele se kahdesti ja vastaa sitten.",
+        "<b>Sanamäärät ovat Glossan asettamia.</b> Oikeissa tehtävissä sanamääriä ei anneta.",
+        "<b>Sanoja voi napauttaa</b> harjoitellessa. Oikeassa testissä sanakirjaa ei saa käyttää."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Kysymyksiä",
+      "heading": "Usein kysyttyä",
+      "items": [
+        { "question": "Onko Glossa virallinen YKI-valmennus?", "answer": "Ei ole. Glossalla ei ole yhteyttä Opetushallitukseen eikä Jyväskylän yliopistoon. Harjoituskokeet noudattavat niiden julkaisemia testikuvauksia, mutta sisältö on Glossan omaa." },
+        { "question": "Mikä taso tarvitaan kansalaisuutta varten?", "answer": "Keskitaso ja vähintään taitotaso 3 jossakin yllä mainituista pareista. Kansalaisuudesta päättää Maahanmuuttovirasto (Migri), joka asettaa myös muut ehdot." },
+        { "question": "Millä kielellä ohjeet ovat?", "answer": "Kokeiden tekstit, äänitteet ja kysymykset ovat suomeksi niin kuin testissä. Ohjeet ja kurssin selitykset ovat englanniksi tai venäjäksi sen mukaan, kumman kurssin valitset: <a href=\"/courses/finnish.html\">Finnish for English speakers</a> tai <a href=\"/ru/courses/finnish.html\">Финский для русскоговорящих</a>." },
+        { "question": "Mikä on maksutonta?", "answer": "Koko suomen kurssi A1-tasolta C1-tasolle, kielioppi, sanaharjoittelu ja tasotesti ovat maksuttomia. YKI-harjoituskokeet, keskusteluharjoitukset, tarinat ja muut lisät kuuluvat Premiumiin." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Opiskele kurssilla, harjoittele kokeilla.",
+    "text": "Kirjaudu Googlella, tee tasotesti, jos osaat jo vähän suomea, ja avaa ensimmäinen moduuli tai YKI-harjoituskokeet."
+  },
+  "trademark": "YKI-testit (yleiset kielitutkinnot) järjestää Opetushallitus. Glossa ei ole sidoksissa Opetushallitukseen, eikä Opetushallitus ole hyväksynyt tai suositellut Glossaa."
+}

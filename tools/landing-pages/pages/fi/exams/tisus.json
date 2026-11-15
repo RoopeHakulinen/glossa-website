@@ -1,0 +1,125 @@
+{
+  "title": "Tisus ja ruotsin YKI-keskitaso: harjoituskokeet · Glossa",
+  "description": "Ajastetut harjoituskokeet Tisukseen ja ruotsin YKI-keskitasoon sekä koko ruotsin kurssi C1-tasolle. Mitä kokeissa kysytään ja mitä harjoituskokeet eivät kata.",
+  "card": { "title": "Tisus ja ruotsin YKI", "text": "Harjoituskokeet Tisukseen ja ruotsin YKI-keskitasoon, jolla voi osoittaa kansalaisuuteen vaadittavan kielitaidon." },
+  "eyebrow": "Kokeisiin valmistautuminen · Ruotsi",
+  "heading": "Harjoittele <em>Tisusta</em> ja ruotsin YKI-keskitasoa.",
+  "lead": "Kaksi ajastettua harjoituskoetta Tisukseen, joka osoittaa ruotsin taidon riittävän opiskeluun ruotsalaisessa korkeakoulussa, ja kaksi ruotsin YKI-testin keskitasolle, jolla voi osoittaa Suomen kansalaisuuteen vaadittavan kielitaidon. Taustalla on koko ruotsin kurssi C1-tasolle, selitykset suomeksi.",
+  "fineprint": "Ruotsin kurssi on maksuton. Harjoituskokeet kuuluvat Premiumiin, 8,99 € kuukaudessa tai 69,99 € vuodessa.",
+  "panel": {
+    "label": "Tisus-harjoituskokeesta 1, luetun ymmärtäminen",
+    "lang": "sv",
+    "title": "Föreläsningssalen behövs fortfarande",
+    "text": "Under pandemiåren lärde sig svenska lärosäten att undervisa på distans på rekordtid. Föreläsningar spelades in, seminarier flyttade till videomöten och tentamina skrevs hemma vid köksbordet.",
+    "question": "Vilken är författarens huvudsakliga ståndpunkt?",
+    "options": [
+      "Inspelade föreläsningar bör inte längre få användas vid universiteten.",
+      "Undervisning där studenterna möts bör inte helt ersättas av inspelningar.",
+      "Lärosätena bör återgå till den undervisning som fanns före pandemin."
+    ],
+    "note": "Harjoituskokeen jokaista sanaa voi napauttaa ja nähdä sen merkityksen ja muodot."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "Tisus",
+      "heading": "Mitä Tisus-kokeessa tehdään",
+      "intro": "Tisus-kokeen (<span lang=\"sv\">Test i svenska för universitets- och högskolestudier</span>) järjestää Tukholman yliopisto. Sen taso vastaa ruotsalaisen lukion kursseja <span lang=\"sv\">Svenska 3</span> ja <span lang=\"sv\">Svenska som andraspråk 3</span>. Tukholman yliopisto ei sido koetta eurooppalaisen viitekehyksen tasoon, mutta muut kuvaavat sitä usein C1-tasoksi. Kuullun ymmärtämisen osakoetta ei ole. Luetun ymmärtäminen ja kirjoittaminen tehdään samana aamupäivänä, puhuminen samana tai seuraavana päivänä.",
+      "columns": ["Osakoe", "Tehtävät", "Glossan harjoituskokeissa"],
+      "rows": [
+        ["Luetun ymmärtäminen <span lang=\"sv\">(Läsförståelse)</span>", "75 minuuttia. Ensin 30 kysymystä viidestä 500–900 sanan tekstistä, kuten mielipidekirjoituksista, pääkirjoituksista ja tietoteksteistä: monivalintoja, väitteitä, jotka saavat tai eivät saa tukea tekstistä, ja muutama lyhyt vastaus. Sitten 15 hakukysymystä yhdestä pitkästä tekstistä, esimerkiksi raportista. Apuvälineitä ei saa käyttää.", "Samat tehtävätyypit: kolme tekstiä, kussakin viisi kysymystä, ja yksi pitkä teksti, josta haetaan vastauksia. 40 minuuttia."],
+        ["Kirjoittaminen <span lang=\"sv\">(Skriftlig färdighet)</span>", "2 tuntia 30 minuuttia. Yksi noin 400 sanan pohtiva teksti (<span lang=\"sv\">resonerande text</span>) annetulla otsikolla sivistyneelle yleisölukijalle. Mukana lyhyt taustateksti ja vapaavalintaisia sitaatteja, ja ruotsi–ruotsi-sanakirjaa saa käyttää.", "Koko tehtävä ja koko 2 tuntia 30 minuuttia. Tekoäly arvioi tekstin Tisus-kriteerien mukaan."],
+        ["Puhuminen <span lang=\"sv\">(Muntlig färdighet)</span>", "Noin 30 minuuttia. Ruotsissa noin 20 minuutin ryhmäkeskustelu viikkoa ennen lähetetystä aiheesta ja lyhyt yksilötehtävä, ulkomailla äänitetty 10–15 minuutin monologi.", "Ei mukana: Glossa ei vielä pysty arvioimaan vapaata puhetta."]
+      ],
+      "note": "Perustuu Tukholman yliopiston julkaisemiin koekuvauksiin, tarkistettu lokakuussa 2026."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Tisus",
+      "heading": "Miten Tisus arvioidaan",
+      "intro": "Jokainen osakoe arvioidaan asteikolla <span lang=\"sv\">godkänd</span> (hyväksytty) tai <span lang=\"sv\">underkänd</span> (hylätty), ja kaikki kolme on läpäistävä.",
+      "items": [
+        "<b>Luetun ymmärtämisen hyväksymisraja</b> päätetään jokaisen koekerran jälkeen, ja se on yleensä noin 24–30 pistettä 45:stä.",
+        "Jos <b>yksi osakoe</b> hylätään, uusit vuoden kuluessa vain sen. Jos hylättyjä on kaksi tai kolme, uusit koko kokeen.",
+        "Hyväksytty tulos <b>ei vanhene</b>."
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "YKI, ruotsin keskitaso",
+      "heading": "Mitä ruotsin YKI-keskitasolla tehdään",
+      "intro": "Yleisten kielitutkintojen perusteet määrittelee Opetushallitus, ja testikuvaukset julkaisee Jyväskylän yliopisto. Keskitasolla jokainen osakoe arvioidaan alle 3, 3 (B1) tai 4 (B2). Kaikki neljä osakoetta tehdään samana päivänä, joka kestää taukoineen noin viisi tuntia. Ruotsin testissä ohjeet ja kysymykset ovat ruotsiksi, ja avoimiin kysymyksiin vastataan ruotsiksi. Sanakirjaa ei saa käyttää.",
+      "columns": ["Osakoe", "Tehtävät", "Glossan harjoituskokeissa"],
+      "rows": [
+        ["Tekstin ymmärtäminen <span lang=\"sv\">(textförståelse)</span>", "Artikkeleita, mainoksia ja uutisia, joista on monivalintakysymyksiä (A, B tai C), oikein vai väärin -väittämiä ja avoimia kysymyksiä.", "Samat tehtävätyypit, vähemmän tekstejä. 40 minuuttia, Glossan asettama aika, koska järjestäjä ei julkaise sitä."],
+        ["Puheen ymmärtäminen <span lang=\"sv\">(talförståelse)</span>", "Tiedotteita, mainoksia ja keskusteluja, kukin kuullaan kahdesti, samoin kysymystyypein.", "Samat tehtävätyypit, vähemmän tallenteita. 25 minuuttia."],
+        ["Kirjoittaminen <span lang=\"sv\">(skriftlig framställning)</span>", "Eri tekstilajeja, esimerkiksi viesti ystävälle, mielipidekirjoitus (<span lang=\"sv\">insändare</span>) ja reklamaatio yritykselle.", "Kolme tehtävää ja 55 minuuttia. Tekoäly arvioi tekstit YKI:n julkaistujen kirjoittamisen kriteerien mukaan."],
+        ["Puhuminen <span lang=\"sv\">(talproduktion)</span>", "Tehtävät tehdään kielistudiossa ja tallennetaan arviointia varten.", "Ei mukana: Glossa ei osaa arvioida vapaata puhetta niin kuin YKI:n arvioijat. Keskusteluharjoitukset auttavat harjoittelemaan puhetilanteita."]
+      ],
+      "note": "Perustuu Opetushallituksen ja Jyväskylän yliopiston julkaisemiin tietoihin, tarkistettu marraskuussa 2026. Opetushallituksen mukaan suomen ja ruotsin YKI-testit ovat digitaalisia vuoden 2027 alusta."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Suomen kansalaisuus",
+      "heading": "Mitä kansalaisuus edellyttää testiltä",
+      "intro": "Suomen kansalaisuutta varten suoritetaan suomen tai ruotsin keskitason testi, ja vähintään arvio 3 tarvitaan kahdesta osakokeesta jostakin näistä pareista. Kansalaisuudesta päättää Maahanmuuttovirasto, joka asettaa myös muut ehdot.",
+      "items": [
+        "<b>puhuminen ja kirjoittaminen</b>,",
+        "<b>puheen ymmärtäminen ja kirjoittaminen</b> tai",
+        "<b>tekstin ymmärtäminen ja puhuminen</b>."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Julkishallinto",
+      "heading": "Julkishallinnon ruotsin taito",
+      "intro": "Uusia valtionhallinnon kielitutkintoja ei voinut suorittaa 30.6.2026 jälkeen, joten julkishallinnon tehtävissä vaadittavan ruotsin taidon voi nyt osoittaa YKI-testillä. Aiemmat valtionhallinnon kielitutkintojen todistukset ovat edelleen voimassa.",
+      "items": [
+        "<b>Tyydyttävää taitoa</b> vastaa keskitason arvio 3.",
+        "<b>Hyvää taitoa</b> vastaa keskitason arvio 4 tai ylimmän tason arvio 5."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "Mitä saat",
+      "heading": "Harjoituskokeet ja kurssi, josta oppia",
+      "items": [
+        { "title": "Kaksi koetta kumpaankin", "text": "Omaa aineistoa: Tisus-kokeissa esimerkiksi tallennetut luennot, kyläkoulujen lakkauttaminen ja katoava käteinen, YKI-kokeissa jokamiehenoikeudet, pyörätiet talvella ja jätteiden lajittelu." },
+        { "title": "Kirjoittaminen arvioidaan kriteerien mukaan", "text": "Tekoäly arvioi tekstisi kokeen arviointikriteerien mukaan ja kertoo, mitä parantaa. Arvio on suuntaa antava, ei arvioijan arvosana." },
+        { "title": "Koko kurssi taustalla", "text": "75 moduulia kahdeksalla tasolla C1-tasolle, kielioppi suomeen verraten. Tasoilla 7 ja 8 on nominaalityyli, sidossanat, virastoruotsi, tyyli ja akateeminen ruotsi, joten harjoituskokeessa näkyvään heikkouteen löytyy moduuli." },
+        { "title": "Palaute perusteluineen", "text": "Jokainen kurssin vastaus saa palautteen, jossa on syy ja linkki kielioppisääntöön. Jokaisen ruotsin sanan voi napauttaa ja nähdä sen muodot, merkityksen ja ääntämyksen." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Rehellisesti",
+      "heading": "Miten harjoituskokeet eroavat oikeista kokeista",
+      "items": [
+        "<b>Arvosanaa tai taitotasoa ei anneta.</b> YKI muuttaa pisteet taitotasoiksi omalla tavallaan, jota Glossa ei tiedä, ja Tisuksen hyväksymisraja vaihtelee koekerrasta toiseen. Harjoituskoe näyttää vain pisteosuuden eikä voi kertoa, saisitko arvion 3 tai hyväksytyn tuloksen.",
+        "<b>Tekstin ja puheen ymmärtäminen sekä Tisuksen luetun ymmärtäminen ovat lyhyempiä</b> kuin oikeissa kokeissa, samoin tehtävätyypein. Kirjoittaminen on täysimittainen.",
+        "<b>Puhumisen osakoetta ei ole</b> kummassakaan.",
+        "<b>YKI-kirjoitustehtävien ohjeet ovat suomeksi</b>, oikeassa testissä ruotsiksi. Sanamäärät ovat Glossan asettamia.",
+        "<b>YKI-kuuntelun keskusteluissa on yksi ääni</b>, joka lukee molempien puhujien repliikit nimien kera.",
+        "<b>Tallenteita voi kuunnella uudelleen.</b> YKI-testissä jokainen tallenne kuullaan kahdesti, joten kuuntele kaksi kertaa ja vastaa sitten.",
+        "<b>Sanoja voi napauttaa</b> harjoitellessa. YKI-testissä sanakirja on kielletty, ja Tisuksessa sallitaan vain ruotsi–ruotsi-sanakirja kirjoittamisessa."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Kysymyksiä",
+      "heading": "Usein kysyttyä",
+      "items": [
+        { "question": "Onko Glossa virallinen YKI- tai Tisus-valmennus?", "answer": "Ei ole. Glossalla ei ole yhteyttä Opetushallitukseen, Jyväskylän yliopistoon eikä Tukholman yliopistoon. Harjoituskokeet noudattavat julkaistuja koekuvauksia, ja aineisto on Glossan omaa." },
+        { "question": "Kumpi koe minun pitäisi tehdä?", "answer": "Suomen kansalaisuutta ja julkishallinnon ruotsin taitoa varten tarvitset YKI-todistuksen, Ruotsissa opiskelua varten Tisuksen. Tisus osoittaa, että ruotsisi riittää opiskeluun ruotsalaisessa korkeakoulussa." },
+        { "question": "Paljonko ruotsin YKI-keskitaso maksaa?", "answer": "Koko testi maksaa 190 euroa (tarkistettu marraskuussa 2026). Testiin ilmoittaudutaan Opetushallituksen ilmoittautumisjärjestelmässä." },
+        { "question": "Mikä on maksutonta?", "answer": "Koko ruotsin kurssi A1-tasolta C1-tasolle, kielioppiopas ja sanaharjoittelu ovat maksuttomia. Harjoituskokeet, erikoisalakurssit, keskusteluharjoitukset, tarinat ja muut lisäosat kuuluvat Premiumiin." },
+        { "question": "Tekeekö Glossa harjoituskokeita ylioppilastutkinnon ruotsiin?", "answer": "Ei. Ylioppilastutkinnon ruotsin koe on eri koe." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Aloita kurssista, harjoittele kokeilla.",
+    "text": "Kirjaudu Google-tunnuksella, tee tasotesti, jos osaat jo ruotsia, ja avaa ensimmäinen moduuli tai harjoituskokeet. <a href=\"/fi/courses/swedish.html\">Lue lisää ruotsin kurssista</a>."
+  },
+  "trademark": "Tisus-kokeen (Test i svenska för universitets- och högskolestudier) järjestää Tukholman yliopisto. Yleiset kielitutkinnot (YKI) ovat Opetushallituksen hallinnoimia. Glossa ei ole sidoksissa Tukholman yliopistoon eikä Opetushallitukseen, eivätkä ne ole hyväksyneet tai suositelleet Glossaa."
+}

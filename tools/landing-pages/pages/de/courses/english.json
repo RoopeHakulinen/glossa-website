@@ -1,0 +1,108 @@
+{
+  "title": "Englischkurs für Deutschsprachige, A1 bis C1 · Glossa",
+  "description": "Kostenloser Englischkurs auf Deutsch: US-Englisch von A1 bis C1 in 76 Modulen, Grammatik vom Deutschen aus, Übungsprüfungen für Cambridge, IELTS und TOEFL.",
+  "card": { "title": "Englisch", "text": "Amerikanisches Englisch von den ersten Wörtern bis C1, auf Deutsch erklärt, mit Übungsprüfungen für Cambridge, IELTS und TOEFL." },
+  "eyebrow": "Kurs · Englisch für Deutschsprachige",
+  "heading": "Englisch lernen, <em>auf Deutsch erklärt</em>.",
+  "lead": "Ein vollständiger Kurs in amerikanischem Englisch, von der Aussprache und den ersten Wörtern bis zu Inversion, Register, akademischem Englisch und Wirtschaftsenglisch auf C1-Niveau. Die Erklärungen sind für Deutschsprachige geschrieben, nicht aus dem Englischen übersetzt: Sie zeigen, wo das Deutsche hilft und wo es in die Irre führt, vom Present Perfect bis zur Wortstellung.",
+  "fineprint": "Der ganze Kurs, die Grammatikübersicht, das Wortschatztraining und der Einstufungstest sind kostenlos. Übungsprüfungen, Spezialisierungen, Geschichten, Gesprächsübungen und die übrigen Extras gehören zu Premium: 8,99 € im Monat oder 69,99 € im Jahr.",
+  "panel": {
+    "label": "Der Kurs: 8 Stufen, 76 Module",
+    "items": [
+      { "title": "Stufe 1 · A1 · Laute und erste Wörter", "text": "Alphabet und Laute, Begrüßungen, das Verb <span lang=\"en\">be</span>, Artikel, Zahlen." },
+      { "title": "Stufe 2 · A1 · Grundlagen der Alltagssprache", "text": "Present Simple, Fragewörter, <span lang=\"en\">there is</span> und <span lang=\"en\">there are</span>, Plural." },
+      { "title": "Stufe 3 · A1–A2 · Der Alltag", "text": "<span lang=\"en\">Can</span> und <span lang=\"en\">could</span>, Present Continuous, <span lang=\"en\">going to</span>, zählbare Substantive." },
+      { "title": "Stufe 4 · A2 · Vergangenheit und Zukunft", "text": "Past Simple, Present Perfect, <span lang=\"en\">will</span>, Komparativ und Superlativ." },
+      { "title": "Stufe 5 · B1 · Flüssiger sprechen", "text": "Past Continuous und Past Perfect, erster Konditional, Relativsätze." },
+      { "title": "Stufe 6 · B1–B2 · Mittelstufe", "text": "Zweiter Konditional, Passiv, indirekte Rede, Phrasal Verbs." },
+      { "title": "Stufe 7 · B2 · Obere Mittelstufe", "text": "Dritter Konditional, Modalverben in der Vergangenheit, Konnektoren, Betonung und Satzmelodie." },
+      { "title": "Stufe 8 · C1 · Fortgeschrittene", "text": "Inversion, Hervorhebung, Register, Varietäten des Englischen, akademisches Englisch und Wirtschaftsenglisch." }
+    ],
+    "note": "Alle acht Stufen sind kostenlos."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Wie der Kurs unterrichtet",
+      "heading": "Englische Grammatik vom Deutschen aus",
+      "items": [
+        { "title": "Present Perfect ist nicht Perfekt", "text": "Es sieht aus wie das deutsche Perfekt, steht aber nie mit einem abgeschlossenen Zeitpunkt: <span lang=\"en\">I saw him yesterday</span>, nicht <span lang=\"en\">I have seen him yesterday</span>. Und wo das Deutsche <i>seit</i> mit dem Präsens sagt, steht <span lang=\"en\">I have lived here for three years</span>." },
+        { "title": "Keine Verbzweit- und Verbendstellung", "text": "<span lang=\"en\">Yesterday I went home</span>, nicht <span lang=\"en\">Yesterday went I home</span>; <span lang=\"en\">because I was tired</span>, nicht <span lang=\"en\">because I tired was</span>. Fragen brauchen <span lang=\"en\">do</span>, wo das Deutsche das Verb voranstellt, und Verneinungen <span lang=\"en\">don't</span>." },
+        { "title": "Kleine Wörter, große Fallen", "text": "<span lang=\"en\">I will</span> heißt <i>ich werde</i>, nicht <i>ich will</i>. <span lang=\"en\">Mustn't</span> heißt <i>darf nicht</i>, <span lang=\"en\">don't have to</span> heißt <i>muss nicht</i>. Das Passiv wird mit <span lang=\"en\">be</span> gebildet, nicht mit <span lang=\"en\">become</span>." },
+        { "title": "Feedback, das sagt, warum", "text": "Jede Antwort bekommt eine Rückmeldung mit Begründung und einem Link zur Grammatikregel. Die Texte der Module und die Geschichten haben eine deutsche Übersetzung, und in jeder Modulprüfung und vielen Übungen übersetzt du in beide Richtungen." },
+        { "title": "Jedes englische Wort lässt sich antippen", "text": "Tippe auf ein beliebiges Wort in einer Lektion, Übung oder Geschichte, und du siehst Bedeutung und Formen und hörst die Aussprache." },
+        { "title": "Aussprache und typische Stolperfallen", "text": "Sprechübungen in den Modulen werden auf die Aussprache geprüft. Der Kurs erklärt, warum <span lang=\"en\">bad</span> und <span lang=\"en\">bat</span> verschieden klingen, wie sich <span lang=\"en\">w</span> und <span lang=\"en\">v</span> unterscheiden und wie man <span lang=\"en\">th</span> spricht. 13 Sets behandeln falsche Freunde wie <span lang=\"en\">become</span> und <span lang=\"en\">gift</span>, Scheinanglizismen wie <i>Beamer</i> und <i>Oldtimer</i>, Präpositionen und Wortstellung." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Tarife",
+      "heading": "Was kostenlos ist und was zu Premium gehört",
+      "columns": ["", "Kostenlos", "Premium"],
+      "rows": [
+        ["Kurs", "Alle 76 Module in acht Stufen, A1–C1", "Dasselbe"],
+        ["Grammatikübersicht, Wortschatztraining, Einstufungstest", "Enthalten", "Enthalten"],
+        ["13 Stolperfallen-Sets für Deutschsprachige", "Enthalten", "Enthalten"],
+        ["Fragen an die KI zu einem Wort, Satz oder einer Antwort", "5 am Tag", "50 am Tag"],
+        ["13 Spezialisierungen mit 117 Modulen", "Nein", "Enthalten"],
+        ["Übungsprüfungen für Cambridge, IELTS und TOEFL", "Nein", "Je zwei Übungsprüfungen mit Zeitlimit für sieben Prüfungen, Schreibaufgaben von der KI bewertet"],
+        ["Sechs Geschichten, mit KI-Feedback zu deiner Nacherzählung", "Nein", "Enthalten"],
+        ["36 Gesprächsübungen mit einer KI-Figur", "Nein", "Geschrieben oder gesprochen"],
+        ["Lektionen zu einem Thema deiner Wahl", "Nein", "Enthalten"],
+        ["38 Texte darüber, wie die USA und Großbritannien funktionieren", "Nein", "Enthalten"],
+        ["Sechs Sets Redewendungen mit Entsprechungen in anderen Sprachen", "Nein", "Enthalten"],
+        ["Ausspracheübungen mit eigenen Sätzen", "Nein", "Enthalten"],
+        ["Module und Geschichten zum Offline-Lernen herunterladen", "Nein", "Enthalten"]
+      ],
+      "note": "Premium kostet 8,99 € im Monat oder 69,99 € im Jahr und lässt sich jederzeit kündigen."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Prüfungsvorbereitung",
+      "heading": "Übungsprüfungen für Cambridge, IELTS und TOEFL",
+      "intro": "Für jede dieser Prüfungen gibt es zwei Übungsprüfungen mit Zeitlimit, in den Aufgabenformaten der Prüfung, mit eigenen Texten und Aufnahmen und deutschen Anweisungen. Lesen und Hören sind kürzer als in der echten Prüfung, einen Sprechteil gibt es nicht (außer <span lang=\"en\">Listen and Repeat</span> im TOEFL), und die Schreibaufgaben bewertet die KI. Eine Übungsprüfung zeigt den Anteil der Punkte, aber keine Note, kein IELTS-Band und kein TOEFL-Ergebnis.",
+      "items": [
+        "<b>Cambridge English</b>: <span lang=\"en\">B1 Preliminary</span>, <span lang=\"en\">B2 First</span>, <span lang=\"en\">C1 Advanced</span> und <span lang=\"en\">C2 Proficiency</span>.",
+        "<b>IELTS</b>: <span lang=\"en\">Academic</span> für das Studium und <span lang=\"en\">General Training</span> für Arbeit, Ausbildung und Migration.",
+        "<b>TOEFL iBT</b> im Format, das seit Januar 2026 gilt."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Spezialisierungen",
+      "heading": "Englisch für deinen Beruf",
+      "intro": "13 Spezialisierungen mit je neun Modulen in drei Stufen: Grundlagen für das Niveau von Stufe 4, Arbeitswortschatz für Stufe 6 und Fachniveau für Stufe 8.",
+      "items": [
+        "Politik und Staat",
+        "Recht und juristische Praxis",
+        "Umwelt und Nachhaltigkeit",
+        "Wirtschaft und Management",
+        "Finanzen, Banken und Wirtschaft",
+        "Medizin und Gesundheit",
+        "Software und IT",
+        "Wissenschaft und Hochschule",
+        "Technik, Industrie und Energie",
+        "Journalismus und Medien",
+        "Diplomatie und internationale Beziehungen",
+        "Tourismus und Hotellerie",
+        "Sport und Fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Fragen",
+      "heading": "Häufige Fragen",
+      "items": [
+        { "question": "Ist der Kurs wirklich kostenlos?", "answer": "Ja. Alle 76 Module von A1 bis C1, die Grammatikübersicht, das Wortschatztraining, die Stolperfallen-Sets und der Einstufungstest sind kostenlos, dazu 5 Fragen an die KI am Tag. Premium bringt die Extras aus der Tabelle oben." },
+        { "question": "Ich kann schon etwas Englisch. Muss ich von vorn anfangen?", "answer": "Nein. Der Einstufungstest zeigt, an welcher Stelle im Kurs du einsteigen kannst." },
+        { "question": "Welches Englisch lehrt der Kurs?", "answer": "Amerikanisches Englisch: Aussprache, Schreibung und Wortschatz sind amerikanisch. Stufe 8 hat Module zu den Unterschieden zwischen amerikanischem und britischem Englisch und zu weiteren Varietäten, und die Texte über Großbritannien sind in britischem Englisch geschrieben und mit britischer Stimme vertont." },
+        { "question": "Hilft der Kurs bei IELTS, TOEFL oder Cambridge?", "answer": "Der Kurs führt bis C1, und Premium hat je zwei Übungsprüfungen mit Zeitlimit für sieben Prüfungen. Sie garantieren kein Bestehen und sagen kein Ergebnis voraus. Welche Prüfung und welches Ergebnis nötig sind, entscheidet, wer das Zertifikat verlangt, etwa eine Hochschule, ein Arbeitgeber oder die Einwanderungsbehörde eines Landes, die auch die übrigen Bedingungen festlegt. Glossa ist nicht mit Cambridge University Press &amp; Assessment, dem British Council, IDP oder ETS verbunden." },
+        { "question": "Welche anderen Kurse gibt es für Deutschsprachige?", "answer": "<a href=\"/de/courses/spanish.html\">Spanisch</a>, <a href=\"/de/courses/french.html\">Französisch</a> und <a href=\"/de/courses/dutch.html\">Niederländisch</a>, ebenfalls auf Deutsch erklärt." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Öffne das erste Modul.",
+    "text": "Melde dich mit Google an, mach den Einstufungstest, wenn du schon etwas Englisch kannst, und fang dort an, wo er es vorschlägt."
+  }
+}

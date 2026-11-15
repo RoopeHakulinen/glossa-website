@@ -1,0 +1,106 @@
+{
+  "title": "Russian course for English speakers, A1 to C1 · Glossa",
+  "description": "A free Russian course from the Cyrillic alphabet to C1: 78 modules with the cases, aspect and verbs of motion explained and stress marks shown throughout.",
+  "card": { "title": "Russian", "text": "From the Cyrillic alphabet to C1, with the grammar explained and stress marks shown throughout." },
+  "eyebrow": "Course · Russian for English speakers",
+  "heading": "Learn Russian with the <em>grammar</em> explained.",
+  "lead": "A complete Russian course for English speakers, from reading Cyrillic to C1: 78 modules in eight tiers. The cases, verbal aspect and verbs of motion are taught directly, with stress marks shown throughout, and every exercise tells you why an answer is right or wrong.",
+  "fineprint": "The whole course is free. Specialization courses, TORFL practice papers, conversation practice and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "items": [
+      { "title": "Alphabet and sounds", "text": "Reading and pronouncing Cyrillic." },
+      { "title": "First words and sentences", "text": "Greetings, gender, pronouns, the present tense, numbers." },
+      { "title": "Cases and the past", "text": "Plurals, the prepositional and accusative cases, the past tense." },
+      { "title": "Everyday life", "text": "The genitive, dative and instrumental, the future, verbs of motion." },
+      { "title": "Building fluency", "text": "Plural cases, aspect, the imperative, comparatives." },
+      { "title": "Intermediate", "text": "Prefixed motion verbs, the conditional, complex sentences." },
+      { "title": "Upper intermediate", "text": "Participles, verbal adverbs, word formation, reported speech." },
+      { "title": "Advanced", "text": "Fine points of aspect and motion, style, registers, idioms." }
+    ],
+    "note": "78 modules. The last tiers also cover topics such as law, the media, science, medicine, history and literature."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "What the course teaches, and how",
+      "items": [
+        { "title": "Cyrillic first", "text": "The first tier teaches the alphabet and its sounds, all 33 letters, word stress and the main sound rules, before any grammar." },
+        { "title": "Stress marks throughout", "text": "Russian spelling does not show stress, so the course marks it throughout, as in <span lang=\"ru\">ру́сский язы́к</span>. Reading and listening texts come with audio." },
+        { "title": "The grammar taught directly", "text": "All six cases, verbal aspect, verbs of motion with and without prefixes, participles and verbal adverbs each have their own modules, explained in plain English with examples." },
+        { "title": "Feedback that says why", "text": "Every answer gets feedback with a reason and a link to the grammar rule behind it. Every Russian word can be tapped for its meaning, its forms and audio." },
+        { "title": "Pronunciation feedback", "text": "Russian has pronunciation assessment, so the course's speaking exercises give feedback on how you pronounce what you say." },
+        { "title": "A placement test", "text": "If you already know some Russian, the placement test shows where to start, so you do not have to work through what you know." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free, all 78 modules. Premium adds practice beyond the course.",
+      "columns": ["", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 78 modules, A1 to C1, with the grammar reference, word practice and the placement test", "Everything in Free"],
+        ["Ask AI", "5 questions a day about any word, sentence or answer", "50 questions a day"],
+        ["Pronunciation", "Pronunciation feedback in the course's speaking exercises", "Also practice on sentences you type yourself"],
+        ["Specializations", "", "13 professional courses, from law to medicine"],
+        ["Exam practice", "", "Two timed TORFL practice papers at each of five levels"],
+        ["Reading and speaking", "", "Stories with AI feedback on your retellings, 36 conversation scenarios with an AI character, lessons on a topic you choose"],
+        ["More", "", "Texts on how the country works, idioms, offline download"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for TORFL",
+      "intro": "The course has timed practice papers for the TORFL (<span lang=\"ru\">ТРКИ</span>), the Russian state test of Russian as a foreign language, at five levels, two papers each. They cover vocabulary and grammar, reading, listening and writing; the papers have no speaking subtest. <a href=\"/exams/torfl.html\">What the papers cover and how they differ from the real test</a>.",
+      "items": [
+        "<b>Elementary level</b> (<span lang=\"ru\">ТЭУ</span>, A1)",
+        "<b>Basic level</b> (<span lang=\"ru\">ТБУ</span>, A2)",
+        "<b>TORFL-1</b> (<span lang=\"ru\">ТРКИ-1</span>, B1)",
+        "<b>TORFL-2</b> (<span lang=\"ru\">ТРКИ-2</span>, B2)",
+        "<b>TORFL-3</b> (<span lang=\"ru\">ТРКИ-3</span>, C1)"
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Russian for your field",
+      "intro": "Thirteen specialization courses, nine modules each, in three stages: Foundations, written for learners at Tier 4 of the core course, Working vocabulary for Tier 6 and Professional for Tier 8. Each teaches the vocabulary and register of one field.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Russian course really free?", "answer": "Yes. All 78 modules from the alphabet to C1, the grammar reference, word practice, the placement test and 5 Ask AI questions a day are free. Premium adds the specializations, TORFL papers, conversation practice, stories and the other extras." },
+        { "question": "Do I need to know the Cyrillic alphabet first?", "answer": "No. The first tier teaches it from the start: all 33 letters, word stress and the main sound rules." },
+        { "question": "How does it handle the cases and verbs of motion?", "answer": "The cases are taught one at a time and then again in the plural, and verbs of motion are taught over four modules, from <span lang=\"ru\">идти́</span> and <span lang=\"ru\">ходи́ть</span> to prefixed and figurative uses. The rules are explained, not left to be guessed from examples." },
+        { "question": "Will it get me through TORFL?", "answer": "It cannot promise that. The TORFL papers practise the test's task formats at five levels and show your share of points, but they are shorter than the real subtests and have no speaking part. The course behind them teaches what a paper shows you are missing." },
+        { "question": "What level does the course reach?", "answer": "C1. The last tier covers the fine points of aspect, figurative verbs of motion, word order, particles, registers and style, colloquial Russian and idioms." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the alphabet, or wherever you are.",
+    "text": "Sign in with Google, take the placement test if you already know some Russian, and open the first module."
+  },
+  "trademark": "TORFL (<span lang=\"ru\">ТРКИ</span>) is the Russian state testing system for Russian as a foreign language, held by universities and test centres in that system. Glossa is not affiliated with or endorsed by them."
+}

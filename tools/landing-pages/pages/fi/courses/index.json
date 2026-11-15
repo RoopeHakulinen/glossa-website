@@ -1,0 +1,13 @@
+{
+  "title": "Kielikurssit A1:stä C1:een · Glossa",
+  "description": "Glossan kielikurssit suomenkielisille: kielioppi selitetään suoraan, palaute kertoo miksi, ja jokaisen sanan voi avata. Kurssit ovat maksuttomia.",
+  "card": {
+    "title": "Kurssit",
+    "text": "Kielet, joita Glossa opettaa suomenkielisille."
+  },
+  "eyebrow": "Kurssit",
+  "heading": "Kursseja, jotka <em>selittävät</em> kielen.",
+  "lead": "Jokainen kurssi etenee ensimmäisistä sanoista C1-tasolle. Kielioppi opetetaan suoraan, palaute kertoo, miksi vastaus on väärin, ja jokaisen sanan merkitykset ja taivutusmuodot saa auki napauttamalla.",
+  "fineprint": "Kurssit ovat maksuttomia. Premium, 8,99 € kuukaudessa tai 69,99 € vuodessa, tuo erikoiskurssit, tarinat, keskusteluharjoitukset, harjoituskokeet ja muuta.",
+  "sections": []
+}

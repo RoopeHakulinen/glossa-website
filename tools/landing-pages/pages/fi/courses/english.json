@@ -1,0 +1,108 @@
+{
+  "title": "Englannin kurssi alusta C1-tasolle, kielioppi suomeksi · Glossa",
+  "description": "Ilmainen englannin kurssi: amerikanenglantia A1:stä C1:een 76 moduulissa, kielioppi suomeen verraten, IELTS-, TOEFL- ja Cambridge-harjoituskokeet.",
+  "card": { "title": "Englanti", "text": "Amerikanenglantia alkeista C1-tasolle suomeksi selitettynä, IELTS-, TOEFL- ja Cambridge-harjoituskokeet ja 13 erikoistumiskurssia." },
+  "eyebrow": "Kurssi · Englanti suomenkielisille",
+  "heading": "Opi <em>englantia</em> suomeksi selitettynä.",
+  "lead": "Kokonainen amerikanenglannin kurssi suomenkielisille ääntämisestä ja ensimmäisistä sanoista inversioon, tyyliin sekä akateemiseen ja liike-elämän englantiin C1-tasolla. Selitykset on kirjoitettu suomenkielisille, ei käännetty: ne käyvät suoraan läpi sen, mitä suomessa ei ole, kuten artikkelit, kestomuodot ja do-apuverbin.",
+  "fineprint": "Koko kurssi, kielioppiopas, sanaharjoittelu ja tasotesti ovat ilmaisia. Harjoituskokeet, erikoistumiskurssit, tarinat, keskusteluharjoitukset ja muut lisät kuuluvat Premiumiin, joka maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa.",
+  "panel": {
+    "label": "Kurssi: 8 tasoa, 76 moduulia",
+    "items": [
+      { "title": "Taso 1 · A1 · Äänteet ja ensimmäiset sanat", "text": "Aakkoset ja äänteet, tervehdykset, <span lang=\"en\">be</span>-verbi, artikkelit, numerot." },
+      { "title": "Taso 2 · A1 · Arkipuheen perusta", "text": "Present Simple, kysymyssanat, <span lang=\"en\">there is</span> ja <span lang=\"en\">there are</span>, monikko." },
+      { "title": "Taso 3 · A1–A2 · Arkielämä", "text": "<span lang=\"en\">Can</span> ja <span lang=\"en\">could</span>, Present Continuous, <span lang=\"en\">going to</span>, laskettavat substantiivit." },
+      { "title": "Taso 4 · A2 · Mennyt ja tuleva", "text": "Past Simple, Present Perfect, <span lang=\"en\">will</span>, vertailumuodot." },
+      { "title": "Taso 5 · B1 · Sujuvuus", "text": "Past Continuous ja Past Perfect, ensimmäinen konditionaali, relatiivilauseet." },
+      { "title": "Taso 6 · B1–B2 · Keskitaso", "text": "Toinen konditionaali, passiivi, epäsuora esitys, phrasal verbit." },
+      { "title": "Taso 7 · B2 · Ylempi keskitaso", "text": "Kolmas konditionaali, modaaliverbit menneessä ajassa, sidossanat, paino ja intonaatio." },
+      { "title": "Taso 8 · C1 · Edistynyt taso", "text": "Inversio, korostavat rakenteet, rekisteri, englannin varieteetit, akateeminen ja liike-elämän englanti." }
+    ],
+    "note": "Kaikki kahdeksan tasoa ovat ilmaisia."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Miten kurssi opettaa",
+      "heading": "Ensin selitys, sitten harjoitus",
+      "items": [
+        { "title": "Artikkelit, joita suomessa ei ole", "text": "Milloin <span lang=\"en\">a/an</span>, milloin <span lang=\"en\">the</span> ja milloin ei artikkelia lainkaan: <span lang=\"en\">a book</span> on jokin kirja, <span lang=\"en\">the book</span> se kirja, jonka molemmat tietävät, ja <span lang=\"en\">Life is hard</span> on ilman artikkelia. Ammatin kanssa artikkeli tarvitaan: <span lang=\"en\">She is a teacher</span>." },
+        { "title": "Prepositiot sijapäätteiden tilalla", "text": "Siinä missä suomi käyttää sijapäätteitä (”keittiössä”, ”pöydällä”, ”kesällä”), englanti käyttää prepositioita <span lang=\"en\">in</span>, <span lang=\"en\">on</span> ja <span lang=\"en\">at</span>. Kurssi näyttää, missä ne vastaavat toisiaan ja missä eivät: ”kesällä” on <span lang=\"en\">in the summer</span>, mutta ”yöllä” on <span lang=\"en\">at night</span>." },
+        { "title": "Subjekti, do ja kestomuodot", "text": "”Sataa” on <span lang=\"en\">It's raining</span>, ”Minulla on nälkä” on <span lang=\"en\">I'm hungry</span>, ja kysymys tarvitsee <span lang=\"en\">do</span>-apuverbin -ko/-kö-liitteen tilalla. Present Perfect on lähellä suomen perfektiä, mutta kun kerrot, milloin jotain tapahtui, englanti käyttää aina Past Simpleä." },
+        { "title": "Palaute, joka kertoo miksi", "text": "Jokainen vastaus saa palautteen, jossa on syy ja linkki kielioppisääntöön. Moduulien teksteillä ja tarinoilla on suomenkielinen käännös, ja jokaisessa moduulikokeessa ja monissa harjoituksissa käännät kumpaankin suuntaan." },
+        { "title": "Jokaisen englannin sanan voi avata", "text": "Napauta mitä tahansa sanaa oppitunnissa, tehtävässä tai tekstissä, niin näet merkityksen ja muodot ja kuulet ääntämisen." },
+        { "title": "Ääntäminen ja tyypilliset ansat", "text": "Ääntämistehtävät arvioivat, miten luet englanninkielisiä lauseita ääneen. Kurssi käy läpi <span lang=\"en\">v</span>:n ja <span lang=\"en\">w</span>:n eron, <span lang=\"en\">th</span>-äänteet ja sen, miksi vokaalin laatu eikä pituus erottaa sanat <span lang=\"en\">ship</span> ja <span lang=\"en\">sheep</span>. 13 ansasarjaa käsittelee petollisia sanapareja, prepositioita ja muita suomenkieliselle tyypillisiä virheitä." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Tilaukset",
+      "heading": "Mikä on ilmaista ja mikä kuuluu Premiumiin",
+      "columns": ["", "Ilmainen", "Premium"],
+      "rows": [
+        ["Kurssi", "Kaikki 76 moduulia kahdeksalla tasolla, A1–C1", "Sama"],
+        ["Kielioppiopas, sanaharjoittelu, tasotesti", "Mukana", "Mukana"],
+        ["13 ansasarjaa suomenkielisille", "Mukana", "Mukana"],
+        ["Kysy tekoälyltä sanasta, lauseesta tai vastauksesta", "5 kysymystä päivässä", "50 kysymystä päivässä"],
+        ["13 erikoistumiskurssia, 117 moduulia", "Ei", "Mukana"],
+        ["Harjoituskokeet: Cambridge, IELTS ja TOEFL", "Ei", "Kaksi ajastettua koetta seitsemään kokeeseen, kirjoitustehtävät tekoälyn arvioimina"],
+        ["Kuusi tarinaa, ja tekoäly tarkistaa omin sanoin kertomisesi", "Ei", "Mukana"],
+        ["36 keskusteluharjoitusta tekoälyhahmon kanssa", "Ei", "Kirjoittaen tai puhuen"],
+        ["Oppitunnit valitsemastasi aiheesta", "Ei", "Mukana"],
+        ["38 tekstiä siitä, miten Yhdysvallat ja Britannia toimivat", "Ei", "Mukana"],
+        ["Kuusi idiomisarjaa vastineineen muissa kielissä", "Ei", "Mukana"],
+        ["Ääntämisharjoitukset omista lauseista", "Ei", "Mukana"],
+        ["Moduulien ja tarinoiden lataaminen ilman yhteyttä käytettäviksi", "Ei", "Mukana"]
+      ],
+      "note": "Premium maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa. Tilauksen voi perua milloin tahansa."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Kokeisiin valmistautuminen",
+      "heading": "Cambridge-, IELTS- ja TOEFL-harjoituskokeet",
+      "intro": "Kurssilla on kaksi ajastettua harjoituskoetta jokaiseen seuraavista kokeista, kokeen tehtävämuodoissa ja omilla teksteillä ja äänitteillä, ohjeet suomeksi. Luetun ja kuullun ymmärtäminen on lyhyempi kuin oikeassa kokeessa, puhumisosaa ei ole (paitsi TOEFLin <span lang=\"en\">Listen and Repeat</span>), ja kirjoitustehtävät arvioi tekoäly. Tulos on osuus pisteistä: se ei kerro arvosanaa, IELTS-bandia tai TOEFL-tulosta.",
+      "items": [
+        "<b>Cambridge English</b>: <span lang=\"en\">B1 Preliminary</span>, <span lang=\"en\">B2 First</span>, <span lang=\"en\">C1 Advanced</span> ja <span lang=\"en\">C2 Proficiency</span>.",
+        "<b>IELTS</b>: <span lang=\"en\">Academic</span> yliopisto-opintoihin ja <span lang=\"en\">General Training</span> työhön, koulutukseen ja maahanmuuttoon.",
+        "<b>TOEFL iBT</b> tammikuusta 2026 voimassa olevassa muodossa."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Erikoistumiskurssit",
+      "heading": "Englantia omalle alallesi",
+      "intro": "13 erikoistumiskurssia, kussakin yhdeksän moduulia kolmessa vaiheessa: perusteet on kirjoitettu tason 4 osaajille, työsanasto tason 6 ja ammattitaso tason 8 osaajille.",
+      "items": [
+        "Politiikka ja hallinto",
+        "Juridiikka ja lakityö",
+        "Ympäristö ja kestävä kehitys",
+        "Liiketoiminta ja johtaminen",
+        "Rahoitus, pankkiala ja talous",
+        "Lääketiede ja terveys",
+        "Ohjelmistot ja IT",
+        "Tiede ja akateeminen maailma",
+        "Tekniikka, teollisuus ja energia",
+        "Journalismi ja media",
+        "Diplomatia ja kansainväliset suhteet",
+        "Matkailu ja hotelliala",
+        "Urheilu ja kuntoilu"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Kysymykset",
+      "heading": "Usein kysyttyä",
+      "items": [
+        { "question": "Onko kurssi todella ilmainen?", "answer": "On. Kaikki 76 moduulia A1:stä C1:een, kielioppiopas, sanaharjoittelu, ansasarjat ja tasotesti ovat ilmaisia, ja tekoälyltä voi kysyä viisi kysymystä päivässä. Premium tuo taulukossa luetellut lisät." },
+        { "question": "Osaan jo jonkin verran englantia. Pitääkö aloittaa alusta?", "answer": "Ei. Tasotesti kertoo, mistä kohdasta kurssia kannattaa aloittaa." },
+        { "question": "Mitä englantia kurssi opettaa?", "answer": "Amerikanenglantia: ääntäminen, oikeinkirjoitus ja sanasto ovat amerikkalaisia. Tasolla 8 on moduulit amerikan- ja brittienglannin eroista ja muista englannin varieteeteista, ja Britanniaa käsittelevät tekstit on kirjoitettu brittienglanniksi ja luettu brittiläisellä äänellä." },
+        { "question": "Auttaako kurssi IELTS-, TOEFL- tai Cambridge-kokeeseen?", "answer": "Kurssi vie C1-tasolle, ja Premiumissa on kaksi ajastettua harjoituskoetta seitsemään kokeeseen. Ne eivät takaa läpipääsyä eivätkä ennusta tulosta. Vaadittavan kokeen ja tuloksen päättää todistusta pyytävä taho, kuten yliopisto, työnantaja tai maan maahanmuuttoviranomainen, joka asettaa myös muut ehdot. Glossa ei ole yhteydessä Cambridge University Press &amp; Assessmentiin, British Counciliin, IDP:hen tai ETS:ään." },
+        { "question": "Mitä muita kursseja Glossassa on suomenkielisille?", "answer": "<a href=\"/fi/courses/swedish.html\">Ruotsi</a>, <a href=\"/fi/courses/german.html\">saksa</a>, <a href=\"/fi/courses/spanish.html\">espanja</a> ja <a href=\"/fi/courses/french.html\">ranska</a>, kaikki suomeksi selitettyinä." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Avaa ensimmäinen moduuli.",
+    "text": "Kirjaudu Google-tilillä, tee tasotesti, jos osaat jo englantia, ja aloita siitä kohdasta, jota se ehdottaa."
+  }
+}

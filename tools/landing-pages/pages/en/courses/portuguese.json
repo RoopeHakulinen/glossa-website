@@ -1,0 +1,108 @@
+{
+  "title": "Brazilian Portuguese course, A1 to C1 · Glossa",
+  "description": "A Brazilian Portuguese course for English speakers from first words to C1: 76 modules, grammar explained directly, feedback that says why. Free to use.",
+  "card": { "title": "Brazilian Portuguese", "text": "76 modules from A1 to C1, with 13 professional specializations and Celpe-Bras practice papers." },
+  "eyebrow": "Course · Brazilian Portuguese for English speakers",
+  "heading": "Learn <em>Brazilian Portuguese</em> from first words to C1.",
+  "lead": "A complete course in the Portuguese of Brazil, written for English speakers: 76 modules in eight tiers, with the grammar explained directly, over 5,000 exercises with feedback that gives the reason, and every Portuguese word open to tap for its meaning, forms and audio.",
+  "fineprint": "The whole course is free, with the grammar reference, word practice and the placement test. Specializations, conversation practice, stories, the Celpe-Bras papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course in eight tiers",
+    "items": [
+      { "title": "Tier 1 · Sounds and first words", "text": "Pronunciation and spelling, greetings, articles, <span lang=\"pt-BR\">ser</span>, numbers." },
+      { "title": "Tier 2 · Everyday basics", "text": "-ar, -er and -ir verbs, <span lang=\"pt-BR\">ter</span> and <span lang=\"pt-BR\">gostar</span>, questions, family, time." },
+      { "title": "Tier 3 · Daily life", "text": "Irregular verbs, <span lang=\"pt-BR\">ser</span>, <span lang=\"pt-BR\">estar</span> and <span lang=\"pt-BR\">ficar</span>, contractions, food, the city." },
+      { "title": "Tier 4 · The past", "text": "The preterite and the imperfect, object pronouns, travel, health." },
+      { "title": "Tier 5 · Building fluency", "text": "Pronoun placement, the future, the conditional, the imperative, work." },
+      { "title": "Tier 6 · Intermediate", "text": "The present subjunctive, the pluperfect, reported speech." },
+      { "title": "Tier 7 · Upper intermediate", "text": "The future subjunctive, the personal infinitive, the passive, society." },
+      { "title": "Tier 8 · Advanced", "text": "Compound subjunctive tenses, style, spoken and regional Portuguese." }
+    ],
+    "note": "5 to 12 modules per tier. The placement test lets you start further up."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "The course",
+      "heading": "What the course teaches, and how",
+      "items": [
+        { "title": "One variety, consistently", "text": "The course teaches the Portuguese of Brazil: <span lang=\"pt-BR\">você</span>, Brazilian spelling, vocabulary and pronunciation throughout. European Portuguese and regional variation have a module of their own in Tier 8." },
+        { "title": "Grammar explained directly", "text": "Each grammar module states the rule, with examples, before you practise it: <span lang=\"pt-BR\">ser</span>, <span lang=\"pt-BR\">estar</span> and <span lang=\"pt-BR\">ficar</span>, where the object pronoun goes, the future subjunctive and the personal infinitive, which English does not have." },
+        { "title": "Feedback that says why", "text": "Every answer is graded with a reason and a link to the rule in the grammar reference, so a wrong ending tells you which form was needed and why." },
+        { "title": "Reading, listening, writing and speaking", "text": "Exercises include translation, cloze, dictation, listening, form tables and readings, and speaking exercises with pronunciation feedback." },
+        { "title": "Every word inspectable", "text": "Tap any Portuguese word in an exercise, reading or explanation for its meaning, its forms and its audio." },
+        { "title": "Brazil in the topics", "text": "Topic modules cover food, the city, work, the media, politics and society, history, literature, law and humour, with spoken Brazilian Portuguese taught in a module of its own." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free, all of it. Premium adds the extras around it.",
+      "columns": ["Feature", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 76 modules, A1 to C1", "The same"],
+        ["Grammar reference, word practice, placement test", "Included", "Included"],
+        ["Common traps (false friends and typical errors)", "Included", "Included"],
+        ["Ask AI questions", "5 a day", "50 a day"],
+        ["Specialization courses", "Not included", "13 fields, 117 modules"],
+        ["Conversation practice with an AI character, typed or spoken", "Not included", "Included"],
+        ["Stories with AI feedback on your retellings", "Not included", "Included"],
+        ["Celpe-Bras practice papers", "Not included", "4 timed papers"],
+        ["Texts on how Brazil works", "Not included", "Included"],
+        ["Idioms with their equivalents in other languages", "Not included", "Included"],
+        ["Pronunciation practice on sentences you type", "Not included", "Included"],
+        ["Lessons on a topic you choose", "Not included", "Included"],
+        ["Offline download of modules and stories", "Not included", "Included"]
+      ],
+      "note": "Premium costs €8.99 a month or €69.99 a year. You can cancel at any time."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for Celpe-Bras",
+      "intro": "The course has timed practice papers for one exam:",
+      "items": [
+        "<a href=\"/exams/celpe-bras.html\"><b>Celpe-Bras</b></a>, Brazil's certificate of proficiency in Portuguese: four practice papers for its written part, with original content. The oral part is not included."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Portuguese for your field",
+      "intro": "Thirteen specialization courses teach the vocabulary of a profession in nine modules each, in three stages: Foundations from Tier 4, Working vocabulary from Tier 6 and Professional from Tier 8.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is this Brazilian or European Portuguese?", "answer": "Brazilian. The vocabulary, spelling and audio follow Brazilian norms throughout. One Tier 8 module covers how European Portuguese and the regions of Brazil differ." },
+        { "question": "Is the course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice and the placement test are free. Premium adds specializations, conversation practice, stories, the Celpe-Bras papers and the other extras." },
+        { "question": "I already know some Portuguese. Do I have to start at the beginning?", "answer": "No. The placement test finds the tier that fits and starts you there." },
+        { "question": "Can I practise speaking?", "answer": "Yes. The course has speaking exercises with pronunciation feedback. Premium adds conversation practice with an AI character and pronunciation practice on any sentence you type." },
+        { "question": "I speak Spanish. Is there a course for me?", "answer": "Yes. <a href=\"/es/courses/portuguese.html\">Brazilian Portuguese for Spanish speakers</a> is a shorter course of 40 modules, explained in Spanish and built around what differs from Spanish." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the first module, or the placement test.",
+    "text": "Sign in with Google, take the placement test if you already know some Portuguese, and open your first module."
+  },
+  "trademark": "Celpe-Bras is administered by Inep with Brazil's Ministry of Education and Ministry of Foreign Affairs. Glossa is not affiliated with or endorsed by them."
+}

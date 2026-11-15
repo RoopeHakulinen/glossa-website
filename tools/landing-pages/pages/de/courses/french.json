@@ -1,0 +1,109 @@
+{
+  "title": "Französisch lernen von A1 bis C1, auf Deutsch erklärt · Glossa",
+  "description": "Französischkurs für Deutschsprachige: 76 Module bis C1, Grammatik erklärt und mit dem Deutschen verglichen, Feedback mit Begründung, Übungen für DELF und TCF.",
+  "card": { "title": "Französisch", "text": "Das Französisch Frankreichs von den ersten Wörtern bis C1, auf Deutsch erklärt und mit dem Deutschen verglichen." },
+  "eyebrow": "Kurs · Französisch für Deutschsprachige",
+  "heading": "Lerne <em>Französisch</em> von den ersten Wörtern bis C1.",
+  "lead": "Ein vollständiger Kurs im Französisch Frankreichs, ganz auf Deutsch erklärt: 76 Module in acht Stufen, von der Aussprache und den Artikeln bis zum Subjonctif, zum Passiv und zu den literarischen Zeitformen. Die Grammatik wird mit dem Deutschen verglichen, damit du siehst, wo das Französische anders funktioniert. Jede Antwort bekommt Feedback mit Begründung, und jedes französische Wort lässt sich antippen, mit Bedeutung, Formen und Aussprache.",
+  "fineprint": "Der ganze Kurs ist kostenlos, ebenso die Grammatikübersicht, das Wortschatztraining und der Einstufungstest. Spezialisierungen, Übungsprüfungen für DELF, DALF und TCF, Geschichten, Gesprächsübungen und die weiteren Extras gehören zu Premium, für 8,99 € im Monat oder 69,99 € im Jahr.",
+  "panel": {
+    "label": "Der Kurs, Stufe für Stufe",
+    "items": [
+      { "title": "1 · Laute und erste Wörter", "text": "Aussprache und Rechtschreibung, Begrüßungen, Artikel, <span lang=\"fr\">être</span> und die Zahlen." },
+      { "title": "2 · Grundlagen der Alltagssprache", "text": "Verben auf <span lang=\"fr\">-er</span>, <span lang=\"fr\">avoir</span>, Adjektive, Verneinung, Fragen, Familie und Uhrzeit." },
+      { "title": "3 · Der Alltag", "text": "Unregelmäßige Verben, Modalverben, reflexive Verben, der Teilungsartikel, Essen und Einkaufen." },
+      { "title": "4 · Die Vergangenheit", "text": "<span lang=\"fr\">Passé composé</span> und <span lang=\"fr\">imparfait</span>, Objektpronomen, Reisen, Gesundheit und Wohnen." },
+      { "title": "5 · Flüssiger sprechen", "text": "<span lang=\"fr\">Y</span> und <span lang=\"fr\">en</span>, Futur, Conditionnel, Imperativ und der erste Subjonctif." },
+      { "title": "6 · Mittelstufe", "text": "Mehr Subjonctif, Plus-que-parfait, Conditionnel passé, indirekte Rede und Gérondif." },
+      { "title": "7 · Obere Mittelstufe", "text": "Passiv, Konjunktionen mit Subjonctif, Konnektoren, Nominalstil und Gesellschaft." },
+      { "title": "8 · Fortgeschrittene", "text": "Literarische Zeitformen, Hervorhebung, Stil, Redewendungen, gesprochenes Französisch und die Frankophonie." }
+    ],
+    "note": "76 Module von A1 bis C1. Wenn du schon Französisch kannst, schlägt der Einstufungstest vor, wo du anfängst."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Wie der Kurs unterrichtet",
+      "heading": "Grammatik, die erklärt wird, und Feedback, das sagt, warum",
+      "items": [
+        { "title": "Grammatik auf Deutsch, im Vergleich zum Deutschen", "text": "Die Module erklären die Grammatik, bevor du übst: wann das <span lang=\"fr\">passé composé</span> mit <span lang=\"fr\">être</span> gebildet wird, wo der Artikel anders steht als im Deutschen, was den Subjonctif auslöst. Die Grammatikübersicht hält alle Erklärungen an einem Ort." },
+        { "title": "Feedback mit Begründung", "text": "Eine falsche Antwort bekommt eine Erklärung, was daran falsch war, und einen Link zur Regel. Eine Übersetzung, die anders formuliert ist als die erwartete Antwort, kann trotzdem als richtig gelten." },
+        { "title": "Jedes Wort nachschlagbar", "text": "Tippe ein französisches Wort in einer Übung, einem Text oder einer Erklärung an, und du siehst seine deutsche Bedeutung, seine Formen und seine Aussprache. Mit einem Tipp kommt es in dein Wortschatztraining." },
+        { "title": "Hören, Schreiben und Sprechen", "text": "Zu den Übungen gehören Diktate, Hörverstehen, Übersetzungen in beide Richtungen, Lückentexte, Lesetexte und freies Schreiben, dazu Sprechübungen mit Feedback zur Aussprache." },
+        { "title": "Die Fallen für Deutschsprachige", "text": "Zwölf kurze Einheiten zu typischen Fehlern: falsche Freunde, Artikel, wo das Deutsche keinen oder einen anderen hat, ein deutsches Verb mit zwei französischen Entsprechungen und Fallen beim Register." },
+        { "title": "Keine Gamification", "text": "Keine Streaks, Punkte oder Maskottchen. Dein Fortschritt ist der Anteil des Kurses, den du abgeschlossen hast, und die Wortschatzseite zeigt, wie viele Wörter du kennst." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Tarife",
+      "heading": "Was kostenlos ist und was zu Premium gehört",
+      "intro": "Der Kurs selbst ist vollständig kostenlos. Premium ergänzt ihn um Extras.",
+      "columns": ["", "Kostenlos", "Premium"],
+      "rows": [
+        ["Der Kurs", "Alle 76 Module, A1 bis C1", "Ebenso"],
+        ["Grammatikübersicht, Wortschatztraining, Einstufungstest, typische Fallen", "Enthalten", "Enthalten"],
+        ["Sprechübungen mit Feedback zur Aussprache", "Enthalten", "Enthalten"],
+        ["Fragen an die KI zu allem in einer Lektion", "5 Fragen am Tag", "50 Fragen am Tag"],
+        ["Spezialisierungen", "Nein", "13 Fachgebiete, 117 Module"],
+        ["Geschichten, mit KI-Feedback auf deine Nacherzählung", "Nein", "6 Geschichten"],
+        ["Gesprächsübungen mit einer KI-Figur", "Nein", "36 Situationen, von der <span lang=\"fr\">boulangerie</span> bis zum Notar"],
+        ["Übungsprüfungen für DELF, DALF und TCF", "Nein", "Zwei Übungsprüfungen mit Zeitlimit für jede der sieben Prüfungen"],
+        ["Texte darüber, wie Frankreich funktioniert, Redewendungen, Lektionen zu einem Thema deiner Wahl", "Nein", "Enthalten"],
+        ["Ausspracheübung mit Sätzen, die du selbst eintippst", "Nein", "Enthalten"],
+        ["Module und Geschichten für die Offline-Nutzung herunterladen", "Nein", "Enthalten"]
+      ],
+      "note": "Premium kostet 8,99 € im Monat oder 69,99 € im Jahr."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Prüfungsvorbereitung",
+      "heading": "Übungsprüfungen für DELF, DALF und TCF",
+      "intro": "Der Kurs hat für jede dieser Prüfungen zwei Übungsprüfungen mit Zeitlimit, in ihren Aufgabenformaten und mit eigenen Inhalten. Hör- und Leseverstehen sind kürzer als in der echten Prüfung, der Teil Schreiben ist vollständig, und eine mündliche Prüfung gibt es nicht. Eine Übungsprüfung zeigt deinen Anteil an den Punkten, keine Note und kein Niveau.",
+      "items": [
+        "<b>DELF A1, A2, B1 und B2</b>: Hörverstehen, Leseverstehen und Schreiben.",
+        "<b>DALF C1</b>: Hör- und Leseverstehen und der vollständige Teil Schreiben.",
+        "<b>DALF C2</b>: der Teil Leseverstehen und Schreiben in voller Länge.",
+        "<b>TCF tout public</b>: Hörverstehen, Sprachstrukturen, Leseverstehen und Schreiben."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Spezialisierungen",
+      "heading": "Französisch für dein Fachgebiet",
+      "intro": "Dreizehn Spezialisierungen mit je neun Modulen in drei Etappen: Grundlagen (Texte auf A2-Niveau), Arbeitswortschatz (B1–B2) und Fachniveau (C1).",
+      "items": [
+        "Politik und Staat",
+        "Recht und juristische Praxis",
+        "Umwelt und Nachhaltigkeit",
+        "Wirtschaft und Management",
+        "Finanzen, Banken und Wirtschaft",
+        "Medizin und Gesundheit",
+        "Software und IT",
+        "Wissenschaft und Hochschule",
+        "Technik, Industrie und Energie",
+        "Journalismus und Medien",
+        "Diplomatie und internationale Beziehungen",
+        "Tourismus und Hotellerie",
+        "Sport und Fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Fragen",
+      "heading": "Häufige Fragen",
+      "items": [
+        { "question": "Ist der Französischkurs wirklich kostenlos?", "answer": "Ja. Alle 76 Module von A1 bis C1, die Grammatikübersicht, das Wortschatztraining, der Einstufungstest, die typischen Fallen und 5 KI-Fragen am Tag sind kostenlos. Premium ergänzt die Spezialisierungen, Übungsprüfungen, Geschichten, Gespräche und weitere Extras." },
+        { "question": "Welches Französisch lerne ich?", "answer": "Das Französisch Frankreichs. Die Stufe für Fortgeschrittene hat Module zum gesprochenen Französisch und zum Französischen in anderen Ländern." },
+        { "question": "Ich kann schon etwas Französisch. Muss ich von vorn anfangen?", "answer": "Nein. Der Einstufungstest schlägt vor, wo du anfängst." },
+        { "question": "Bereitet der Kurs auf DELF oder TCF vor?", "answer": "Der Kurs führt von A1 bis C1, und Premium hat Übungsprüfungen für DELF A1 bis B2, DALF C1 und C2 und den TCF. Sie enthalten keine mündliche Prüfung und rechnen dein Ergebnis nicht in eine Note oder ein Niveau um, sagen also nicht voraus, wie die echte Prüfung ausgeht." },
+        { "question": "Was ist anders als im englischsprachigen Französischkurs?", "answer": "Stufen, Themen und Übungsprüfungen sind dieselben, aber Erklärungen, Anweisungen und Feedback sind auf Deutsch, die Grammatik wird mit dem Deutschen verglichen, und die Übersetzungsübungen gehen vom Deutschen ins Französische und zurück." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Fang mit dem ersten Modul an oder mit dem Einstufungstest.",
+    "text": "Melde dich mit Google an, mach den Einstufungstest, wenn du schon Französisch kannst, und öffne das erste Modul."
+  },
+  "trademark": "DELF und DALF sind Diplome des französischen Bildungsministeriums und werden von France Éducation international erstellt, das auch den TCF erstellt. Glossa ist mit keinem von beiden verbunden und wird von keinem von beiden unterstützt."
+}

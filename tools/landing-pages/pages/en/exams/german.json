@@ -1,0 +1,98 @@
+{
+  "title": "German exam practice: Goethe, telc and TestDaF papers · Glossa",
+  "description": "Timed practice papers for Goethe and telc Deutsch from A1 to C2 and for TestDaF, with a full German course to C1, and what the papers do not cover.",
+  "card": { "title": "Goethe, telc and TestDaF (German)", "text": "Practice papers for 14 German exams, from Goethe A1 and telc A1 to C2 and TestDaF." },
+  "eyebrow": "Exam preparation · German",
+  "heading": "Practise for <em>German exams</em>: Goethe, telc and TestDaF.",
+  "lead": "Timed practice papers for the reading, listening and writing parts of the Goethe-Zertifikat and telc Deutsch at every level from A1 to C2, telc Deutsch C1 Hochschule and TestDaF. Behind them is a complete German course from first words to C1, so you can work on whatever the papers show you are missing.",
+  "fineprint": "The German course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Russian and Finnish speakers.",
+  "panel": {
+    "label": "From Goethe-Zertifikat B1, practice paper 1, reading",
+    "lang": "de",
+    "title": "Bohrmaschine statt Roman",
+    "text": "Seit dem Frühjahr kann man in der Stadtbücherei einer hessischen Kleinstadt nicht nur Bücher und Filme ausleihen, sondern auch Dinge, die man nur selten braucht: eine Bohrmaschine, ein Zelt, eine Nähmaschine oder einen Beamer für den Filmabend im Garten. Die Idee hatte die Bibliothekarin Sabine Roth.",
+    "question": "In diesem Text geht es darum, dass …",
+    "options": ["eine Bibliothek gebrauchte Geräte verkauft.", "Bürger in der Bibliothek kaputte Geräte reparieren.", "man in einer Bibliothek auch Gegenstände ausleihen kann."],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exams",
+      "heading": "Which exams the papers cover",
+      "intro": "There are two practice papers for each of 14 exams: six from the Goethe-Institut, seven from telc gGmbH and TestDaF from the TestDaF-Institut.",
+      "columns": ["Exam", "What it is", "In Glossa's papers"],
+      "rows": [
+        ["Goethe-Zertifikat A1 to C2", "Six levels, from A1 (<span lang=\"de\">Start Deutsch 1</span>) to C2 (<span lang=\"de\">Großes Deutsches Sprachdiplom</span>). From B1 up, four modules (reading, listening, writing, speaking) that are taken and passed separately.", "Two papers per level. Reading and listening at about half length, writing full length, no speaking."],
+        ["telc Deutsch A1 to C2", "Seven exams: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2 (<span lang=\"de\">Start Deutsch 2</span>), B1 (<span lang=\"de\">Zertifikat Deutsch</span>), B2, C1, C1 Hochschule with academic themes, and C2. From B1 to C1, a written part with reading, language elements (<span lang=\"de\">Sprachbausteine</span>), listening and writing, and an oral part taken in pairs (at C1 also in threes).", "Two papers per exam. Shorter reading, language elements and listening, writing full length, no speaking. A paper is judged on the written part alone."],
+        ["TestDaF", "The test for studying at a German university, taken on a computer at a test centre. Reading, listening, writing and speaking, each reported as below TDN 3, TDN 3, TDN 4 or TDN 5 (B2 to C1), with no overall result and no pass mark.", "Two papers. Shorter reading, four of the seven listening task types, both writing tasks, no speaking, and no TDN levels."]
+      ],
+      "note": "Based on the Goethe-Institut's, telc gGmbH's and the TestDaF-Institut's published exam descriptions, regulations and model papers, checked in October 2026. Check them for the current format before your exam."
+    },
+    {
+      "type": "table",
+      "eyebrow": "One level in detail",
+      "heading": "What the Goethe-Zertifikat B1 asks",
+      "intro": "The Goethe-Zertifikat B1 has four modules, and each can be taken and retaken on its own and gets its own certificate. Each module is worth 100 points and passes at 60. No dictionaries or other aids are allowed.",
+      "columns": ["Module", "What you do", "In Glossa's papers"],
+      "rows": [
+        ["Reading <span lang=\"de\">(Lesen)</span>", "5 parts, 30 items in 65 minutes: a blog post or email, press texts, advertisements matched to situations, reader comments and rules or instructions.", "All five parts with about half the items, in 33 minutes."],
+        ["Listening <span lang=\"de\">(Hören)</span>", "4 parts, 30 items in about 40 minutes: short texts, a guided tour or talk, a conversation and a radio discussion. Some parts are played twice, some once.", "All four parts with about half the items, in 20 minutes."],
+        ["Writing <span lang=\"de\">(Schreiben)</span>", "3 tasks in 60 minutes: an informal email (about 80 words), a forum post giving your opinion (about 80 words) and a semi-formal email (about 40 words).", "All three tasks and the full 60 minutes, rated by AI."],
+        ["Speaking <span lang=\"de\">(Sprechen)</span>", "3 parts in pairs, 15 minutes after 15 minutes of preparation: planning something together, presenting a topic and giving feedback.", "Not included. Since every module passes on its own, the other three are judged as they would be."]
+      ],
+      "note": "From the Goethe-Institut's exam regulations and B1 model paper, checked in October 2026."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Studying in Germany",
+      "heading": "What TestDaF results mean for university",
+      "intro": "TestDaF is not passed or failed. Each of the four sections gets its own result, and the certificate does not expire.",
+      "items": [
+        "<b>Universities set their own requirements.</b> The usual one is TDN 4 in all four sections.",
+        "<b>A university may accept less or ask for more</b> in a single skill, so check the requirement of the course you are applying to.",
+        "<b>Glossa's TestDaF papers show the share of points only.</b> The TestDaF-Institut does not publish a way to turn practice scores into TDN levels, so Glossa does not convert them."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers for every exam", "text": "28 papers in all, in the exams' task formats, with original texts and recordings: everyday topics at the lower levels, and academic ones for TestDaF and telc C1 Hochschule." },
+        { "title": "Writing rated by AI", "text": "Your texts are rated by AI, against the exam's criteria where the exam board publishes them, with what to improve. It is an estimate, not an examiner's mark." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, with the cases, adjective endings, word order, Konjunktiv II and the passive explained directly, so a weak spot in a paper has a module to go back to." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every German word can be tapped for its gender, forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exams",
+      "items": [
+        "<b>No grade or level is given.</b> A paper shows the share of points. Where the exam passes at 60%, a paper applies that mark to the parts it has, but it cannot tell you which grade, result or TDN level you would get.",
+        "<b>Reading and listening are shorter</b> than in the real exams, usually about half the items with the time cut to match. Some task types are left out, such as three of TestDaF's listening task types and the book review in Goethe C2.",
+        "<b>There is no speaking part.</b> Where an exam's pass rule includes speaking, the paper is judged on the written part alone.",
+        "<b>Recordings can be replayed, and each is read by one voice</b> with the speakers' names. Play each one as often as the real exam does, and then answer.",
+        "<b>Words can be tapped</b> for their meaning while you practise; the real exams allow no dictionary."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa connected with the Goethe-Institut, telc or the TestDaF-Institut?", "answer": "No. Glossa is not affiliated with or endorsed by the Goethe-Institut, telc gGmbH or the TestDaF-Institut. The papers follow their published exam descriptions and model papers, with original content." },
+        { "question": "Should I take Goethe or telc?", "answer": "Glossa has papers for both at every level from A1 to C2. Whoever asks you for a certificate, such as an employer, a university or an authority, decides which exams and levels they accept, so check with them. TestDaF is made for people who want to study at a German university." },
+        { "question": "Can a practice paper tell me whether I would pass?", "answer": "No. The papers are shorter than the real exams, have no speaking part, and writing is rated by AI, so the score is a guide to what to work on, not a prediction." },
+        { "question": "What is free?", "answer": "The whole German course from A1 to C1, the grammar reference and word practice are free. The exam practice papers, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "I speak Russian or Finnish. Is there a course for me?", "answer": "Yes. <a href=\"/ru/courses/german.html\">German for Russian speakers</a> and <a href=\"/fi/courses/german.html\">German for Finnish speakers</a> have the same exam papers, with the instructions and explanations in Russian or Finnish." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some German, and open the first module or the exam papers."
+  },
+  "trademark": "The Goethe-Zertifikat is awarded by the Goethe-Institut, telc Deutsch exams are run by telc gGmbH, and TestDaF is made by g.a.s.t. and its TestDaF-Institut. Glossa is not affiliated with or endorsed by any of them."
+}

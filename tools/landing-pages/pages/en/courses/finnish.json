@@ -1,0 +1,109 @@
+{
+  "title": "Finnish course for English speakers, A1 to C1 · Glossa",
+  "description": "A Finnish course from first words to C1: 76 modules in eight tiers, cases and consonant gradation explained directly, spoken Finnish too. The course is free.",
+  "card": { "title": "Finnish", "text": "Standard Finnish from first words to C1, with spoken Finnish taught alongside the written language." },
+  "eyebrow": "Course · Finnish for English speakers",
+  "heading": "Learn <em>Finnish</em>, from first words to C1.",
+  "lead": "A complete course in standard Finnish, with the spoken language taught alongside it from Tier 5 on. The cases, consonant gradation, the object cases, the passive and the participles are each explained directly before you practise them, and the last tier covers nominal style, register, dialects and Swedish in Finland.",
+  "fineprint": "The whole course is free: all 76 modules, the grammar reference, word practice and the placement test. Specializations, stories, conversation practice, YKI practice papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course: eight tiers, 76 modules",
+    "items": [
+      { "title": "Tier 1 · Sounds and first words", "text": "Sounds and spelling, greetings, <span lang=\"fi\">olla</span>, vowel harmony, numbers." },
+      { "title": "Tier 2 · Everyday basics", "text": "Verb type 1, the negative verb, where things are, having, time." },
+      { "title": "Tier 3 · Daily life", "text": "Verb types 2 to 6, consonant gradation, the partitive, the local cases." },
+      { "title": "Tier 4 · The past", "text": "The past tense, the object cases, the genitive, possessive suffixes, the imperative." },
+      { "title": "Tier 5 · Building fluency", "text": "The plural cases, the perfect, the conditional, comparison, spoken Finnish." },
+      { "title": "Tier 6 · Intermediate", "text": "The passive, relative and subordinate clauses, the third infinitive, postpositions." },
+      { "title": "Tier 7 · Upper intermediate", "text": "Participles and participial constructions, the second infinitive, word formation." },
+      { "title": "Tier 8 · Advanced", "text": "Nominal style, rare cases, register, idioms, dialects, Swedish in Finland." }
+    ],
+    "note": "Tiers 1–2 are A1, Tier 4 A2, Tier 5 B1, Tier 7 B2, and the course ends at C1."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "Finnish grammar explained, not guessed at",
+      "items": [
+        { "title": "The cases one at a time", "text": "The partitive, the inner and outer local cases, the genitive, the plural cases, the essive and translative and the rare cases each have their own module, with the rule stated plainly and examples in Finnish." },
+        { "title": "Consonant gradation from the start", "text": "Why <span lang=\"fi\">katu</span> becomes <span lang=\"fi\">kadulla</span> is taught in Tier 3 and again in Tier 5, so the word changes you meet in every text have a rule behind them." },
+        { "title": "Spoken Finnish too", "text": "Finns speak differently from how they write. Spoken Finnish has its own modules in Tiers 5 and 6, and Tier 8 adds dialects and Swedish in Finland." },
+        { "title": "Feedback that says why", "text": "Every answer gets feedback with a reason and a link to the grammar rule. A translation worded differently from the expected answer can still be accepted." },
+        { "title": "Every word inspectable", "text": "Tap any Finnish word in a module, a story or a practice paper for its meaning, forms and audio." },
+        { "title": "Speaking with pronunciation feedback", "text": "Speaking exercises are assessed for pronunciation. The first set of common traps is about length, since a long or short sound changes a Finnish word." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free from the first module to the last. Premium adds the extras around it.",
+      "columns": ["Feature", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 76 modules in eight tiers, A1 to C1", "Included"],
+        ["Grammar reference, word practice, placement test", "Included", "Included"],
+        ["Common traps for English speakers", "12 sets", "Included"],
+        ["Ask AI questions", "5 a day", "50 a day"],
+        ["Specialization courses", "—", "13 courses with 117 modules"],
+        ["Stories", "—", "6 stories, with AI feedback on your retellings"],
+        ["Conversation practice", "—", "36 scenarios with an AI character, typed or spoken"],
+        ["Lessons on a topic you choose", "—", "Included"],
+        ["YKI practice papers", "—", "Two timed papers at each of the three levels"],
+        ["Texts on how Finland works", "—", "19 texts, from the state and taxes to residence permits"],
+        ["Idioms", "—", "7 idiom sets"],
+        ["Pronunciation practice on sentences you type", "—", "Included"],
+        ["Offline download of modules and stories", "—", "Included"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for YKI",
+      "intro": "The course has timed practice papers for the reading, listening and writing subtests of the Finnish National Certificates of Language Proficiency, with original texts and recordings. They give no YKI grade and have no speaking subtest; the <a href=\"/exams/yki.html\">YKI page</a> says what they cover and where they differ from the real test.",
+      "items": [
+        "<b>Basic level</b> (<span lang=\"fi\">perustaso</span>, A1–A2): two papers.",
+        "<b>Intermediate level</b> (<span lang=\"fi\">keskitaso</span>, B1–B2), the level asked for Finnish citizenship: two papers.",
+        "<b>Advanced level</b> (<span lang=\"fi\">ylin taso</span>, C1–C2): two papers, written for level 5 (C1)."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Finnish for your field",
+      "intro": "Thirteen specialization courses, each with nine modules in three stages: Foundations written for learners at Tier 4, Working vocabulary at Tier 6, and Professional at Tier 8.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Finnish course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice, the common traps and the placement test are free, with 5 Ask AI questions a day. Premium adds the extras listed above." },
+        { "question": "I already know some Finnish. Do I have to start at the beginning?", "answer": "No. The placement test suggests where to start, and you can open any tier." },
+        { "question": "Does it teach spoken Finnish or only the written language?", "answer": "Both. The course teaches standard Finnish and has modules on spoken Finnish in Tiers 5 and 6, and on dialects and Swedish in Finland in Tier 8." },
+        { "question": "Can it prepare me for the YKI test?", "answer": "The course goes up to C1, and Premium adds timed YKI practice papers at all three levels for reading, listening and writing. They cannot tell you whether you would pass or which grade you would get. See the <a href=\"/exams/yki.html\">YKI page</a>." },
+        { "question": "I speak Russian. Is there a version for me?", "answer": "Yes. <a href=\"/ru/courses/finnish.html\">Finnish for Russian speakers</a> has the same tiers, with explanations in Russian and grammar compared with Russian." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Open the first module.",
+    "text": "Sign in with Google, take the placement test if you already know some Finnish, and start where it suggests."
+  }
+}

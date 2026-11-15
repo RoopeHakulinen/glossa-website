@@ -1,0 +1,110 @@
+{
+  "title": "Ranskan kurssi suomeksi, tasot A1–C1 · Glossa",
+  "description": "Ranskan kurssi suomenkielisille: 76 moduulia alkeista C1-tasolle, kielioppi suomeen verrattuna, palaute joka kertoo miksi sekä DELF- ja TCF-harjoituskokeet.",
+  "card": { "title": "Ranska", "text": "Ranskassa puhuttua ranskaa alkeista C1-tasolle, selitykset suomeksi ja kielioppi suomeen verrattuna." },
+  "eyebrow": "Kurssi · Ranska suomenkielisille",
+  "heading": "Opi <em>ranskaa</em> suomeksi, alkeista C1-tasolle.",
+  "lead": "Kokonainen ranskan kurssi, jossa kaikki selitetään suomeksi: 76 moduulia kahdeksalla tasolla, ääntämisestä ja artikkeleista subjunktiiviin, passiiviin ja kirjallisiin aikamuotoihin. Kielioppia verrataan suomeen, joten näet, missä ranska toimii toisin kuin oma kielesi. Jokainen vastaus saa palautteen, joka kertoo miksi, ja jokaista ranskan sanaa napauttamalla näet sen merkityksen, muodot ja ääntämisen.",
+  "fineprint": "Koko kurssi on maksuton, samoin kielioppiosio, sanaharjoittelu ja tasotesti. Ammatilliset erikoisalat, DELF-, DALF- ja TCF-harjoituskokeet, tarinat, keskusteluharjoitukset ja muut lisäosat kuuluvat Premiumiin, joka maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa.",
+  "panel": {
+    "label": "Kurssi taso tasolta",
+    "items": [
+      { "title": "1 · Äänteet ja ensimmäiset sanat", "text": "Ääntäminen ja oikeinkirjoitus, tervehdykset, artikkelit, <span lang=\"fr\">être</span> ja numerot." },
+      { "title": "2 · Arkipuheen perusta", "text": "<span lang=\"fr\">-er</span>-verbit, <span lang=\"fr\">avoir</span>, adjektiivit, kielto, kysymykset, perhe ja aika." },
+      { "title": "3 · Arkielämä", "text": "Epäsäännölliset ja modaaliverbit, pronominaaliverbit, partitiiviartikkeli, ruoka ja ostokset." },
+      { "title": "4 · Menneisyys", "text": "<span lang=\"fr\">Passé composé</span> ja imperfekti, objektipronominit, matkailu, terveys ja koti." },
+      { "title": "5 · Sujuvuus", "text": "<span lang=\"fr\">Y</span> ja <span lang=\"fr\">en</span>, futuuri, konditionaali, imperatiivi ja subjunktiivin alkeet." },
+      { "title": "6 · Keskitaso", "text": "Lisää subjunktiivia, pluskvamperfekti, konditionaalin perfekti, epäsuora esitys ja gerundi." },
+      { "title": "7 · Ylempi keskitaso", "text": "Passiivi, subjunktiivia vaativat konjunktiot, sidossanat, nominaalityyli ja yhteiskunta." },
+      { "title": "8 · Edistynyt taso", "text": "Kirjalliset aikamuodot, korostus, tyyli, idiomit, puhuttu ranska ja ranska eri maissa." }
+    ],
+    "note": "76 moduulia tasoilta A1–C1. Jos osaat jo ranskaa, tasotesti ehdottaa, mistä aloittaa."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "Miten kurssi opettaa",
+      "heading": "Kielioppi selitetään, ja palaute kertoo miksi",
+      "items": [
+        { "title": "Kielioppi suomeksi ja suomeen verraten", "text": "Moduulit selittävät säännöt ennen harjoituksia: miksi ranskassa tarvitaan artikkeli siinä, missä suomessa ei ole mitään, milloin <span lang=\"fr\">passé composé</span> saa apuverbikseen <span lang=\"fr\">être</span>, mikä vaatii subjunktiivin. Kielioppiosiosta löydät kaikki selitykset yhdestä paikasta." },
+        { "title": "Palaute perusteluineen", "text": "Väärä vastaus saa selityksen siitä, mikä meni vikaan, ja linkin sääntöön. Käännös, joka on muotoiltu toisin kuin mallivastaus, voidaan silti hyväksyä." },
+        { "title": "Jokaisen sanan voi tarkistaa", "text": "Napauta mitä tahansa ranskan sanaa harjoituksessa, tekstissä tai selityksessä, niin näet sen merkityksen suomeksi, taivutusmuodot ja ääntämisen. Sanan voi lisätä sanaharjoitteluun." },
+        { "title": "Kuuntelua, kirjoittamista ja puhumista", "text": "Tehtävinä on sanelua, kuuntelua, käännöksiä kumpaankin suuntaan, aukkotehtäviä, lukutekstejä ja vapaata kirjoittamista sekä puhetehtäviä, joissa saat palautetta ääntämisestä." },
+        { "title": "Sudenkuopat, joihin suomenkielinen kompastuu", "text": "Kaksitoista lyhyttä jaksoa tyypillisistä virheistä: väärät ystävät, artikkelit, joita suomessa ei ole, yksi suomen verbi, jota vastaa kaksi ranskan verbiä, ja tyylitason erot." },
+        { "title": "Ei pelillistämistä", "text": "Ei putkia, pisteitä eikä maskotteja. Edistyminen näkyy suoritettujen tehtävien osuutena, ja sanastosivulta näet, kuinka monta sanaa osaat." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Maksuton ja Premium",
+      "heading": "Mikä on maksutonta ja mikä kuuluu Premiumiin",
+      "intro": "Itse kurssi on kokonaan maksuton. Premium tuo sen ympärille lisäosia.",
+      "columns": ["", "Maksuton", "Premium"],
+      "rows": [
+        ["Kurssi", "Kaikki 76 moduulia, A1–C1", "Sama"],
+        ["Kielioppiosio, sanaharjoittelu, tasotesti ja yleiset sudenkuopat", "Mukana", "Mukana"],
+        ["Puhetehtävät ja palaute ääntämisestä", "Mukana", "Mukana"],
+        ["Kysy tekoälyltä mistä tahansa oppitunnin kohdasta", "5 kysymystä päivässä", "50 kysymystä päivässä"],
+        ["Ammatilliset erikoisalat", "Ei", "13 alaa, 117 moduulia"],
+        ["Tarinat ja tekoälyn palaute uudelleenkerronnasta", "Ei", "6 tarinaa"],
+        ["Keskusteluharjoitukset tekoälyhahmon kanssa", "Ei", "36 tilannetta, leipomosta notaarin vastaanotolle"],
+        ["DELF-, DALF- ja TCF-harjoituskokeet", "Ei", "Kaksi ajastettua koetta kuhunkin seitsemään tutkintoon"],
+        ["Tekstit siitä, miten Ranska toimii, idiomit ja oppitunnit itse valitsemastasi aiheesta", "Ei", "Mukana"],
+        ["Ääntämisharjoitus itse kirjoittamillasi lauseilla", "Ei", "Mukana"],
+        ["Moduulien ja tarinoiden lataus offline-käyttöön", "Ei", "Mukana"]
+      ],
+      "note": "Premium maksaa 8,99 € kuukaudessa tai 69,99 € vuodessa."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Kielitutkinnot",
+      "heading": "Harjoituskokeet DELF-, DALF- ja TCF-tutkintoihin",
+      "intro": "Kurssilla on kaksi ajastettua harjoituskoetta kuhunkin näistä tutkinnoista, tutkintojen tehtävämuodoissa ja omalla sisällöllä. Kuullun ja luetun ymmärtäminen ovat lyhyempiä kuin varsinaisessa kokeessa, kirjoittaminen on täysimittainen, eikä puhumisen osakoetta ole. Harjoituskoe näyttää saamiesi pisteiden osuuden, ei arvosanaa eikä tasoa.",
+      "items": [
+        "<b>DELF A1, A2, B1 ja B2</b>: kuullun ymmärtäminen, luetun ymmärtäminen ja kirjoittaminen.",
+        "<b>DALF C1</b>: kuullun ja luetun ymmärtäminen sekä täysimittainen kirjoittamisen koe.",
+        "<b>DALF C2</b>: luetun ymmärtämisen ja kirjoittamisen koe täysimittaisena.",
+        "<b>TCF tout public</b>: kuullun ymmärtäminen, kielen rakenteet, luetun ymmärtäminen ja kirjoittaminen.",
+        "Suomessa DELF- ja DALF-tutkintoja järjestää Ranskan kulttuuri-instituutti (<span lang=\"fr\">Institut français de Finlande</span>) Helsingissä. Koepäivät ja ilmoittautuminen ovat sen sivuilla."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Erikoisalat",
+      "heading": "Ranskaa omalle alallesi",
+      "intro": "Kolmetoista ammatillista erikoisalaa, kussakin yhdeksän moduulia kolmessa vaiheessa: Perusteet (A2-tason tekstit), Työsanasto (B1–B2) ja Ammattitaso (C1).",
+      "items": [
+        "Politiikka ja hallinto",
+        "Juridiikka ja lakityö",
+        "Ympäristö ja kestävä kehitys",
+        "Liiketoiminta ja johtaminen",
+        "Rahoitus, pankkiala ja talous",
+        "Lääketiede ja terveys",
+        "Ohjelmistot ja IT",
+        "Tiede ja akateeminen maailma",
+        "Tekniikka, teollisuus ja energia",
+        "Journalismi ja media",
+        "Diplomatia ja kansainväliset suhteet",
+        "Matkailu ja hotelliala",
+        "Urheilu ja kuntoilu"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Kysymyksiä",
+      "heading": "Usein kysyttyä",
+      "items": [
+        { "question": "Onko ranskan kurssi todella maksuton?", "answer": "On. Kaikki 76 moduulia tasoilta A1–C1, kielioppiosio, sanaharjoittelu, tasotesti, yleiset sudenkuopat ja viisi tekoälykysymystä päivässä ovat maksuttomia. Premium tuo ammatilliset erikoisalat, harjoituskokeet, tarinat, keskustelut ja muut lisäosat." },
+        { "question": "Mitä ranskaa kurssilla opetetaan?", "answer": "Ranskassa puhuttua ranskaa. Edistyneellä tasolla on moduulit puhutusta ranskasta ja ranskasta muissa maissa." },
+        { "question": "Osaan jo vähän ranskaa. Pitääkö aloittaa alusta?", "answer": "Ei tarvitse. Tasotesti ehdottaa, miltä tasolta aloittaa." },
+        { "question": "Valmistaako kurssi DELF- tai TCF-kokeeseen?", "answer": "Kurssi etenee alkeista C1-tasolle, ja Premiumissa on harjoituskokeet DELF A1–B2-, DALF C1- ja C2- sekä TCF-tutkintoihin. Niissä ei ole puhumisen osakoetta, eikä tulosta muuteta arvosanaksi tai tasoksi, joten harjoituskoe ei kerro, miten varsinainen koe menisi." },
+        { "question": "Miten tämä eroaa englanninkielisestä ranskan kurssista?", "answer": "Tasot, aiheet ja harjoituskokeet ovat samat, mutta selitykset, ohjeet ja palaute ovat suomeksi, kielioppia verrataan suomeen ja käännöstehtävät tehdään suomesta ja suomeksi." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Aloita ensimmäisestä moduulista tai tasotestistä.",
+    "text": "Kirjaudu Googlella, tee tasotesti, jos osaat jo ranskaa, ja avaa ensimmäinen moduuli."
+  },
+  "trademark": "DELF ja DALF ovat Ranskan opetusministeriön tutkintoja, jotka laatii France Éducation international. Se laatii myös TCF-testin. Glossa ei ole yhteydessä niihin, eivätkä ne ole hyväksyneet Glossaa."
+}
