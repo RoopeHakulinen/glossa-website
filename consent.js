@@ -1,6 +1,6 @@
 // Google's tag may only set cookies after the visitor agrees, so consent starts denied and a stored answer is
 // applied before the tag loads. The answer is a cookie on glossa.study, shared with app.glossa.study, so one
-// answer covers both. Ads are measured but never personalised.
+// answer covers both.
 window.dataLayer = window.dataLayer || []
 function gtag() {
   dataLayer.push(arguments)
@@ -15,15 +15,15 @@ gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', 
   gtag('js', new Date())
 
   const texts = {
-    en: ['Cookies for analytics and ads', 'Glossa uses Google Analytics and Google Ads to see how Glossa is used and which ads bring learners here, with cookies only if you agree. Ads are never personalised.', 'Accept', 'Decline', 'Privacy policy', 'Cookie settings'],
-    de: ['Cookies für Analyse und Werbung', 'Glossa nutzt Google Analytics und Google Ads, um zu sehen, wie Glossa verwendet wird und welche Anzeigen Lernende herbringen – mit Cookies nur, wenn du zustimmst. Werbung wird nie personalisiert.', 'Akzeptieren', 'Ablehnen', 'Datenschutzerklärung', 'Cookie-Einstellungen'],
-    es: ['Cookies de análisis y anuncios', 'Glossa usa Google Analytics y Google Ads para ver cómo se usa Glossa y qué anuncios traen estudiantes, con cookies solo si aceptas. Los anuncios nunca se personalizan.', 'Aceptar', 'Rechazar', 'Política de privacidad', 'Configuración de cookies'],
-    fi: ['Analytiikka- ja mainosevästeet', 'Glossa käyttää Google Analyticsia ja Google Adsia nähdäkseen, miten Glossaa käytetään ja mitkä mainokset tuovat oppijoita, ja evästeitä vain, jos hyväksyt ne. Mainoksia ei koskaan kohdenneta sinulle.', 'Hyväksy', 'Hylkää', 'Tietosuojaseloste', 'Evästeasetukset'],
-    fr: ['Cookies de mesure d’audience et publicitaires', 'Glossa utilise Google Analytics et Google Ads pour voir comment Glossa est utilisé et quelles annonces amènent des apprenants, avec des cookies seulement si vous les acceptez. Les annonces ne sont jamais personnalisées.', 'Accepter', 'Refuser', 'Politique de confidentialité', 'Paramètres des cookies'],
-    it: ['Cookie di analisi e pubblicità', 'Glossa usa Google Analytics e Google Ads per vedere come viene usato Glossa e quali annunci portano studenti, con i cookie solo se accetti. Gli annunci non sono mai personalizzati.', 'Accetta', 'Rifiuta', 'Informativa sulla privacy', 'Impostazioni cookie'],
-    pt: ['Cookies de análise e anúncios', 'O Glossa usa o Google Analytics e o Google Ads para ver como o Glossa é usado e quais anúncios trazem alunos, com cookies só se você aceitar. Os anúncios nunca são personalizados.', 'Aceitar', 'Recusar', 'Política de privacidade', 'Configurações de cookies'],
-    ru: ['Cookie для аналитики и рекламы', 'Glossa использует Google Analytics и Google Ads, чтобы видеть, как используется Glossa и какая реклама приводит учащихся, а cookie — только с вашего согласия. Реклама никогда не персонализируется.', 'Принять', 'Отклонить', 'Политика конфиденциальности', 'Настройки cookie'],
-    uk: ['Cookie для аналітики та реклами', 'Glossa використовує Google Analytics і Google Ads, щоб бачити, як використовують Glossa і яка реклама приводить учнів, а cookie — лише за вашою згодою. Реклама ніколи не персоналізується.', 'Прийняти', 'Відхилити', 'Політика конфіденційності', 'Налаштування cookie'],
+    en: ['Cookies for analytics and ads', 'Glossa uses Google Analytics and Google Ads to see how Glossa is used and which ads bring learners here, with cookies only if you agree.', 'Accept', 'Decline', 'Privacy policy', 'Cookie settings'],
+    de: ['Cookies für Analyse und Werbung', 'Glossa nutzt Google Analytics und Google Ads, um zu sehen, wie Glossa verwendet wird und welche Anzeigen Lernende herbringen – mit Cookies nur, wenn du zustimmst.', 'Akzeptieren', 'Ablehnen', 'Datenschutzerklärung', 'Cookie-Einstellungen'],
+    es: ['Cookies de análisis y anuncios', 'Glossa usa Google Analytics y Google Ads para ver cómo se usa Glossa y qué anuncios traen estudiantes, con cookies solo si aceptas.', 'Aceptar', 'Rechazar', 'Política de privacidad', 'Configuración de cookies'],
+    fi: ['Analytiikka- ja mainosevästeet', 'Glossa käyttää Google Analyticsia ja Google Adsia nähdäkseen, miten Glossaa käytetään ja mitkä mainokset tuovat oppijoita, ja evästeitä vain, jos hyväksyt ne.', 'Hyväksy', 'Hylkää', 'Tietosuojaseloste', 'Evästeasetukset'],
+    fr: ['Cookies de mesure d’audience et publicitaires', 'Glossa utilise Google Analytics et Google Ads pour voir comment Glossa est utilisé et quelles annonces amènent des apprenants, avec des cookies seulement si vous les acceptez.', 'Accepter', 'Refuser', 'Politique de confidentialité', 'Paramètres des cookies'],
+    it: ['Cookie di analisi e pubblicità', 'Glossa usa Google Analytics e Google Ads per vedere come viene usato Glossa e quali annunci portano studenti, con i cookie solo se accetti.', 'Accetta', 'Rifiuta', 'Informativa sulla privacy', 'Impostazioni cookie'],
+    pt: ['Cookies de análise e anúncios', 'O Glossa usa o Google Analytics e o Google Ads para ver como o Glossa é usado e quais anúncios trazem alunos, com cookies só se você aceitar.', 'Aceitar', 'Recusar', 'Política de privacidade', 'Configurações de cookies'],
+    ru: ['Cookie для аналитики и рекламы', 'Glossa использует Google Analytics и Google Ads, чтобы видеть, как используется Glossa и какая реклама приводит учащихся, а cookie — только с вашего согласия.', 'Принять', 'Отклонить', 'Политика конфиденциальности', 'Настройки cookie'],
+    uk: ['Cookie для аналітики та реклами', 'Glossa використовує Google Analytics і Google Ads, щоб бачити, як використовують Glossa і яка реклама приводить учнів, а cookie — лише за вашою згодою.', 'Прийняти', 'Відхилити', 'Політика конфіденційності', 'Налаштування cookie'],
   }
 
   const answer = (value) => {
