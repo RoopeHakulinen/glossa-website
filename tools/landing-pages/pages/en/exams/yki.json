@@ -5,7 +5,7 @@
   "eyebrow": "Exam preparation · Finnish",
   "heading": "Practise for the <em>YKI</em> test in Finnish.",
   "lead": "Timed practice papers for the reading, listening and writing subtests of the National Certificates of Language Proficiency, at the basic, intermediate and advanced levels. Behind them is a complete Finnish course from first words to C1, so you can work on whatever the papers show you are missing.",
-  "fineprint": "The Finnish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Russian speakers.",
+  "fineprint": "The Finnish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Russian and Ukrainian speakers.",
   "panel": {
     "label": "From practice paper 1, intermediate reading",
     "lang": "fi",
@@ -72,7 +72,7 @@
         { "question": "Is Glossa an official YKI preparation course?", "answer": "No. Glossa is not connected with the Finnish National Agency for Education or the University of Jyväskylä. The papers follow their published test descriptions, with original content." },
         { "question": "Which level do I need for citizenship?", "answer": "The intermediate level (<span lang=\"fi\">keskitaso</span>), with at least grade 3 in one of the pairs above. The Finnish Immigration Service decides on citizenship and sets the other conditions." },
         { "question": "What is free?", "answer": "The whole Finnish course from A1 to C1, the grammar reference and word practice are free. The YKI practice papers, conversation practice, stories and the other extras are part of Premium." },
-        { "question": "I speak Russian. Is there a course for me?", "answer": "Yes. Finnish for Russian speakers has the same YKI papers, with the instructions and explanations in Russian." }
+        { "question": "I speak Russian or Ukrainian. Is there a course for me?", "answer": "Yes. <a href=\"/ru/courses/finnish\">Finnish for Russian speakers</a> and <a href=\"/uk/courses/finnish\">Finnish for Ukrainian speakers</a> have the same YKI papers, with the instructions and explanations in Russian or Ukrainian." }
       ]
     }
   ],

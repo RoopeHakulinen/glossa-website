@@ -98,7 +98,7 @@
         { "question": "I already know some Finnish. Do I have to start at the beginning?", "answer": "No. The placement test suggests where to start, and you can open any tier." },
         { "question": "Does it teach spoken Finnish or only the written language?", "answer": "Both. The course teaches standard Finnish and has modules on spoken Finnish in Tiers 5 and 6, and on dialects and Swedish in Finland in Tier 8." },
         { "question": "Can it prepare me for the YKI test?", "answer": "The course goes up to C1, and Premium adds timed YKI practice papers at all three levels for reading, listening and writing. They cannot tell you whether you would pass or which grade you would get. See the <a href=\"/exams/yki\">YKI page</a>." },
-        { "question": "I speak Russian. Is there a version for me?", "answer": "Yes. <a href=\"/ru/courses/finnish\">Finnish for Russian speakers</a> has the same tiers, with explanations in Russian and grammar compared with Russian." }
+        { "question": "I speak Russian or Ukrainian. Is there a version for me?", "answer": "Yes. <a href=\"/ru/courses/finnish\">Finnish for Russian speakers</a> and <a href=\"/uk/courses/finnish\">Finnish for Ukrainian speakers</a> have the same tiers, with explanations in Russian or Ukrainian and grammar compared with that language." }
       ]
     }
   ],
