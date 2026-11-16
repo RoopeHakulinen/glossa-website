@@ -48,7 +48,7 @@
         ["Specialization courses", "No", "13 fields, 117 modules"],
         ["Stories, with AI feedback on your retellings", "No", "6 stories"],
         ["Conversation practice with an AI character", "No", "36 scenarios, from the <span lang=\"fr\">boulangerie</span> to the notary"],
-        ["DELF, DALF and TCF practice papers", "No", "Two timed papers for each of the seven exams"],
+        ["DELF, DALF and TCF practice papers", "No", "Two timed papers for each of the eight exams"],
         ["Texts on how France works, idioms, lessons on a topic you choose", "No", "Included"],
         ["Pronunciation practice on sentences you type", "No", "Included"],
         ["Download modules and stories for offline use", "No", "Included"]
@@ -65,6 +65,7 @@
         "<b>DALF C1</b>: listening, reading and the full 2 hours 30 minutes of writing.",
         "<b>DALF C2</b>: the reading-and-writing test, at full length.",
         "<b>TCF tout public</b>: listening, language structures, reading and writing.",
+        "<b>TCF IRN</b>, the TCF for residence cards and French nationality: listening, reading and writing.",
         "What the exams ask and where the papers differ from them: <a href=\"/exams/french\">DELF, DALF and TCF practice</a>."
       ]
     },
@@ -97,7 +98,7 @@
         { "question": "Is the French course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice, the placement test, the common traps and 5 Ask AI questions a day are free. Premium adds the specializations, exam papers, stories, conversations and other extras." },
         { "question": "Which French does the course teach?", "answer": "The French of France. The advanced tier has modules on spoken French and on the French spoken in other countries." },
         { "question": "I already know some French. Do I have to start at the beginning?", "answer": "No. The placement test suggests where to start." },
-        { "question": "Does it prepare me for the DELF or the TCF?", "answer": "The course goes from A1 to C1, and Premium has practice papers for DELF A1 to B2, DALF C1 and C2 and the TCF. The papers do not cover speaking and do not convert your result into a grade or a level; the <a href=\"/exams/french\">exam page</a> explains what they cover." },
+        { "question": "Does it prepare me for the DELF or the TCF?", "answer": "The course goes from A1 to C1, and Premium has practice papers for DELF A1 to B2, DALF C1 and C2, the TCF and the TCF IRN. The papers do not cover speaking and do not convert your result into a grade or a level; the <a href=\"/exams/french\">exam page</a> explains what they cover." },
         { "question": "I speak Finnish or German. Is there a course for me?", "answer": "Yes. French is also taught with explanations in Finnish, <a href=\"/fi/courses/french\">Ranska suomenkielisille</a>, and in German, <a href=\"/de/courses/french\">Französisch für Deutschsprachige</a>, with the grammar compared with your language." }
       ]
     }

@@ -45,7 +45,7 @@
         ["Grammatikübersicht, Wortschatztraining, Einstufungstest", "Enthalten", "Enthalten"],
         ["Stolperfallen-Sets", "12 Sets", "12 Sets"],
         ["KI fragen, der KI-Tutor für deine Fragen zum Niederländischen", "5 Fragen am Tag", "50 Fragen am Tag"],
-        ["Übungsprüfungen für das Staatsexamen NT2", "Nein", "Je zwei für Programma I und II"],
+        ["Übungsprüfungen für das Staatsexamen NT2 und das inburgeringsexamen A2", "Nein", "Je zwei für Programma I, Programma II und die A2-Prüfung"],
         ["Redewendungen mit ihren Entsprechungen", "Nein", "Enthalten"],
         ["Lektionen zu einem Thema deiner Wahl", "Nein", "Enthalten"],
         ["Aussprachetraining mit selbst getippten Sätzen", "Nein", "Enthalten"],
@@ -56,11 +56,12 @@
     {
       "type": "list",
       "eyebrow": "Prüfungsvorbereitung",
-      "heading": "Übungsprüfungen für das Staatsexamen NT2",
-      "intro": "Der Kurs hat Übungsprüfungen mit Zeitlimit für beide Programme der niederländischen Staatsprüfung für Niederländisch als Zweitsprache, in ihren Aufgabenformaten und mit eigenen Inhalten. Anleitungen und Erklärungen sind auf Deutsch.",
+      "heading": "Übungsprüfungen für das Staatsexamen NT2 und das inburgeringsexamen A2",
+      "intro": "Der Kurs hat Übungsprüfungen mit Zeitlimit für beide Programme der niederländischen Staatsprüfung für Niederländisch als Zweitsprache und für die Integrationsprüfung von DUO auf A2, in ihren Aufgabenformaten und mit eigenen Inhalten. Anleitungen und Erklärungen sind auf Deutsch.",
       "items": [
         "<b><span lang=\"nl\">Programma I</span> (B1)</b>: zwei Übungsprüfungen mit Lesen, Hören und Schreiben.",
         "<b><span lang=\"nl\">Programma II</span> (B2)</b>: zwei Übungsprüfungen mit Lesen, Hören und Schreiben.",
+        "<b><span lang=\"nl\">Inburgeringsexamen</span> A2</b>: zwei Übungsprüfungen mit den Sprachprüfungen Lesen, Hören und Schreiben, für Einbürgerung, Daueraufenthalt und die <span lang=\"nl\">Wet inburgering 2013</span>.",
         "Was die Prüfung verlangt und worin sich die Übungsprüfungen unterscheiden: <a href=\"/de/exams/nt2\">Staatsexamen NT2 üben</a>."
       ]
     },

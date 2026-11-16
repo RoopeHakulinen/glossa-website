@@ -5,7 +5,7 @@
   "eyebrow": "Course · Swedish for English speakers",
   "heading": "Learn <em>Swedish</em> from first words to C1.",
   "lead": "Swedish as it is spoken in Sweden, in 75 modules across eight tiers: from pronunciation, <span lang=\"sv\">en</span> and <span lang=\"sv\">ett</span> to the s-passive, nominal style, academic Swedish and the language of law and the housing market. Grammar is explained directly, and every answer gets feedback with a reason.",
-  "fineprint": "The whole course, the grammar reference, word practice and the placement test are free. Specializations, Tisus practice papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "fineprint": "The whole course, the grammar reference, word practice and the placement test are free. Specializations, Tisus and sfi practice papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
   "panel": {
     "label": "The course, tier by tier",
     "items": [
@@ -48,7 +48,7 @@
         ["Stories with AI feedback on your retellings", "No", "Yes"],
         ["Conversation practice with an AI character", "No", "Yes"],
         ["Lessons on a topic you choose", "No", "Yes"],
-        ["Timed Tisus practice papers", "No", "Yes"],
+        ["Timed Tisus and sfi practice papers", "No", "Yes"],
         ["Texts on how Sweden works, idioms", "No", "Yes"],
         ["Pronunciation practice on sentences you type", "No", "Yes"],
         ["Offline download", "No", "Yes"]
@@ -58,11 +58,12 @@
     {
       "type": "list",
       "eyebrow": "Exam preparation",
-      "heading": "Practice papers for Tisus",
-      "intro": "The course has two timed practice papers for <a href=\"/exams/tisus\">Tisus</a>, Stockholm University's test of the Swedish needed for university studies in Sweden.",
+      "heading": "Practice papers for Tisus and sfi",
+      "intro": "The course has two timed practice papers for <a href=\"/exams/tisus\">Tisus</a>, Stockholm University's test of the Swedish needed for university studies in Sweden, and two each for the national tests of sfi courses B, C and D.",
       "items": [
         "<b>Reading</b> in the test's task types, shorter than the real part.",
         "<b>Writing</b> at full length: one argumentative text in 2 hours 30 minutes, rated by AI against the Tisus criteria.",
+        "<b>Sfi kurs B, C and D</b>: reading, listening and writing in the formats of the national tests, which students take at their sfi school and cannot book.",
         "<b>No speaking part</b>, and no pass mark: the papers show the share of points only."
       ]
     },

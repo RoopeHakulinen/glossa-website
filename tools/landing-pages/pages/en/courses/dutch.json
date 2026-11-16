@@ -47,7 +47,7 @@
         ["Specialization courses", "No", "13 fields, 117 modules"],
         ["Stories, with AI feedback on your retellings", "No", "Included"],
         ["Conversation practice with an AI character", "No", "36 scenarios, from the bakery to the <span lang=\"nl\">notaris</span>"],
-        ["Staatsexamen NT2 practice papers", "No", "Two papers each for Programma I and II"],
+        ["Staatsexamen NT2 and inburgeringsexamen A2 practice papers", "No", "Two papers each for Programma I, Programma II and the A2 exam"],
         ["Texts on how the Netherlands works, idioms, lessons on a topic you choose", "No", "Included"],
         ["Pronunciation practice on sentences you type", "No", "Included"],
         ["Download modules for offline use", "No", "Included"]
@@ -57,12 +57,13 @@
     {
       "type": "list",
       "eyebrow": "Exam preparation",
-      "heading": "Practice papers for the Staatsexamen NT2",
-      "intro": "The course has timed practice papers for both programmes of the Dutch state exam in Dutch as a second language, in its task formats and with original content.",
+      "heading": "Practice papers for the Staatsexamen NT2 and the inburgeringsexamen A2",
+      "intro": "The course has timed practice papers for both programmes of the Dutch state exam in Dutch as a second language and for DUO's civic integration exam at A2, in their task formats and with original content.",
       "items": [
         "<b>Programma I (B1)</b>: two papers with reading, listening and writing.",
         "<b>Programma II (B2)</b>: two papers with reading, listening and writing.",
-        "What the exam asks and where the papers differ from it: <a href=\"/exams/nt2\">Staatsexamen NT2 practice</a>."
+        "<b><span lang=\"nl\">Inburgeringsexamen</span> A2</b>: two papers with the reading, listening and writing exams, for naturalisation, permanent residence and the Wet inburgering 2013.",
+        "What the exam asks and where the papers differ from it: <a href=\"/exams/nt2\">Staatsexamen NT2 and inburgeringsexamen A2 practice</a>."
       ]
     },
     {

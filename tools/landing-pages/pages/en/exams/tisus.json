@@ -1,10 +1,10 @@
 {
-  "title": "Tisus practice: Swedish reading and writing papers · Glossa",
-  "description": "Timed practice papers for Tisus, the Swedish test for university studies in Sweden, plus a Swedish course to C1. What the test asks and what papers leave out.",
-  "card": { "title": "Tisus (Swedish)", "text": "Reading and full-length writing papers for the Swedish test for university studies." },
+  "title": "Tisus and sfi practice: Swedish test papers · Glossa",
+  "description": "Timed practice papers for Tisus and the national sfi tests for courses B, C and D, plus a Swedish course to C1. What the tests ask and what the papers leave out.",
+  "card": { "title": "Tisus and sfi (Swedish)", "text": "Papers for Tisus, the Swedish test for university studies, and for the national tests of sfi courses B, C and D." },
   "eyebrow": "Exam preparation · Swedish",
-  "heading": "Practise for <em>Tisus</em> in Swedish.",
-  "lead": "Two timed practice papers for the reading and writing parts of Tisus, the test that shows your Swedish is good enough for studies at a Swedish university. Behind them is a complete Swedish course to C1, with the academic and formal Swedish the test is built on.",
+  "heading": "Practise for <em>Tisus</em> and the sfi tests in Swedish.",
+  "lead": "Two timed practice papers for the reading and writing parts of Tisus, the test that shows your Swedish is good enough for studies at a Swedish university. Behind them is a complete Swedish course to C1, with the academic and formal Swedish the test is built on. There are also two papers each for the national tests of sfi (<span lang=\"sv\">svenska för invandrare</span>) courses B, C and D, in their reading, listening and writing formats.",
   "fineprint": "The Swedish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Finnish speakers.",
   "panel": {
     "label": "From practice paper 1, reading",
@@ -45,11 +45,38 @@
       ]
     },
     {
+      "type": "table",
+      "eyebrow": "Sfi",
+      "heading": "The national tests of sfi courses B, C and D",
+      "intro": [
+        "Sfi (<span lang=\"sv\">svenska för invandrare</span>, Swedish for immigrants) is the Swedish course of municipal adult education (<span lang=\"sv\">komvux</span>). Skolverket is responsible for its national tests (<span lang=\"sv\">nationella prov</span>) for courses B, C and D, which a group at Stockholm University develops with Skolverket; course A has none.",
+        "<b>These are not tests you can book.</b> Students enrolled in sfi take them at their school near the end of the course, and their teacher gives and marks them. The result is one of the things the teacher weighs when setting the course grade, <span lang=\"sv\">Godkänt</span> (pass) or <span lang=\"sv\">Icke godkänt</span> (fail). The tests stay confidential, so Glossa's papers practise their formats; they are not the tests. Each test has reading, listening, writing and speaking, with vocabulary and grammar part of every task, and Skolverket estimates the whole test at four to five hours."
+      ],
+      "columns": ["Course", "The real test", "In Glossa's papers"],
+      "rows": [
+        ["Sfi kurs B", "Listening and reading on short, clear texts (about 25 and 35 sub-items), one narrative text about yourself or something you have experienced, and a conversation with your teacher.", "15 listening and 20 reading questions and the full writing task, in 20, 35 and 30 minutes. No speaking."],
+        ["Sfi kurs C", "Reading in two booklets (about 40 questions), listening (24 questions), one more informal text such as an e-mail to a friend, and speaking alone and in pairs.", "About 22 reading and 14 listening questions and one writing task, in 40, 20 and 40 minutes. No speaking."],
+        ["Sfi kurs D", "Reading longer texts in two booklets (about 38 sub-items), listening (24 sub-items), two texts, one informal and one more formal, and speaking alone and in pairs.", "About 22 reading and 14 listening questions and both writing tasks, in 45, 25 and 90 minutes. No speaking."]
+      ],
+      "note": "Based on Skolverket's descriptions of the national tests, checked in November 2026. The time limits of the real parts are in the teachers' instructions, which are not public, so Glossa's times are its own. New sfi course plans apply to studies started after 31 December 2026, with a new series of national tests from 18 January 2027; Skolverket has not said that the parts change."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Swedish citizenship",
+      "heading": "What citizenship asks of your Swedish",
+      "intro": "Since 6 June 2026, applicants for Swedish citizenship aged 16 to 66 must show knowledge of Swedish. Migrationsverket asks for reading and listening at B1 and speaking and writing at A2, and accepts, among other proofs:",
+      "items": [
+        "<b>a pass grade in sfi course D</b>, the highest sfi course. What counts is the course grade, not the national test on its own; a pass in course B or C does not meet the requirement;",
+        "<b>a pass in Tisus</b>;",
+        "other school grades in Swedish. Migrationsverket decides on citizenship and sets the other conditions."
+      ]
+    },
+    {
       "type": "reasons",
       "eyebrow": "What you get",
       "heading": "Papers to practise on, and a course to learn from",
       "items": [
-        { "title": "Two practice papers", "text": "Original texts on topics such as recorded lectures, closing village schools, a shorter working week and disappearing cash, each with a full writing task." },
+        { "title": "Two papers for each test", "text": "Two for Tisus, on topics such as recorded lectures, closing village schools, a shorter working week and disappearing cash, and two each for sfi courses B, C and D, on everyday life, society, studies and work in Sweden. All with original texts and a writing task." },
         { "title": "Writing rated against the criteria", "text": "Your argumentative text is rated by AI against the Tisus criteria, with what to improve. It is an estimate, not an assessor's grade." },
         { "title": "A full course behind the papers", "text": "75 modules in eight tiers to C1. Tiers 7 and 8 cover nominal style, connectors, word formation, the Swedish of the authorities, register and style, and academic Swedish, so a weak spot in a paper has a module to go back to." },
         { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Swedish word can be tapped for its forms, meaning and audio." }
@@ -60,11 +87,11 @@
       "eyebrow": "Honest limits",
       "heading": "How the practice papers differ from the real test",
       "items": [
-        "<b>Reading is shorter</b>, with fewer texts and questions than the real test and the time cut to match. Writing is full length.",
-        "<b>There is no speaking part.</b>",
-        "<b>No pass mark is shown.</b> The real reading pass mark changes from test to test and the writing is judged as a whole, so a paper shows the share of points only and cannot tell you whether you would pass.",
-        "<b>The writing score is an AI estimate</b> against the Tisus criteria, not an assessor's grade.",
-        "<b>Words can be tapped</b> for their meaning and forms; the real test allows only a Swedish–Swedish dictionary, and only in writing."
+        "<b>Reading and listening are shorter</b>, with fewer texts and questions than the real tests. Writing is full length.",
+        "<b>There is no speaking part</b>, neither the Tisus discussion nor the sfi conversation with your teacher.",
+        "<b>No pass mark is shown.</b> The real Tisus reading pass mark changes from test to test, and the sfi cut scores are not published, so a paper shows the share of points only and cannot tell you whether you would pass.",
+        "<b>The writing score is an AI estimate</b> against the Tisus criteria or the sfi assessment matrix, not an assessor's or teacher's grade.",
+        "<b>Words can be tapped</b> for their meaning and forms; Tisus allows only a Swedish–Swedish dictionary, and only in writing, and the sfi tests allow no aids."
       ]
     },
     {
@@ -72,16 +99,17 @@
       "eyebrow": "Questions",
       "heading": "Common questions",
       "items": [
-        { "question": "Is Glossa an official Tisus preparation course?", "answer": "No. Glossa is not connected with Stockholm University. The papers follow its published descriptions of the test, with original content." },
+        { "question": "Is Glossa an official Tisus or sfi preparation course?", "answer": "No. Glossa is not connected with Stockholm University or Skolverket. The papers follow their published descriptions of the tests, with original content." },
+        { "question": "Can I book the sfi test?", "answer": "No. The national sfi tests are taken only by students enrolled in sfi, at their school, near the end of each course. Glossa's sfi papers help you practise the formats alongside the course." },
         { "question": "Is there a listening part?", "answer": "No. Tisus has reading, writing and speaking. Glossa's papers cover reading and writing." },
-        { "question": "What is free?", "answer": "The whole Swedish course from A1 to C1, the grammar reference and word practice are free. The Tisus practice papers, the specializations, conversation practice, stories and the other extras are part of Premium." },
-        { "question": "I speak Finnish. Is there a course for me?", "answer": "Yes. <a href=\"/fi/courses/swedish\">Swedish for Finnish speakers</a> has the same Tisus papers with the instructions in Finnish, and also papers for the Swedish YKI test at the intermediate level." }
+        { "question": "What is free?", "answer": "The whole Swedish course from A1 to C1, the grammar reference and word practice are free. The Tisus and sfi practice papers, the specializations, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "I speak Finnish. Is there a course for me?", "answer": "Yes. <a href=\"/fi/courses/swedish\">Swedish for Finnish speakers</a> has the same Tisus and sfi papers with the instructions in Finnish, and also papers for the Swedish YKI test at the intermediate level." }
       ]
     }
   ],
   "closing": {
     "heading": "Start with the course, practise with the papers.",
-    "text": "Sign in with Google, take the placement test if you already know some Swedish, and open the first module or the Tisus papers."
+    "text": "Sign in with Google, take the placement test if you already know some Swedish, and open the first module or the practice papers."
   },
-  "trademark": "Tisus (Test i svenska för universitets- och högskolestudier) is run by Stockholm University. Glossa is not affiliated with or endorsed by it."
+  "trademark": "Tisus (Test i svenska för universitets- och högskolestudier) is run by Stockholm University. Skolverket is responsible for the national sfi tests. Glossa is not affiliated with or endorsed by either."
 }

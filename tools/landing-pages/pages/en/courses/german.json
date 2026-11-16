@@ -5,7 +5,7 @@
   "eyebrow": "Course · German for English speakers",
   "heading": "Learn <em>German</em>, from first words to C1.",
   "lead": "A complete course in the standard German of Germany. Articles and gender, the four cases, adjective endings, verb-second and verb-last word order, Konjunktiv II and the passive are each explained directly before you practise them, and the last tier covers nominal style, modal particles, spoken German and German in Austria and Switzerland.",
-  "fineprint": "The whole course is free: all 76 modules, the grammar reference, word practice and the placement test. Specializations, stories, conversation practice, Goethe, telc and TestDaF practice papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "fineprint": "The whole course is free: all 76 modules, the grammar reference, word practice and the placement test. Specializations, stories, conversation practice, DTZ, Goethe, telc and TestDaF practice papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
   "panel": {
     "label": "The course: eight tiers, 76 modules",
     "items": [
@@ -46,10 +46,10 @@
         ["Common traps for English speakers", "12 sets", "Included"],
         ["Ask AI questions", "5 a day", "50 a day"],
         ["Specialization courses", "—", "13 courses with 117 modules"],
-        ["Stories", "—", "6 stories, with AI feedback on your retellings"],
+        ["Stories", "—", "12 stories, with AI feedback on your retellings"],
         ["Conversation practice", "—", "36 scenarios with an AI character, typed or spoken"],
         ["Lessons on a topic you choose", "—", "Included"],
-        ["Exam practice papers", "—", "Two timed papers for each of 14 Goethe, telc and TestDaF exams"],
+        ["Exam practice papers", "—", "Two timed papers for each of 15 exams: DTZ, Goethe, telc and TestDaF"],
         ["Texts on how Germany works", "—", "19 texts, from the state and taxes to registering an address"],
         ["Idioms", "—", "6 idiom sets"],
         ["Pronunciation practice on sentences you type", "—", "Included"],
@@ -60,9 +60,10 @@
     {
       "type": "list",
       "eyebrow": "Exam preparation",
-      "heading": "Practice papers for Goethe, telc and TestDaF",
+      "heading": "Practice papers for DTZ, Goethe, telc and TestDaF",
       "intro": "The course has two timed practice papers for each of these exams, with original texts and recordings, covering reading, listening and writing. They have no speaking part and cannot tell you which result you would get; the <a href=\"/exams/german\">German exams page</a> says what they cover and where they differ from the real exams.",
       "items": [
+        "<b>DTZ</b> (<span lang=\"de\">Deutsch-Test für Zuwanderer</span>), the final test of the integration course in Germany, with a result of A2 or B1.",
         "<b>Goethe-Zertifikat</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2, B1, B2, C1 and C2 (<span lang=\"de\">Großes Deutsches Sprachdiplom</span>).",
         "<b>telc Deutsch</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2 (<span lang=\"de\">Start Deutsch 2</span>), B1 (<span lang=\"de\">Zertifikat Deutsch</span>), B2, C1, C1 Hochschule and C2.",
         "<b>TestDaF</b>, the test for studying at a German university."
@@ -97,7 +98,7 @@
         { "question": "Is the German course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice, the common traps and the placement test are free, with 5 Ask AI questions a day. Premium adds the extras listed above." },
         { "question": "I already know some German. Do I have to start at the beginning?", "answer": "No. The placement test suggests where in the course to start." },
         { "question": "Which German does it teach?", "answer": "The standard German of Germany. A Tier 8 module covers German in Austria and Switzerland, such as <span lang=\"de\">Grüß Gott</span>, <span lang=\"de\">Jänner</span> and the Swiss spelling without <span lang=\"de\">ß</span>." },
-        { "question": "Can it prepare me for the Goethe, telc or TestDaF exam?", "answer": "The course goes up to C1, and Premium adds timed practice papers for 14 Goethe, telc and TestDaF exams, for reading, listening and writing. They cannot tell you whether you would pass or which result you would get. See the <a href=\"/exams/german\">German exams page</a>." },
+        { "question": "Can it prepare me for the Goethe, telc or TestDaF exam?", "answer": "The course goes up to C1, and Premium adds timed practice papers for 15 exams (DTZ, Goethe, telc and TestDaF), for reading, listening and writing. They cannot tell you whether you would pass or which result you would get. See the <a href=\"/exams/german\">German exams page</a>." },
         { "question": "Is there a version for Russian or Finnish speakers?", "answer": "Yes. <a href=\"/ru/courses/german\">German for Russian speakers</a> and <a href=\"/fi/courses/german\">German for Finnish speakers</a> have the same tiers and exam papers, with explanations in Russian or Finnish and grammar compared with that language." }
       ]
     }

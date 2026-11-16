@@ -1,10 +1,10 @@
 {
-  "title": "DELF, DALF and TCF practice papers for French · Glossa",
-  "description": "Timed practice papers for DELF A1 to B2, DALF C1 and C2 and the TCF, with a full French course from A1 to C1. What the exams ask and what the papers leave out.",
-  "card": { "title": "DELF, DALF and TCF (French)", "text": "Two practice papers for every DELF and DALF level and for the TCF tout public." },
+  "title": "DELF, DALF, TCF and TCF IRN practice papers for French · Glossa",
+  "description": "Timed practice papers for DELF A1 to B2, DALF C1 and C2, the TCF and the TCF IRN for residence and nationality, with a full French course from A1 to C1.",
+  "card": { "title": "DELF, DALF, TCF and TCF IRN (French)", "text": "Two practice papers for every DELF and DALF level, the TCF tout public and the TCF IRN for residence cards and French nationality." },
   "eyebrow": "Exam preparation · French",
   "heading": "Practise for the <em>DELF</em>, DALF and TCF in French.",
-  "lead": "Timed practice papers for the listening, reading and writing tests of DELF A1, A2, B1 and B2, DALF C1 and C2 and the TCF tout public. Behind them is a complete French course from first words to C1, so you can work on whatever the papers show you are missing.",
+  "lead": "Timed practice papers for the listening, reading and writing tests of DELF A1, A2, B1 and B2, DALF C1 and C2, the TCF tout public and the TCF IRN, the version of the TCF for residence cards and French nationality. Behind them is a complete French course from first words to C1, so you can work on whatever the papers show you are missing.",
   "fineprint": "The French course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Finnish and German speakers.",
   "panel": {
     "label": "From practice paper 1, DELF B1 reading",
@@ -32,7 +32,8 @@
         ["DELF B2", "Listening (about 30 minutes, 20 items), reading (1 hour) and one argued text of at least 250 words (1 hour).", "Listening 17 minutes and reading 33 minutes, with about half the questions. Writing at full length, 1 hour."],
         ["DALF C1", "Listening (about 40 minutes, 17 items), one text of about 1,000 words with 12 items (50 minutes), and a synthesis of documents plus an argued essay (2 hours 30 minutes).", "9 listening items in 21 minutes and 6 reading items on a full-length text in 25 minutes. Writing at full length, 2 hours 30 minutes."],
         ["DALF C2", "Reading and writing: one structured text of at least 700 words from a dossier of about 2,000 words (3 hours 30 minutes). Listening and speaking are a separate, individual test.", "The reading-and-writing test at full length, 3 hours 30 minutes. No listening-and-speaking test."],
-        ["TCF tout public", "Listening (25 minutes, 29 questions), language structures (15 minutes, 18 questions) and reading (45 minutes, 29 questions), plus optional writing (3 tasks, 60 minutes) and speaking.", "Listening 13 minutes, language structures 8 minutes and reading 23 minutes, with about half the questions. Writing at full length, 60 minutes, in every paper."]
+        ["TCF tout public", "Listening (25 minutes, 29 questions), language structures (15 minutes, 18 questions) and reading (45 minutes, 29 questions), plus optional writing (3 tasks, 60 minutes) and speaking.", "Listening 13 minutes, language structures 8 minutes and reading 23 minutes, with about half the questions. Writing at full length, 60 minutes, in every paper."],
+        ["TCF IRN", "Four compulsory tests in one session: listening (20 minutes, 25 questions), reading (35 minutes, 25 questions), writing (3 tasks, 30 minutes) and speaking with an examiner (10 minutes). No language structures test.", "Listening 10 minutes and reading 18 minutes, with about half the questions. Writing at full length, 30 minutes. No speaking."]
       ],
       "note": "Based on France Éducation international's published exam descriptions and sample papers and the TCF candidate's manual, checked in October 2026. Check them for the current format."
     },
@@ -44,15 +45,28 @@
         "<b>DELF A1 to DALF C1:</b> four tests of 25 points each. You pass with at least 50 of the 100 points <b>and</b> at least 5 of 25 in each test, so a strong test can make up for a weaker one, but a test below 5 fails the exam.",
         "<b>DALF C2:</b> two tests of 50 points each. You pass with at least 50 of the 100 points and at least 10 of 50 in each test.",
         "<b>TCF:</b> there is no pass or fail. Each test places you on a level from A1 to C2, and whether that is enough depends on the level the university, employer or authority asks for. The certificate is valid for two years.",
-        "<b>Residence and nationality:</b> the TCF IRN, a separate version of the TCF for residence and French nationality, uses the same kinds of tasks with different parts and timings. The authority that handles your application decides which test and level it accepts and sets the other conditions."
+        "<b>TCF IRN:</b> no pass or fail either. Listening and reading each get a score from 100 to 499 and writing and speaking a mark out of 20, each with a level from A1 to B2, and the certificate is valid for two years. Whether a result is enough depends on the level the prefecture asks for."
       ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Residence and nationality",
+      "heading": "Which level the TCF IRN must show",
+      "intro": "The TCF IRN (<span lang=\"fr\">Test de connaissance du français – Intégration, Résidence et Nationalité</span>) is for people living in France who must prove their French to the authorities. Since 1 January 2026, these levels apply in writing and speaking (for the residence cards, to non-EU applicants under 65 applying for a first card):",
+      "columns": ["Application", "Level"],
+      "rows": [
+        ["A first multi-year residence card (<span lang=\"fr\">carte de séjour pluriannuelle</span>)", "A2"],
+        ["A first resident card, long-term resident–EU card or permanent resident card", "B1"],
+        ["Naturalisation by decree, reinstatement, or a declaration of nationality by marriage", "B2"]
+      ],
+      "note": "Before 1 January 2026 the resident card needed A2 and naturalisation B1; nationality applications filed before that date keep the old rules. The authorities name the TCF and the TEF; certain diplomas count instead of a test, and only the prefecture grants exemptions. First residence cards and naturalisation also need a separate civic exam on France, which is not a language test and which Glossa does not practise. Check service-public.gouv.fr for your own case."
     },
     {
       "type": "reasons",
       "eyebrow": "What you get",
       "heading": "Papers to practise on, and a course to learn from",
       "items": [
-        { "title": "Two papers for each exam", "text": "Fourteen papers in all: two each for DELF A1, A2, B1 and B2, DALF C1 and C2 and the TCF, with original texts and recordings on everyday and public life, from moving house to the four-day week." },
+        { "title": "Two papers for each exam", "text": "Sixteen papers in all: two each for DELF A1, A2, B1 and B2, DALF C1 and C2, the TCF and the TCF IRN, with original texts and recordings on everyday and public life, from moving house to the four-day week." },
         { "title": "Writing rated against the criteria", "text": "Your texts are rated by AI against the DELF, DALF or TCF criteria, with what to improve. It is an estimate, not an examiner's mark." },
         { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, with the tenses, the subjunctive, the pronouns and the nominal style of formal writing explained directly, so a weak spot in a paper has a module to go back to." },
         { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every French word can be tapped for its forms, meaning and audio." }
@@ -63,10 +77,10 @@
       "eyebrow": "Honest limits",
       "heading": "How the practice papers differ from the real exams",
       "items": [
-        "<b>No grade, score or level is given.</b> A paper shows your share of the points. It applies the DELF and DALF pass rule to the tests it has, but cannot tell you what you would score in the real exam, and a TCF paper is not converted into a score from 100 to 699 or a level.",
+        "<b>No grade, score or level is given.</b> A paper shows your share of the points. It applies the DELF and DALF pass rule to the tests it has, but cannot tell you what you would score in the real exam, and a TCF paper is not converted into a score from 100 to 699 (100 to 499 for the TCF IRN) or a level.",
         "<b>Listening and reading are shorter,</b> with about half the items and the time cut to match. The writing is full length.",
         "<b>There is no speaking test</b> at any level, and no listening-and-speaking test at C2. Glossa cannot assess free speech the way examiners do.",
-        "<b>The TCF papers are not adaptive or weighted.</b> The questions get harder as you go, as in the real test, but every question counts the same.",
+        "<b>The TCF and TCF IRN papers are not adaptive or weighted.</b> The questions get harder as you go, as in the real test, but every question counts the same.",
         "<b>Recordings can be replayed.</b> In the real exams you hear each recording once or twice, depending on the task; listen that many times and then answer.",
         "<b>One voice per recording.</b> In dialogues and interviews both speakers are read by one voice, with their names or roles.",
         "<b>Words can be tapped</b> for their meaning, in English as well, while you practise. The DALF C2 allows a monolingual French dictionary, so use tapping there as you would that dictionary."
@@ -78,9 +92,9 @@
       "heading": "Common questions",
       "items": [
         { "question": "Is Glossa an official DELF or TCF preparation course?", "answer": "No. Glossa is not connected with France Éducation international or the French Ministry of Education. The papers follow their published exam descriptions, with original content." },
-        { "question": "Which exam should I practise for?", "answer": "The one the school, employer or authority asks for. The DELF and DALF are taken at one level you choose and are valid for life; the TCF places you on a level and its certificate is valid for two years." },
+        { "question": "Which exam should I practise for?", "answer": "The one the school, employer or authority asks for. The DELF and DALF are taken at one level you choose and are valid for life; the TCF places you on a level and its certificate is valid for two years. For a residence card or French nationality, the TCF IRN is the version of the TCF made for it." },
         { "question": "What is free?", "answer": "The whole French course from A1 to C1, the grammar reference and word practice are free. The practice papers, conversation practice, stories and the other extras are part of Premium." },
-        { "question": "I speak Finnish or German. Is there a course for me?", "answer": "Yes. <a href=\"/fi/courses/french\">French for Finnish speakers</a> and <a href=\"/de/courses/french\">French for German speakers</a> have the same DELF, DALF and TCF papers, with the instructions and explanations in Finnish or German." }
+        { "question": "I speak Finnish or German. Is there a course for me?", "answer": "Yes. <a href=\"/fi/courses/french\">French for Finnish speakers</a> and <a href=\"/de/courses/french\">French for German speakers</a> have the same DELF, DALF, TCF and TCF IRN papers, with the instructions and explanations in Finnish or German." }
       ]
     }
   ],
@@ -88,5 +102,5 @@
     "heading": "Start with the course, practise with the papers.",
     "text": "Sign in with Google, take the placement test if you already know some French, and open the first module or the practice papers."
   },
-  "trademark": "DELF and DALF are diplomas of the French Ministry of Education, made by France Éducation international, which also makes the TCF (Test de connaissance du français). Glossa is not affiliated with or endorsed by either."
+  "trademark": "DELF and DALF are diplomas of the French Ministry of Education, made by France Éducation international, which also makes the TCF (Test de connaissance du français) and the TCF IRN. Glossa is not affiliated with or endorsed by either."
 }

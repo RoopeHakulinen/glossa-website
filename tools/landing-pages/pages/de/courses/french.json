@@ -48,7 +48,7 @@
         ["Spezialisierungen", "Nein", "13 Fachgebiete, 117 Module"],
         ["Geschichten, mit KI-Feedback auf deine Nacherzählung", "Nein", "6 Geschichten"],
         ["Gesprächsübungen mit einer KI-Figur", "Nein", "36 Situationen, von der <span lang=\"fr\">boulangerie</span> bis zum Notar"],
-        ["Übungsprüfungen für DELF, DALF und TCF", "Nein", "Zwei Übungsprüfungen mit Zeitlimit für jede der sieben Prüfungen"],
+        ["Übungsprüfungen für DELF, DALF und TCF", "Nein", "Zwei Übungsprüfungen mit Zeitlimit für jede der acht Prüfungen"],
         ["Texte darüber, wie Frankreich funktioniert, Redewendungen, Lektionen zu einem Thema deiner Wahl", "Nein", "Enthalten"],
         ["Ausspracheübung mit Sätzen, die du selbst eintippst", "Nein", "Enthalten"],
         ["Module und Geschichten für die Offline-Nutzung herunterladen", "Nein", "Enthalten"]
@@ -64,7 +64,8 @@
         "<b>DELF A1, A2, B1 und B2</b>: Hörverstehen, Leseverstehen und Schreiben.",
         "<b>DALF C1</b>: Hör- und Leseverstehen und der vollständige Teil Schreiben.",
         "<b>DALF C2</b>: der Teil Leseverstehen und Schreiben in voller Länge.",
-        "<b>TCF tout public</b>: Hörverstehen, Sprachstrukturen, Leseverstehen und Schreiben."
+        "<b>TCF tout public</b>: Hörverstehen, Sprachstrukturen, Leseverstehen und Schreiben.",
+        "<b>TCF IRN</b>, der TCF für Aufenthaltstitel und die französische Staatsangehörigkeit: Hörverstehen, Leseverstehen und Schreiben."
       ]
     },
     {
@@ -96,7 +97,7 @@
         { "question": "Ist der Französischkurs wirklich kostenlos?", "answer": "Ja. Alle 76 Module von A1 bis C1, die Grammatikübersicht, das Wortschatztraining, der Einstufungstest, die typischen Fallen und 5 KI-Fragen am Tag sind kostenlos. Premium ergänzt die Spezialisierungen, Übungsprüfungen, Geschichten, Gespräche und weitere Extras." },
         { "question": "Welches Französisch lerne ich?", "answer": "Das Französisch Frankreichs. Die Stufe für Fortgeschrittene hat Module zum gesprochenen Französisch und zum Französischen in anderen Ländern." },
         { "question": "Ich kann schon etwas Französisch. Muss ich von vorn anfangen?", "answer": "Nein. Der Einstufungstest schlägt vor, wo du anfängst." },
-        { "question": "Bereitet der Kurs auf DELF oder TCF vor?", "answer": "Der Kurs führt von A1 bis C1, und Premium hat Übungsprüfungen für DELF A1 bis B2, DALF C1 und C2 und den TCF. Sie enthalten keine mündliche Prüfung und rechnen dein Ergebnis nicht in eine Note oder ein Niveau um, sagen also nicht voraus, wie die echte Prüfung ausgeht." },
+        { "question": "Bereitet der Kurs auf DELF oder TCF vor?", "answer": "Der Kurs führt von A1 bis C1, und Premium hat Übungsprüfungen für DELF A1 bis B2, DALF C1 und C2, den TCF und den TCF IRN. Sie enthalten keine mündliche Prüfung und rechnen dein Ergebnis nicht in eine Note oder ein Niveau um, sagen also nicht voraus, wie die echte Prüfung ausgeht." },
         { "question": "Was ist anders als im englischsprachigen Französischkurs?", "answer": "Stufen, Themen und Übungsprüfungen sind dieselben, aber Erklärungen, Anweisungen und Feedback sind auf Deutsch, die Grammatik wird mit dem Deutschen verglichen, und die Übersetzungsübungen gehen vom Deutschen ins Französische und zurück." }
       ]
     }

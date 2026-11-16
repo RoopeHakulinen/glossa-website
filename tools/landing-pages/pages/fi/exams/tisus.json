@@ -1,10 +1,10 @@
 {
-  "title": "Tisus ja ruotsin YKI-keskitaso: harjoituskokeet · Glossa",
-  "description": "Ajastetut harjoituskokeet Tisukseen ja ruotsin YKI-keskitasoon sekä koko ruotsin kurssi C1-tasolle. Mitä kokeissa kysytään ja mitä harjoituskokeet eivät kata.",
-  "card": { "title": "Tisus ja ruotsin YKI", "text": "Harjoituskokeet Tisukseen ja ruotsin YKI-keskitasoon, jolla voi osoittaa kansalaisuuteen vaadittavan kielitaidon." },
+  "title": "Tisus, ruotsin YKI-keskitaso ja sfi: harjoituskokeet · Glossa",
+  "description": "Ajastetut harjoituskokeet Tisukseen, ruotsin YKI-keskitasoon ja sfi-kurssien B, C ja D kansallisiin kokeisiin sekä koko ruotsin kurssi C1-tasolle.",
+  "card": { "title": "Tisus, ruotsin YKI ja sfi", "text": "Harjoituskokeet Tisukseen, ruotsin YKI-keskitasoon, jolla voi osoittaa Suomen kansalaisuuteen vaadittavan kielitaidon, ja sfi-kurssien B, C ja D kokeisiin." },
   "eyebrow": "Kokeisiin valmistautuminen · Ruotsi",
-  "heading": "Harjoittele <em>Tisusta</em> ja ruotsin YKI-keskitasoa.",
-  "lead": "Kaksi ajastettua harjoituskoetta Tisukseen, joka osoittaa ruotsin taidon riittävän opiskeluun ruotsalaisessa korkeakoulussa, ja kaksi ruotsin YKI-testin keskitasolle, jolla voi osoittaa Suomen kansalaisuuteen vaadittavan kielitaidon. Taustalla on koko ruotsin kurssi C1-tasolle, selitykset suomeksi.",
+  "heading": "Harjoittele <em>Tisusta</em>, ruotsin YKI-keskitasoa ja sfi-kokeita.",
+  "lead": "Kaksi ajastettua harjoituskoetta Tisukseen, joka osoittaa ruotsin taidon riittävän opiskeluun ruotsalaisessa korkeakoulussa, ja kaksi ruotsin YKI-testin keskitasolle, jolla voi osoittaa Suomen kansalaisuuteen vaadittavan kielitaidon. Lisäksi kaksi harjoituskoetta kunkin Ruotsin sfi-kurssin (<span lang=\"sv\">svenska för invandrare</span>) B, C ja D kansalliseen kokeeseen. Taustalla on koko ruotsin kurssi C1-tasolle, selitykset suomeksi.",
   "fineprint": "Ruotsin kurssi on maksuton. Harjoituskokeet kuuluvat Premiumiin, 8,99 € kuukaudessa tai 69,99 € vuodessa.",
   "panel": {
     "label": "Tisus-harjoituskokeesta 1, luetun ymmärtäminen",
@@ -80,11 +80,38 @@
       ]
     },
     {
+      "type": "table",
+      "eyebrow": "Sfi",
+      "heading": "Sfi-kurssien B, C ja D kansalliset kokeet",
+      "intro": [
+        "Sfi (<span lang=\"sv\">svenska för invandrare</span>, ruotsia maahanmuuttajille) on Ruotsin kunnallisen aikuiskoulutuksen (<span lang=\"sv\">komvux</span>) ruotsin kurssi. Sen kansallisista kokeista (<span lang=\"sv\">nationella prov</span>) kursseilla B, C ja D vastaa Skolverket, ja ne laatii Tukholman yliopiston ryhmä yhdessä Skolverketin kanssa. A-kurssilla koetta ei ole.",
+        "<b>Näihin kokeisiin ei voi ilmoittautua.</b> Ne tekevät sfi-opetukseen kirjoittautuneet opiskelijat omassa koulussaan kurssin lopussa, ja kokeen antaa ja arvioi heidän opettajansa. Tulos on yksi niistä asioista, joiden perusteella opettaja antaa kurssiarvosanan, <span lang=\"sv\">Godkänt</span> (hyväksytty) tai <span lang=\"sv\">Icke godkänt</span> (hylätty). Kokeet pysyvät salaisina, joten Glossan harjoituskokeet harjoittavat koemuotoja; ne eivät ole itse kokeita. Jokaisessa kokeessa on tekstin ja puheen ymmärtäminen, kirjoittaminen ja puhuminen, sanasto ja kielioppi kuuluvat jokaiseen tehtävään, ja Skolverketin arvion mukaan koko koe vie neljästä viiteen tuntia."
+      ],
+      "columns": ["Kurssi", "Oikea koe", "Glossan harjoituskokeissa"],
+      "rows": [
+        ["Sfi kurs B", "Puheen ja tekstin ymmärtäminen lyhyistä, selkeistä teksteistä (noin 25 ja 35 osiota), yksi kertova teksti itsestä tai jostain koetusta ja keskustelu opettajan kanssa.", "15 kuuntelu- ja 20 lukukysymystä sekä täysimittainen kirjoitustehtävä, 20, 35 ja 30 minuuttia. Ei puhumista."],
+        ["Sfi kurs C", "Tekstin ymmärtäminen kahdessa vihkossa (noin 40 kysymystä), puheen ymmärtäminen (24 kysymystä), yksi vapaamuotoisempi teksti, esimerkiksi sähköposti ystävälle, ja puhuminen yksin ja parin kanssa.", "Noin 22 luku- ja 14 kuuntelukysymystä sekä yksi kirjoitustehtävä, 40, 20 ja 40 minuuttia. Ei puhumista."],
+        ["Sfi kurs D", "Pidempien tekstien ymmärtäminen kahdessa vihkossa (noin 38 osiota), puheen ymmärtäminen (24 osiota), kaksi tekstiä, toinen vapaamuotoinen ja toinen muodollisempi, ja puhuminen yksin ja parin kanssa.", "Noin 22 luku- ja 14 kuuntelukysymystä sekä molemmat kirjoitustehtävät, 45, 25 ja 90 minuuttia. Ei puhumista."]
+      ],
+      "note": "Perustuu Skolverketin kuvauksiin kansallisista kokeista, tarkistettu marraskuussa 2026. Oikeiden osien aikarajat ovat opettajien ohjeissa, jotka eivät ole julkisia, joten Glossan ajat ovat Glossan omia. Uudet sfi-opetussuunnitelmat koskevat 31.12.2026 jälkeen alkanutta opetusta, ja uusi kansallisten kokeiden sarja alkaa 18.1.2027; Skolverket ei ole kertonut osien muuttuvan."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Ruotsin kansalaisuus",
+      "heading": "Mitä Ruotsin kansalaisuus edellyttää ruotsin taidolta",
+      "intro": "Ruotsin kansalaisuutta hakevien 16–66-vuotiaiden on 6.6.2026 alkaen osoitettava ruotsin kielen taitonsa. Migrationsverket vaatii tekstin ja puheen ymmärtämisessä tason B1 sekä puhumisessa ja kirjoittamisessa tason A2, ja se hyväksyy muiden todisteiden ohella:",
+      "items": [
+        "<b>hyväksytyn arvosanan sfi-opetuksen D-kurssilta</b>, joka on ylin sfi-kurssi. Ratkaisevaa on kurssiarvosana, ei kansallinen koe yksinään; hyväksytty B- tai C-kurssi ei täytä vaatimusta,",
+        "<b>hyväksytyn Tisuksen</b> tai",
+        "muut koulun arvosanat ruotsista. Kansalaisuudesta päättää Migrationsverket, joka asettaa myös muut ehdot."
+      ]
+    },
+    {
       "type": "reasons",
       "eyebrow": "Mitä saat",
       "heading": "Harjoituskokeet ja kurssi, josta oppia",
       "items": [
-        { "title": "Kaksi koetta kumpaankin", "text": "Omaa aineistoa: Tisus-kokeissa esimerkiksi tallennetut luennot, kyläkoulujen lakkauttaminen ja katoava käteinen, YKI-kokeissa jokamiehenoikeudet, pyörätiet talvella ja jätteiden lajittelu." },
+        { "title": "Kaksi koetta jokaiseen", "text": "Omaa aineistoa: Tisus-kokeissa esimerkiksi tallennetut luennot, kyläkoulujen lakkauttaminen ja katoava käteinen, YKI-kokeissa jokamiehenoikeudet, pyörätiet talvella ja jätteiden lajittelu, sfi-kokeissa arki, yhteiskunta, opiskelu ja työ Ruotsissa." },
         { "title": "Kirjoittaminen arvioidaan kriteerien mukaan", "text": "Tekoäly arvioi tekstisi kokeen arviointikriteerien mukaan ja kertoo, mitä parantaa. Arvio on suuntaa antava, ei arvioijan arvosana." },
         { "title": "Koko kurssi taustalla", "text": "75 moduulia kahdeksalla tasolla C1-tasolle, kielioppi suomeen verraten. Tasoilla 7 ja 8 on nominaalityyli, sidossanat, virastoruotsi, tyyli ja akateeminen ruotsi, joten harjoituskokeessa näkyvään heikkouteen löytyy moduuli." },
         { "title": "Palaute perusteluineen", "text": "Jokainen kurssin vastaus saa palautteen, jossa on syy ja linkki kielioppisääntöön. Jokaisen ruotsin sanan voi napauttaa ja nähdä sen muodot, merkityksen ja ääntämyksen." }
@@ -95,9 +122,9 @@
       "eyebrow": "Rehellisesti",
       "heading": "Miten harjoituskokeet eroavat oikeista kokeista",
       "items": [
-        "<b>Arvosanaa tai taitotasoa ei anneta.</b> YKI muuttaa pisteet taitotasoiksi omalla tavallaan, jota Glossa ei tiedä, ja Tisuksen hyväksymisraja vaihtelee koekerrasta toiseen. Harjoituskoe näyttää vain pisteosuuden eikä voi kertoa, saisitko arvion 3 tai hyväksytyn tuloksen.",
+        "<b>Arvosanaa tai taitotasoa ei anneta.</b> YKI muuttaa pisteet taitotasoiksi omalla tavallaan, jota Glossa ei tiedä, Tisuksen hyväksymisraja vaihtelee koekerrasta toiseen, eikä sfi-kokeiden rajoja julkaista. Harjoituskoe näyttää vain pisteosuuden eikä voi kertoa, saisitko arvion 3 tai hyväksytyn tuloksen.",
         "<b>Tekstin ja puheen ymmärtäminen sekä Tisuksen luetun ymmärtäminen ovat lyhyempiä</b> kuin oikeissa kokeissa, samoin tehtävätyypein. Kirjoittaminen on täysimittainen.",
-        "<b>Puhumisen osakoetta ei ole</b> kummassakaan.",
+        "<b>Puhumisen osakoetta ei ole</b> missään niistä.",
         "<b>YKI-kirjoitustehtävien ohjeet ovat suomeksi</b>, oikeassa testissä ruotsiksi. Sanamäärät ovat Glossan asettamia.",
         "<b>YKI-kuuntelun keskusteluissa on yksi ääni</b>, joka lukee molempien puhujien repliikit nimien kera.",
         "<b>Tallenteita voi kuunnella uudelleen.</b> YKI-testissä jokainen tallenne kuullaan kahdesti, joten kuuntele kaksi kertaa ja vastaa sitten.",
@@ -109,8 +136,8 @@
       "eyebrow": "Kysymyksiä",
       "heading": "Usein kysyttyä",
       "items": [
-        { "question": "Onko Glossa virallinen YKI- tai Tisus-valmennus?", "answer": "Ei ole. Glossalla ei ole yhteyttä Opetushallitukseen, Jyväskylän yliopistoon eikä Tukholman yliopistoon. Harjoituskokeet noudattavat julkaistuja koekuvauksia, ja aineisto on Glossan omaa." },
-        { "question": "Kumpi koe minun pitäisi tehdä?", "answer": "Suomen kansalaisuutta ja julkishallinnon ruotsin taitoa varten tarvitset YKI-todistuksen, Ruotsissa opiskelua varten Tisuksen. Tisus osoittaa, että ruotsisi riittää opiskeluun ruotsalaisessa korkeakoulussa." },
+        { "question": "Onko Glossa virallinen YKI-, Tisus- tai sfi-valmennus?", "answer": "Ei ole. Glossalla ei ole yhteyttä Opetushallitukseen, Jyväskylän yliopistoon, Tukholman yliopistoon eikä Skolverketiin. Harjoituskokeet noudattavat julkaistuja koekuvauksia, ja aineisto on Glossan omaa." },
+        { "question": "Kumpi koe minun pitäisi tehdä?", "answer": "Suomen kansalaisuutta ja julkishallinnon ruotsin taitoa varten tarvitset YKI-todistuksen, Ruotsissa opiskelua varten Tisuksen. Tisus osoittaa, että ruotsisi riittää opiskeluun ruotsalaisessa korkeakoulussa. Sfi-kokeet tehdään vain sfi-opetuksessa Ruotsissa kurssin lopussa, eikä niihin voi ilmoittautua erikseen." },
         { "question": "Paljonko ruotsin YKI-keskitaso maksaa?", "answer": "Koko testi maksaa 190 euroa (tarkistettu marraskuussa 2026). Testiin ilmoittaudutaan Opetushallituksen ilmoittautumisjärjestelmässä." },
         { "question": "Mikä on maksutonta?", "answer": "Koko ruotsin kurssi A1-tasolta C1-tasolle, kielioppiopas ja sanaharjoittelu ovat maksuttomia. Harjoituskokeet, erikoisalakurssit, keskusteluharjoitukset, tarinat ja muut lisäosat kuuluvat Premiumiin." },
         { "question": "Tekeekö Glossa harjoituskokeita ylioppilastutkinnon ruotsiin?", "answer": "Ei. Ylioppilastutkinnon ruotsin koe on eri koe." }
@@ -121,5 +148,5 @@
     "heading": "Aloita kurssista, harjoittele kokeilla.",
     "text": "Kirjaudu Google-tunnuksella, tee tasotesti, jos osaat jo ruotsia, ja avaa ensimmäinen moduuli tai harjoituskokeet. <a href=\"/fi/courses/swedish\">Lue lisää ruotsin kurssista</a>."
   },
-  "trademark": "Tisus-kokeen (Test i svenska för universitets- och högskolestudier) järjestää Tukholman yliopisto. Yleiset kielitutkinnot (YKI) ovat Opetushallituksen hallinnoimia. Glossa ei ole sidoksissa Tukholman yliopistoon eikä Opetushallitukseen, eivätkä ne ole hyväksyneet tai suositelleet Glossaa."
+  "trademark": "Tisus-kokeen (Test i svenska för universitets- och högskolestudier) järjestää Tukholman yliopisto. Yleiset kielitutkinnot (YKI) ovat Opetushallituksen hallinnoimia. Sfi-kurssien kansallisista kokeista vastaa Skolverket. Glossa ei ole sidoksissa Tukholman yliopistoon, Opetushallitukseen eikä Skolverketiin, eivätkä ne ole hyväksyneet tai suositelleet Glossaa."
 }

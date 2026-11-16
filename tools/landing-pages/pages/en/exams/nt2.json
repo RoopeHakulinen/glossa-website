@@ -1,10 +1,10 @@
 {
-  "title": "Staatsexamen NT2 practice: B1 and B2 Dutch papers · Glossa",
-  "description": "Timed practice papers for the Dutch Staatsexamen NT2, Programma I (B1) and II (B2), with a full Dutch course. What each part asks and what the papers leave out.",
-  "card": { "title": "Staatsexamen NT2 (Dutch)", "text": "Practice papers for Programma I and II, the Dutch state exam at B1 and B2." },
+  "title": "Staatsexamen NT2 and inburgeringsexamen A2 practice · Glossa",
+  "description": "Timed practice papers for the Staatsexamen NT2 (B1 and B2) and DUO's inburgeringsexamen A2, with a full Dutch course. What they ask and what the papers leave out.",
+  "card": { "title": "Staatsexamen NT2 and inburgeringsexamen A2 (Dutch)", "text": "Practice papers for Programma I and II, the Dutch state exam at B1 and B2, and for the language exams of the inburgeringsexamen A2." },
   "eyebrow": "Exam preparation · Dutch",
-  "heading": "Practise for the <em>Staatsexamen NT2</em>.",
-  "lead": "Timed practice papers for the reading, listening and writing parts of the Dutch state exam in Dutch as a second language, for Programma I (B1) and Programma II (B2). Behind them is a complete Dutch course from first words to C1, so you can work on whatever the papers show you are missing.",
+  "heading": "Practise for the <em>Staatsexamen NT2</em> and the inburgeringsexamen A2.",
+  "lead": "Timed practice papers for the reading, listening and writing parts of the Dutch state exam in Dutch as a second language, for Programma I (B1) and Programma II (B2), and for the reading, listening and writing exams of DUO's <span lang=\"nl\">inburgeringsexamen</span> at A2. Behind them is a complete Dutch course from first words to C1, so you can work on whatever the papers show you are missing.",
   "fineprint": "The Dutch course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for German speakers.",
   "panel": {
     "label": "From practice paper 1, Programma I reading",
@@ -47,18 +47,33 @@
       "heading": "Which programme you need",
       "intro": "According to the exam's descriptions:",
       "items": [
-        "<b>Programma I</b> meets the B1 language requirement for <span lang=\"nl\">inburgering</span> and for naturalisation, and shows enough Dutch to work or study at mbo level 3 or 4.",
+        "<b>Programma I</b> meets the B1 language requirement for <span lang=\"nl\">inburgering</span>, also counts for naturalisation, and shows enough Dutch to work or study at mbo level 3 or 4.",
         "<b>Programma II</b> shows enough Dutch to work or study at hbo or university level.",
-        "Under the Wet inburgering 2021, the language part of the B1 route is Programma I or Programma II, whichever your municipality's <span lang=\"nl\">Plan Inburgering en Participatie</span> names.",
+        "Under the Wet inburgering 2021, the language part of the B1 route is Programma I or Programma II, whichever your municipality's <span lang=\"nl\">Plan Inburgering en Participatie</span> names. These B1 and B2 exams are the Staatsexamen NT2, not a separate DUO exam.",
+        "<b>The inburgeringsexamen at A2</b> is DUO's own exam, a different one. It is what the Wet inburgering 2013 asks for, what you may switch to in the B1 route if B1 is not reached (after at least 600 hours of lessons), and what permanent residence asks for. For naturalisation, the inburgeringsexamen at A2 or the Staatsexamen NT2 at B1 or B2 is accepted; as of November 2026 the government plans to raise this to B1.",
         "The authorities that decide on <span lang=\"nl\">inburgering</span> and naturalisation set the other conditions, so check what applies to you with them."
       ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "The A2 exam",
+      "heading": "The inburgeringsexamen at A2",
+      "intro": "DUO runs the <span lang=\"nl\">inburgeringsexamen</span> for the Ministry of Social Affairs and Employment, at its exam locations in Amsterdam, Eindhoven, Rijswijk, Rotterdam, Utrecht and Zwolle. Its four language exams are each registered for, paid for (€50 each), taken and passed separately. Each is passed (<span lang=\"nl\">geslaagd</span>) or not, with a mark; the pass line is set by the Minister and not published. KNM, ONA, MAP and the participation statement are not language tests, and Glossa does not practise them.",
+      "columns": ["Exam", "The real exam", "In Glossa's papers"],
+      "rows": [
+        ["Listening <span lang=\"nl\">(Luisteren)</span>", "On a computer: short films and recordings about work, education and daily life, with questions. 45 minutes.", "14 questions in 25 minutes. Where the real exam shows a film, the question describes the scene in one line."],
+        ["Reading <span lang=\"nl\">(Lezen)</span>", "On a computer: texts on screen with questions. At most 65 minutes.", "6 texts with 16 questions in 35 minutes."],
+        ["Writing <span lang=\"nl\">(Schrijven)</span>", "On paper: 4 tasks, such as a short e-mail, a short text or a form. At most 40 minutes.", "4 tasks in 40 minutes, typed, rated by AI against DUO's published marking model."],
+        ["Speaking <span lang=\"nl\">(Spreken)</span>", "On a computer: you watch short films and answer questions. At most 35 minutes.", "Not included: Glossa cannot assess free spoken answers."]
+      ],
+      "note": "From DUO's descriptions on inburgeren.nl, checked in November 2026. DUO does not publish how many questions the reading and listening exams have; its official practice exams are under <span lang=\"nl\">Oefenen</span> on inburgeren.nl."
     },
     {
       "type": "reasons",
       "eyebrow": "What you get",
       "heading": "Papers to practise on, and a course to learn from",
       "items": [
-        { "title": "Two papers for each programme", "text": "Original texts and recordings in the exam's task formats, mostly about work and study: internships, job interviews, working from home, safety at work." },
+        { "title": "Two papers for each exam", "text": "Two each for Programma I, Programma II and the inburgeringsexamen A2, with original texts and recordings in the exams' task formats, mostly about work, study and daily life: internships, job interviews, working from home, safety at work." },
         { "title": "Writing rated by AI", "text": "Your texts are rated by AI, in Programma II on whether each task is done, how understandable the text is, grammar, spelling, word choice, coherence and structure. It is an estimate, not the mark of two raters." },
         { "title": "A full course behind the papers", "text": "76 modules in eight tiers from A1 to C1, with word order, <span lang=\"nl\">er</span>, verb clusters and the passive explained directly, so a weak spot in a paper has a module to go back to." },
         { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Dutch word can be tapped for its forms, meaning and audio." }
@@ -69,8 +84,8 @@
       "eyebrow": "Honest limits",
       "heading": "How the practice papers differ from the real exam",
       "items": [
-        "<b>No pass mark.</b> A section's result is the share of its points. The board publishes no conversion into scale scores, so a paper cannot tell you whether you would reach 500.",
-        "<b>Shorter</b> than the real parts, in the same task types: about half the tasks, with the time cut to match.",
+        "<b>No pass mark.</b> A section's result is the share of its points. The board publishes no conversion into scale scores, so a paper cannot tell you whether you would reach 500, and the A2 pass line is not published either.",
+        "<b>Shorter</b> than the real parts, in the same task types: about half the tasks, with the time cut to match. The A2 writing exam is full length.",
         "<b>There is no speaking section.</b> Pronunciation practice (Premium) trains how you say things, not the exam's free answers.",
         "<b>Reading is on screen</b> and no dictionary is offered.",
         "<b>Recordings can be replayed, and there are no video clips.</b> In the exam you read the question first and hear the recording once, so do the same here. In Programma II papers each recording has four questions instead of one.",
@@ -83,17 +98,18 @@
       "eyebrow": "Questions",
       "heading": "Common questions",
       "items": [
-        { "question": "Is Glossa an official NT2 preparation course?", "answer": "No. Glossa is not connected with the CvTE or DUO. The papers follow the published descriptions of the exam, with original content. The CvTE's own practice environment (<span lang=\"nl\">oefenexamens</span>) on staatsexamensnt2.nl shows the current format." },
+        { "question": "Is Glossa an official NT2 preparation course?", "answer": "No. Glossa is not connected with the CvTE or DUO. The papers follow the published descriptions of the exams, with original content. The CvTE's own practice environment (<span lang=\"nl\">oefenexamens</span>) on staatsexamensnt2.nl shows the current format." },
         { "question": "Programma I or Programma II?", "answer": "Programma I is at B1 and Programma II at B2. For <span lang=\"nl\">inburgering</span>, your municipality's plan names which one you take. The authorities that decide on <span lang=\"nl\">inburgering</span> and naturalisation set the other conditions." },
-        { "question": "What is free?", "answer": "The whole Dutch course from A1 to C1, the grammar reference, word practice and the placement test are free. The NT2 practice papers, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "Do I need the A2 exam or the Staatsexamen?", "answer": "That depends on which act applies to you and what you apply for; Mijn Inburgering shows which exams you take. Under the Wet inburgering 2013 the language exams are at A2; in the B1 route of the 2021 act they are the Staatsexamen NT2. Glossa has papers for both." },
+        { "question": "What is free?", "answer": "The whole Dutch course from A1 to C1, the grammar reference, word practice and the placement test are free. The NT2 and A2 practice papers, conversation practice, stories and the other extras are part of Premium." },
         { "question": "Does Glossa prepare me for the speaking part?", "answer": "Not with a practice paper. The course's speaking exercises give pronunciation feedback, and the conversation practice in Premium is practice in answering freely, but neither is rated like the exam." },
-        { "question": "I speak German. Is there a course for me?", "answer": "Yes. Dutch for German speakers has the same NT2 papers, with the instructions and explanations in German: <a href=\"/de/exams/nt2\">NT2 auf Deutsch</a>." }
+        { "question": "I speak German. Is there a course for me?", "answer": "Yes. Dutch for German speakers has the same NT2 and A2 papers, with the instructions and explanations in German: <a href=\"/de/exams/nt2\">NT2 auf Deutsch</a>." }
       ]
     }
   ],
   "closing": {
     "heading": "Start with the course, practise with the papers.",
-    "text": "Sign in with Google, take the placement test if you already know some Dutch, and open the first module or the NT2 papers."
+    "text": "Sign in with Google, take the placement test if you already know some Dutch, and open the first module or the practice papers."
   },
-  "trademark": "The Staatsexamen Nederlands als tweede taal (NT2) is the responsibility of the College voor Toetsen en Examens (CvTE), with registration and results run by DUO. Glossa is not affiliated with or endorsed by either."
+  "trademark": "The Staatsexamen Nederlands als tweede taal (NT2) is the responsibility of the College voor Toetsen en Examens (CvTE), with registration and results run by DUO. The inburgeringsexamen is run by DUO for the Ministry of Social Affairs and Employment. Glossa is not affiliated with or endorsed by any of them."
 }

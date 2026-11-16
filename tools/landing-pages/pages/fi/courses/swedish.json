@@ -5,7 +5,7 @@
   "eyebrow": "Kurssi · Ruotsi suomenkielisille",
   "heading": "Opi <em>ruotsia</em> kunnolla, alusta C1-tasolle.",
   "lead": "Ruotsissa puhuttua ruotsia 75 moduulissa ja kahdeksalla tasolla, ääntämisestä sekä <span lang=\"sv\">en</span>- ja <span lang=\"sv\">ett</span>-sanoista s-passiiviin, nominaalityyliin, virastoruotsiin ja akateemiseen ruotsiin. Kielioppi selitetään suoraan ja suomeen verraten, ja huomautukset kertovat, missä suomenruotsi poikkeaa.",
-  "fineprint": "Koko kurssi, kielioppiopas, sanaharjoittelu ja tasotesti ovat maksuttomia. Erikoisalakurssit, YKI- ja Tisus-harjoituskokeet ja muut lisäosat kuuluvat Premiumiin, 8,99 € kuukaudessa tai 69,99 € vuodessa.",
+  "fineprint": "Koko kurssi, kielioppiopas, sanaharjoittelu ja tasotesti ovat maksuttomia. Erikoisalakurssit, YKI-, Tisus- ja sfi-harjoituskokeet ja muut lisäosat kuuluvat Premiumiin, 8,99 € kuukaudessa tai 69,99 € vuodessa.",
   "panel": {
     "label": "Kurssi taso tasolta",
     "items": [
@@ -48,7 +48,7 @@
         ["Tarinat ja tekoälyn palaute uudelleenkerronnasta", "Ei", "Kyllä"],
         ["Keskusteluharjoitukset tekoälyhahmon kanssa", "Ei", "Kyllä"],
         ["Oppitunnit itse valitsemastasi aiheesta", "Ei", "Kyllä"],
-        ["Ajastetut YKI- ja Tisus-harjoituskokeet", "Ei", "Kyllä"],
+        ["Ajastetut YKI-, Tisus- ja sfi-harjoituskokeet", "Ei", "Kyllä"],
         ["Tekstit siitä, miten Ruotsi toimii, idiomit", "Ei", "Kyllä"],
         ["Ääntämisharjoitukset itse kirjoittamillasi lauseilla", "Ei", "Kyllä"],
         ["Lataus offline-käyttöön", "Ei", "Kyllä"]
@@ -58,12 +58,13 @@
     {
       "type": "list",
       "eyebrow": "Kokeisiin valmistautuminen",
-      "heading": "Harjoituskokeet YKI:n keskitasolle ja Tisukseen",
-      "intro": "Kurssilla on kaksi ajastettua harjoituskoetta kumpaankin kokeeseen. Molemmista kerrotaan tarkemmin <a href=\"/fi/exams/tisus\">harjoituskoesivulla</a>.",
+      "heading": "Harjoituskokeet YKI:n keskitasolle, Tisukseen ja sfi-kokeisiin",
+      "intro": "Kurssilla on kaksi ajastettua harjoituskoetta jokaiseen näistä kokeista. Kaikista kerrotaan tarkemmin <a href=\"/fi/exams/tisus\">harjoituskoesivulla</a>.",
       "items": [
         "<b>YKI, ruotsin keskitaso</b> (tasot 3–4): tekstin ymmärtäminen, puheen ymmärtäminen ja kirjoittaminen. Tätä tasoa vaaditaan Suomen kansalaisuuteen, ja sillä voi osoittaa julkishallinnon tehtävissä vaadittavan ruotsin taidon.",
         "<b>Tisus</b>, Tukholman yliopiston koe ruotsalaisiin korkeakouluopintoihin: luetun ymmärtäminen ja täysimittainen kirjoittaminen.",
-        "<b>Puhumisen osakoetta ei ole</b> kummassakaan, eikä harjoituskoe anna arvosanaa tai taitotasoa: se näyttää vain pisteosuuden."
+        "<b>Sfi kurs B, C ja D</b>: tekstin ymmärtäminen, puheen ymmärtäminen ja kirjoittaminen Ruotsin sfi-opetuksen kansallisten kokeiden muodoissa. Kokeet tehdään sfi-koulussa, eikä niihin voi ilmoittautua erikseen.",
+        "<b>Puhumisen osakoetta ei ole</b> missään niistä, eikä harjoituskoe anna arvosanaa tai taitotasoa: se näyttää vain pisteosuuden."
       ]
     },
     {

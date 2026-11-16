@@ -48,7 +48,7 @@
         ["Ammatilliset erikoisalat", "Ei", "13 alaa, 117 moduulia"],
         ["Tarinat ja tekoälyn palaute uudelleenkerronnasta", "Ei", "6 tarinaa"],
         ["Keskusteluharjoitukset tekoälyhahmon kanssa", "Ei", "36 tilannetta, leipomosta notaarin vastaanotolle"],
-        ["DELF-, DALF- ja TCF-harjoituskokeet", "Ei", "Kaksi ajastettua koetta kuhunkin seitsemään tutkintoon"],
+        ["DELF-, DALF- ja TCF-harjoituskokeet", "Ei", "Kaksi ajastettua koetta kuhunkin kahdeksaan tutkintoon"],
         ["Tekstit siitä, miten Ranska toimii, idiomit ja oppitunnit itse valitsemastasi aiheesta", "Ei", "Mukana"],
         ["Ääntämisharjoitus itse kirjoittamillasi lauseilla", "Ei", "Mukana"],
         ["Moduulien ja tarinoiden lataus offline-käyttöön", "Ei", "Mukana"]
@@ -65,6 +65,7 @@
         "<b>DALF C1</b>: kuullun ja luetun ymmärtäminen sekä täysimittainen kirjoittamisen koe.",
         "<b>DALF C2</b>: luetun ymmärtämisen ja kirjoittamisen koe täysimittaisena.",
         "<b>TCF tout public</b>: kuullun ymmärtäminen, kielen rakenteet, luetun ymmärtäminen ja kirjoittaminen.",
+        "<b>TCF IRN</b>, TCF-testin versio Ranskan oleskelulupia ja kansalaisuutta varten: kuullun ymmärtäminen, luetun ymmärtäminen ja kirjoittaminen.",
         "Suomessa DELF- ja DALF-tutkintoja järjestää Ranskan kulttuuri-instituutti (<span lang=\"fr\">Institut français de Finlande</span>) Helsingissä. Koepäivät ja ilmoittautuminen ovat sen sivuilla."
       ]
     },
@@ -97,7 +98,7 @@
         { "question": "Onko ranskan kurssi todella maksuton?", "answer": "On. Kaikki 76 moduulia tasoilta A1–C1, kielioppiosio, sanaharjoittelu, tasotesti, yleiset sudenkuopat ja viisi tekoälykysymystä päivässä ovat maksuttomia. Premium tuo ammatilliset erikoisalat, harjoituskokeet, tarinat, keskustelut ja muut lisäosat." },
         { "question": "Mitä ranskaa kurssilla opetetaan?", "answer": "Ranskassa puhuttua ranskaa. Edistyneellä tasolla on moduulit puhutusta ranskasta ja ranskasta muissa maissa." },
         { "question": "Osaan jo vähän ranskaa. Pitääkö aloittaa alusta?", "answer": "Ei tarvitse. Tasotesti ehdottaa, miltä tasolta aloittaa." },
-        { "question": "Valmistaako kurssi DELF- tai TCF-kokeeseen?", "answer": "Kurssi etenee alkeista C1-tasolle, ja Premiumissa on harjoituskokeet DELF A1–B2-, DALF C1- ja C2- sekä TCF-tutkintoihin. Niissä ei ole puhumisen osakoetta, eikä tulosta muuteta arvosanaksi tai tasoksi, joten harjoituskoe ei kerro, miten varsinainen koe menisi." },
+        { "question": "Valmistaako kurssi DELF- tai TCF-kokeeseen?", "answer": "Kurssi etenee alkeista C1-tasolle, ja Premiumissa on harjoituskokeet DELF A1–B2-, DALF C1- ja C2- sekä TCF- ja TCF IRN -tutkintoihin. Niissä ei ole puhumisen osakoetta, eikä tulosta muuteta arvosanaksi tai tasoksi, joten harjoituskoe ei kerro, miten varsinainen koe menisi." },
         { "question": "Miten tämä eroaa englanninkielisestä ranskan kurssista?", "answer": "Tasot, aiheet ja harjoituskokeet ovat samat, mutta selitykset, ohjeet ja palaute ovat suomeksi, kielioppia verrataan suomeen ja käännöstehtävät tehdään suomesta ja suomeksi." }
       ]
     }

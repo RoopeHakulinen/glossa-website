@@ -46,10 +46,10 @@
         ["Yleiset sudenkuopat suomenkielisille", "12 kokonaisuutta", "Sisältyy"],
         ["Kysy tekoälyltä", "5 kysymystä päivässä", "50 kysymystä päivässä"],
         ["Ammatilliset erikoisalat", "—", "13 erikoisalaa, 117 moduulia"],
-        ["Tarinat", "—", "6 tarinaa; kerro tarina omin sanoin ja saat tekoälyltä palautteen"],
+        ["Tarinat", "—", "12 tarinaa; kerro tarina omin sanoin ja saat tekoälyltä palautteen"],
         ["Keskusteluharjoitukset", "—", "36 tilannetta tekoälyhahmon kanssa, kirjoittaen tai puhuen"],
         ["Oppitunnit itse valitsemastasi aiheesta", "—", "Sisältyy"],
-        ["Harjoituskokeet", "—", "Kaksi ajastettua koetta 14 Goethe-, telc- ja TestDaF-kokeeseen"],
+        ["Harjoituskokeet", "—", "Kaksi ajastettua koetta 15 kokeeseen: DTZ, Goethe, telc ja TestDaF"],
         ["Tekstit siitä, miten Saksa toimii", "—", "19 tekstiä valtiosta ja verotuksesta asuinpaikan rekisteröintiin"],
         ["Idiomit", "—", "6 sarjaa"],
         ["Ääntämisharjoitus itse kirjoittamillasi lauseilla", "—", "Sisältyy"],
@@ -60,9 +60,10 @@
     {
       "type": "list",
       "eyebrow": "Kokeisiin valmistautuminen",
-      "heading": "Harjoituskokeet Goethe-, telc- ja TestDaF-kokeisiin",
+      "heading": "Harjoituskokeet DTZ-, Goethe-, telc- ja TestDaF-kokeisiin",
       "intro": "Kurssissa on kaksi ajastettua harjoituskoetta kuhunkin näistä kokeista, omilla teksteillä ja äänitteillä: luetun ymmärtäminen, kuullun ymmärtäminen ja kirjoittaminen. Suullista osaa niissä ei ole, eivätkä ne kerro, minkä tuloksen saisit oikeassa kokeessa: luetun ja kuullun ymmärtämisen osat ovat lyhyempiä, ja tekoäly arvioi kirjoitustehtävät.",
       "items": [
+        "<b>DTZ</b> (<span lang=\"de\">Deutsch-Test für Zuwanderer</span>), Saksan kotoutumiskurssin päättävä kielikoe, jonka tulos on A2 tai B1.",
         "<b>Goethe-Zertifikat</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2, B1, B2, C1 ja C2 (<span lang=\"de\">Großes Deutsches Sprachdiplom</span>).",
         "<b>telc Deutsch</b>: A1 (<span lang=\"de\">Start Deutsch 1</span>), A2 (<span lang=\"de\">Start Deutsch 2</span>), B1 (<span lang=\"de\">Zertifikat Deutsch</span>), B2, C1, C1 Hochschule ja C2.",
         "<b>TestDaF</b>, saksan kielen testi saksalaisiin korkeakouluihin pyrkiville."
@@ -97,7 +98,7 @@
         { "question": "Onko kurssi todella maksuton?", "answer": "On. Kaikki 76 moduulia A1-tasolta C1-tasolle, kielioppiopas, sanaharjoittelu, yleiset sudenkuopat ja tasotesti ovat maksuttomia, ja tekoälyltä voi kysyä viisi kysymystä päivässä. Premium tuo yllä luetellut lisät." },
         { "question": "Luin saksaa koulussa. Pitääkö aloittaa alusta?", "answer": "Ei tarvitse. Tasotesti ehdottaa, mistä kohtaa kurssia kannattaa aloittaa." },
         { "question": "Mitä saksaa kurssi opettaa?", "answer": "Saksassa puhuttua yleissaksaa. Tasolla 8 on moduuli Itävallan ja Sveitsin saksasta: <span lang=\"de\">Grüß Gott</span>, <span lang=\"de\">Jänner</span> ja sveitsiläinen kirjoitustapa ilman <span lang=\"de\">ß</span>-kirjainta." },
-        { "question": "Valmistaako kurssi Goethe-, telc- tai TestDaF-kokeeseen?", "answer": "Kurssi etenee C1-tasolle, ja Premiumissa on ajastetut harjoituskokeet 14 Goethe-, telc- ja TestDaF-kokeeseen: luetun ja kuullun ymmärtäminen sekä kirjoittaminen. Ne eivät takaa koetulosta eivätkä ennusta arvosanaa. Glossa ei ole yhteydessä Goethe-Institutiin, telc gGmbH:hon eikä TestDaF-Institutiin." },
+        { "question": "Valmistaako kurssi Goethe-, telc- tai TestDaF-kokeeseen?", "answer": "Kurssi etenee C1-tasolle, ja Premiumissa on ajastetut harjoituskokeet 15 kokeeseen (DTZ, Goethe, telc ja TestDaF): luetun ja kuullun ymmärtäminen sekä kirjoittaminen. Ne eivät takaa koetulosta eivätkä ennusta arvosanaa. Glossa ei ole yhteydessä Goethe-Institutiin, telc gGmbH:hon eikä TestDaF-Institutiin." },
         { "question": "Miten kurssi eroaa englanninkielisille tehdystä saksan kurssista?", "answer": "Saksankielinen aineisto ja harjoituskokeet ovat samat, mutta selitykset on kirjoitettu suomeksi ja kielioppia verrataan suomeen. Englantia ei tarvitse osata." }
       ]
     }
