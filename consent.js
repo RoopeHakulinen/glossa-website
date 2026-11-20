@@ -8,7 +8,9 @@ function gtag() {
 gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' })
 ;(() => {
   const cookie = 'glossaConsent'
-  const stored = (/(?:^|; )glossaConsent=(granted|denied)(?:;|$)/.exec(document.cookie) ?? [])[1] ?? null
+  // Global Privacy Control is an answer already: US state privacy laws treat it as opting out of ad measurement.
+  const stored =
+    (/(?:^|; )glossaConsent=(granted|denied)(?:;|$)/.exec(document.cookie) ?? [])[1] ?? (navigator.globalPrivacyControl === true ? 'denied' : null)
   if (stored === 'granted') {
     gtag('consent', 'update', { analytics_storage: 'granted', ad_storage: 'granted', ad_user_data: 'granted' })
   }
