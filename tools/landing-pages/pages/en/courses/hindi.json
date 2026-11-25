@@ -1,0 +1,97 @@
+{
+  "title": "Learn Hindi: a full course from Devanagari to C1 · Glossa",
+  "description": "A complete Hindi course for English speakers, from the Devanagari script to C1: 78 modules, postpositions, ने and compound verbs explained directly. Free.",
+  "card": { "title": "Hindi", "text": "Standard Hindi from the Devanagari script to C1 in 78 modules, with pronunciation feedback and 13 professional specializations." },
+  "eyebrow": "Course · Hindi for English speakers",
+  "heading": "Learn <em>Hindi</em>, from the script to C1.",
+  "lead": "A complete course in the standard Hindi of India, written in Devanagari, for English speakers. The first tier is the script and its sounds; after it come gender and agreement, postpositions and the oblique case, the dative constructions, the <span lang=\"hi\">ने</span> construction and compound verbs, one step at a time. Every answer gets feedback that says why, and every Hindi word can be tapped for its forms and meaning.",
+  "fineprint": "The whole course, the grammar reference, word practice and the placement test are free. Specializations, stories, conversation practice and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "items": [
+      { "title": "1 · Script and sounds", "text": "Devanagari vowels, consonants and conjuncts, the inherent vowel, greetings, <span lang=\"hi\">तू</span>, <span lang=\"hi\">तुम</span> and <span lang=\"hi\">आप</span>, <span lang=\"hi\">होना</span>." },
+      { "title": "2 · First sentences", "text": "Gender and plurals, postpositions and the oblique case, <span lang=\"hi\">का</span>, <span lang=\"hi\">के</span> and <span lang=\"hi\">की</span>, the present habitual." },
+      { "title": "3 · The verb system", "text": "The continuous, the future, <span lang=\"hi\">को</span>, <span lang=\"hi\">मुझे चाहिए</span> and other dative constructions, <span lang=\"hi\">लाख</span> and <span lang=\"hi\">करोड़</span>." },
+      { "title": "4 · Building fluency", "text": "The <span lang=\"hi\">ने</span> construction, the subjunctive, ability and obligation, comparison, <span lang=\"hi\">ही</span>, <span lang=\"hi\">भी</span> and <span lang=\"hi\">तो</span>." },
+      { "title": "5 · Everyday fluency", "text": "Compound and conjunct verbs, the conjunctive participle, relative-correlative clauses, conditionals." },
+      { "title": "6 · Intermediate", "text": "Participles, the passive, causatives, reported speech, the presumptive." },
+      { "title": "7 · Upper intermediate", "text": "Word formation, formal address, echo words, verb government, official Hindi." },
+      { "title": "8 · Advanced", "text": "Tense and aspect, word order and particles, Hindi and Urdu, spoken Hindi, literature." }
+    ],
+    "note": "78 modules in eight tiers, plus 13 professional specializations with 117 more modules."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "Hindi grammar explained, not guessed at",
+      "items": [
+        { "title": "The script first, and in full", "text": "Tier 1 teaches Devanagari: the vowels and their signs, the consonants, conjuncts and nasals, the inherent vowel that is written but often not said, and the sounds English lacks, such as aspirated and retroflex consonants. A romanisation helps only in Tier 1; from Tier 2 on, the course writes Hindi in Devanagari alone." },
+        { "title": "Typing without a Hindi keyboard", "text": "Hindi typed in Latin letters turns into Devanagari as you type, and an on-screen Devanagari keyboard has every letter and sign." },
+        { "title": "Who is the subject", "text": "The dative constructions (<span lang=\"hi\">मुझे चाहिए</span>, <span lang=\"hi\">मुझे हिंदी आती है</span>) come in Tier 3, the perfective with intransitive verbs before the <span lang=\"hi\">ने</span> construction in Tier 4, and agreement with the object is explained where it happens." },
+        { "title": "Feedback that says why", "text": "Every answer gets feedback with the reason and a link to the grammar rule. Answers accept the spelling variants Hindi print really uses, such as <span lang=\"hi\">हिन्दी</span> for <span lang=\"hi\">हिंदी</span>." },
+        { "title": "Speaking with pronunciation feedback", "text": "Hindi has pronunciation assessment, so every core module has a speaking activity where you say words and sentences and get feedback on each word. Tier 1 has the most, on aspiration, retroflexes, vowel length and nasal vowels." },
+        { "title": "Common traps", "text": "Twelve short sets on the mistakes English speakers make, from letters that look alike, short and long vowels and the silent a to <span lang=\"hi\">तुम</span> and <span lang=\"hi\">आप</span>, the forgotten oblique, <span lang=\"hi\">ने</span> and agreement, and compound verbs." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free from the first module to the last. Premium adds the extras around it.",
+      "columns": ["Feature", "Free", "Premium"],
+      "rows": [
+        ["The course", "All 78 modules in eight tiers, from the script to C1", "Included"],
+        ["Grammar reference, word practice, placement test", "Included", "Included"],
+        ["Common traps for English speakers", "12 sets", "Included"],
+        ["Ask AI questions", "5 a day", "50 a day"],
+        ["Specialization courses", "—", "13 courses with 117 modules"],
+        ["Stories", "—", "12 stories, with AI feedback on your retellings"],
+        ["Conversation practice", "—", "36 scenarios with an AI character, typed or spoken"],
+        ["Lessons on a topic you choose", "—", "Included"],
+        ["Texts on how India works", "—", "20 texts, from the states and elections to Aadhaar, GST and UPI"],
+        ["Idioms", "—", "6 idiom sets"],
+        ["Pronunciation practice on sentences you type", "—", "Included"],
+        ["Offline download of modules and stories", "—", "Included"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Hindi for your field",
+      "intro": "Thirteen specialization courses, each with nine modules in three stages: Foundations written for learners at Tier 4, Working vocabulary at Tier 6, and Professional at Tier 8.",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Hindi course free?", "answer": "Yes. All 78 modules from the script to C1, the grammar reference, word practice, the common traps and the placement test are free, with 5 Ask AI questions a day. Premium adds the specializations, stories, conversation practice and the other extras." },
+        { "question": "Do I need to know Devanagari first?", "answer": "No. Tier 1 teaches the script from the first vowel, with a romanisation beside the Hindi in that tier only." },
+        { "question": "Which Hindi does it teach?", "answer": "The standard Hindi of India, as educated speakers write and speak it: the Hindi of newspapers, television news, schoolbooks and everyday conversation. Tier 8 adds Hindi and Urdu and the layers of Hindi vocabulary, spoken Hindi and Hinglish, and the languages of the Hindi belt for recognition." },
+        { "question": "Are there practice papers for a Hindi exam?", "answer": "No. There is no widely recognised Hindi exam for foreign learners whose format its board publishes, so the course has no exam papers." },
+        { "question": "I already know some Hindi. Do I have to start at the beginning?", "answer": "No. Take the placement test and start at the tier it suggests." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the script, or with the placement test.",
+    "text": "Sign in with Google, take the placement test if you already know some Hindi, and open the first module."
+  }
+}

@@ -5,7 +5,7 @@
   "eyebrow": "Exam preparation · Swedish",
   "heading": "Practise for <em>Tisus</em> and the sfi tests in Swedish.",
   "lead": "Two timed practice papers for the reading and writing parts of Tisus, the test that shows your Swedish is good enough for studies at a Swedish university. Behind them is a complete Swedish course to C1, with the academic and formal Swedish the test is built on. There are also two papers each for the national tests of sfi (<span lang=\"sv\">svenska för invandrare</span>) courses B, C and D, in their reading, listening and writing formats.",
-  "fineprint": "The Swedish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Finnish speakers.",
+  "fineprint": "The Swedish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Finnish, Russian, Ukrainian, Norwegian and Danish speakers.",
   "panel": {
     "label": "From practice paper 1, reading",
     "lang": "sv",
@@ -103,7 +103,8 @@
         { "question": "Can I book the sfi test?", "answer": "No. The national sfi tests are taken only by students enrolled in sfi, at their school, near the end of each course. Glossa's sfi papers help you practise the formats alongside the course." },
         { "question": "Is there a listening part?", "answer": "No. Tisus has reading, writing and speaking. Glossa's papers cover reading and writing." },
         { "question": "What is free?", "answer": "The whole Swedish course from A1 to C1, the grammar reference and word practice are free. The Tisus and sfi practice papers, the specializations, conversation practice, stories and the other extras are part of Premium." },
-        { "question": "I speak Finnish. Is there a course for me?", "answer": "Yes. <a href=\"/fi/courses/swedish\">Swedish for Finnish speakers</a> has the same Tisus and sfi papers with the instructions in Finnish, and also papers for the Swedish YKI test at the intermediate level." }
+        { "question": "I speak Finnish. Is there a course for me?", "answer": "Yes. <a href=\"/fi/courses/swedish\">Swedish for Finnish speakers</a> has the same Tisus and sfi papers with the instructions in Finnish, and also papers for the Swedish YKI test at the intermediate level." },
+        { "question": "I speak Russian, Ukrainian, Norwegian or Danish. Is there a course for me?", "answer": "Yes. <a href=\"/ru/courses/swedish\">Swedish for Russian speakers</a> and <a href=\"/uk/courses/swedish\">Swedish for Ukrainian speakers</a> have the same Tisus and sfi papers, with the instructions in Russian or Ukrainian. Swedish for Danish speakers, a shorter course, has the Tisus and sfi papers too, and Swedish for Norwegian speakers the Tisus papers." }
       ]
     }
   ],

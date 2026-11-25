@@ -1,0 +1,109 @@
+{
+  "title": "Norwegian course for English speakers, A1 to C1 · Glossa",
+  "description": "A complete Norwegian Bokmål course from first words to C1: 76 modules in eight tiers, grammar explained directly, Norskprøven and Bergenstesten papers. Free.",
+  "card": { "title": "Norwegian", "text": "Norwegian Bokmål in 76 modules from first words to C1, with 13 specializations and Norskprøven and Bergenstesten papers." },
+  "eyebrow": "Course · Norwegian for English speakers",
+  "heading": "Learn <em>Norwegian</em> from first words to C1.",
+  "lead": "Norwegian Bokmål as it is taught to adults in Norway, with the pronunciation of standard East Norwegian, in 76 modules across eight tiers: from pitch accent, the three genders and the present tense to the passives, nominal style, academic Norwegian, the dialects and Nynorsk. Grammar is explained directly, and every answer gets feedback with a reason.",
+  "fineprint": "The whole course, the grammar reference, word practice and the placement test are free. Specializations, Norskprøven and Bergenstesten practice papers and the other extras are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "The course, tier by tier",
+    "items": [
+      { "title": "1 · Sounds and first words", "text": "Pronunciation and pitch accent, greetings, the three genders, the present tense, numbers." },
+      { "title": "2 · Everyday basics", "text": "Definite forms, plurals, adjectives, verb-second word order, questions, possessives after the noun." },
+      { "title": "3 · Daily life", "text": "Verb classes, modal verbs, prepositions of place, food, the city, shopping." },
+      { "title": "4 · The past", "text": "The past tense and the perfect, strong verbs, the future, reflexives, travel and health." },
+      { "title": "5 · Building fluency", "text": "Subordinate clauses, particle verbs, comparison, double definiteness, the passive." },
+      { "title": "6 · Intermediate", "text": "Relative clauses, the conditional, reported speech, participles, modal particles." },
+      { "title": "7 · Upper intermediate", "text": "Choosing the passive, nominal style, connectors, word formation, official Norwegian." },
+      { "title": "8 · Advanced", "text": "Advanced word order, style, spoken Norwegian, dialects and Nynorsk, academic Norwegian." }
+    ],
+    "note": "76 modules in all. A placement test lets you start further up if you already know some Norwegian."
+  },
+  "sections": [
+    {
+      "type": "reasons",
+      "eyebrow": "How it teaches",
+      "heading": "A course built for adults who want to understand the language",
+      "items": [
+        { "title": "Grammar explained, not hidden", "text": "Each grammar module states the rule: when a noun takes <span lang=\"nb\">en</span>, <span lang=\"nb\">ei</span> or <span lang=\"nb\">et</span>, why the verb comes second, where <span lang=\"nb\">ikke</span> goes in a subordinate clause. The grammar reference keeps every rule in one place." },
+        { "title": "Bokmål as Norwegians write it", "text": "The course teaches three genders with the a-forms most Norwegians use for everyday feminine nouns (<span lang=\"nb\">jenta</span>, <span lang=\"nb\">boka</span>), and says from the start that <span lang=\"nb\">boken</span> is correct too. Answers accept both wherever both are correct." },
+        { "title": "Dialects and Nynorsk", "text": "Norwegians speak their dialect at work and on television. The course notes dialect forms you will hear, and Tier 8 teaches dialects and Nynorsk for recognition and reading. You are never asked to produce dialect." },
+        { "title": "Feedback that says why", "text": "A wrong answer is marked with the correct form and the reason, with a link to the rule. Answers are graded on the server, the same way every time." },
+        { "title": "Every word inspectable", "text": "Tap any Norwegian word in an exercise, text or story for its meaning, its forms and audio." },
+        { "title": "Speaking with pronunciation feedback", "text": "Norwegian has pronunciation assessment, so the course includes exercises where you say a word or a sentence and get feedback on each word, with notes on pitch accent and vowel length where they matter." }
+      ]
+    },
+    {
+      "type": "table",
+      "eyebrow": "Plans",
+      "heading": "What is free and what is Premium",
+      "intro": "The course itself is free. Premium adds practice beyond it.",
+      "columns": ["Feature", "Free", "Premium"],
+      "rows": [
+        ["All 76 modules, A1 to C1", "Yes", "Yes"],
+        ["Grammar reference, word practice, placement test", "Yes", "Yes"],
+        ["12 sets of common traps for English speakers", "Yes", "Yes"],
+        ["Ask AI about any exercise", "5 questions a day", "50 questions a day"],
+        ["13 specialization courses", "No", "Yes"],
+        ["12 stories with AI feedback on your retellings", "No", "Yes"],
+        ["Conversation practice with an AI character", "No", "Yes"],
+        ["Lessons on a topic you choose", "No", "Yes"],
+        ["Timed Norskprøven and Bergenstesten practice papers", "No", "Yes"],
+        ["19 texts on how Norway works, idioms", "No", "Yes"],
+        ["Pronunciation practice on sentences you type", "No", "Yes"],
+        ["Offline download", "No", "Yes"]
+      ],
+      "note": "Premium is €8.99 a month or €69.99 a year."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Exam preparation",
+      "heading": "Practice papers for Norskprøven and Bergenstesten",
+      "intro": "The course has two timed practice papers for each level of Norskprøven, HK-dir's test of Norwegian for adult immigrants, and for <span lang=\"nb\">Test i norsk – høyere nivå</span> (Bergenstesten), with original content. The <a href=\"/exams/norwegian\">Norwegian exams page</a> says what they cover and where they differ from the real tests.",
+      "items": [
+        "<b>Norskprøven A1–A2, A2–B1 and B1–B2</b>: reading, listening and writing, with the writing at full length.",
+        "<b>Norskprøven C1</b> (<span lang=\"nb\">høyere akademisk nivå</span>): the summary of a long conversation and the argumentative text of Part 1, at full length.",
+        "<b>Bergenstesten</b>: all five sub-tests of the written test, shorter than the real one.",
+        "<b>No oral part</b>, and no level or pass mark: the papers show the share of points only."
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Specializations",
+      "heading": "Norwegian for your field",
+      "intro": "Thirteen specialization courses, each with nine modules in three stages (foundations, working vocabulary, professional) that open as you reach Tiers 4, 6 and 8 of the core course:",
+      "items": [
+        "Politics and government",
+        "Law and legal practice",
+        "Environment and sustainability",
+        "Business and management",
+        "Finance, banking and economics",
+        "Medicine and healthcare",
+        "Software and IT",
+        "Science and academia",
+        "Engineering, industry and energy",
+        "Journalism and media",
+        "Diplomacy and international relations",
+        "Tourism and hospitality",
+        "Sports and fitness"
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is the Norwegian course really free?", "answer": "Yes. All 76 modules from A1 to C1, the grammar reference, word practice, the common traps and the placement test are free, with 5 Ask AI questions a day. Premium adds the specializations, exam papers, stories, conversations and the other extras." },
+        { "question": "Bokmål or Nynorsk?", "answer": "Bokmål, the written standard most Norwegians use, with the pronunciation of standard East Norwegian. Nynorsk is explained from the first module and taught for reading in Tier 8." },
+        { "question": "I already know some Norwegian. Do I have to start from the beginning?", "answer": "No. The placement test tells you which tier to start from." },
+        { "question": "Does it prepare for Norskprøven?", "answer": "It has two timed practice papers for each level of Norskprøven and for Bergenstesten. There is no oral part, which is the part UDI asks for in applications for citizenship and permanent residence, and the papers do not estimate your level. The <a href=\"/exams/norwegian\">Norwegian exams page</a> has the details." },
+        { "question": "I speak Swedish or Danish. Is there a version for me?", "answer": "Yes. Norwegian for Swedish speakers (40 modules) and Norwegian for Danish speakers (29 modules) are shorter courses, with explanations in Swedish or Danish, that build on what your language already gives you and spend their time on what is different." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Open the first module.",
+    "text": "Sign in with Google, take the placement test if you already know some Norwegian, and start where it puts you."
+  }
+}

@@ -93,7 +93,8 @@
         { "question": "Which Spanish does Glossa teach?", "answer": "Castilian Spanish, the Spanish of Spain, with notes where Latin American usage differs and a module on the varieties of Spanish." },
         { "question": "I already know some Spanish. Do I have to start from the beginning?", "answer": "No. The placement test finds the tier to start from, and you can open any module." },
         { "question": "How far does the course go?", "answer": "To C1: the last tier covers the fine points of the subjunctive, prepositions and verb government, registers and style, colloquial Spanish, history, literature and law." },
-        { "question": "Can it prepare me for the DELE?", "answer": "The course covers the grammar and vocabulary from A1 to C1, and Premium adds timed practice papers for every DELE level. The papers have no speaking test and their results are an estimate, so they are practice, not a prediction of your result." }
+        { "question": "Can it prepare me for the DELE?", "answer": "The course covers the grammar and vocabulary from A1 to C1, and Premium adds timed practice papers for every DELE level. The papers have no speaking test and their results are an estimate, so they are practice, not a prediction of your result." },
+        { "question": "I speak another language. Is there a version for me?", "answer": "Spanish is also taught with explanations in Russian, Ukrainian, Finnish, German, Portuguese and Italian, with the same DELE papers: Spanish for <a href=\"/ru/courses/spanish\">Russian</a>, <a href=\"/uk/courses/spanish\">Ukrainian</a>, <a href=\"/fi/courses/spanish\">Finnish</a>, <a href=\"/de/courses/spanish\">German</a>, <a href=\"/pt/courses/spanish\">Portuguese</a> and <a href=\"/it/courses/spanish\">Italian</a> speakers." }
       ]
     }
   ],

@@ -12,6 +12,7 @@
   <url><loc>https://glossa.study/uk/</loc></url>
   <url><loc>https://glossa.study/exams/celpe-bras</loc></url>
   <url><loc>https://glossa.study/exams/cima</loc></url>
+  <url><loc>https://glossa.study/exams/danish</loc></url>
   <url><loc>https://glossa.study/exams/dele</loc></url>
   <url><loc>https://glossa.study/exams/english</loc></url>
   <url><loc>https://glossa.study/exams/french</loc></url>
@@ -22,6 +23,7 @@
   <url><loc>https://glossa.study/exams/</loc></url>
   <url><loc>https://glossa.study/exams/italian</loc></url>
   <url><loc>https://glossa.study/exams/jlpt</loc></url>
+  <url><loc>https://glossa.study/exams/norwegian</loc></url>
   <url><loc>https://glossa.study/exams/nt2</loc></url>
   <url><loc>https://glossa.study/exams/polish</loc></url>
   <url><loc>https://glossa.study/exams/tisus</loc></url>
@@ -32,16 +34,19 @@
   <url><loc>https://glossa.study/exams/yki</loc></url>
   <url><loc>https://glossa.study/courses/arabic</loc></url>
   <url><loc>https://glossa.study/courses/chinese</loc></url>
+  <url><loc>https://glossa.study/courses/danish</loc></url>
   <url><loc>https://glossa.study/courses/dutch</loc></url>
   <url><loc>https://glossa.study/courses/finnish</loc></url>
   <url><loc>https://glossa.study/courses/french</loc></url>
   <url><loc>https://glossa.study/courses/georgian</loc></url>
   <url><loc>https://glossa.study/courses/german</loc></url>
   <url><loc>https://glossa.study/courses/greek</loc></url>
+  <url><loc>https://glossa.study/courses/hindi</loc></url>
   <url><loc>https://glossa.study/courses/</loc></url>
   <url><loc>https://glossa.study/courses/italian</loc></url>
   <url><loc>https://glossa.study/courses/japanese</loc></url>
   <url><loc>https://glossa.study/courses/korean</loc></url>
+  <url><loc>https://glossa.study/courses/norwegian</loc></url>
   <url><loc>https://glossa.study/courses/polish</loc></url>
   <url><loc>https://glossa.study/courses/portuguese</loc></url>
   <url><loc>https://glossa.study/courses/russian</loc></url>
@@ -80,22 +85,32 @@
   <url><loc>https://glossa.study/fi/courses/</loc></url>
   <url><loc>https://glossa.study/fi/courses/spanish</loc></url>
   <url><loc>https://glossa.study/fi/courses/swedish</loc></url>
+  <url><loc>https://glossa.study/ru/exams/french</loc></url>
   <url><loc>https://glossa.study/ru/exams/</loc></url>
+  <url><loc>https://glossa.study/ru/exams/tisus</loc></url>
   <url><loc>https://glossa.study/ru/exams/ukrainian</loc></url>
   <url><loc>https://glossa.study/ru/exams/yki</loc></url>
   <url><loc>https://glossa.study/ru/courses/english</loc></url>
   <url><loc>https://glossa.study/ru/courses/finnish</loc></url>
+  <url><loc>https://glossa.study/ru/courses/french</loc></url>
   <url><loc>https://glossa.study/ru/courses/german</loc></url>
   <url><loc>https://glossa.study/ru/courses/</loc></url>
   <url><loc>https://glossa.study/ru/courses/spanish</loc></url>
+  <url><loc>https://glossa.study/ru/courses/swedish</loc></url>
   <url><loc>https://glossa.study/ru/courses/ukrainian</loc></url>
+  <url><loc>https://glossa.study/uk/exams/dele</loc></url>
+  <url><loc>https://glossa.study/uk/exams/french</loc></url>
   <url><loc>https://glossa.study/uk/exams/german</loc></url>
   <url><loc>https://glossa.study/uk/exams/</loc></url>
   <url><loc>https://glossa.study/uk/exams/polish</loc></url>
+  <url><loc>https://glossa.study/uk/exams/tisus</loc></url>
   <url><loc>https://glossa.study/uk/exams/yki</loc></url>
   <url><loc>https://glossa.study/uk/courses/english</loc></url>
   <url><loc>https://glossa.study/uk/courses/finnish</loc></url>
+  <url><loc>https://glossa.study/uk/courses/french</loc></url>
   <url><loc>https://glossa.study/uk/courses/german</loc></url>
   <url><loc>https://glossa.study/uk/courses/</loc></url>
   <url><loc>https://glossa.study/uk/courses/polish</loc></url>
+  <url><loc>https://glossa.study/uk/courses/spanish</loc></url>
+  <url><loc>https://glossa.study/uk/courses/swedish</loc></url>
 </urlset>

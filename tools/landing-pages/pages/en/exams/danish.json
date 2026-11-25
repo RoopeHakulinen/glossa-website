@@ -1,0 +1,93 @@
+{
+  "title": "Prøve i Dansk 1, 2, 3 and Studieprøven practice papers · Glossa",
+  "description": "Timed practice papers for Prøve i Dansk 1, 2 and 3 and Studieprøven, with a full Danish course to C1. What the exams ask, how they are marked, and what the papers leave out.",
+  "card": { "title": "Prøve i Dansk and Studieprøven (Danish)", "text": "Papers for Prøve i Dansk 1, 2 and 3, the exams for residence and citizenship, and for Studieprøven, used for university admission." },
+  "eyebrow": "Exam preparation · Danish",
+  "heading": "Practise for <em>Prøve i Dansk</em> and Studieprøven.",
+  "lead": "Two timed practice papers each for Prøve i Dansk 1, 2 and 3 and Studieprøven, the Danish exams for adult foreigners, in the reading and writing formats of the real exams. Behind them is a complete Danish course to C1, with listening in every module, so a weak spot in a paper has a module to go back to.",
+  "fineprint": "The Danish course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From PD3 practice paper 1, reading 2A",
+    "lang": "da",
+    "title": "Hjemmearbejde – frihed eller ensomhed?",
+    "text": "Under coronapandemien i 2020 blev hundredtusinder af danskere sendt hjem for at arbejde. … Da samfundet åbnede igen, vendte langt fra alle tilbage til kontoret på fuld tid.",
+    "question": "Hvad skete der ifølge teksten, da samfundet åbnede efter pandemien?",
+    "options": [
+      "Næsten alle vendte tilbage til kontoret på fuld tid.",
+      "Mange fortsatte med at arbejde hjemme en del af ugen.",
+      "Virksomhederne forbød hjemmearbejde."
+    ],
+    "note": "As in the real exams, words in a paper are not tappable."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The exams",
+      "heading": "What the written parts ask, exam by exam",
+      "intro": [
+        "Prøve i Dansk 1, 2 and 3 (PD1, PD2, PD3) and Studieprøven end the three Danish courses for adult foreigners (<span lang=\"da\">Danskuddannelse</span> 1, 2 and 3). The Agency for International Recruitment and Integration (SIRI), under the Ministry of Immigration and Integration, sets them. Language centres hold them twice a year, in May–June and November–December, and anyone can take them as a self-study candidate for a fee, registering at least ten weeks before.",
+        "Each exam has a written part (reading and writing) and an oral part, in which listening is tested through the conversation with the examiner. Glossa's papers cover the written part and add a short listening section of their own."
+      ],
+      "columns": ["Exam", "The real written part", "In Glossa's papers"],
+      "rows": [
+        ["PD1 (reading and writing at A1, speaking at A2+)", "Reading: five tasks on timetables, adverts, text messages and forms, 21 items in 1 hour 15 minutes. Writing: about 40 words on a topic of your own, and two notices, in 45 minutes.", "Reading with 17 items in the same five task types, 60 minutes. Writing at full length, with a topic to choose instead of your own. Listening, 15 minutes."],
+        ["PD2 (B1, speaking B1+)", "Reading: scanning reference texts and adverts (30 minutes), then three close-reading tasks (60 minutes). Writing: a semi-formal text and an e-mail to a friend of at least 100 words, in 1½ hours.", "Reading with fewer questions, 20 and 50 minutes. Writing at full length, 90 minutes. Listening, 15 minutes."],
+        ["PD3 (B2)", "Reading: scanning a collection of about ten pages for 15 answers (25 minutes), then three texts read closely (65 minutes). Writing: an e-mail to a friend and a text of at least 200 words on a social topic, in 2½ hours.", "Reading with a collection of about two pages and 8 questions in 15 minutes, then 14 items in 55 minutes. Writing at full length, 2 hours 30 minutes. Listening, 15 minutes."],
+        ["Studieprøven (C1)", "Reading: scanning a collection of about 25 pages for 15 answers (25 minutes), then three texts read closely (65 minutes). Writing: one text of at least 400 words on a social topic, built on a chart or table, in 3 hours.", "Reading with a collection of about two and a half pages and 8 questions in 15 minutes, then 17 items in 55 minutes. Writing at full length, 3 hours, with three tasks to choose from. Listening, 15 minutes."]
+      ],
+      "note": "Based on SIRI's descriptions of the exams on danskogproever.dk and the executive order on the exams (BEK nr. 1687 of 16 December 2025), checked in November 2026."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Passing",
+      "heading": "How the exams are marked",
+      "items": [
+        "<b>PD1</b> is not marked on the 7-point scale. Each part is rated <span lang=\"da\">god</span>, <span lang=\"da\">acceptabel</span> or <span lang=\"da\">under niveau</span>, and the exam is passed or failed: <span lang=\"da\">under niveau</span> in the oral part always fails.",
+        "<b>PD2 and PD3</b> give a mark on the Danish 7-point scale for reading, writing and speaking. You pass with an average of at least 2.0, in which speaking counts twice; there is no pass mark for a part on its own.",
+        "<b>Studieprøven</b> gives the same three marks, and each part must be passed with at least 02. Reading and writing must be passed in the same exam period.",
+        "<b>What they are used for</b>, among other things: PD1 can meet a condition for family reunification with a spouse, PD2 is one of the requirements for permanent residence, PD3 is linked to applications for Danish citizenship, and many universities and colleges accept Studieprøven for their Danish-language requirement."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers for each exam", "text": "Eight papers in all, with original texts in the real task types: scanning a collection of texts, putting removed sentences and paragraphs back, choosing the missing word, and the writing tasks." },
+        { "title": "Writing rated against the criteria", "text": "Your texts are rated by AI against the published criteria, with what to improve. It is an estimate, not a censor's mark." },
+        { "title": "A full course behind the papers", "text": "77 modules in eight tiers to C1, with listening in every module, everyday and fast spoken Danish, nominal style, official Danish and academic Danish." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Danish word in the course can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real exams",
+      "items": [
+        "<b>Reading is shorter</b>, with fewer items and the time cut to match. Writing is full length.",
+        "<b>The listening section is Glossa's own.</b> The real exams test listening only through the conversation with the examiner, which Glossa cannot hold, so each paper has short recordings with questions instead.",
+        "<b>There is no speaking part.</b>",
+        "<b>No mark is shown.</b> SIRI does not publish how points turn into marks, so a paper shows the share of points only and cannot tell you whether you would pass.",
+        "<b>The writing score is an AI estimate</b> against the published criteria, not a censor's mark.",
+        "<b>On screen.</b> You choose or type your answers instead of writing them on paper."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official Prøve i Dansk preparation course?", "answer": "No. Glossa is not connected with SIRI or the Ministry of Immigration and Integration. The papers follow their published descriptions of the exams, with original content." },
+        { "question": "Which exam should I practise for?", "answer": "The one your application or your Danish course leads to. Check the current requirements for your own case with the authority that decides it." },
+        { "question": "What about the citizenship test?", "answer": "<span lang=\"da\">Indfødsretsprøven</span> and <span lang=\"da\">medborgerskabsprøven</span> test knowledge of Danish society, not language, so Glossa has no papers for them." },
+        { "question": "What is free?", "answer": "The whole Danish course from A1 to C1, the grammar reference and word practice are free. The practice papers, the specializations, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "I speak Swedish or Norwegian. Is there a course for me?", "answer": "Yes. Danish for Swedish speakers has papers for all four exams, and Danish for Norwegian speakers for PD2, PD3 and Studieprøven, with the instructions in Swedish or Norwegian. Both are shorter courses that build on what your language already gives you." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Danish, and open the first module or the practice papers."
+  },
+  "trademark": "Prøve i Dansk 1, 2 and 3 and Studieprøven are set by the Agency for International Recruitment and Integration (SIRI) under the Danish Ministry of Immigration and Integration. Glossa is not affiliated with or endorsed by either."
+}

@@ -46,7 +46,7 @@
         ["Speaking exercises with pronunciation feedback", "Included", "Included"],
         ["Ask AI about anything in a lesson", "5 questions a day", "50 questions a day"],
         ["Specialization courses", "No", "13 fields, 117 modules"],
-        ["Stories, with AI feedback on your retellings", "No", "6 stories"],
+        ["Stories, with AI feedback on your retellings", "No", "12 stories"],
         ["Conversation practice with an AI character", "No", "36 scenarios, from the <span lang=\"fr\">boulangerie</span> to the notary"],
         ["DELF, DALF and TCF practice papers", "No", "Two timed papers for each of the eight exams"],
         ["Texts on how France works, idioms, lessons on a topic you choose", "No", "Included"],
@@ -99,7 +99,7 @@
         { "question": "Which French does the course teach?", "answer": "The French of France. The advanced tier has modules on spoken French and on the French spoken in other countries." },
         { "question": "I already know some French. Do I have to start at the beginning?", "answer": "No. The placement test suggests where to start." },
         { "question": "Does it prepare me for the DELF or the TCF?", "answer": "The course goes from A1 to C1, and Premium has practice papers for DELF A1 to B2, DALF C1 and C2, the TCF and the TCF IRN. The papers do not cover speaking and do not convert your result into a grade or a level; the <a href=\"/exams/french\">exam page</a> explains what they cover." },
-        { "question": "I speak Finnish or German. Is there a course for me?", "answer": "Yes. French is also taught with explanations in Finnish, <a href=\"/fi/courses/french\">Ranska suomenkielisille</a>, and in German, <a href=\"/de/courses/french\">Französisch für Deutschsprachige</a>, with the grammar compared with your language." }
+        { "question": "I speak Finnish, German, Russian or Ukrainian. Is there a course for me?", "answer": "Yes. French is also taught with explanations in Finnish, <a href=\"/fi/courses/french\">Ranska suomenkielisille</a>, in German, <a href=\"/de/courses/french\">Französisch für Deutschsprachige</a>, and in Russian and Ukrainian, <a href=\"/ru/courses/french\">French for Russian speakers</a> and <a href=\"/uk/courses/french\">French for Ukrainian speakers</a>, with the grammar compared with your language." }
       ]
     }
   ],

@@ -1,0 +1,95 @@
+{
+  "title": "Norskprøven and Bergenstesten practice papers for Norwegian · Glossa",
+  "description": "Timed practice papers for Norskprøven A1–A2, A2–B1, B1–B2 and C1 and for Bergenstesten, with a full Norwegian course to C1. What the tests ask and what the papers leave out.",
+  "card": { "title": "Norskprøven and Bergenstesten (Norwegian)", "text": "Papers for every level of Norskprøven, HK-dir's test for adult immigrants, and for Test i norsk – høyere nivå (Bergenstesten)." },
+  "eyebrow": "Exam preparation · Norwegian",
+  "heading": "Practise for <em>Norskprøven</em> and Bergenstesten.",
+  "lead": "Two timed practice papers for each level of Norskprøven, from A1–A2 to C1, and for <span lang=\"nb\">Test i norsk – høyere nivå</span>, known as Bergenstesten, in the reading, listening and writing formats of the real tests. Behind them is a complete Norwegian Bokmål course to C1, so a weak spot in a paper has a module to go back to.",
+  "fineprint": "The Norwegian course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year.",
+  "panel": {
+    "label": "From Bergenstesten practice paper 1, reading",
+    "lang": "nb",
+    "title": "Fastlegeordningen under press",
+    "text": "Fastlegeordningen ble innført i 2001, og den har lenge vært en av de mest populære delene av det norske helsevesenet. … Fastlegen fungerer også som portvakt, i den forstand at det i de fleste tilfeller er fastlegen som henviser pasientene videre til spesialisthelsetjenesten.",
+    "question": "Hva menes med at fastlegen fungerer som «portvakt»?",
+    "options": [
+      "Fastlegen tar bare imot pasienter som står på lista.",
+      "Fastlegen avgjør som regel om pasienten skal henvises videre til spesialister.",
+      "Fastlegen kontrollerer at sykehusene skriver ut pasientene."
+    ],
+    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+  },
+  "sections": [
+    {
+      "type": "table",
+      "eyebrow": "The tests",
+      "heading": "What the written tests ask, level by level",
+      "intro": [
+        "Norskprøven is the official test of Norwegian for adult immigrants, run by HK-dir, the Norwegian Directorate for Higher Education and Skills. It has four parts you register for separately: reading, listening, writing and oral communication. The A1–B2 test gives a CEFR level for each part, with no pass or fail. Reading and listening are digital and adaptive, so the test chooses your level; for writing and the oral part you choose A1–A2, A2–B1 or B1–B2 when you register. <span lang=\"nb\">Norskprøven C1 – høyere akademisk nivå</span> tests only C1, and the result is C1 or not passed.",
+        "<span lang=\"nb\">Test i norsk – høyere nivå</span> (Bergenstesten) documents Norwegian at B2 and C1. It was developed by the University of Bergen and Folkeuniversitetet, and Folkeuniversitetet runs it. Its written and oral tests are taken separately."
+      ],
+      "columns": ["Test", "The real written test", "In Glossa's papers"],
+      "rows": [
+        ["Norskprøven A1–A2", "Reading (75 minutes) and listening (30–60 minutes), adaptive. Writing: a message, a picture description and a text on a familiar topic, in 90 minutes.", "One fixed set at A1 and A2: reading in 40 minutes, listening in 25. Writing at full length, 90 minutes."],
+        ["Norskprøven A2–B1", "The same reading and listening. Writing: a picture description, a text on a familiar topic and an e-mail giving reasons for your opinions, in 90 minutes.", "One fixed set at A2 and B1: reading in 45 minutes, listening in 25. Writing at full length, 90 minutes."],
+        ["Norskprøven B1–B2", "The same reading and listening; B2 recordings are played once. Writing: an e-mail giving reasons and an argumentative text of about 250–350 words, in 2 hours.", "One fixed set at B1 and B2: reading in 50 minutes, listening in 25. Writing at full length, 2 hours."],
+        ["Norskprøven C1", "Part 1: a summary of a long conversation heard twice (at most 350 words) and an argumentative text of 300–400 words, in 2 hours 30 minutes. Part 2: reading three texts and presenting them to an examiner.", "Part 1 at full length, 2 hours 30 minutes, with a few listening questions of Glossa's own. No Part 2."],
+        ["Bergenstesten", "Five sub-tests in two parts of 2 hours 30 minutes each: reading, listening and a summary; grammar, words and expressions, and written production.", "All five sub-tests in the real order, with fewer reading, listening and grammar tasks, in about 3 hours 40 minutes."]
+      ],
+      "note": "Based on HK-dir's descriptions of the tests on prove.hkdir.no and Folkeuniversitetet's pages on Test i norsk – høyere nivå, checked in November 2026."
+    },
+    {
+      "type": "list",
+      "eyebrow": "Results",
+      "heading": "How the tests are scored, and what counts for UDI",
+      "items": [
+        "<b>Norskprøven A1–B2</b>: no pass or fail. The certificate states the level you reached in each part, from below A1 to B2. HK-dir states that B2 in reading is required for admission to universities and university colleges in Norway.",
+        "<b>Norskprøven C1</b>: C1 or not passed, assessed against a description of C1. HK-dir publishes no points or pass mark.",
+        "<b>Bergenstesten</b>: you must pass all five written sub-tests; the results are <span lang=\"nb\">Bestått</span> and <span lang=\"nb\">Godt bestått</span>, and the oral test gives <span lang=\"nb\">Ikke bestått</span> (below B2), <span lang=\"nb\">Bestått</span> (B2) or <span lang=\"nb\">Godt bestått</span> (C1).",
+        "<b>Citizenship and permanent residence</b>: only the oral part counts for UDI. Citizenship asks for the oral test at B1 or higher (A2 in some exceptions), and a permanent residence permit, for applicants aged 18 to 67, at A2 or higher, each with a test of social studies. UDI also lists the oral parts of Norskprøven C1 and Bergenstesten among the tests that meet the B1 requirement for citizenship."
+      ]
+    },
+    {
+      "type": "reasons",
+      "eyebrow": "What you get",
+      "heading": "Papers to practise on, and a course to learn from",
+      "items": [
+        { "title": "Two papers for each test", "text": "Ten papers in all, with original texts and recordings on everyday life, work and society in Norway, from notices in a block of flats to the GP scheme and the two written standards." },
+        { "title": "Writing rated against the criteria", "text": "Your texts are rated by AI against HK-dir's criteria, or against B2 and C1 for Bergenstesten, with what to improve. It is an estimate, not a rater's assessment." },
+        { "title": "A full course behind the papers", "text": "76 modules in eight tiers to C1, with nominal style, connectors, word formation, official Norwegian and academic Norwegian in Tiers 7 and 8." },
+        { "title": "Feedback that says why", "text": "Every answer in the course gets feedback with a reason and a link to the grammar rule. Every Norwegian word can be tapped for its forms, meaning and audio." }
+      ]
+    },
+    {
+      "type": "list",
+      "eyebrow": "Honest limits",
+      "heading": "How the practice papers differ from the real tests",
+      "items": [
+        "<b>No adaptive route.</b> Each Norskprøven paper is one fixed set of tasks at its two levels, with the reading and listening time cut. Writing is full length.",
+        "<b>There is no oral part</b>, which is the part that counts for UDI. Glossa cannot assess a conversation with an examiner or another candidate.",
+        "<b>No level or pass mark is shown.</b> A paper shows the share of points only, because the tests give levels or results Glossa does not estimate and Folkeuniversitetet does not publish its pass requirements.",
+        "<b>Pictures are described in words</b>, and tasks that ask you to click in a picture are multiple choice.",
+        "<b>Recordings can be replayed.</b> In the real test they are played twice up to B1 and once at B2; the task instructions say which.",
+        "<b>The writing score is an AI estimate</b>, not a rater's assessment.",
+        "<b>Words can be tapped</b> for their meaning and forms, which the real tests do not allow."
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Questions",
+      "heading": "Common questions",
+      "items": [
+        { "question": "Is Glossa an official Norskprøven or Bergenstesten preparation course?", "answer": "No. Glossa is not connected with HK-dir, Folkeuniversitetet or the University of Bergen. The papers follow their published descriptions of the tests, with original content." },
+        { "question": "Which level should I practise for?", "answer": "For reading and listening there is no level to choose: the test sends you to the main test that fits your answers, so practise with the papers around the level you expect. For writing and the oral part you choose the level when you register, so practise that one; in writing you cannot get a result above the level you chose." },
+        { "question": "What about the citizenship test?", "answer": "<span lang=\"nb\">Statsborgerprøven</span> and <span lang=\"nb\">samfunnskunnskapsprøven</span> test knowledge of society, not language, so Glossa has no papers for them. A text in the course describes them." },
+        { "question": "What is free?", "answer": "The whole Norwegian course from A1 to C1, the grammar reference and word practice are free. The practice papers, the specializations, conversation practice, stories and the other extras are part of Premium." },
+        { "question": "I speak Swedish or Danish. Is there a course for me?", "answer": "Yes. Norwegian for Swedish speakers and Norwegian for Danish speakers have the same Norskprøven and Bergenstesten papers, with the instructions in Swedish or Danish. Both are shorter courses that build on what your language already gives you." }
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Start with the course, practise with the papers.",
+    "text": "Sign in with Google, take the placement test if you already know some Norwegian, and open the first module or the practice papers."
+  },
+  "trademark": "Norskprøven is run by HK-dir, the Norwegian Directorate for Higher Education and Skills. Test i norsk – høyere nivå (Bergenstesten) is run by Folkeuniversitetet AS. Glossa is not affiliated with or endorsed by either."
+}

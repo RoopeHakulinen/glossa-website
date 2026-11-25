@@ -97,7 +97,9 @@
         { "question": "Which Swedish does it teach?", "answer": "The Swedish of Sweden. Tier 8 has modules on spoken Swedish and on varieties such as Finland Swedish and the speech of Skåne and Gothenburg." },
         { "question": "I already know some Swedish. Do I have to start from the beginning?", "answer": "No. The placement test tells you which tier to start from." },
         { "question": "Does it prepare for Tisus?", "answer": "It has two timed practice papers for the reading and writing parts of Tisus, and the upper tiers cover the academic and formal Swedish the test asks for. There is no speaking part, and the papers cannot tell you whether you would pass. The <a href=\"/exams/tisus\">Tisus page</a> has the details." },
-        { "question": "Is there a version for Finnish speakers?", "answer": "Yes. <a href=\"/fi/courses/swedish\" lang=\"fi\">Ruotsi suomenkielisille</a> has the same modules with explanations in Finnish, and also practice papers for the Swedish YKI test at the intermediate level." }
+        { "question": "Is there a version for Finnish speakers?", "answer": "Yes. <a href=\"/fi/courses/swedish\" lang=\"fi\">Ruotsi suomenkielisille</a> has the same modules with explanations in Finnish, and also practice papers for the Swedish YKI test at the intermediate level." },
+        { "question": "I speak Russian or Ukrainian. Is there a version for me?", "answer": "Yes. <a href=\"/ru/courses/swedish\">Swedish for Russian speakers</a> and <a href=\"/uk/courses/swedish\">Swedish for Ukrainian speakers</a> have the same tiers and the same Tisus and sfi papers, with explanations in Russian or Ukrainian." },
+        { "question": "I speak Norwegian or Danish. Is there a version for me?", "answer": "Yes. Swedish for Norwegian speakers and Swedish for Danish speakers are shorter courses of 40 modules, with explanations in Norwegian or Danish, that build on what your language already gives you and spend their time on what is different." }
       ]
     }
   ],

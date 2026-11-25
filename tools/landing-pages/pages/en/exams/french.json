@@ -5,7 +5,7 @@
   "eyebrow": "Exam preparation · French",
   "heading": "Practise for the <em>DELF</em>, DALF and TCF in French.",
   "lead": "Timed practice papers for the listening, reading and writing tests of DELF A1, A2, B1 and B2, DALF C1 and C2, the TCF tout public and the TCF IRN, the version of the TCF for residence cards and French nationality. Behind them is a complete French course from first words to C1, so you can work on whatever the papers show you are missing.",
-  "fineprint": "The French course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Finnish and German speakers.",
+  "fineprint": "The French course is free. The practice papers are part of Premium, €8.99 a month or €69.99 a year. Also available for Finnish, German, Russian and Ukrainian speakers.",
   "panel": {
     "label": "From practice paper 1, DELF B1 reading",
     "lang": "fr",
@@ -94,7 +94,7 @@
         { "question": "Is Glossa an official DELF or TCF preparation course?", "answer": "No. Glossa is not connected with France Éducation international or the French Ministry of Education. The papers follow their published exam descriptions, with original content." },
         { "question": "Which exam should I practise for?", "answer": "The one the school, employer or authority asks for. The DELF and DALF are taken at one level you choose and are valid for life; the TCF places you on a level and its certificate is valid for two years. For a residence card or French nationality, the TCF IRN is the version of the TCF made for it." },
         { "question": "What is free?", "answer": "The whole French course from A1 to C1, the grammar reference and word practice are free. The practice papers, conversation practice, stories and the other extras are part of Premium." },
-        { "question": "I speak Finnish or German. Is there a course for me?", "answer": "Yes. <a href=\"/fi/courses/french\">French for Finnish speakers</a> and <a href=\"/de/courses/french\">French for German speakers</a> have the same DELF, DALF, TCF and TCF IRN papers, with the instructions and explanations in Finnish or German." }
+        { "question": "I speak Finnish, German, Russian or Ukrainian. Is there a course for me?", "answer": "Yes. French for <a href=\"/fi/courses/french\">Finnish</a>, <a href=\"/de/courses/french\">German</a>, <a href=\"/ru/courses/french\">Russian</a> and <a href=\"/uk/courses/french\">Ukrainian</a> speakers have the same DELF, DALF, TCF and TCF IRN papers, with the instructions and explanations in that language." }
       ]
     }
   ],
