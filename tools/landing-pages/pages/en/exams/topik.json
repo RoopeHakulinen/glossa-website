@@ -12,7 +12,7 @@
     "text": "저는 매일 아침 공원에서 달리기를 해요. 오늘은 비가 와서 집에서 요가를 했어요. 내일 날씨가 좋으면 다시 공원에 갈 거예요.",
     "question": "<span lang=\"en\">Which statement matches the text?</span>",
     "options": ["저는 오늘 공원에서 달렸어요.", "저는 매일 요가를 해요.", "오늘은 날씨가 나빴어요.", "내일은 비가 올 거예요."],
-    "note": "The question is in English and the options in Korean. Every word in a paper can be tapped for its meaning and forms while you practise."
+    "note": "The question is in English and the options in Korean."
   },
   "sections": [
     {
@@ -64,8 +64,7 @@
         "<b>Pictures and graphs are described in words</b>, and the tickets, notices and messages of TOPIK I reading are given as text.",
         "<b>Questions are in English</b> in the TOPIK I papers, with the options in Korean; the real test prints its questions in Korean.",
         "<b>Recordings can be replayed</b>, and the TOPIK I papers show the text of each recording after you answer. For TOPIK II, play each recording once, then answer.",
-        "<b>There is no speaking test</b>, and the internet-based test's own formats are not covered.",
-        "<b>Words can be tapped</b> for their meaning while you practise; the real test allows no dictionary."
+        "<b>There is no speaking test</b>, and the internet-based test's own formats are not covered."
       ]
     },
     {

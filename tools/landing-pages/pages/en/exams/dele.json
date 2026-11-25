@@ -12,8 +12,7 @@
     "title": "Libros que hablan",
     "text": "En una biblioteca humana, los libros no se leen: se escuchan. La idea nació en Dinamarca en el año 2000, cuando un grupo de jóvenes quiso organizar una actividad contra los prejuicios.",
     "question": "Según el texto, la primera biblioteca humana se organizó para…",
-    "options": ["luchar contra los prejuicios.", "conseguir dinero para una biblioteca.", "dar trabajo a personas sin hogar."],
-    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+    "options": ["luchar contra los prejuicios.", "conseguir dinero para una biblioteca.", "dar trabajo a personas sin hogar."]
   },
   "sections": [
     {
@@ -62,8 +61,7 @@
         "<b>Reading and listening are shorter</b> than in the real exam, in the same task types, with the time cut to match. Writing is full length, including the recording the B2, C1 and C2 writing tasks are based on.",
         "<b>There is no speaking test</b> (test 4 at C1, test 3 at C2), so from A1 to C1 the papers judge group 2 on its listening test alone.",
         "<b>Recordings can be replayed.</b> In the exam each one is played a set number of times (twice from A2 up), so play it as often as the exam would and then answer.",
-        "<b>One voice per recording.</b> In conversations all speakers are read by one voice, with their names.",
-        "<b>Words can be tapped</b> for their meaning while you practise; the real exam allows no dictionary."
+        "<b>One voice per recording.</b> In conversations all speakers are read by one voice, with their names."
       ]
     },
     {

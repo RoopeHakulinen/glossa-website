@@ -12,8 +12,7 @@
     "title": "Hiszpan z piekarni na Jeżycach",
     "text": "Javier przyjechał do Poznania osiem lat temu na wymianę studencką. Planował zostać tylko jeden semestr, ale poznał tu swoją przyszłą żonę i postanowił nie wracać do Hiszpanii.",
     "question": "Javier od początku planował zamieszkać w Polsce.",
-    "options": ["TAK", "NIE"],
-    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+    "options": ["TAK", "NIE"]
   },
   "sections": [
     {
@@ -66,8 +65,7 @@
         "<b>There is no oral part</b>, so the papers leave out its 40 points.",
         "<b>Only one writing set</b> is offered in each paper, so you do not choose between three.",
         "<b>Choosing and typing.</b> Where the real paper asks you to underline a word or mark a letter, you choose an option or type the word.",
-        "<b>Recordings can be replayed.</b> Play each one as many times as the instructions say the real exam does.",
-        "<b>Words can be tapped</b> for their meaning and forms while you practise, which the real exam does not offer."
+        "<b>Recordings can be replayed.</b> Play each one as many times as the instructions say the real exam does."
       ]
     },
     {

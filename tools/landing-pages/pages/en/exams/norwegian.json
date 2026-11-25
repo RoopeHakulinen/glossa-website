@@ -16,8 +16,7 @@
       "Fastlegen tar bare imot pasienter som står på lista.",
       "Fastlegen avgjør som regel om pasienten skal henvises videre til spesialister.",
       "Fastlegen kontrollerer at sykehusene skriver ut pasientene."
-    ],
-    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+    ]
   },
   "sections": [
     {
@@ -70,8 +69,7 @@
         "<b>No level or pass mark is shown.</b> A paper shows the share of points only, because the tests give levels or results Glossa does not estimate and Folkeuniversitetet does not publish its pass requirements.",
         "<b>Pictures are described in words</b>, and tasks that ask you to click in a picture are multiple choice.",
         "<b>Recordings can be replayed.</b> In the real test they are played twice up to B1 and once at B2; the task instructions say which.",
-        "<b>The writing score is an AI estimate</b>, not a rater's assessment.",
-        "<b>Words can be tapped</b> for their meaning and forms, which the real tests do not allow."
+        "<b>The writing score is an AI estimate</b>, not a rater's assessment."
       ]
     },
     {

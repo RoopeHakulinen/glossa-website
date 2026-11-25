@@ -12,8 +12,7 @@
     "title": "Kirjasto lainaa muutakin kuin kirjoja",
     "text": "Kirjastosta voi lainata kirjoja, elokuvia ja musiikkia, mutta monessa suomalaisessa kirjastossa on nykyään paljon muutakin. Esimerkiksi Järvelän kirjastosta saa lainaksi työkaluja, suksia ja jopa kitaroita.",
     "question": "Mistä ajatus lainata työkaluja tuli?",
-    "options": ["Kaupungin päättäjiltä.", "Kirjaston asiakkailta.", "Toisesta kirjastosta."],
-    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+    "options": ["Kaupungin päättäjiltä.", "Kirjaston asiakkailta.", "Toisesta kirjastosta."]
   },
   "sections": [
     {
@@ -60,8 +59,7 @@
         "<b>No grade is given.</b> YKI turns points into levels with its own scale, which Glossa does not know, so a paper shows the share of points only and cannot tell you whether you would reach grade 3.",
         "<b>Reading and listening are shorter</b> than the real subtests, in the same task types.",
         "<b>There is no speaking subtest.</b>",
-        "<b>Recordings can be replayed.</b> In the test you hear each one twice, so play it twice and then answer.",
-        "<b>Words can be tapped</b> for their meaning while you practise; the real test allows no dictionary."
+        "<b>Recordings can be replayed.</b> In the test you hear each one twice, so play it twice and then answer."
       ]
     },
     {

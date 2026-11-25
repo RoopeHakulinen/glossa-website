@@ -12,8 +12,7 @@
     "title": "Stadtbibliothek jetzt auch am Sonntag geöffnet",
     "text": "Ab dem 1. Oktober ist die Stadtbibliothek auch sonntags von 11 bis 17 Uhr geöffnet. An diesem Tag gibt es kein Personal: Wer hinein möchte, hält seinen Bibliotheksausweis an ein Gerät neben der Tür.",
     "question": "Am Sonntag …",
-    "options": ["arbeiten in der Bibliothek nur wenige Angestellte.", "braucht man einen Ausweis, um in die Bibliothek zu kommen.", "kann man keine Bücher zurückgeben."],
-    "note": "Під час тренування кожне слово у варіанті можна натиснути, щоб побачити значення й форми."
+    "options": ["arbeiten in der Bibliothek nur wenige Angestellte.", "braucht man einen Ausweis, um in die Bibliothek zu kommen.", "kann man keine Bücher zurückgeben."]
   },
   "sections": [
     {
@@ -81,8 +80,7 @@
         "<b>Усної частини немає.</b> Результат DTZ залежить від говоріння, без якого сертифіката немає, тож варіант DTZ не може показати загального рівня. Тесту <span lang=\"de\">Leben in Deutschland</span> у Glossa теж немає.",
         "<b>Читання й аудіювання Goethe, telc і TestDaF коротші</b>, зазвичай приблизно вдвічі, і час скорочено відповідно. Письмова частина DTZ — у повному обсязі.",
         "<b>Записи можна переслуховувати.</b> На DTZ кожен текст звучить один раз, тож прослухайте його стільки разів, скільки на справжньому іспиті, і тоді відповідайте.",
-        "<b>Синтезовані голоси</b> замість студійних записів.",
-        "<b>Слова можна натиснути</b>, щоб побачити значення; на справжніх іспитах словників немає."
+        "<b>Синтезовані голоси</b> замість студійних записів."
       ]
     },
     {

@@ -12,8 +12,7 @@
     "title": "Mielipide: Pyörätiet kuntoon myös talvella",
     "text": "Asun Jyväskylässä ja pyöräilen töihin ympäri vuoden. Matka on kuusi kilometriä, ja kesällä se on päivän paras hetki. Talvella pyöräily on kuitenkin usein vaikeaa, eikä syy ole pakkanen tai lumi.",
     "question": "Kirjoittaja pyöräilee töihin vain kesällä.",
-    "options": ["Oikein", "Väärin"],
-    "note": "Harjoitellessa voit napauttaa mitä tahansa kokeen sanaa ja nähdä sen merkityksen ja muodot."
+    "options": ["Oikein", "Väärin"]
   },
   "sections": [
     {
@@ -61,8 +60,7 @@
         "<b>Tekstin ymmärtämisen ja puheen ymmärtämisen osat ovat lyhyempiä</b> kuin oikeassa testissä, mutta tehtävätyypit ovat samat.",
         "<b>Puhumisen osakoetta ei ole.</b>",
         "<b>Äänitteet voi kuunnella uudelleen.</b> Testissä jokainen äänite kuullaan kaksi kertaa, joten kuuntele se kahdesti ja vastaa sitten.",
-        "<b>Sanamäärät ovat Glossan asettamia.</b> Oikeissa tehtävissä sanamääriä ei anneta.",
-        "<b>Sanoja voi napauttaa</b> harjoitellessa. Oikeassa testissä sanakirjaa ei saa käyttää."
+        "<b>Sanamäärät ovat Glossan asettamia.</b> Oikeissa tehtävissä sanamääriä ei anneta."
       ]
     },
     {

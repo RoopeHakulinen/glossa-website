@@ -12,8 +12,7 @@
     "title": "გამარჯობა, ქეთი!",
     "text": "სკოლასთან ახლოს პატარა ბინა ვიქირავე. ბინა ნათელი და თბილია, მაგრამ ერთი პრობლემა აქვს: ღამით ქუჩაში ძალიან ხმაურია, რადგან ახლოს ბარია.",
     "question": "რა პრობლემა აქვს მარიამის ბინას?",
-    "options": ["ბინა ძალიან ცივია.", "ღამით ქუჩაში ხმაურია.", "ბინა სკოლიდან შორსაა."],
-    "note": "Every word in a paper can be tapped for its meaning and forms while you practise."
+    "options": ["ბინა ძალიან ცივია.", "ღამით ქუჩაში ხმაურია.", "ბინა სკოლიდან შორსაა."]
   },
   "sections": [
     {
@@ -65,7 +64,7 @@
         "<b>Some task types are Glossa's.</b> NAEC publishes sample tasks and answer keys, not the full tests, so beyond the samples the mix of tasks is Glossa's, with the real test's numbers of questions and options.",
         "<b>Word counts</b> follow the published samples where there are any; the others are Glossa's.",
         "<b>Recordings can be replayed.</b> In the exam you hear each one twice, so play it twice and then answer.",
-        "<b>You choose and type answers on screen</b>, and words can be tapped for their meaning; in the exam you mark a paper answer sheet."
+        "<b>You choose and type answers on screen</b>; in the exam you mark a paper answer sheet."
       ]
     },
     {

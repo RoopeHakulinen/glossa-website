@@ -12,8 +12,7 @@
     "title": "Libros que hablan",
     "text": "En una biblioteca humana, los libros no se leen: se escuchan. La idea nació en Dinamarca en el año 2000, cuando un grupo de jóvenes quiso organizar una actividad contra los prejuicios.",
     "question": "Según el texto, la primera biblioteca humana se organizó para…",
-    "options": ["luchar contra los prejuicios.", "conseguir dinero para una biblioteca.", "dar trabajo a personas sin hogar."],
-    "note": "Під час тренування кожне слово у варіанті можна натиснути, щоб побачити значення й форми."
+    "options": ["luchar contra los prejuicios.", "conseguir dinero para una biblioteca.", "dar trabajo a personas sin hogar."]
   },
   "sections": [
     {
@@ -62,8 +61,7 @@
         "<b>Читання й аудіювання коротші</b>, ніж на справжньому іспиті, тих самих типів, і час скорочено відповідно. Письмо в повному обсязі, разом із записом, на якому ґрунтуються письмові завдання B2, C1 і C2.",
         "<b>Усної частини немає</b> (частина 4 на C1, частина 3 на C2), тож від A1 до C1 групу 2 оцінюють лише за аудіюванням.",
         "<b>Записи можна переслуховувати.</b> На іспиті кожен звучить визначену кількість разів (від A2 — двічі), тож прослухайте його стільки, скільки на іспиті, і тоді відповідайте.",
-        "<b>Один голос на запис.</b> У розмовах усіх співрозмовників читає один голос, з іменами.",
-        "<b>Слова можна натиснути</b>, щоб побачити значення; на справжньому іспиті словники заборонені."
+        "<b>Один голос на запис.</b> У розмовах усіх співрозмовників читає один голос, з іменами."
       ]
     },
     {

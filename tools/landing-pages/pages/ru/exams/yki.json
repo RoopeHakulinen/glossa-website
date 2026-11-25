@@ -12,8 +12,7 @@
     "title": "Kirjasto lainaa muutakin kuin kirjoja",
     "text": "Kirjastosta voi lainata kirjoja, elokuvia ja musiikkia, mutta monessa suomalaisessa kirjastossa on nykyään paljon muutakin. Esimerkiksi Järvelän kirjastosta saa lainaksi työkaluja, suksia ja jopa kitaroita.",
     "question": "Mistä ajatus lainata työkaluja tuli?",
-    "options": ["Kaupungin päättäjiltä.", "Kirjaston asiakkailta.", "Toisesta kirjastosta."],
-    "note": "Во время тренировки на любое слово варианта можно нажать, чтобы увидеть его значение и формы."
+    "options": ["Kaupungin päättäjiltä.", "Kirjaston asiakkailta.", "Toisesta kirjastosta."]
   },
   "sections": [
     {
@@ -61,8 +60,7 @@
         "<b>Чтение и аудирование короче</b> настоящих частей экзамена, но типы заданий те же.",
         "<b>Части «Говорение» нет.</b>",
         "<b>Записи можно переслушивать.</b> На экзамене каждую запись слушают дважды, поэтому прослушайте её два раза и только потом отвечайте.",
-        "<b>Объём в словах задан Glossa.</b> В настоящих заданиях число слов не указано.",
-        "<b>На слова можно нажать</b> во время тренировки; на настоящем экзамене словарь запрещён."
+        "<b>Объём в словах задан Glossa.</b> В настоящих заданиях число слов не указано."
       ]
     },
     {
